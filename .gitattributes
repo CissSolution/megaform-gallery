@@ -1,0 +1,6 @@
+# Every file here is pinned by a sha256 recorded in manifest.json, and MegaForm REFUSES
+# any download whose hash does not match. Line-ending normalisation would silently change
+# the bytes GitHub Pages serves and break every install, so disable text handling entirely.
+* -text
+*.zip binary
+*.json -text
