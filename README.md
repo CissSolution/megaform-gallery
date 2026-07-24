@@ -32,6 +32,20 @@ Every entry pins a **sha256** for both the template JSON and its assets zip. The
 **refuses** any download whose hash doesn't match the manifest, so the manifest and the
 files must always be regenerated together — never hand-edit `manifest.json`.
 
+## What ships in the package vs. what lives here
+
+A fresh MegaForm install opens its Template Gallery with a **bundled shelf** — no network
+needed, nothing locked on a trial:
+
+- **31 quick-start starters** (`Samples/FormTemplates/QuickStart/`) — free, flagged
+  `premium:false`, contact / booking / application / education / nonprofit / floating-label.
+- **4 premium starters on display** — the only cards a trial install shows locked, as the
+  upsell. They are chosen for having *no artwork*, so the package stays light.
+
+Everything else — every remaining premium design **and all hero imagery** — is served from
+this repo and downloaded on demand by licensed installs. That is what keeps ~14.6 MB of
+artwork and ~2.4 MB of template JSON out of the shipped module.
+
 ## Adding or updating a template
 
 1. Drop / edit the template `.json` in the **source** folder of the main solution:
@@ -40,12 +54,16 @@ files must always be regenerated together — never hand-edit `manifest.json`.
    ```bash
    node tools/gallery/build-gallery.mjs --out <path-to-this-repo>
    ```
-3. Commit + push. GitHub Pages republishes automatically.
+3. Commit + push, then **purge the jsDelivr cache** for `manifest.json` and every changed
+   `templates/...` file (see the note at the top) — otherwise installs keep serving the
+   previous version until the CDN expires it on its own.
 
 The publisher will:
 
 - validate every template (must have a valid `slug` and a `fields` array),
 - **skip duplicate slugs** loudly rather than silently overwriting a previous template,
+- **skip a template whose artwork is missing** from `Assets/img` — publishing it would ship
+  a design with a dead hero image,
 - bundle each template's referenced artwork into `<slug>-assets.zip`,
 - recompute all hashes and **fail the build** if anything doesn't verify.
 
