@@ -1,8 +1,19 @@
 # MegaForm Template Gallery
 
-Static template repository for **MegaForm** (DNN + Oqtane), served from GitHub Pages:
+Static template repository for **MegaForm** (DNN + Oqtane), served through the
+**jsDelivr CDN** straight from this repo:
 
-> **https://cissolution.github.io/megaform-gallery/**
+> **https://cdn.jsdelivr.net/gh/CissSolution/megaform-gallery@main/manifest.json**
+
+> **Why jsDelivr and not GitHub Pages?** jsDelivr serves any *public* GitHub repo with a
+> correct `application/json` content-type, global caching and no per-repo Pages setup —
+> and GitHub Pages was not serving for this organisation. `raw.githubusercontent.com`
+> also works and is always fresh, but it is rate-limited and not meant as a distribution
+> CDN.
+>
+> ⚠️ **After pushing new templates, purge the CDN** or the update can lag by hours:
+> `https://purge.jsdelivr.net/gh/CissSolution/megaform-gallery@main/manifest.json`
+> (plus the changed `templates/...` files).
 
 Licensed MegaForm installs read `manifest.json` from here and download templates on
 demand (**Form Wizard → Template Gallery → Browse online**), so premium templates and
