@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "newsletter-signup-amber",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-newsletter-signup-amber",
+        "Kind": "form_template",
+        "Title": "Newsletter Signup",
+        "Summary": "Amber newsletter card: a 448px column on a warm gradient wash, a white card with a yellow-to-orange mail tile, an email field, a business-type select and two frequency checkboxes side by side above a gradient Subscribe button. Transcribed from the newsletter mock. [Category: marketing · 3 fields · uses: Email, Select, Checkbox]",
+        "Body": "{\"title\":\"Newsletter Signup\",\"description\":\"Amber newsletter card: a 448px column on a warm gradient wash, a white card with a yellow-to-orange mail tile, an email field, a business-type select and two frequency checkboxes side by side above a gradient Subscribe button. Transcribed from the newsletter mock.\",\"category\":\"marketing\",\"icon\":\"mail\",\"submitButtonText\":\"Subscribe\",\"successMessage\":\"Thank you for joining our newsletter.\",\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{\"newsletter_signup\":\"Newsletter Signup\",\"get_the_latest_updates_delivered_to_your_inbox\":\"Get the latest updates delivered to your inbox.\",\"email_address\":\"Email Address *\",\"business_type\":\"Business Type\",\"frequency_preference\":\"Frequency Preference\",\"subscribe\":\"Subscribe\"}},\"fields\":[{\"placeholder\":\"you@example.com\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{},\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address *\",\"required\":true},{\"placeholder\":\"Select type\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"options\":[{\"label\":\"Startup\",\"value\":\"Startup\"},{\"label\":\"Small / Medium Business\",\"value\":\"Small / Medium Business\"},{\"label\":\"Enterprise\",\"value\":\"Enterprise\"},{\"label\":\"Agency\",\"value\":\"Agency\"}],\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{\"optionDisplay\":\"dropdown\"},\"key\":\"business_type\",\"type\":\"Select\",\"label\":\"Business Type\",\"required\":false,\"optionDisplay\":\"dropdown\",\"choiceDisplay\":\"dropdown\",\"optionVariant\":\"dropdown\",\"widgetProps\":{\"optionDisplay\":\"dropdown\"},\"allowOptionHtml\":true},{\"placeholder\":\"\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"options\":[{\"label\":\"Weekly\",\"value\":\"Weekly\"},{\"label\":\"Monthly\",\"value\":\"Monthly\"}],\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{\"optionDisplay\":\"list\"},\"key\":\"frequency\",\"type\":\"Checkbox\",\"label\":\"Frequency Preference\",\"required\":false,\"optionDisplay\":\"list\",\"choiceDisplay\":\"list\",\"optionVariant\":\"list\",\"widgetProps\":{\"optionDisplay\":\"list\"},\"allowOptionHtml\":true}]}",
+        "Tags": "form_template,marketing,marketing,fields:3,type-email,type-select,type-checkbox",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"placeholder\":\"you@example.com\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{},\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address *\",\"required\":true},{\"placeholder\":\"Select type\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"options\":[{\"label\":\"Startup\",\"value\":\"Startup\"},{\"label\":\"Small / Medium Business\",\"value\":\"Small / Medium Business\"},{\"label\":\"Enterprise\",\"value\":\"Enterprise\"},{\"label\":\"Agency\",\"value\":\"Agency\"}],\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{\"optionDisplay\":\"dropdown\"},\"key\":\"business_type\",\"type\":\"Select\",\"label\":\"Business Type\",\"required\":false,\"optionDisplay\":\"dropdown\",\"choiceDisplay\":\"dropdown\",\"optionVariant\":\"dropdown\",\"widgetProps\":{\"optionDisplay\":\"dropdown\"},\"allowOptionHtml\":true},{\"placeholder\":\"\",\"helpText\":\"\",\"defaultValue\":\"\",\"cssClass\":\"\",\"width\":\"100%\",\"readOnly\":false,\"prefillParam\":\"\",\"validation\":{},\"options\":[{\"label\":\"Weekly\",\"value\":\"Weekly\"},{\"label\":\"Monthly\",\"value\":\"Monthly\"}],\"showIf\":null,\"htmlContent\":\"\",\"fileSettings\":null,\"properties\":{\"optionDisplay\":\"list\"},\"key\":\"frequency\",\"type\":\"Checkbox\",\"label\":\"Frequency Preference\",\"required\":false,\"optionDisplay\":\"list\",\"choiceDisplay\":\"list\",\"optionVariant\":\"list\",\"widgetProps\":{\"optionDisplay\":\"list\"},\"allowOptionHtml\":true}],\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{\"newsletter_signup\":\"Newsletter Signup\",\"get_the_latest_updates_delivered_to_your_inbox\":\"Get the latest updates delivered to your inbox.\",\"email_address\":\"Email Address *\",\"business_type\":\"Business Type\",\"frequency_preference\":\"Frequency Preference\",\"subscribe\":\"Subscribe\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-newsletter-signup-amber",
+        "Kind": "template_guide",
+        "Title": "Newsletter Signup",
+        "Summary": "Amber newsletter card: a 448px column on a warm gradient wash, a white card with a yellow-to-orange mail tile, an email field, a business-type select and two frequency checkboxes side by side above a gradient Subscribe button. Transcribed from the newsletter mock.",
+        "Body": "{\"guide_file\":\"newsletter-signup-amber.guide.md\"}",
+        "Tags": "premium,template-guide,marketing",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/newsletter-signup-amber.guide.md",
+      "sha256": "247b05d27510edfd162b90db9aad937b261d7a375d9ce8852536b970d6967026",
+      "sizeBytes": 6599
+    },
+    {
+      "path": "kb/TemplateGuides/newsletter-signup-amber.facts.json",
+      "sha256": "248f4818a226e0f870d435d8489441510072f414d2a7d68f23997c81b7a1d0c2",
+      "sizeBytes": 3495
+    }
+  ]
+}

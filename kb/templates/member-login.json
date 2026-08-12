@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "member-login",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-member-login",
+        "Kind": "form_template",
+        "Title": "Member Login",
+        "Summary": "Login prompt with GitHub and Facebook social sign-in plus local email/password sign-in. Hands off to the host (Oqtane/DNN/Umbraco/Web) login and external-login flow via the platform-agnostic auth URLs. [Category: Authentication · 0 fields]",
+        "Body": "{\"title\":\"Member Login\",\"description\":\"Login prompt with GitHub and Facebook social sign-in plus local email/password sign-in. Hands off to the host (Oqtane/DNN/Umbraco/Web) login and external-login flow via the platform-agnostic auth URLs.\",\"category\":\"Authentication\",\"icon\":\"\",\"submitButtonText\":\"\",\"successMessage\":\"\",\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{}},\"fields\":[]}",
+        "Tags": "form_template,Authentication,Authentication,fields:0",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[],\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-member-login",
+        "Kind": "template_guide",
+        "Title": "Member Login",
+        "Summary": "Login prompt with GitHub and Facebook social sign-in plus local email/password sign-in. Hands off to the host (Oqtane/DNN/Umbraco/Web) login and external-login flow via the platform-agnostic auth URLs.",
+        "Body": "{\"guide_file\":\"member-login.guide.md\"}",
+        "Tags": "premium,template-guide,Authentication",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/member-login.guide.md",
+      "sha256": "50939add311dec0d1f5f04880c82361c9bdbb120f313eeed92aa4bd243b772ef",
+      "sizeBytes": 6294
+    },
+    {
+      "path": "kb/TemplateGuides/member-login.facts.json",
+      "sha256": "d330f074801eb01c8803f65d6c9537f8d21c3642b2fa1183b6310db87afd6a1b",
+      "sizeBytes": 2166
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "aurora-product-feedback",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-aurora-product-feedback",
+        "Kind": "form_template",
+        "Title": "Share Your Experience",
+        "Summary": "Help us refine each piece of the Aurora collection with your honest impressions. [Category: feedback · 10 fields · uses: Row, Text, Email, Select, Radio, Checkbox]",
+        "Body": "{\"title\":\"Share Your Experience\",\"description\":\"Help us refine each piece of the Aurora collection with your honest impressions.\",\"category\":\"feedback\",\"icon\":\"💎\",\"submitButtonText\":\"Submit Feedback\",\"successMessage\":\"Thank you — your reflections will guide our next collection.\",\"settings\":{\"theme\":\"modern-blue\",\"multiPage\":false,\"customContent\":{\"section_customer\":\"Customer Details\",\"section_product\":\"Product & Rating\",\"section_voice\":\"Your Voice\",\"brand_name\":\"AURORA\",\"brand_tag\":\"PREMIUM AMERICAN FASHION\",\"footer_note\":\"Every piece of feedback shapes the next thread we weave.\"}},\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"James\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Anderson\"}]}]},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\"james@example.com\"},{\"key\":\"order_number\",\"type\":\"Text\",\"label\":\"Order Number\",\"required\":false,\"placeholder\":\"AUR-2026-00000\",\"helpText\":\"Optional — helps us match feedback to your purchase.\"},{\"key\":\"product_purchased\",\"type\":\"Select\",\"label\":\"Product Purchased\",\"required\":true,\"options\":[{\"label\":\"Cashmere Overcoat\",\"value\":\"cashmere_coat\"},{\"label\":\"Silk Evening Dress\",\"value\":\"silk_dress\"},{\"label\":\"Leather Weekender\",\"value\":\"leather_bag\"},{\"label\":\"Wool Tailored Blazer\",\"value\":\"wool_blazer\"},{\"label\":\"Linen Summer Suit\",\"value\":\"linen_suit\"},{\"label\":\"Other / Multiple Items\",\"value\":\"other\"}]},{\"key\":\"overall_rating\",\"type\":\"Radio\",\"label\":\"Overall Rating\",\"required\":true,\"options\":[{\"label\":\"5 - Exceptional\",\"value\":\"5\"},{\"label\":\"4 - Excellent\",\"value\":\"4\"},{\"label\":\"3 - Good\",\"value\":\"3\"},{\"label\":\"2 - Fair\",\"value\":\"2\"},{\"label\":\"1 - Below Expectations\",\"value\":\"1\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"would_recommend\",\"type\":\"Radio\",\"label\":\"Would you recommend Aurora to others?\",\"required\":true,\"options\":[{\"label\":\"Yes - enthusiastically\",\"value\":\"yes\"},{\"label\":\"Maybe - with reservations\",\"value\":\"maybe\"},{\"label\":\"No\",\"value\":\"no\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"improvement_areas\",\"type\":\"Checkbox\",\"label\":\"Areas you would like us to improve\",\"options\":[{\"label\":\"Fabric quality\",\"value\":\"fabric\"},{\"label\":\"Fit and sizing\",\"value\":\"fit\"},{\"label\":\"Color accuracy\",\"value\":\"color\"},{\"label\":\"Packaging and presentation\",\"value\":\"packaging\"},{\"label\":\"Delivery speed\",\"value\":\"delivery\"},{\"label\":\"Customer service\",\"value\":\"service\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"feedback_message\",\"type\":\"Textarea\",\"label\":\"Tell us more\",\"placeholder\":\"What did you love? What could be better? Share any details that would help our atelier...\",\"properties\":{\"rows\":4}}]}",
+        "Tags": "form_template,feedback,feedback,fields:10,has-row,type-row,type-text,type-email,type-select,type-radio",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"James\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Anderson\"}]}]},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\"james@example.com\"},{\"key\":\"order_number\",\"type\":\"Text\",\"label\":\"Order Number\",\"required\":false,\"placeholder\":\"AUR-2026-00000\",\"helpText\":\"Optional — helps us match feedback to your purchase.\"},{\"key\":\"product_purchased\",\"type\":\"Select\",\"label\":\"Product Purchased\",\"required\":true,\"options\":[{\"label\":\"Cashmere Overcoat\",\"value\":\"cashmere_coat\"},{\"label\":\"Silk Evening Dress\",\"value\":\"silk_dress\"},{\"label\":\"Leather Weekender\",\"value\":\"leather_bag\"},{\"label\":\"Wool Tailored Blazer\",\"value\":\"wool_blazer\"},{\"label\":\"Linen Summer Suit\",\"value\":\"linen_suit\"},{\"label\":\"Other / Multiple Items\",\"value\":\"other\"}]},{\"key\":\"overall_rating\",\"type\":\"Radio\",\"label\":\"Overall Rating\",\"required\":true,\"options\":[{\"label\":\"5 - Exceptional\",\"value\":\"5\"},{\"label\":\"4 - Excellent\",\"value\":\"4\"},{\"label\":\"3 - Good\",\"value\":\"3\"},{\"label\":\"2 - Fair\",\"value\":\"2\"},{\"label\":\"1 - Below Expectations\",\"value\":\"1\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"would_recommend\",\"type\":\"Radio\",\"label\":\"Would you recommend Aurora to others?\",\"required\":true,\"options\":[{\"label\":\"Yes - enthusiastically\",\"value\":\"yes\"},{\"label\":\"Maybe - with reservations\",\"value\":\"maybe\"},{\"label\":\"No\",\"value\":\"no\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"improvement_areas\",\"type\":\"Checkbox\",\"label\":\"Areas you would like us to improve\",\"options\":[{\"label\":\"Fabric quality\",\"value\":\"fabric\"},{\"label\":\"Fit and sizing\",\"value\":\"fit\"},{\"label\":\"Color accuracy\",\"value\":\"color\"},{\"label\":\"Packaging and presentation\",\"value\":\"packaging\"},{\"label\":\"Delivery speed\",\"value\":\"delivery\"},{\"label\":\"Customer service\",\"value\":\"service\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"feedback_message\",\"type\":\"Textarea\",\"label\":\"Tell us more\",\"placeholder\":\"What did you love? What could be better? Share any details that would help our atelier...\",\"properties\":{\"rows\":4}}],\"settings\":{\"theme\":\"modern-blue\",\"multiPage\":false,\"customContent\":{\"section_customer\":\"Customer Details\",\"section_product\":\"Product & Rating\",\"section_voice\":\"Your Voice\",\"brand_name\":\"AURORA\",\"brand_tag\":\"PREMIUM AMERICAN FASHION\",\"footer_note\":\"Every piece of feedback shapes the next thread we weave.\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-aurora-product-feedback",
+        "Kind": "template_guide",
+        "Title": "Share Your Experience",
+        "Summary": "Help us refine each piece of the Aurora collection with your honest impressions.",
+        "Body": "{\"guide_file\":\"aurora-product-feedback.guide.md\"}",
+        "Tags": "premium,template-guide,feedback",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/aurora-product-feedback.guide.md",
+      "sha256": "adc1cdc5aad9cb2d04e17f420364e5a3b9ad9da9125d096a51a8f85d01dbac6a",
+      "sizeBytes": 7435
+    },
+    {
+      "path": "kb/TemplateGuides/aurora-product-feedback.facts.json",
+      "sha256": "86726dbfea1a18ea2a909c704c2180f985d925e8f950633de37fc98614e7442a",
+      "sizeBytes": 6822
+    }
+  ]
+}

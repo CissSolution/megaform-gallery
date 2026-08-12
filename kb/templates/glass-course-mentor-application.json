@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "glass-course-mentor-application",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-glass-course-mentor-application",
+        "Kind": "form_template",
+        "Title": "Rose Festival 2026",
+        "Summary": "Join an exclusive community of creative minds. Limited seats available for the 2026 learning cohort. [Category: general · 22 fields · uses: Row, Text, Email, Phone, Section, Select]",
+        "Body": "{\"title\":\"Rose Festival 2026\",\"description\":\"Join an exclusive community of creative minds. Limited seats available for the 2026 learning cohort.\",\"category\":\"general\",\"icon\":\"🌹\",\"submitButtonText\":\"Submit Application\",\"successMessage\":\"Thank you — your application has been received. We'll be in touch within 48 hours.\",\"settings\":{\"theme\":\"modern-blue\",\"multiPage\":false,\"customContent\":{\"text1\":\"April Festival 2026\",\"text2\":\"Bloom with Us\",\"text3\":\"Spring Mentor Application\",\"text4\":\"Application Form\",\"text5\":\"Share your details and let your journey begin\",\"text6\":\"Crafted with care for the April Festival\"}},\"fields\":[{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Name\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Jamie\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Lin\"}]}]},{\"key\":\"row_email_phone\",\"type\":\"Row\",\"label\":\"Email & Phone\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"you@example.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"required\":false,\"placeholder\":\"+84 912 345 678\"}]}]},{\"key\":\"step_profile\",\"type\":\"Section\",\"label\":\"Profile\",\"properties\":{\"pageBreak\":false}},{\"key\":\"row_track\",\"type\":\"Row\",\"label\":\"Track\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"track\",\"type\":\"Select\",\"label\":\"Course track\",\"required\":true,\"options\":[{\"label\":\"AI for Designers\",\"value\":\"ai_designers\"},{\"label\":\"Prompt Systems\",\"value\":\"prompt_systems\"},{\"label\":\"Product Storytelling\",\"value\":\"product_storytelling\"},{\"label\":\"Creative Automation\",\"value\":\"creative_automation\"}]}]}]},{\"key\":\"row_level\",\"type\":\"Row\",\"label\":\"Level\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"level\",\"type\":\"Radio\",\"label\":\"Current level\",\"required\":true,\"options\":[{\"label\":\"Beginner\",\"value\":\"beginner\"},{\"label\":\"Intermediate\",\"value\":\"intermediate\"},{\"label\":\"Advanced\",\"value\":\"advanced\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}]},{\"key\":\"row_portfolio\",\"type\":\"Row\",\"label\":\"Portfolio\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"portfolio_url\",\"type\":\"Url\",\"label\":\"Portfolio URL\",\"required\":false,\"placeholder\":\"https://...\"}]}]},{\"key\":\"row_goal\",\"type\":\"Row\",\"label\":\"Goal\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"goal\",\"type\":\"Textarea\",\"label\":\"What do you want to build?\",\"required\":false,\"placeholder\":\"Tell us your outcome for the course\",\"properties\":{\"rows\":4}}]}]},{\"key\":\"row_certificate\",\"type\":\"Row\",\"label\":\"Certificate\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"needs_certificate\",\"type\":\"Radio\",\"label\":\"Need a completion certificate?\",\"required\":true,\"options\":[{\"label\":\"Yes\",\"value\":\"yes\"},{\"label\":\"No\",\"value\":\"no\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}]},{\"key\":\"row_shipping\",\"type\":\"Row\",\"label\":\"Shipping\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"shipping_address\",\"type\":\"Address\",\"label\":\"Shipping address for certificate\",\"required\":false}]}]},{\"key\":\"step_finish\",\"type\":\"Section\",\"label\":\"Finish\",\"properties\":{\"pageBreak\":false}},{\"key\":\"row_signature\",\"type\":\"Row\",\"label\":\"Signature\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"signature\",\"type\":\"Signature\",\"label\":\"Signature\",\"required\":false,\"widgetProps\":{\"height\":96,\"placeholderText\":\"Sign here\",\"clearText\":\"Clear\",\"undoText\":\"Undo\"}}]}]}]}",
+        "Tags": "form_template,general,general,fields:22,has-row,type-row,type-text,type-email,type-phone,type-section",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Name\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Jamie\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Lin\"}]}]},{\"key\":\"row_email_phone\",\"type\":\"Row\",\"label\":\"Email & Phone\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"you@example.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"required\":false,\"placeholder\":\"+84 912 345 678\"}]}]},{\"key\":\"step_profile\",\"type\":\"Section\",\"label\":\"Profile\",\"properties\":{\"pageBreak\":false}},{\"key\":\"row_track\",\"type\":\"Row\",\"label\":\"Track\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"track\",\"type\":\"Select\",\"label\":\"Course track\",\"required\":true,\"options\":[{\"label\":\"AI for Designers\",\"value\":\"ai_designers\"},{\"label\":\"Prompt Systems\",\"value\":\"prompt_systems\"},{\"label\":\"Product Storytelling\",\"value\":\"product_storytelling\"},{\"label\":\"Creative Automation\",\"value\":\"creative_automation\"}]}]}]},{\"key\":\"row_level\",\"type\":\"Row\",\"label\":\"Level\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"level\",\"type\":\"Radio\",\"label\":\"Current level\",\"required\":true,\"options\":[{\"label\":\"Beginner\",\"value\":\"beginner\"},{\"label\":\"Intermediate\",\"value\":\"intermediate\"},{\"label\":\"Advanced\",\"value\":\"advanced\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}]},{\"key\":\"row_portfolio\",\"type\":\"Row\",\"label\":\"Portfolio\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"portfolio_url\",\"type\":\"Url\",\"label\":\"Portfolio URL\",\"required\":false,\"placeholder\":\"https://...\"}]}]},{\"key\":\"row_goal\",\"type\":\"Row\",\"label\":\"Goal\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"goal\",\"type\":\"Textarea\",\"label\":\"What do you want to build?\",\"required\":false,\"placeholder\":\"Tell us your outcome for the course\",\"properties\":{\"rows\":4}}]}]},{\"key\":\"row_certificate\",\"type\":\"Row\",\"label\":\"Certificate\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"needs_certificate\",\"type\":\"Radio\",\"label\":\"Need a completion certificate?\",\"required\":true,\"options\":[{\"label\":\"Yes\",\"value\":\"yes\"},{\"label\":\"No\",\"value\":\"no\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}]},{\"key\":\"row_shipping\",\"type\":\"Row\",\"label\":\"Shipping\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"shipping_address\",\"type\":\"Address\",\"label\":\"Shipping address for certificate\",\"required\":false}]}]},{\"key\":\"step_finish\",\"type\":\"Section\",\"label\":\"Finish\",\"properties\":{\"pageBreak\":false}},{\"key\":\"row_signature\",\"type\":\"Row\",\"label\":\"Signature\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"signature\",\"type\":\"Signature\",\"label\":\"Signature\",\"required\":false,\"widgetProps\":{\"height\":96,\"placeholderText\":\"Sign here\",\"clearText\":\"Clear\",\"undoText\":\"Undo\"}}]}]}],\"settings\":{\"theme\":\"modern-blue\",\"multiPage\":false,\"customContent\":{\"text1\":\"April Festival 2026\",\"text2\":\"Bloom with Us\",\"text3\":\"Spring Mentor Application\",\"text4\":\"Application Form\",\"text5\":\"Share your details and let your journey begin\",\"text6\":\"Crafted with care for the April Festival\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-glass-course-mentor-application",
+        "Kind": "template_guide",
+        "Title": "Rose Festival 2026",
+        "Summary": "Join an exclusive community of creative minds. Limited seats available for the 2026 learning cohort.",
+        "Body": "{\"guide_file\":\"glass-course-mentor-application.guide.md\"}",
+        "Tags": "premium,template-guide,general",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/glass-course-mentor-application.guide.md",
+      "sha256": "6371fbab361f617acbe686b4a31dfc617efbcce92edd93b9a9464edcff8280f9",
+      "sizeBytes": 7746
+    },
+    {
+      "path": "kb/TemplateGuides/glass-course-mentor-application.facts.json",
+      "sha256": "e2320850db6478aca97117c62e6cb5abce3b3781384b84f3ab9c97ffb562180d",
+      "sizeBytes": 11313
+    }
+  ]
+}

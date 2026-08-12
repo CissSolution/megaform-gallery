@@ -12,7 +12,7 @@
   "icon": "compass",
   "submitButtonText": "Submit request",
   "successMessage": "Your American journey request has been received. Our trip designers will reach out within two business days.",
-  "templateGuideSlug": "americana-journey",
+  "templateGuideSlug": "tpl-americana-journey",
   "fields": [
     {
       "key": "premium_step_1",

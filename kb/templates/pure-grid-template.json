@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "pure-grid-template",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-pure-grid-template",
+        "Kind": "form_template",
+        "Title": "Get In Touch",
+        "Summary": "We'd love to hear from you. Fill out the form below and we'll respond as soon as possible. [Category: template · 24 fields · uses: Row, Text, Email, Phone, Textarea, Select]",
+        "Body": "{\"title\":\"Get In Touch\",\"description\":\"We'd love to hear from you. Fill out the form below and we'll respond as soon as possible.\",\"category\":\"template\",\"icon\":\"sparkles\",\"submitButtonText\":\"Send Message\",\"successMessage\":\"Thank you! Your message has been sent successfully.\",\"settings\":{\"theme\":\"pure-grid-premium\",\"multiPage\":false,\"customContent\":{\"brand_title\":\"Boutique\",\"section_personal\":\"Personal Information\",\"section_contact\":\"Contact Details\",\"section_preferences\":\"Preferences\",\"footer_note\":\"We typically respond within 24 hours.\"}},\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\" \"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone Number\",\"placeholder\":\" \"}]}]},{\"key\":\"row_full_width\",\"type\":\"Row\",\"label\":\"Full Width Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"subject\",\"type\":\"Text\",\"label\":\"Subject\",\"required\":true,\"placeholder\":\" \"}]}]},{\"key\":\"row_message\",\"type\":\"Row\",\"label\":\"Message Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"message\",\"type\":\"Textarea\",\"label\":\"Your Message\",\"required\":true,\"placeholder\":\" \",\"properties\":{\"rows\":4}}]}]},{\"key\":\"row_select_category\",\"type\":\"Row\",\"label\":\"Category Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"category\",\"type\":\"Select\",\"label\":\"Category\",\"required\":true,\"options\":[{\"label\":\"General Inquiry\",\"value\":\"general\"},{\"label\":\"Support\",\"value\":\"support\"},{\"label\":\"Sales\",\"value\":\"sales\"},{\"label\":\"Other\",\"value\":\"other\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"priority\",\"type\":\"Select\",\"label\":\"Priority\",\"options\":[{\"label\":\"Low\",\"value\":\"low\"},{\"label\":\"Medium\",\"value\":\"medium\"},{\"label\":\"High\",\"value\":\"high\"}]}]}]},{\"key\":\"row_preferences\",\"type\":\"Row\",\"label\":\"Preferences Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"contact_method\",\"type\":\"Radio\",\"label\":\"Preferred Contact Method\",\"options\":[{\"label\":\"Email\",\"value\":\"email\"},{\"label\":\"Phone\",\"value\":\"phone\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Subscribe to newsletter\",\"options\":[{\"label\":\"Yes, send me updates\",\"value\":\"yes\"}]}]}]},{\"key\":\"row_datetime\",\"type\":\"Row\",\"label\":\"Date Time Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"preferred_date\",\"type\":\"Date\",\"label\":\"Preferred Date\"}]},{\"span\":6,\"fields\":[{\"key\":\"preferred_time\",\"type\":\"Time\",\"label\":\"Preferred Time\"}]}]},{\"key\":\"row_additional\",\"type\":\"Row\",\"label\":\"Additional Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"budget\",\"type\":\"Number\",\"label\":\"Budget (USD)\",\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"rating\",\"type\":\"Rating\",\"label\":\"Rate Your Experience\"}]}]},{\"key\":\"row_agreement\",\"type\":\"Row\",\"label\":\"Agreement Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"terms\",\"type\":\"Checkbox\",\"label\":\"Terms & Conditions\",\"required\":true,\"options\":[{\"label\":\"I agree to the terms and privacy policy\",\"value\":\"agreed\"}]}]}]}]}",
+        "Tags": "form_template,template,template,fields:24,has-row,type-row,type-text,type-email,type-phone,type-textarea",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\" \"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone Number\",\"placeholder\":\" \"}]}]},{\"key\":\"row_full_width\",\"type\":\"Row\",\"label\":\"Full Width Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"subject\",\"type\":\"Text\",\"label\":\"Subject\",\"required\":true,\"placeholder\":\" \"}]}]},{\"key\":\"row_message\",\"type\":\"Row\",\"label\":\"Message Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"message\",\"type\":\"Textarea\",\"label\":\"Your Message\",\"required\":true,\"placeholder\":\" \",\"properties\":{\"rows\":4}}]}]},{\"key\":\"row_select_category\",\"type\":\"Row\",\"label\":\"Category Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"category\",\"type\":\"Select\",\"label\":\"Category\",\"required\":true,\"options\":[{\"label\":\"General Inquiry\",\"value\":\"general\"},{\"label\":\"Support\",\"value\":\"support\"},{\"label\":\"Sales\",\"value\":\"sales\"},{\"label\":\"Other\",\"value\":\"other\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"priority\",\"type\":\"Select\",\"label\":\"Priority\",\"options\":[{\"label\":\"Low\",\"value\":\"low\"},{\"label\":\"Medium\",\"value\":\"medium\"},{\"label\":\"High\",\"value\":\"high\"}]}]}]},{\"key\":\"row_preferences\",\"type\":\"Row\",\"label\":\"Preferences Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"contact_method\",\"type\":\"Radio\",\"label\":\"Preferred Contact Method\",\"options\":[{\"label\":\"Email\",\"value\":\"email\"},{\"label\":\"Phone\",\"value\":\"phone\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Subscribe to newsletter\",\"options\":[{\"label\":\"Yes, send me updates\",\"value\":\"yes\"}]}]}]},{\"key\":\"row_datetime\",\"type\":\"Row\",\"label\":\"Date Time Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"preferred_date\",\"type\":\"Date\",\"label\":\"Preferred Date\"}]},{\"span\":6,\"fields\":[{\"key\":\"preferred_time\",\"type\":\"Time\",\"label\":\"Preferred Time\"}]}]},{\"key\":\"row_additional\",\"type\":\"Row\",\"label\":\"Additional Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"budget\",\"type\":\"Number\",\"label\":\"Budget (USD)\",\"placeholder\":\" \"}]},{\"span\":6,\"fields\":[{\"key\":\"rating\",\"type\":\"Rating\",\"label\":\"Rate Your Experience\"}]}]},{\"key\":\"row_agreement\",\"type\":\"Row\",\"label\":\"Agreement Row\",\"columns\":[{\"span\":12,\"fields\":[{\"key\":\"terms\",\"type\":\"Checkbox\",\"label\":\"Terms & Conditions\",\"required\":true,\"options\":[{\"label\":\"I agree to the terms and privacy policy\",\"value\":\"agreed\"}]}]}]}],\"settings\":{\"theme\":\"pure-grid-premium\",\"multiPage\":false,\"customContent\":{\"brand_title\":\"Boutique\",\"section_personal\":\"Personal Information\",\"section_contact\":\"Contact Details\",\"section_preferences\":\"Preferences\",\"footer_note\":\"We typically respond within 24 hours.\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-pure-grid-template",
+        "Kind": "template_guide",
+        "Title": "Get In Touch",
+        "Summary": "We'd love to hear from you. Fill out the form below and we'll respond as soon as possible.",
+        "Body": "{\"guide_file\":\"pure-grid-template.guide.md\"}",
+        "Tags": "premium,template-guide,template",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/pure-grid-template.guide.md",
+      "sha256": "5d09d0ea4a1ab77d04698f6c5355a9ad60d7c8356ac9b5287fa3509810a9b6ee",
+      "sizeBytes": 6844
+    },
+    {
+      "path": "kb/TemplateGuides/pure-grid-template.facts.json",
+      "sha256": "cf6bb1b00faa010f784fd5e417e2a2c2b34506d798af03bad2ee31fa596ed3c1",
+      "sizeBytes": 9156
+    }
+  ]
+}

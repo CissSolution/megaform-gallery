@@ -1,0 +1,1097 @@
+{
+  "repoVersion": 1,
+  "generatedUtc": "2026-08-12T07:20:01.886Z",
+  "seed": null,
+  "templates": [
+    {
+      "slug": "agency-flyer-euroyouth-application",
+      "path": "kb/templates/agency-flyer-euroyouth-application.json",
+      "sha256": "8cd6e6491cb915f8444864b35b30eb39c4496fdd10af96fbe08ad6c8fd7159d6",
+      "sizeBytes": 24910
+    },
+    {
+      "slug": "american-auto-dealership-2026",
+      "path": "kb/templates/american-auto-dealership-2026.json",
+      "sha256": "24bd840949515d3043bfda6beae2ff1eba07f5eeec072731d6b4442080476f08",
+      "sizeBytes": 7969
+    },
+    {
+      "slug": "americana-journey",
+      "path": "kb/templates/americana-journey.json",
+      "sha256": "cf1eb4fbb03c448757d65bc6fb0af76d3666f3ba6854c499e1e2105133e92bd7",
+      "sizeBytes": 11202
+    },
+    {
+      "slug": "aurora-product-feedback",
+      "path": "kb/templates/aurora-product-feedback.json",
+      "sha256": "7866e9564256538e0680e5dc5de831d0bcc5bc8f667a4d9517014478fe56a642",
+      "sizeBytes": 8720
+    },
+    {
+      "slug": "aurora-style-consultation-2026",
+      "path": "kb/templates/aurora-style-consultation-2026.json",
+      "sha256": "8c2d5630751107f2934c7e9a8a15550627088254ad1dc2bcd71ebaa312c0bff4",
+      "sizeBytes": 14788
+    },
+    {
+      "slug": "azure-contact-request",
+      "path": "kb/templates/azure-contact-request.json",
+      "sha256": "0d6144d4d23c9f29319fbf214aa1b8b6e954b07e26639c06d5cde0b2ef38ec57",
+      "sizeBytes": 4686
+    },
+    {
+      "slug": "botanical-thankyou",
+      "path": "kb/templates/botanical-thankyou.json",
+      "sha256": "58a34b6f5387b71729e80776dffec6417d43814ce806e30085dbd257b09714a2",
+      "sizeBytes": 12466
+    },
+    {
+      "slug": "brochure-youth-application",
+      "path": "kb/templates/brochure-youth-application.json",
+      "sha256": "3534934d55b4800ceac5a53dbc5739cf3a60ca9af44ba9c4e2c62718fab4ea93",
+      "sizeBytes": 23603
+    },
+    {
+      "slug": "bulgaria-discovery-programme",
+      "path": "kb/templates/bulgaria-discovery-programme.json",
+      "sha256": "ac83f3f24e8c07ecaacc2a06d994f396c7f6ab72ba2e259ba1f7b9903426f9f1",
+      "sizeBytes": 33517
+    },
+    {
+      "slug": "celebration-rsvp-simple",
+      "path": "kb/templates/celebration-rsvp-simple.json",
+      "sha256": "588fc46bfe9b8aefd690eac173416f681052c83ccadd0fbf46d358b19817c8c7",
+      "sizeBytes": 6785
+    },
+    {
+      "slug": "cherry-blossom-festival-registration",
+      "path": "kb/templates/cherry-blossom-festival-registration.json",
+      "sha256": "12f52317b3e9b8b03f6d435cd19d0dfeaf4ba7f1b6297362b6859f04b18a0744",
+      "sizeBytes": 13904
+    },
+    {
+      "slug": "christmas-americana-signup",
+      "path": "kb/templates/christmas-americana-signup.json",
+      "sha256": "2e163f04a4b5fb49ab13b0bf499f62a9e81a8b25268fc153f39148f8a6e0da59",
+      "sizeBytes": 14973
+    },
+    {
+      "slug": "classic-americana-registration",
+      "path": "kb/templates/classic-americana-registration.json",
+      "sha256": "51daf2bc0307de803f3b0e0c51beb565a40b4ce9594ba4092e7329212d6c8cc9",
+      "sizeBytes": 14911
+    },
+    {
+      "slug": "classic-australiana-booking",
+      "path": "kb/templates/classic-australiana-booking.json",
+      "sha256": "450ee8b8ae8e7fa90b36ec6824d95f47ab89ac4e2677c69fcaa5815cd7f47d8d",
+      "sizeBytes": 13526
+    },
+    {
+      "slug": "coachella-festival-registration",
+      "path": "kb/templates/coachella-festival-registration.json",
+      "sha256": "0cfef45585b0ebd428d141d2cf19d968712d913e167f37d42efbc063dca671a9",
+      "sizeBytes": 15101
+    },
+    {
+      "slug": "corporate-registration-blue",
+      "path": "kb/templates/corporate-registration-blue.json",
+      "sha256": "a1ec266df6b53fd7a2a4dc3f691cd05306db3b1434122a3c0a6e34098f70c88f",
+      "sizeBytes": 12276
+    },
+    {
+      "slug": "cv-registration",
+      "path": "kb/templates/cv-registration.json",
+      "sha256": "a687d812c2fce6ca0ac74908e7431a5829e56f3307c9bc827355f2b0c8db8112",
+      "sizeBytes": 13115
+    },
+    {
+      "slug": "dance-competition-registration",
+      "path": "kb/templates/dance-competition-registration.json",
+      "sha256": "1be81fe780c11a7046dd506d76dfc323a37a99a807138ef9ff69155d7a8ca132",
+      "sizeBytes": 24381
+    },
+    {
+      "slug": "document-registration-a4",
+      "path": "kb/templates/document-registration-a4.json",
+      "sha256": "9f0fd8f514824dc2b6c76bb27a5b51c9a86b25004d1bf83c69d8ecf5e8823ec6",
+      "sizeBytes": 41321
+    },
+    {
+      "slug": "down-under-australia",
+      "path": "kb/templates/down-under-australia.json",
+      "sha256": "0203ff3af7408e5f7372fa498dc491703aa6baf7109624536f5537b6391b1987",
+      "sizeBytes": 16741
+    },
+    {
+      "slug": "euro-youth-application",
+      "path": "kb/templates/euro-youth-application.json",
+      "sha256": "04a63928e7e301f4d1c54214da3b58d379f1b39344b1719648caa72045ee2693",
+      "sizeBytes": 23302
+    },
+    {
+      "slug": "event-registration-rsvp",
+      "path": "kb/templates/event-registration-rsvp.json",
+      "sha256": "dfb3b3df9a8dab769ad2febe1072b26fab5247d3e44cc009f36f04c11abd6b5f",
+      "sizeBytes": 14886
+    },
+    {
+      "slug": "festa-italiana",
+      "path": "kb/templates/festa-italiana.json",
+      "sha256": "7074f3748d571d48776fb2bd677e8f0dab084051588a120e0b430a8af3251e9f",
+      "sizeBytes": 23002
+    },
+    {
+      "slug": "floral-youth-application",
+      "path": "kb/templates/floral-youth-application.json",
+      "sha256": "a3e1fc6d81c8c7865fd0f0bb318bac894be222c36d47f78a79dfe6853bfc8982",
+      "sizeBytes": 23683
+    },
+    {
+      "slug": "french-invitation-2026",
+      "path": "kb/templates/french-invitation-2026.json",
+      "sha256": "d8d6a4f107b328ad43bc572fa99a179c14ab95852d560bf13684609529c74d60",
+      "sizeBytes": 7235
+    },
+    {
+      "slug": "glass-course-mentor-application",
+      "path": "kb/templates/glass-course-mentor-application.json",
+      "sha256": "550f4e5a715680bb7e90e5fd28d142fec897e646a285c8a851b561d0c96e9869",
+      "sizeBytes": 9806
+    },
+    {
+      "slug": "gold-suite-membership-application",
+      "path": "kb/templates/gold-suite-membership-application.json",
+      "sha256": "7284360e4cd6838234c913e8f0dfcdb54b7b9eb93046bdbfc2725d6a25a3a6ae",
+      "sizeBytes": 29376
+    },
+    {
+      "slug": "golden-pro-agent-registration",
+      "path": "kb/templates/golden-pro-agent-registration.json",
+      "sha256": "822cef34bf3a8a6d561cd1c2d59a29ebb857c6607f7b45d3ecb9ee8c49ae8e74",
+      "sizeBytes": 23078
+    },
+    {
+      "slug": "halloween-party-registration",
+      "path": "kb/templates/halloween-party-registration.json",
+      "sha256": "3a738622b7ed52ac5e45ee33ca8f797dcf2327da3a9ee0b87fae21d24e064656",
+      "sizeBytes": 9388
+    },
+    {
+      "slug": "holiday-request-travel",
+      "path": "kb/templates/holiday-request-travel.json",
+      "sha256": "39c9467cbeb1c7bfce9673a4917bfd3913c07c02b0eed313d4b81540c20c9dfd",
+      "sizeBytes": 23717
+    },
+    {
+      "slug": "ielts-report-classic",
+      "path": "kb/templates/ielts-report-classic.json",
+      "sha256": "05426ee4375249874a81eca5a4b25f1aa7d08fae45b930665afeb3e36564e34f",
+      "sizeBytes": 12548
+    },
+    {
+      "slug": "invoice-blue-application",
+      "path": "kb/templates/invoice-blue-application.json",
+      "sha256": "c59454a385e7905b36e6285879f61aac81f948261c1592997b6eb95418775571",
+      "sizeBytes": 13765
+    },
+    {
+      "slug": "invoice-codexo-cyan",
+      "path": "kb/templates/invoice-codexo-cyan.json",
+      "sha256": "7c7d7682aa7c57deadb32a4b120029d59174f6a4f2b54bc94f1312f3e4d2aecc",
+      "sizeBytes": 30031
+    },
+    {
+      "slug": "invoice-dark-application",
+      "path": "kb/templates/invoice-dark-application.json",
+      "sha256": "2406e682fc3a5d90a7a97491f2ba6aa715dc401f80ded606512d7c61a8095e4f",
+      "sizeBytes": 13797
+    },
+    {
+      "slug": "invoice-minimal-application",
+      "path": "kb/templates/invoice-minimal-application.json",
+      "sha256": "78f87792fe8a1e40b3516308c7ce3fd1a4709688dc6cb4e8acdf5dc7bf7d739f",
+      "sizeBytes": 13804
+    },
+    {
+      "slug": "invoice-orange-application",
+      "path": "kb/templates/invoice-orange-application.json",
+      "sha256": "3c1026d9a8ea445b341240fa7295856b83d6b2e014d548326c4107ae91c2ce33",
+      "sizeBytes": 13765
+    },
+    {
+      "slug": "invoice-request-navy-orange",
+      "path": "kb/templates/invoice-request-navy-orange.json",
+      "sha256": "25ac1097c546230dd3698ea62029458bfb743cf542f3dc9da372df98826ce34e",
+      "sizeBytes": 27970
+    },
+    {
+      "slug": "invoice-spinera-blue",
+      "path": "kb/templates/invoice-spinera-blue.json",
+      "sha256": "9d085bad02ee362aa3457e1ed41d20d0999b1e36d339bfb05c1d6db94a79a600",
+      "sizeBytes": 26048
+    },
+    {
+      "slug": "job-application-northwind",
+      "path": "kb/templates/job-application-northwind.json",
+      "sha256": "ccbd86bd48fabf3d620297b60e58bdca42c5062ad390c51746800884fb5c6afa",
+      "sizeBytes": 11282
+    },
+    {
+      "slug": "kawaii-diary",
+      "path": "kb/templates/kawaii-diary.json",
+      "sha256": "d109656d087d9397c99834d569a60da200dfe816fdba3638e4b264d3cdadbd6f",
+      "sizeBytes": 11728
+    },
+    {
+      "slug": "kids-first-book-registration",
+      "path": "kb/templates/kids-first-book-registration.json",
+      "sha256": "c728fe4e42dec0930401c87bf99321f4024e4f4cf851b3c29969aa88888d2ed9",
+      "sizeBytes": 22226
+    },
+    {
+      "slug": "lagoon-reserve-booking",
+      "path": "kb/templates/lagoon-reserve-booking.json",
+      "sha256": "b3e7c4c5780f947b1eab27ac2a8a0ec8390eddc2160bd84cf5ab5be6f24f348a",
+      "sizeBytes": 30658
+    },
+    {
+      "slug": "massage-bodychart-terracotta",
+      "path": "kb/templates/massage-bodychart-terracotta.json",
+      "sha256": "9d1ccb03266f6d3ce84007f1067580ddfb57b81f6ffca50d3ee90a912ac341f2",
+      "sizeBytes": 12548
+    },
+    {
+      "slug": "massage-intake-sage",
+      "path": "kb/templates/massage-intake-sage.json",
+      "sha256": "d40ca74ec050d359451024c55a44873046e2f1396ae514325a9db45251942762",
+      "sizeBytes": 12966
+    },
+    {
+      "slug": "member-login",
+      "path": "kb/templates/member-login.json",
+      "sha256": "b62eb6be1199a25a3061043f529a212573880657bd01a8ffabd687978ba95274",
+      "sizeBytes": 2355
+    },
+    {
+      "slug": "newsletter-signup-amber",
+      "path": "kb/templates/newsletter-signup-amber.json",
+      "sha256": "e4b9a923042ac6331754b9e0586e46b4183b87b93759588c2aa1ee1a7e40e190",
+      "sizeBytes": 6758
+    },
+    {
+      "slug": "product-consultation-form",
+      "path": "kb/templates/product-consultation-form.json",
+      "sha256": "bd9f9ddf7551f85303b9b623e76d90ae87a8d12c9a8db18384c5f7bb32059a07",
+      "sizeBytes": 13062
+    },
+    {
+      "slug": "product-order-live-total",
+      "path": "kb/templates/product-order-live-total.json",
+      "sha256": "efcab248e757ef063eff7cfe337cbbe919c9d1a4cd31a20739132f5055351516",
+      "sizeBytes": 12897
+    },
+    {
+      "slug": "project-intake-onboarding",
+      "path": "kb/templates/project-intake-onboarding.json",
+      "sha256": "7c535a8fb86f8b47ab56f2eaf23f0e3c4ec41a2d95d8be8b3bdc3c89d6efbd58",
+      "sizeBytes": 15241
+    },
+    {
+      "slug": "pure-grid-template",
+      "path": "kb/templates/pure-grid-template.json",
+      "sha256": "0d000ef8dc96cafd590af6ac6668313d6ce8dff3c8729d5f553dc9d9201db3fb",
+      "sizeBytes": 8949
+    },
+    {
+      "slug": "realestate-registration",
+      "path": "kb/templates/realestate-registration.json",
+      "sha256": "f01958cef5c59f31ff83c8f13d43311400f8d78c6bf8c8981f801b88730de30d",
+      "sizeBytes": 13264
+    },
+    {
+      "slug": "romantic-congratulations-event-form",
+      "path": "kb/templates/romantic-congratulations-event-form.json",
+      "sha256": "d38fb98acc21d7046bea24f9d46a2a0dc0e6cc16b669277ba65cd5708e232579",
+      "sizeBytes": 9485
+    },
+    {
+      "slug": "rose-wellness-registration",
+      "path": "kb/templates/rose-wellness-registration.json",
+      "sha256": "184723877bcbbfbafd60fd02cc72eb46059c16a85e1f0bcfb6f6e4a6a5f0fb0c",
+      "sizeBytes": 13462
+    },
+    {
+      "slug": "sticky-spark-creative-brief",
+      "path": "kb/templates/sticky-spark-creative-brief.json",
+      "sha256": "f35849f51cdc343d7fa77646bd6a0ad46e03c4c69911ea69a8088f52f6701599",
+      "sizeBytes": 7734
+    },
+    {
+      "slug": "tabbed-account-setup",
+      "path": "kb/templates/tabbed-account-setup.json",
+      "sha256": "131a84e4fdd2ba43e4c2fb5886c9d85b6b15840359a78b23510cc008582a6755",
+      "sizeBytes": 12546
+    },
+    {
+      "slug": "tabstrip-account-setup",
+      "path": "kb/templates/tabstrip-account-setup.json",
+      "sha256": "fce06a238381ffd08891505a958050f99529b7c4ee1448f32b15760c9ca22595",
+      "sizeBytes": 12651
+    },
+    {
+      "slug": "tabstrip-vertical-account-setup",
+      "path": "kb/templates/tabstrip-vertical-account-setup.json",
+      "sha256": "1b6e2d0daa315c407b43f182c624fbe902d58d9604390505027fb451ccb76c9a",
+      "sizeBytes": 12817
+    },
+    {
+      "slug": "teal-brochure-application",
+      "path": "kb/templates/teal-brochure-application.json",
+      "sha256": "18de2e54cca52ca4c3fa78083f4e9ccd943b9218b1c53431bdfd7bf2855b8bde",
+      "sizeBytes": 23803
+    },
+    {
+      "slug": "terracotta-product-feedback",
+      "path": "kb/templates/terracotta-product-feedback.json",
+      "sha256": "9b16d570f1958870cc74b60bc49a081943bcbee856d725c2360d9c4e482984d1",
+      "sizeBytes": 5468
+    },
+    {
+      "slug": "usa-training-course-registration",
+      "path": "kb/templates/usa-training-course-registration.json",
+      "sha256": "92fa4ae22e47c93713582d4b55bcc93b69c7a8463bf129e5e6c798c9215a45b7",
+      "sizeBytes": 22037
+    },
+    {
+      "slug": "v0-contact-map-left-corporate",
+      "path": "kb/templates/v0-contact-map-left-corporate.json",
+      "sha256": "e38b0d37fbdb795059915ac61d4aee5f95431261b0d393be89964bdeeefca4ed",
+      "sizeBytes": 6882
+    },
+    {
+      "slug": "v0-contact-map-left-minimal",
+      "path": "kb/templates/v0-contact-map-left-minimal.json",
+      "sha256": "cf2e3c6693147c6969a8c074bba30b543171a1e160a7381c3b1760576a1fa90e",
+      "sizeBytes": 6858
+    },
+    {
+      "slug": "v0-contact-map-right-modern",
+      "path": "kb/templates/v0-contact-map-right-modern.json",
+      "sha256": "6bb4760a85afb31968631787767eed33fb4d8ed0fcce81031d5cd4ae4aac16e1",
+      "sizeBytes": 6857
+    },
+    {
+      "slug": "verdant-member-registration",
+      "path": "kb/templates/verdant-member-registration.json",
+      "sha256": "aa09e226b26b90519153162f536ae85c0e14a3feb343710de5188820de1706ce",
+      "sizeBytes": 8195
+    },
+    {
+      "slug": "volunteer-application-euroyouth",
+      "path": "kb/templates/volunteer-application-euroyouth.json",
+      "sha256": "958fd4fb241f40f3ce36879724d457159802bea6feeadf87a44414be4bb1cbd3",
+      "sizeBytes": 23469
+    },
+    {
+      "slug": "wellness-patient-intake",
+      "path": "kb/templates/wellness-patient-intake.json",
+      "sha256": "d3cbf52444772ae01e668ee2cacc5f3aacc2e101ea3493313ddaa9170e3d787b",
+      "sizeBytes": 17042
+    },
+    {
+      "slug": "xmas-newsletter-euroyouth-application",
+      "path": "kb/templates/xmas-newsletter-euroyouth-application.json",
+      "sha256": "522316122612fa269e9df89c3350200c1cbf90924a0d45234ec2088e32c8daf3",
+      "sizeBytes": 25227
+    },
+    {
+      "slug": "xmas-sale-euroyouth-application",
+      "path": "kb/templates/xmas-sale-euroyouth-application.json",
+      "sha256": "9726a533c1dd2353cd65baf04e4ee4f960ff905a22038fdf56f64992b62c1ea4",
+      "sizeBytes": 23796
+    }
+  ],
+  "files": [
+    {
+      "path": "kb/TemplateGuides/agency-flyer-euroyouth-application.facts.json",
+      "sha256": "9b8f02d236e032217fc96a4b0b9f76e2f2ec9f2130764163c77b0988c6ea5308",
+      "sizeBytes": 8769
+    },
+    {
+      "path": "kb/TemplateGuides/agency-flyer-euroyouth-application.guide.md",
+      "sha256": "20645e125f6893322be1b15508252b0f1e1c656a35fe196fd5a7e9863b10c041",
+      "sizeBytes": 8868
+    },
+    {
+      "path": "kb/TemplateGuides/american-auto-dealership-2026.facts.json",
+      "sha256": "436cd00cd04922f5d69175cc317c62f9eaeac6a5490dcc9905e9d8bbbcf88fa3",
+      "sizeBytes": 5932
+    },
+    {
+      "path": "kb/TemplateGuides/american-auto-dealership-2026.guide.md",
+      "sha256": "b80b1e9b0a5ba48f0e1741321f1376f2c17e1ba696fb7ea585b8da54dd1f508a",
+      "sizeBytes": 9484
+    },
+    {
+      "path": "kb/TemplateGuides/americana-journey.facts.json",
+      "sha256": "07dd42fbdbc398944038e89c4194768065c42156d2e2a2c7266aff3b40dce537",
+      "sizeBytes": 9071
+    },
+    {
+      "path": "kb/TemplateGuides/americana-journey.guide.md",
+      "sha256": "ab0b627ff474debecced2167b3ce9ee491a9b710ca9348f1c178d96c81bbb18c",
+      "sizeBytes": 8861
+    },
+    {
+      "path": "kb/TemplateGuides/aurora-product-feedback.facts.json",
+      "sha256": "86726dbfea1a18ea2a909c704c2180f985d925e8f950633de37fc98614e7442a",
+      "sizeBytes": 6822
+    },
+    {
+      "path": "kb/TemplateGuides/aurora-product-feedback.guide.md",
+      "sha256": "adc1cdc5aad9cb2d04e17f420364e5a3b9ad9da9125d096a51a8f85d01dbac6a",
+      "sizeBytes": 7435
+    },
+    {
+      "path": "kb/TemplateGuides/aurora-style-consultation-2026.facts.json",
+      "sha256": "badf58b156b3711e5450e77605828ea33809019bc96f96d1497eeb6dd47d393d",
+      "sizeBytes": 9768
+    },
+    {
+      "path": "kb/TemplateGuides/aurora-style-consultation-2026.guide.md",
+      "sha256": "822ae08f95413b2adaf45396e8aef5e6c64c06a269ee9662f13189833603d5df",
+      "sizeBytes": 10701
+    },
+    {
+      "path": "kb/TemplateGuides/azure-contact-request.facts.json",
+      "sha256": "6ce7254890d95743044056b299e34b00afbec24e304ec1153c6eeb0931dc15c6",
+      "sizeBytes": 5308
+    },
+    {
+      "path": "kb/TemplateGuides/azure-contact-request.guide.md",
+      "sha256": "d267c6b018497d7754bfc01bc5566794bf77dbe952ff28ca80fd00dc7cc3ff3d",
+      "sizeBytes": 7009
+    },
+    {
+      "path": "kb/TemplateGuides/botanical-thankyou.facts.json",
+      "sha256": "a6f9771b8754d958ed0c977c7d9e1b9eab30b430490966e174694773eb54430e",
+      "sizeBytes": 8481
+    },
+    {
+      "path": "kb/TemplateGuides/botanical-thankyou.guide.md",
+      "sha256": "44de5464ed2b2b3edc8f4312f1616e70e491f79a70eac0ce561a1cb861722a18",
+      "sizeBytes": 7893
+    },
+    {
+      "path": "kb/TemplateGuides/brochure-youth-application.facts.json",
+      "sha256": "3cb1799c6fa4ab975207d8a16bebfa0096b18b25e9793d0ef38019ed58ee7347",
+      "sizeBytes": 10920
+    },
+    {
+      "path": "kb/TemplateGuides/brochure-youth-application.guide.md",
+      "sha256": "3209baf233530fdc56521de7ec100768f5669ae04d90799a322c7ebade0bae6b",
+      "sizeBytes": 10195
+    },
+    {
+      "path": "kb/TemplateGuides/bulgaria-discovery-programme.facts.json",
+      "sha256": "b5ce9f7adb98ca986f6db06d229b3793e513c1fa3465487633c4b70eec86f226",
+      "sizeBytes": 13438
+    },
+    {
+      "path": "kb/TemplateGuides/bulgaria-discovery-programme.guide.md",
+      "sha256": "7aa9ebde9aa7ff8749043f55ebfd218be2d2809be78e66aa004b0890fabcbe65",
+      "sizeBytes": 11077
+    },
+    {
+      "path": "kb/TemplateGuides/celebration-rsvp-simple.facts.json",
+      "sha256": "1be08d54dea8f40d7a0bf0102ba5843102b3c7f9ad30e2ef968a153f0453c246",
+      "sizeBytes": 6166
+    },
+    {
+      "path": "kb/TemplateGuides/celebration-rsvp-simple.guide.md",
+      "sha256": "1812915c3e29a76298e12692e38480fa8e396f33d237df5034d55310f1053a3e",
+      "sizeBytes": 6889
+    },
+    {
+      "path": "kb/TemplateGuides/cherry-blossom-festival-registration.facts.json",
+      "sha256": "6449860bfb53561a92bc25f17990399dbe0d9647bb95b714a4ab79d0bd8e97b1",
+      "sizeBytes": 9980
+    },
+    {
+      "path": "kb/TemplateGuides/cherry-blossom-festival-registration.guide.md",
+      "sha256": "7dd54be8e3d58fb6d5c5f08a4612162191bdf87ccc57c375fd90c10d5643ef43",
+      "sizeBytes": 8676
+    },
+    {
+      "path": "kb/TemplateGuides/christmas-americana-signup.facts.json",
+      "sha256": "d4cacd63f3491aa079ae2e3f5a372c02f7ae795ddfe5cded4aed592e2a876f9b",
+      "sizeBytes": 11181
+    },
+    {
+      "path": "kb/TemplateGuides/christmas-americana-signup.guide.md",
+      "sha256": "7a61fabe58304e8082e49b8cd8488e3165090dfdc7ff9fba98ca3840fd2722c0",
+      "sizeBytes": 9476
+    },
+    {
+      "path": "kb/TemplateGuides/classic-americana-registration.facts.json",
+      "sha256": "073eb54a0ed99b369adb6d24bbf9e94a53ada3cc4c68426e4d5214dafb5177a5",
+      "sizeBytes": 11492
+    },
+    {
+      "path": "kb/TemplateGuides/classic-americana-registration.guide.md",
+      "sha256": "a63536a6c28e626ea81ac6ece7e51ca4a63c5198cb3bbbfe24a460011d9bf0d3",
+      "sizeBytes": 9779
+    },
+    {
+      "path": "kb/TemplateGuides/classic-australiana-booking.facts.json",
+      "sha256": "3c5e3bc0effd82682733dac5edeebe7659f247ecdc1161e6b6ab4426b2d99017",
+      "sizeBytes": 11108
+    },
+    {
+      "path": "kb/TemplateGuides/classic-australiana-booking.guide.md",
+      "sha256": "feff121fc81f7e8fdf5d10f115b13b0e1c758abc8c6becbb58fc8253fe26bf2e",
+      "sizeBytes": 9662
+    },
+    {
+      "path": "kb/TemplateGuides/coachella-festival-registration.facts.json",
+      "sha256": "746460fa03b843e9e896a7b578055ac481394a121b61b6312d402129b6d146fd",
+      "sizeBytes": 10462
+    },
+    {
+      "path": "kb/TemplateGuides/coachella-festival-registration.guide.md",
+      "sha256": "f84a659f38bf3a50f6a889e87b0d34339c040111818b0a4408d6cd01e3d6ed2a",
+      "sizeBytes": 8862
+    },
+    {
+      "path": "kb/TemplateGuides/corporate-registration-blue.facts.json",
+      "sha256": "cd830dbc1d608294f7c3c73cac6185bb542963bc3202503104c15e70dc0b0ce2",
+      "sizeBytes": 5744
+    },
+    {
+      "path": "kb/TemplateGuides/corporate-registration-blue.guide.md",
+      "sha256": "341b0b90913c01fab1fa4a743f1539ab20370c2e079c2cc003f195428f87d3e4",
+      "sizeBytes": 7618
+    },
+    {
+      "path": "kb/TemplateGuides/cv-registration.facts.json",
+      "sha256": "a029744ae6cc4a36b37969899492fd84cb906bb60653faabbfe93b0070c3fafa",
+      "sizeBytes": 10030
+    },
+    {
+      "path": "kb/TemplateGuides/cv-registration.guide.md",
+      "sha256": "bd4d009434d5bf4a5b464e0fe9d57dd82db7ccd91eeb1be068dc09c49d974c89",
+      "sizeBytes": 8339
+    },
+    {
+      "path": "kb/TemplateGuides/dance-competition-registration.facts.json",
+      "sha256": "71fe67d4fabd670dbc125f8dc8ccd559576cbabd85b9b407e437416b9f3ce5ec",
+      "sizeBytes": 8089
+    },
+    {
+      "path": "kb/TemplateGuides/dance-competition-registration.guide.md",
+      "sha256": "873084872465a3753dd25590bf7b7f75f29415e9b08bffc1bd869d82ba1c01e1",
+      "sizeBytes": 8140
+    },
+    {
+      "path": "kb/TemplateGuides/document-registration-a4.facts.json",
+      "sha256": "dd9640fea79a26eb20944355c7cb8549a251b7d26766dc7195c92668edc52e5c",
+      "sizeBytes": 13048
+    },
+    {
+      "path": "kb/TemplateGuides/document-registration-a4.guide.md",
+      "sha256": "bcec3362ecdff65d04f811998490fb8baca3d8b6a2522bd4c40dd636dc51e2e0",
+      "sizeBytes": 10577
+    },
+    {
+      "path": "kb/TemplateGuides/down-under-australia.facts.json",
+      "sha256": "1a11aade436727d1297c97d8694b3aca196792343ec198455bf1b4c27b181bbc",
+      "sizeBytes": 11103
+    },
+    {
+      "path": "kb/TemplateGuides/down-under-australia.guide.md",
+      "sha256": "cd6a10355e9787c3ed311c1d07bb81f8b11b506f445dd3e9297b48927c928ea9",
+      "sizeBytes": 9576
+    },
+    {
+      "path": "kb/TemplateGuides/euro-youth-application.facts.json",
+      "sha256": "db4af6fc3f77af0797b5a727b4d474e1b969fde64683abebfc41f4392231eda4",
+      "sizeBytes": 11121
+    },
+    {
+      "path": "kb/TemplateGuides/euro-youth-application.guide.md",
+      "sha256": "9195083bdb56c8112c40fe68ab6a18eddf35d522fca55777b2bddf3808e49c37",
+      "sizeBytes": 9998
+    },
+    {
+      "path": "kb/TemplateGuides/event-registration-rsvp.facts.json",
+      "sha256": "65069822a9b9aae23cc2f9881a05c818a4d2ad0b131010846186be0d65db6032",
+      "sizeBytes": 12187
+    },
+    {
+      "path": "kb/TemplateGuides/event-registration-rsvp.guide.md",
+      "sha256": "bee426db6f0ebd3c9bca76270ec0b31ff8228fb796ab6a1fa5ca4f32c87e2d15",
+      "sizeBytes": 9874
+    },
+    {
+      "path": "kb/TemplateGuides/festa-italiana.facts.json",
+      "sha256": "a674228afb34b8a399d09e8b84a4e059699db0df79f1a78f1fdc118581ab88be",
+      "sizeBytes": 9936
+    },
+    {
+      "path": "kb/TemplateGuides/festa-italiana.guide.md",
+      "sha256": "b27d9c8fb53543225006031d36ba6e6cfe3010c968822473ded6aadf1fcbd97f",
+      "sizeBytes": 10043
+    },
+    {
+      "path": "kb/TemplateGuides/floral-youth-application.facts.json",
+      "sha256": "783a894a52499c3fb3a12b980ee636a2d0f9a24705d40ee99f0eceeae8fb6c5f",
+      "sizeBytes": 11234
+    },
+    {
+      "path": "kb/TemplateGuides/floral-youth-application.guide.md",
+      "sha256": "0d642d70e7abafe659cf7b6b0562f7108033bdb1cb0907710b9a28ecdcc93a70",
+      "sizeBytes": 10461
+    },
+    {
+      "path": "kb/TemplateGuides/french-invitation-2026.facts.json",
+      "sha256": "07cc365e8fc1782d7599dfb40e16b703d6b4140f348530dcd259d7555fd28f4b",
+      "sizeBytes": 7700
+    },
+    {
+      "path": "kb/TemplateGuides/french-invitation-2026.guide.md",
+      "sha256": "066a93212d6e23c70d0fb918e12900a883489d09a0a8a4e22e2a576b483297db",
+      "sizeBytes": 7549
+    },
+    {
+      "path": "kb/TemplateGuides/glass-course-mentor-application.facts.json",
+      "sha256": "e2320850db6478aca97117c62e6cb5abce3b3781384b84f3ab9c97ffb562180d",
+      "sizeBytes": 11313
+    },
+    {
+      "path": "kb/TemplateGuides/glass-course-mentor-application.guide.md",
+      "sha256": "6371fbab361f617acbe686b4a31dfc617efbcce92edd93b9a9464edcff8280f9",
+      "sizeBytes": 7746
+    },
+    {
+      "path": "kb/TemplateGuides/gold-suite-membership-application.facts.json",
+      "sha256": "964f67c01103fa6d24b5b8009df82654d746c78fbef5c540bc17f5f6dff88bdb",
+      "sizeBytes": 9009
+    },
+    {
+      "path": "kb/TemplateGuides/gold-suite-membership-application.guide.md",
+      "sha256": "550e71a2a553b87e4cb8252d41f39781c008d6717503e369016c5cc04bc33ed5",
+      "sizeBytes": 8845
+    },
+    {
+      "path": "kb/TemplateGuides/golden-pro-agent-registration.facts.json",
+      "sha256": "715f6cec0c0d3441dba866d8d6b769cb0c3fdd56dc70feb3c7333d7f1c81b94e",
+      "sizeBytes": 9645
+    },
+    {
+      "path": "kb/TemplateGuides/golden-pro-agent-registration.guide.md",
+      "sha256": "37916d5491a6d44674e1ec5983a24fa5e9e27626d8bc4dabd2a12ffa78aa028a",
+      "sizeBytes": 10330
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-party-registration.facts.json",
+      "sha256": "dd1511f368e19a20bda20ceecf034d3b516f6678873dd32a05e38e29120a9f1a",
+      "sizeBytes": 7991
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-party-registration.guide.md",
+      "sha256": "6d55ba81c42dc51cdb2252a56d1a63342a3d17ad9d7ef181c0405003d3d82d36",
+      "sizeBytes": 7928
+    },
+    {
+      "path": "kb/TemplateGuides/holiday-request-travel.facts.json",
+      "sha256": "3e6bbf2f5a44a2509c46a0f2d8a6d1b4fff0329cb269e6681aa8f5d32ea550d4",
+      "sizeBytes": 7838
+    },
+    {
+      "path": "kb/TemplateGuides/holiday-request-travel.guide.md",
+      "sha256": "81a90e9c42c6b3668f7973ce4784b3b40b0419babf7441e219aec69cd99c11df",
+      "sizeBytes": 8096
+    },
+    {
+      "path": "kb/TemplateGuides/ielts-report-classic.facts.json",
+      "sha256": "a1e8827fc6b8370414a6387f291b4e4d33c5ada30d035cf75eafc0af158970aa",
+      "sizeBytes": 5567
+    },
+    {
+      "path": "kb/TemplateGuides/ielts-report-classic.guide.md",
+      "sha256": "82122f24aac09d750a41512da06eba893dd341f84e801944f69826dcb6729297",
+      "sizeBytes": 8048
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-blue-application.facts.json",
+      "sha256": "b1fa89dd50de73d283fb0e26332289d2002b1075d023778b0601c20d006bc52a",
+      "sizeBytes": 7975
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-blue-application.guide.md",
+      "sha256": "91c2300b2aa9a280914cb989a1576e9eb62cc1008b6771169e1f34339814da46",
+      "sizeBytes": 8248
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-codexo-cyan.facts.json",
+      "sha256": "a3a3195a687f289f17aa8108a4436b3dda9ff3063ec6af1afe4939c77fc5f5f3",
+      "sizeBytes": 13061
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-codexo-cyan.guide.md",
+      "sha256": "1668e1451eefeeb5c38c16c8c65ee7af88c05922c98e624a05e6ac22e7ce7c8b",
+      "sizeBytes": 11338
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-dark-application.facts.json",
+      "sha256": "1696996713de30126e70c01fa896e89e5eb80a0729c836ee82078b4852ee8bc1",
+      "sizeBytes": 7884
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-dark-application.guide.md",
+      "sha256": "643b2595281c9fe1453b206f578a1346aac4b762e603f75063c93bd28f12015b",
+      "sizeBytes": 8228
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-minimal-application.facts.json",
+      "sha256": "301164227213b75fc0a5e42db6c3b8ac11299905252b49561cdfbcf02fc2f5f6",
+      "sizeBytes": 7891
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-minimal-application.guide.md",
+      "sha256": "663c9f0c4351e05ec00ffc4aad3412ef9f8e34a61d65ec1603c7543fe8078b43",
+      "sizeBytes": 8205
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-orange-application.facts.json",
+      "sha256": "daa017ea1ceffcd1c5ecde7d8439f78572056ec2b1746dd8924cc10117ccfbe8",
+      "sizeBytes": 7882
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-orange-application.guide.md",
+      "sha256": "1dbcd21c2cbaa6a8b95f69c235b0a382aad312c3e999bd77fd3b293bf0bf2aa2",
+      "sizeBytes": 8198
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-request-navy-orange.facts.json",
+      "sha256": "368baf4c33d91f6521718b96f71a6c16f6c9cd4187a6b9f6de4b9408c2cdf1b5",
+      "sizeBytes": 12276
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-request-navy-orange.guide.md",
+      "sha256": "5f6cc6ad0724ff2b153698e56b3294ee7871b11861c7022a1e40ae5bbdea98d7",
+      "sizeBytes": 10609
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-spinera-blue.facts.json",
+      "sha256": "e41d52a15b874c2fc0dbe29cebbd18d28698e0c07c2557f15a21d0f82bb6c2c6",
+      "sizeBytes": 11489
+    },
+    {
+      "path": "kb/TemplateGuides/invoice-spinera-blue.guide.md",
+      "sha256": "104acd710738bf6eb80936f64738638c79d99bc6893513030abc4967ccd0cf1c",
+      "sizeBytes": 10740
+    },
+    {
+      "path": "kb/TemplateGuides/job-application-northwind.facts.json",
+      "sha256": "e0afca0babc5894fb486131f9d4dda726d89dc2e7a56115681dad5df3616bafd",
+      "sizeBytes": 5328
+    },
+    {
+      "path": "kb/TemplateGuides/job-application-northwind.guide.md",
+      "sha256": "e89c9988a51d1bb00c1cff649d32d941e10708539a25a4b9397c0c71755a14ff",
+      "sizeBytes": 7631
+    },
+    {
+      "path": "kb/TemplateGuides/kawaii-diary.facts.json",
+      "sha256": "1643b79b11f239c3a22232d44f6c2480dfdd15023c5988481bba821ea8dcbd66",
+      "sizeBytes": 8078
+    },
+    {
+      "path": "kb/TemplateGuides/kawaii-diary.guide.md",
+      "sha256": "de7c37821c739befccc1316b91e1d38651506f5be88076398d58cb3aad770a3f",
+      "sizeBytes": 7860
+    },
+    {
+      "path": "kb/TemplateGuides/kids-first-book-registration.facts.json",
+      "sha256": "4a6d6e1604fddb7e16e0e21348227ac16aaa5550ad3c527b03aaee06f330b4cd",
+      "sizeBytes": 7641
+    },
+    {
+      "path": "kb/TemplateGuides/kids-first-book-registration.guide.md",
+      "sha256": "50668c5441efe3a2e248569d39af2b8551ad069a801377ed7689dd9313405a00",
+      "sizeBytes": 7898
+    },
+    {
+      "path": "kb/TemplateGuides/lagoon-reserve-booking.facts.json",
+      "sha256": "4a5e244dd8ae4870da6295dd74bd5f1172beb5be54896c9394f2a11a33243bb8",
+      "sizeBytes": 9997
+    },
+    {
+      "path": "kb/TemplateGuides/lagoon-reserve-booking.guide.md",
+      "sha256": "243dab8e5aab1e5878941fb2858dc4b584ccb4f186184f7bfd97f03f4c6c5b2a",
+      "sizeBytes": 9421
+    },
+    {
+      "path": "kb/TemplateGuides/massage-bodychart-terracotta.facts.json",
+      "sha256": "baf63d6f3ccdb792335df49278670d86804ee27ba9899e5403a02dcfc75c4b3d",
+      "sizeBytes": 6044
+    },
+    {
+      "path": "kb/TemplateGuides/massage-bodychart-terracotta.guide.md",
+      "sha256": "56376e91c73ed1d6d6806ae64f33626233b8e0668e65a3e321b8d6e9fc39dfcc",
+      "sizeBytes": 7946
+    },
+    {
+      "path": "kb/TemplateGuides/massage-intake-sage.facts.json",
+      "sha256": "b73d7c7761a07452f6c3bc63d28e51bc792e45c5835528150556075c76ac73b9",
+      "sizeBytes": 5507
+    },
+    {
+      "path": "kb/TemplateGuides/massage-intake-sage.guide.md",
+      "sha256": "90699def012b9c2352c7f67e3af5ce4560605b32859872b9b40993ec72f5494f",
+      "sizeBytes": 7459
+    },
+    {
+      "path": "kb/TemplateGuides/member-login.facts.json",
+      "sha256": "d330f074801eb01c8803f65d6c9537f8d21c3642b2fa1183b6310db87afd6a1b",
+      "sizeBytes": 2166
+    },
+    {
+      "path": "kb/TemplateGuides/member-login.guide.md",
+      "sha256": "50939add311dec0d1f5f04880c82361c9bdbb120f313eeed92aa4bd243b772ef",
+      "sizeBytes": 6294
+    },
+    {
+      "path": "kb/TemplateGuides/newsletter-signup-amber.facts.json",
+      "sha256": "248f4818a226e0f870d435d8489441510072f414d2a7d68f23997c81b7a1d0c2",
+      "sizeBytes": 3495
+    },
+    {
+      "path": "kb/TemplateGuides/newsletter-signup-amber.guide.md",
+      "sha256": "247b05d27510edfd162b90db9aad937b261d7a375d9ce8852536b970d6967026",
+      "sizeBytes": 6599
+    },
+    {
+      "path": "kb/TemplateGuides/product-consultation-form.facts.json",
+      "sha256": "46f7a53d24b60188af3910252eb49dbcd5e73605021dc8b0463b01fcb920b802",
+      "sizeBytes": 10062
+    },
+    {
+      "path": "kb/TemplateGuides/product-consultation-form.guide.md",
+      "sha256": "0f27c72974c75e13c89db0daafe6109a51eadd2aa98f40494703c8efd7993609",
+      "sizeBytes": 8927
+    },
+    {
+      "path": "kb/TemplateGuides/product-order-live-total.facts.json",
+      "sha256": "f2f6cda9b813b95f27bd3c438f72f655ff2586d734f4f2b99df3a1b9969865c7",
+      "sizeBytes": 6131
+    },
+    {
+      "path": "kb/TemplateGuides/product-order-live-total.guide.md",
+      "sha256": "ecbd6dd34ac51e11d9c43945d0bbde3f14e99c88740d75c3a4f525c5ff6ddde8",
+      "sizeBytes": 7311
+    },
+    {
+      "path": "kb/TemplateGuides/project-intake-onboarding.facts.json",
+      "sha256": "67dbddabbe494452fa862e9b666c4797a4d43e0e2b2b3eb40e1e433400c63161",
+      "sizeBytes": 10507
+    },
+    {
+      "path": "kb/TemplateGuides/project-intake-onboarding.guide.md",
+      "sha256": "fc7fa7f4ca6da09805bacf8f71984aaceb800e06b65aabe2d2d90f1b41253216",
+      "sizeBytes": 9694
+    },
+    {
+      "path": "kb/TemplateGuides/pure-grid-template.facts.json",
+      "sha256": "cf6bb1b00faa010f784fd5e417e2a2c2b34506d798af03bad2ee31fa596ed3c1",
+      "sizeBytes": 9156
+    },
+    {
+      "path": "kb/TemplateGuides/pure-grid-template.guide.md",
+      "sha256": "5d09d0ea4a1ab77d04698f6c5355a9ad60d7c8356ac9b5287fa3509810a9b6ee",
+      "sizeBytes": 6844
+    },
+    {
+      "path": "kb/TemplateGuides/realestate-registration.facts.json",
+      "sha256": "fd3bd50e03ec9964be9ad454a6178aedb19038d441116bed4c90e26b149e4e15",
+      "sizeBytes": 9185
+    },
+    {
+      "path": "kb/TemplateGuides/realestate-registration.guide.md",
+      "sha256": "4087a672d1f1b2be57f030322f80c7ea2568104101b01cd50c890ae9ec70a215",
+      "sizeBytes": 8680
+    },
+    {
+      "path": "kb/TemplateGuides/romantic-congratulations-event-form.facts.json",
+      "sha256": "328b7dde2052ca2f974f17739e1fa8d72a0996ca16750b2a3e224d88c53ca4c4",
+      "sizeBytes": 9822
+    },
+    {
+      "path": "kb/TemplateGuides/romantic-congratulations-event-form.guide.md",
+      "sha256": "b74a3f5eb834e16f8d4353191b446e79e8c19891fa7d310c65f687a7b4343105",
+      "sizeBytes": 8902
+    },
+    {
+      "path": "kb/TemplateGuides/rose-wellness-registration.facts.json",
+      "sha256": "55a9a535db6d78676587fddbb8e1a8dbce7f6855a32e981b2fe1e9f02f35f343",
+      "sizeBytes": 6156
+    },
+    {
+      "path": "kb/TemplateGuides/rose-wellness-registration.guide.md",
+      "sha256": "b4e87e867b5ecd0f3cc72bc826395ca9a7004307a910b9a741d7f3529e8e78d0",
+      "sizeBytes": 8570
+    },
+    {
+      "path": "kb/TemplateGuides/sticky-spark-creative-brief.facts.json",
+      "sha256": "cf10633657974ab1eded2ba8d5c452a1f4e6bb379684059e6c42d5d97865b3f8",
+      "sizeBytes": 8020
+    },
+    {
+      "path": "kb/TemplateGuides/sticky-spark-creative-brief.guide.md",
+      "sha256": "b5c639528656d6c14a79e75bf88f7a970c31256761d1fbc5c8999f336ea749f6",
+      "sizeBytes": 7382
+    },
+    {
+      "path": "kb/TemplateGuides/tabbed-account-setup.facts.json",
+      "sha256": "8fcc5fd08dfcdd8b45143beb80bf592b07312d8baa423f758e4a40f2fc2a25b8",
+      "sizeBytes": 10853
+    },
+    {
+      "path": "kb/TemplateGuides/tabbed-account-setup.guide.md",
+      "sha256": "a61a32843f52a017dfdaa75e7819b01005ad7b47f34b5c8963c4cd6d1d230a1b",
+      "sizeBytes": 9388
+    },
+    {
+      "path": "kb/TemplateGuides/tabstrip-account-setup.facts.json",
+      "sha256": "e67512ec9c49c0d1ea6658d2ae48021e0d35bfd5bb8d4243b0b999565ec595d8",
+      "sizeBytes": 10937
+    },
+    {
+      "path": "kb/TemplateGuides/tabstrip-account-setup.guide.md",
+      "sha256": "d918dddb7d70ada4a215fc99c49962953df44de46c056e32c3cfbd124990f01e",
+      "sizeBytes": 9426
+    },
+    {
+      "path": "kb/TemplateGuides/tabstrip-vertical-account-setup.facts.json",
+      "sha256": "b54d8bc72d1c4d2d4f46ad691e42f400fc98197df0245782d6085fef9e347434",
+      "sizeBytes": 11155
+    },
+    {
+      "path": "kb/TemplateGuides/tabstrip-vertical-account-setup.guide.md",
+      "sha256": "7a0c2a54fed7703397f99763b95d304b6a74b444c0f44dae4df4e4332a25d0b5",
+      "sizeBytes": 9502
+    },
+    {
+      "path": "kb/TemplateGuides/teal-brochure-application.facts.json",
+      "sha256": "073e72a5fb9c23b61b488ced2b7226b02177867fc63fd54d643d0cbcc9e0399a",
+      "sizeBytes": 11303
+    },
+    {
+      "path": "kb/TemplateGuides/teal-brochure-application.guide.md",
+      "sha256": "ff1860a965aad68a6557c4d4fcc2f876d2a40187faa77abe096528e37b1a04ab",
+      "sizeBytes": 10465
+    },
+    {
+      "path": "kb/TemplateGuides/terracotta-product-feedback.facts.json",
+      "sha256": "6caf21d0cfa4f2241225382ea395462179de4b77b01a427c0ff2d2c154752e24",
+      "sizeBytes": 5657
+    },
+    {
+      "path": "kb/TemplateGuides/terracotta-product-feedback.guide.md",
+      "sha256": "c87517b9092faf85b69cdc23549a5cbfa5b0100276164e51c9efa4a0474ae144",
+      "sizeBytes": 6973
+    },
+    {
+      "path": "kb/TemplateGuides/usa-training-course-registration.facts.json",
+      "sha256": "cea815dc28214b5e9394cd9b6d8e3b6338bb02af8ff1640f954087b5bc23ae0e",
+      "sizeBytes": 12468
+    },
+    {
+      "path": "kb/TemplateGuides/usa-training-course-registration.guide.md",
+      "sha256": "9d306f580f12526eaf5c10dcb48930d468c0e3eb62db960e62f15d2c7b64bedf",
+      "sizeBytes": 8702
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-left-corporate.facts.json",
+      "sha256": "9f262475c7c2eae11b3501ba0db596417c8239c971f053d8726e22f7d6dd3cb6",
+      "sizeBytes": 4609
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-left-corporate.guide.md",
+      "sha256": "a38e86cba3fda9be284770b5e873f620aaaea2b438688a4d95292cdfe24232ae",
+      "sizeBytes": 6952
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-left-minimal.facts.json",
+      "sha256": "76dbba5a6bc88ba3630850ef0c2ed105c360df1b750cbe4e351baed1948f47e8",
+      "sizeBytes": 4772
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-left-minimal.guide.md",
+      "sha256": "ce5def3ec3980b23c445bc57fb7fc707586331fa4ce0f258fd0034e690a3cffc",
+      "sizeBytes": 6946
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-right-modern.facts.json",
+      "sha256": "5636abc857ec92fcb99a4b52fbe6de6744c8af15b6373da4f351b72b0d6ad1d0",
+      "sizeBytes": 4772
+    },
+    {
+      "path": "kb/TemplateGuides/v0-contact-map-right-modern.guide.md",
+      "sha256": "93ae29a7f012744e0cc368ef13ece67cbadaac3565588c52c60f66ab43472aaa",
+      "sizeBytes": 6947
+    },
+    {
+      "path": "kb/TemplateGuides/verdant-member-registration.facts.json",
+      "sha256": "f3504cffb57fd2ddfd9f1312d8879437364d468e1f10fdc7f4b07d0fc3415c89",
+      "sizeBytes": 8044
+    },
+    {
+      "path": "kb/TemplateGuides/verdant-member-registration.guide.md",
+      "sha256": "489846bfe126c4dd8ea81ec14cfc3dc796d4cf2043f2b578567f64b172d69cdd",
+      "sizeBytes": 8792
+    },
+    {
+      "path": "kb/TemplateGuides/volunteer-application-euroyouth.facts.json",
+      "sha256": "746f9c839d1e94a0961b76c155687eb94342ccab557ec50586f82e30b8cf5794",
+      "sizeBytes": 8150
+    },
+    {
+      "path": "kb/TemplateGuides/volunteer-application-euroyouth.guide.md",
+      "sha256": "8f285dd0ff601b97dcc3df3b17dfcc59bd1d493088a21215a77af24f5d8cdb4d",
+      "sizeBytes": 8188
+    },
+    {
+      "path": "kb/TemplateGuides/wellness-patient-intake.facts.json",
+      "sha256": "007998ad815ba5d4b5544bc42b5571cdbc725dbea2b399acb9e9ca7789bec856",
+      "sizeBytes": 12783
+    },
+    {
+      "path": "kb/TemplateGuides/wellness-patient-intake.guide.md",
+      "sha256": "5636bc9a57e2aa5fd1e3ae9a3660554edb7bff9402c5ccb2d5ecf7aa7fb8173d",
+      "sizeBytes": 10254
+    },
+    {
+      "path": "kb/TemplateGuides/xmas-newsletter-euroyouth-application.facts.json",
+      "sha256": "08219499903f332808769ee7c98e13af7aa9d7a6adef6dbc8e32430b4860033e",
+      "sizeBytes": 9325
+    },
+    {
+      "path": "kb/TemplateGuides/xmas-newsletter-euroyouth-application.guide.md",
+      "sha256": "d5dfc59ab3eb30b4e5bd68153d44bb6de03f27ad0e8c48452107f413f5af8dac",
+      "sizeBytes": 9544
+    },
+    {
+      "path": "kb/TemplateGuides/xmas-sale-euroyouth-application.facts.json",
+      "sha256": "1c5afdf3c238a2b045bda83a2b7a597fa17cf51a3b1afba08d54f026fd4a369b",
+      "sizeBytes": 8222
+    },
+    {
+      "path": "kb/TemplateGuides/xmas-sale-euroyouth-application.guide.md",
+      "sha256": "cf573f5b13fab3f5d9efba6111ae06ccf7f13e1451943dd59f8df0b244b35dc7",
+      "sizeBytes": 8231
+    }
+  ]
+}

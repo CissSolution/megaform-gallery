@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "romantic-congratulations-event-form",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-romantic-congratulations-event-form",
+        "Kind": "form_template",
+        "Title": "Celebrate With Us",
+        "Summary": "Join us for an evening of joy, love, and cherished memories as we celebrate this special milestone together. [Category: events · 14 fields · uses: Row, Text, Email, Phone, Radio, Select]",
+        "Body": "{\"title\":\"Celebrate With Us\",\"description\":\"Join us for an evening of joy, love, and cherished memories as we celebrate this special milestone together.\",\"category\":\"events\",\"icon\":\"heart\",\"submitButtonText\":\"Confirm My Attendance\",\"successMessage\":\"Thank you for your gracious response! We look forward to celebrating this beautiful moment with you.\",\"settings\":{\"theme\":\"romantic-rose\",\"multiPage\":false,\"customContent\":{\"brand_title\":\"With Love\",\"brand_subtitle\":\"A Celebration of Joy\",\"event_date\":\"June 21, 2026\",\"event_time\":\"6:00 PM\",\"event_venue\":\"Rose Garden Estate\",\"event_location\":\"Beverly Hills, California\",\"section_personal\":\"Your Details\",\"section_gallery\":\"Celebration Moments\",\"section_attendance\":\"Your Response\",\"section_preferences\":\"Preferences\",\"footer_note\":\"Your presence would be the greatest gift of all\"}},\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Your first name\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Your last name\"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\"your@email.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone Number\",\"placeholder\":\"+1 (555) 000-0000\"}]}]},{\"key\":\"attendance\",\"type\":\"Radio\",\"label\":\"Will You Be Joining Us?\",\"required\":true,\"options\":[{\"label\":\"Joyfully Accept\",\"value\":\"accept\"},{\"label\":\"Regretfully Decline\",\"value\":\"decline\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"row_guests_meal\",\"type\":\"Row\",\"label\":\"Guests & Meal\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":true,\"options\":[{\"label\":\"Just myself\",\"value\":\"1\"},{\"label\":\"2 guests\",\"value\":\"2\"},{\"label\":\"3 guests\",\"value\":\"3\"},{\"label\":\"4 guests\",\"value\":\"4\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"meal_preference\",\"type\":\"Select\",\"label\":\"Meal Preference\",\"required\":true,\"options\":[{\"label\":\"Filet Mignon\",\"value\":\"beef\"},{\"label\":\"Herb Roasted Chicken\",\"value\":\"chicken\"},{\"label\":\"Pan-Seared Salmon\",\"value\":\"fish\"},{\"label\":\"Garden Vegetable Medley\",\"value\":\"vegetarian\"}]}]}]},{\"key\":\"dietary_restrictions\",\"type\":\"Checkbox\",\"label\":\"Dietary Restrictions\",\"options\":[{\"label\":\"Gluten-free\",\"value\":\"gluten_free\"},{\"label\":\"Dairy-free\",\"value\":\"dairy_free\"},{\"label\":\"Nut allergy\",\"value\":\"nut_allergy\"},{\"label\":\"Shellfish allergy\",\"value\":\"shellfish\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"special_message\",\"type\":\"Textarea\",\"label\":\"A Message for the Celebrants\",\"placeholder\":\"Share your warm wishes and congratulations...\",\"properties\":{\"rows\":4}},{\"key\":\"song_request\",\"type\":\"Text\",\"label\":\"Song Request\",\"placeholder\":\"What song would get you on the dance floor?\"},{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Keep me updated about future celebrations and events\",\"options\":[{\"label\":\"Yes, I would love to stay connected\",\"value\":\"yes\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}",
+        "Tags": "form_template,events,events,fields:14,has-row,type-row,type-text,type-email,type-phone,type-radio",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Your first name\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Your last name\"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email Address\",\"required\":true,\"placeholder\":\"your@email.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone Number\",\"placeholder\":\"+1 (555) 000-0000\"}]}]},{\"key\":\"attendance\",\"type\":\"Radio\",\"label\":\"Will You Be Joining Us?\",\"required\":true,\"options\":[{\"label\":\"Joyfully Accept\",\"value\":\"accept\"},{\"label\":\"Regretfully Decline\",\"value\":\"decline\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"row_guests_meal\",\"type\":\"Row\",\"label\":\"Guests & Meal\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":true,\"options\":[{\"label\":\"Just myself\",\"value\":\"1\"},{\"label\":\"2 guests\",\"value\":\"2\"},{\"label\":\"3 guests\",\"value\":\"3\"},{\"label\":\"4 guests\",\"value\":\"4\"}]}]},{\"span\":6,\"fields\":[{\"key\":\"meal_preference\",\"type\":\"Select\",\"label\":\"Meal Preference\",\"required\":true,\"options\":[{\"label\":\"Filet Mignon\",\"value\":\"beef\"},{\"label\":\"Herb Roasted Chicken\",\"value\":\"chicken\"},{\"label\":\"Pan-Seared Salmon\",\"value\":\"fish\"},{\"label\":\"Garden Vegetable Medley\",\"value\":\"vegetarian\"}]}]}]},{\"key\":\"dietary_restrictions\",\"type\":\"Checkbox\",\"label\":\"Dietary Restrictions\",\"options\":[{\"label\":\"Gluten-free\",\"value\":\"gluten_free\"},{\"label\":\"Dairy-free\",\"value\":\"dairy_free\"},{\"label\":\"Nut allergy\",\"value\":\"nut_allergy\"},{\"label\":\"Shellfish allergy\",\"value\":\"shellfish\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"special_message\",\"type\":\"Textarea\",\"label\":\"A Message for the Celebrants\",\"placeholder\":\"Share your warm wishes and congratulations...\",\"properties\":{\"rows\":4}},{\"key\":\"song_request\",\"type\":\"Text\",\"label\":\"Song Request\",\"placeholder\":\"What song would get you on the dance floor?\"},{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Keep me updated about future celebrations and events\",\"options\":[{\"label\":\"Yes, I would love to stay connected\",\"value\":\"yes\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}],\"settings\":{\"theme\":\"romantic-rose\",\"multiPage\":false,\"customContent\":{\"brand_title\":\"With Love\",\"brand_subtitle\":\"A Celebration of Joy\",\"event_date\":\"June 21, 2026\",\"event_time\":\"6:00 PM\",\"event_venue\":\"Rose Garden Estate\",\"event_location\":\"Beverly Hills, California\",\"section_personal\":\"Your Details\",\"section_gallery\":\"Celebration Moments\",\"section_attendance\":\"Your Response\",\"section_preferences\":\"Preferences\",\"footer_note\":\"Your presence would be the greatest gift of all\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-romantic-congratulations-event-form",
+        "Kind": "template_guide",
+        "Title": "Celebrate With Us",
+        "Summary": "Join us for an evening of joy, love, and cherished memories as we celebrate this special milestone together.",
+        "Body": "{\"guide_file\":\"romantic-congratulations-event-form.guide.md\"}",
+        "Tags": "premium,template-guide,events",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/romantic-congratulations-event-form.guide.md",
+      "sha256": "b74a3f5eb834e16f8d4353191b446e79e8c19891fa7d310c65f687a7b4343105",
+      "sizeBytes": 8902
+    },
+    {
+      "path": "kb/TemplateGuides/romantic-congratulations-event-form.facts.json",
+      "sha256": "328b7dde2052ca2f974f17739e1fa8d72a0996ca16750b2a3e224d88c53ca4c4",
+      "sizeBytes": 9822
+    }
+  ]
+}

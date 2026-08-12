@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "halloween-party-registration",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-halloween-party-registration",
+        "Kind": "form_template",
+        "Title": "Spooky Night Party",
+        "Summary": "Join us for a frighteningly fun Halloween celebration with costumes, treats, and thrills! [Category: event-registration · 12 fields · uses: Row, Text, Email, Phone, Select, Radio]",
+        "Body": "{\"title\":\"Spooky Night Party\",\"description\":\"Join us for a frighteningly fun Halloween celebration with costumes, treats, and thrills!\",\"category\":\"event-registration\",\"icon\":\"ghost\",\"submitButtonText\":\"Reserve My Spot\",\"successMessage\":\"You're in! The ghosts are expecting you...\",\"settings\":{\"theme\":\"halloween-floating-ghosts\",\"multiPage\":false,\"customContent\":{\"section_attendee\":\"Who's Coming?\",\"section_party\":\"Party Details\",\"section_preferences\":\"Your Spooky Preferences\",\"footer_note\":\"Costumes encouraged! Best costume wins a prize.\",\"ghost_message_1\":\"Boo!\",\"ghost_message_2\":\"Join us...\",\"ghost_message_3\":\"Spooky!\",\"event_date\":\"October 31st, 2024\",\"event_time\":\"7:00 PM - Midnight\",\"event_location\":\"The Haunted Manor\"}},\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Your name\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Last name\"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"your@email.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"placeholder\":\"(555) 123-4567\"}]}]},{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":true,\"options\":[{\"label\":\"Just me\",\"value\":\"1\"},{\"label\":\"2 guests\",\"value\":\"2\"},{\"label\":\"3 guests\",\"value\":\"3\"},{\"label\":\"4 guests\",\"value\":\"4\"},{\"label\":\"5+ guests\",\"value\":\"5plus\"}]},{\"key\":\"costume_type\",\"type\":\"Radio\",\"label\":\"Costume Category\",\"required\":true,\"options\":[{\"label\":\"Classic Monster\",\"value\":\"monster\"},{\"label\":\"Spooky Ghost\",\"value\":\"ghost\"},{\"label\":\"Witch / Wizard\",\"value\":\"witch\"},{\"label\":\"Pop Culture\",\"value\":\"pop_culture\"},{\"label\":\"Surprise Me!\",\"value\":\"surprise\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"activities\",\"type\":\"Checkbox\",\"label\":\"Activities You're Interested In\",\"options\":[{\"label\":\"Costume Contest\",\"value\":\"costume_contest\"},{\"label\":\"Haunted House Tour\",\"value\":\"haunted_house\"},{\"label\":\"Spooky Movie Night\",\"value\":\"movie_night\"},{\"label\":\"Pumpkin Carving\",\"value\":\"pumpkin\"},{\"label\":\"Dance Floor\",\"value\":\"dance\"},{\"label\":\"Trick or Treat Station\",\"value\":\"treats\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"dietary\",\"type\":\"Select\",\"label\":\"Dietary Preference\",\"options\":[{\"label\":\"No restrictions\",\"value\":\"none\"},{\"label\":\"Vegetarian\",\"value\":\"vegetarian\"},{\"label\":\"Vegan\",\"value\":\"vegan\"},{\"label\":\"Gluten-Free\",\"value\":\"gluten_free\"},{\"label\":\"Nut Allergy\",\"value\":\"nut_allergy\"}]},{\"key\":\"special_requests\",\"type\":\"Textarea\",\"label\":\"Special Requests or Spooky Messages\",\"placeholder\":\"Any special requests, accessibility needs, or spooky messages for the hosts...\",\"properties\":{\"rows\":3}},{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Stay Connected\",\"options\":[{\"label\":\"Send me updates about future spooky events\",\"value\":\"yes\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}]}",
+        "Tags": "form_template,event-registration,event registration,fields:12,has-row,type-row,type-text,type-email,type-phone,type-select",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"row_name\",\"type\":\"Row\",\"label\":\"Name Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First Name\",\"required\":true,\"placeholder\":\"Your name\"}]},{\"span\":6,\"fields\":[{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last Name\",\"required\":true,\"placeholder\":\"Last name\"}]}]},{\"key\":\"row_contact\",\"type\":\"Row\",\"label\":\"Contact Row\",\"columns\":[{\"span\":6,\"fields\":[{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"your@email.com\"}]},{\"span\":6,\"fields\":[{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"placeholder\":\"(555) 123-4567\"}]}]},{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":true,\"options\":[{\"label\":\"Just me\",\"value\":\"1\"},{\"label\":\"2 guests\",\"value\":\"2\"},{\"label\":\"3 guests\",\"value\":\"3\"},{\"label\":\"4 guests\",\"value\":\"4\"},{\"label\":\"5+ guests\",\"value\":\"5plus\"}]},{\"key\":\"costume_type\",\"type\":\"Radio\",\"label\":\"Costume Category\",\"required\":true,\"options\":[{\"label\":\"Classic Monster\",\"value\":\"monster\"},{\"label\":\"Spooky Ghost\",\"value\":\"ghost\"},{\"label\":\"Witch / Wizard\",\"value\":\"witch\"},{\"label\":\"Pop Culture\",\"value\":\"pop_culture\"},{\"label\":\"Surprise Me!\",\"value\":\"surprise\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"activities\",\"type\":\"Checkbox\",\"label\":\"Activities You're Interested In\",\"options\":[{\"label\":\"Costume Contest\",\"value\":\"costume_contest\"},{\"label\":\"Haunted House Tour\",\"value\":\"haunted_house\"},{\"label\":\"Spooky Movie Night\",\"value\":\"movie_night\"},{\"label\":\"Pumpkin Carving\",\"value\":\"pumpkin\"},{\"label\":\"Dance Floor\",\"value\":\"dance\"},{\"label\":\"Trick or Treat Station\",\"value\":\"treats\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"dietary\",\"type\":\"Select\",\"label\":\"Dietary Preference\",\"options\":[{\"label\":\"No restrictions\",\"value\":\"none\"},{\"label\":\"Vegetarian\",\"value\":\"vegetarian\"},{\"label\":\"Vegan\",\"value\":\"vegan\"},{\"label\":\"Gluten-Free\",\"value\":\"gluten_free\"},{\"label\":\"Nut Allergy\",\"value\":\"nut_allergy\"}]},{\"key\":\"special_requests\",\"type\":\"Textarea\",\"label\":\"Special Requests or Spooky Messages\",\"placeholder\":\"Any special requests, accessibility needs, or spooky messages for the hosts...\",\"properties\":{\"rows\":3}},{\"key\":\"newsletter\",\"type\":\"Checkbox\",\"label\":\"Stay Connected\",\"options\":[{\"label\":\"Send me updates about future spooky events\",\"value\":\"yes\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}}],\"settings\":{\"theme\":\"halloween-floating-ghosts\",\"multiPage\":false,\"customContent\":{\"section_attendee\":\"Who's Coming?\",\"section_party\":\"Party Details\",\"section_preferences\":\"Your Spooky Preferences\",\"footer_note\":\"Costumes encouraged! Best costume wins a prize.\",\"ghost_message_1\":\"Boo!\",\"ghost_message_2\":\"Join us...\",\"ghost_message_3\":\"Spooky!\",\"event_date\":\"October 31st, 2024\",\"event_time\":\"7:00 PM - Midnight\",\"event_location\":\"The Haunted Manor\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-halloween-party-registration",
+        "Kind": "template_guide",
+        "Title": "Spooky Night Party",
+        "Summary": "Join us for a frighteningly fun Halloween celebration with costumes, treats, and thrills!",
+        "Body": "{\"guide_file\":\"halloween-party-registration.guide.md\"}",
+        "Tags": "premium,template-guide,event-registration",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/halloween-party-registration.guide.md",
+      "sha256": "6d55ba81c42dc51cdb2252a56d1a63342a3d17ad9d7ef181c0405003d3d82d36",
+      "sizeBytes": 7928
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-party-registration.facts.json",
+      "sha256": "dd1511f368e19a20bda20ceecf034d3b516f6678873dd32a05e38e29120a9f1a",
+      "sizeBytes": 7991
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "verdant-member-registration",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-verdant-member-registration",
+        "Kind": "form_template",
+        "Title": "Verdant Member Registration",
+        "Summary": "Botanical three-step member registration with profile, preferences, consent, and review. [Category: registration · 14 fields · multi-page · uses: Section, Text, Email, Phone, Select, Radio]",
+        "Body": "{\"title\":\"Verdant Member Registration\",\"description\":\"Botanical three-step member registration with profile, preferences, consent, and review.\",\"category\":\"registration\",\"icon\":\"user-plus\",\"submitButtonText\":\"Create profile\",\"successMessage\":\"Welcome to Verdant. Your member profile has been created.\",\"settings\":{\"multiPage\":true},\"fields\":[{\"key\":\"step_details\",\"type\":\"Section\",\"label\":\"Your details\",\"pageBreak\":true,\"stepLabel\":\"Details\",\"stepSubtitle\":\"Step 1 of 3\",\"heading\":\"Tell us about you\",\"intro\":\"Fill in your basic details to get started.\",\"properties\":{\"pageBreak\":false,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":1,\"legacyDataStep\":0}},{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First name\",\"placeholder\":\"Emma\",\"required\":true},{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last name\",\"placeholder\":\"Clarke\",\"required\":true},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"company\",\"type\":\"Text\",\"label\":\"Company (optional)\",\"placeholder\":\"Your company\"},{\"key\":\"step_preferences\",\"type\":\"Section\",\"label\":\"Preferences\",\"pageBreak\":true,\"stepLabel\":\"Preferences\",\"stepSubtitle\":\"Step 2 of 3\",\"heading\":\"Your preferences\",\"intro\":\"Tell us how to tailor your member experience.\",\"properties\":{\"pageBreak\":true,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":2,\"legacyDataStep\":1}},{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"placeholder\":\"+1 (555) 000-0000\",\"required\":true},{\"key\":\"member_role\",\"type\":\"Select\",\"label\":\"Member role\",\"required\":true,\"options\":[{\"label\":\"Individual\",\"value\":\"individual\"},{\"label\":\"Team lead\",\"value\":\"team-lead\"},{\"label\":\"Organization admin\",\"value\":\"organization-admin\"}]},{\"key\":\"preferred_contact\",\"type\":\"Radio\",\"label\":\"Preferred contact\",\"required\":true,\"options\":[{\"label\":\"Email\",\"value\":\"email\"},{\"label\":\"Phone\",\"value\":\"phone\"},{\"label\":\"Either\",\"value\":\"either\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"optionColumns\":3,\"properties\":{\"optionDisplay\":\"chips\",\"optionColumns\":3},\"widgetProps\":{\"optionDisplay\":\"chips\",\"optionColumns\":3}},{\"key\":\"community_updates\",\"type\":\"Checkbox\",\"label\":\"Community updates\",\"options\":[{\"label\":\"Send me occasional community and product updates\",\"value\":\"yes\"}]},{\"key\":\"agree_terms\",\"type\":\"Checkbox\",\"label\":\"Terms and privacy\",\"required\":true,\"options\":[{\"label\":\"I agree to the Terms of Service and Privacy Policy\",\"value\":\"accepted\"}]},{\"key\":\"step_review\",\"type\":\"Section\",\"label\":\"Review\",\"pageBreak\":true,\"stepLabel\":\"Review\",\"stepSubtitle\":\"Step 3 of 3\",\"heading\":\"You're all set\",\"intro\":\"Confirm your registration.\",\"properties\":{\"pageBreak\":true,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":3,\"legacyDataStep\":2}},{\"key\":\"utm_source\",\"type\":\"Hidden\",\"label\":\"UTM source\"},{\"key\":\"utm_campaign\",\"type\":\"Hidden\",\"label\":\"UTM campaign\"}]}",
+        "Tags": "form_template,registration,registration,fields:14,multi-page,type-section,type-text,type-email,type-phone,type-select",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"step_details\",\"type\":\"Section\",\"label\":\"Your details\",\"pageBreak\":true,\"stepLabel\":\"Details\",\"stepSubtitle\":\"Step 1 of 3\",\"heading\":\"Tell us about you\",\"intro\":\"Fill in your basic details to get started.\",\"properties\":{\"pageBreak\":false,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":1,\"legacyDataStep\":0}},{\"key\":\"first_name\",\"type\":\"Text\",\"label\":\"First name\",\"placeholder\":\"Emma\",\"required\":true},{\"key\":\"last_name\",\"type\":\"Text\",\"label\":\"Last name\",\"placeholder\":\"Clarke\",\"required\":true},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"company\",\"type\":\"Text\",\"label\":\"Company (optional)\",\"placeholder\":\"Your company\"},{\"key\":\"step_preferences\",\"type\":\"Section\",\"label\":\"Preferences\",\"pageBreak\":true,\"stepLabel\":\"Preferences\",\"stepSubtitle\":\"Step 2 of 3\",\"heading\":\"Your preferences\",\"intro\":\"Tell us how to tailor your member experience.\",\"properties\":{\"pageBreak\":true,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":2,\"legacyDataStep\":1}},{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"placeholder\":\"+1 (555) 000-0000\",\"required\":true},{\"key\":\"member_role\",\"type\":\"Select\",\"label\":\"Member role\",\"required\":true,\"options\":[{\"label\":\"Individual\",\"value\":\"individual\"},{\"label\":\"Team lead\",\"value\":\"team-lead\"},{\"label\":\"Organization admin\",\"value\":\"organization-admin\"}]},{\"key\":\"preferred_contact\",\"type\":\"Radio\",\"label\":\"Preferred contact\",\"required\":true,\"options\":[{\"label\":\"Email\",\"value\":\"email\"},{\"label\":\"Phone\",\"value\":\"phone\"},{\"label\":\"Either\",\"value\":\"either\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"optionColumns\":3,\"properties\":{\"optionDisplay\":\"chips\",\"optionColumns\":3},\"widgetProps\":{\"optionDisplay\":\"chips\",\"optionColumns\":3}},{\"key\":\"community_updates\",\"type\":\"Checkbox\",\"label\":\"Community updates\",\"options\":[{\"label\":\"Send me occasional community and product updates\",\"value\":\"yes\"}]},{\"key\":\"agree_terms\",\"type\":\"Checkbox\",\"label\":\"Terms and privacy\",\"required\":true,\"options\":[{\"label\":\"I agree to the Terms of Service and Privacy Policy\",\"value\":\"accepted\"}]},{\"key\":\"step_review\",\"type\":\"Section\",\"label\":\"Review\",\"pageBreak\":true,\"stepLabel\":\"Review\",\"stepSubtitle\":\"Step 3 of 3\",\"heading\":\"You're all set\",\"intro\":\"Confirm your registration.\",\"properties\":{\"pageBreak\":true,\"premiumNativeStep\":true,\"generatedPremiumStep\":true,\"premiumStepIndex\":3,\"legacyDataStep\":2}},{\"key\":\"utm_source\",\"type\":\"Hidden\",\"label\":\"UTM source\"},{\"key\":\"utm_campaign\",\"type\":\"Hidden\",\"label\":\"UTM campaign\"}],\"settings\":{\"multiPage\":true}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-verdant-member-registration",
+        "Kind": "template_guide",
+        "Title": "Verdant Member Registration",
+        "Summary": "Botanical three-step member registration with profile, preferences, consent, and review.",
+        "Body": "{\"guide_file\":\"verdant-member-registration.guide.md\"}",
+        "Tags": "premium,template-guide,registration",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/verdant-member-registration.guide.md",
+      "sha256": "489846bfe126c4dd8ea81ec14cfc3dc796d4cf2043f2b578567f64b172d69cdd",
+      "sizeBytes": 8792
+    },
+    {
+      "path": "kb/TemplateGuides/verdant-member-registration.facts.json",
+      "sha256": "f3504cffb57fd2ddfd9f1312d8879437364d468e1f10fdc7f4b07d0fc3415c89",
+      "sizeBytes": 8044
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kbVersion": 1,
+  "slug": "celebration-rsvp-simple",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-celebration-rsvp-simple",
+        "Kind": "form_template",
+        "Title": "Celebration RSVP — Simple",
+        "Summary": "Pixel-perfect minimal RSVP form with 17 theme presets (Corporate / Modern / Minimal) [Category: invitation · 9 fields · uses: Text, Email, Phone, Select, Radio, Textarea]",
+        "Body": "{\"title\":\"Celebration RSVP — Simple\",\"description\":\"Pixel-perfect minimal RSVP form with 17 theme presets (Corporate / Modern / Minimal)\",\"category\":\"invitation\",\"icon\":\"\",\"submitButtonText\":\"Submit Response\",\"successMessage\":\"Your response has been received. We look forward to celebrating with you.\",\"settings\":{\"theme\":\"pure-grid-premium\",\"multiPage\":false,\"customContent\":{\"brand_letter\":\"C\",\"brand_title\":\"Celebration\",\"brand_subtitle\":\"RSVP\",\"section_01_label\":\"Personal Details\",\"section_02_label\":\"Attendance\",\"section_03_label\":\"Special Requests\",\"submit_btn_text\":\"Submit Response\",\"footer_message\":\"We kindly request your response by the date indicated on your invitation\"}},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full Name\",\"required\":true,\"placeholder\":\"Your full name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"your@email.com\"},{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"required\":false,\"placeholder\":\"+1 (000) 000-0000\"},{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":false,\"options\":[{\"value\":\"1\",\"label\":\"1 Guest\"},{\"value\":\"2\",\"label\":\"2 Guests\"},{\"value\":\"3\",\"label\":\"3 Guests\"},{\"value\":\"4\",\"label\":\"4 Guests\"},{\"value\":\"5\",\"label\":\"5+ Guests\"}],\"default\":\"1\"},{\"key\":\"attendance\",\"type\":\"Radio\",\"label\":\"Will you be attending?\",\"required\":true,\"options\":[{\"value\":\"yes\",\"label\":\"Joyfully Accept\"},{\"value\":\"no\",\"label\":\"Regretfully Decline\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"meal_preference\",\"type\":\"Select\",\"label\":\"Meal Preference\",\"required\":false,\"options\":[{\"value\":\"\",\"label\":\"Select preference\"},{\"value\":\"beef\",\"label\":\"Beef\"},{\"value\":\"chicken\",\"label\":\"Chicken\"},{\"value\":\"fish\",\"label\":\"Fish\"},{\"value\":\"vegetarian\",\"label\":\"Vegetarian\"},{\"value\":\"vegan\",\"label\":\"Vegan\"}]},{\"key\":\"dietary_notes\",\"type\":\"Text\",\"label\":\"Dietary Restrictions\",\"required\":false,\"placeholder\":\"Allergies or dietary requirements\"},{\"key\":\"song_request\",\"type\":\"Text\",\"label\":\"Song Request\",\"required\":false,\"placeholder\":\"A song to get you on the dance floor\"},{\"key\":\"message\",\"type\":\"Textarea\",\"label\":\"Message\",\"required\":false,\"placeholder\":\"Your wishes or any notes...\",\"rows\":3}]}",
+        "Tags": "form_template,invitation,invitation,fields:9,type-text,type-email,type-phone,type-select,type-radio",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full Name\",\"required\":true,\"placeholder\":\"Your full name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email\",\"required\":true,\"placeholder\":\"your@email.com\"},{\"key\":\"phone\",\"type\":\"Phone\",\"label\":\"Phone\",\"required\":false,\"placeholder\":\"+1 (000) 000-0000\"},{\"key\":\"guest_count\",\"type\":\"Select\",\"label\":\"Number of Guests\",\"required\":false,\"options\":[{\"value\":\"1\",\"label\":\"1 Guest\"},{\"value\":\"2\",\"label\":\"2 Guests\"},{\"value\":\"3\",\"label\":\"3 Guests\"},{\"value\":\"4\",\"label\":\"4 Guests\"},{\"value\":\"5\",\"label\":\"5+ Guests\"}],\"default\":\"1\"},{\"key\":\"attendance\",\"type\":\"Radio\",\"label\":\"Will you be attending?\",\"required\":true,\"options\":[{\"value\":\"yes\",\"label\":\"Joyfully Accept\"},{\"value\":\"no\",\"label\":\"Regretfully Decline\"}],\"optionDisplay\":\"chips\",\"choiceDisplay\":\"chips\",\"optionVariant\":\"chips\",\"properties\":{\"optionDisplay\":\"chips\"},\"widgetProps\":{\"optionDisplay\":\"chips\"}},{\"key\":\"meal_preference\",\"type\":\"Select\",\"label\":\"Meal Preference\",\"required\":false,\"options\":[{\"value\":\"\",\"label\":\"Select preference\"},{\"value\":\"beef\",\"label\":\"Beef\"},{\"value\":\"chicken\",\"label\":\"Chicken\"},{\"value\":\"fish\",\"label\":\"Fish\"},{\"value\":\"vegetarian\",\"label\":\"Vegetarian\"},{\"value\":\"vegan\",\"label\":\"Vegan\"}]},{\"key\":\"dietary_notes\",\"type\":\"Text\",\"label\":\"Dietary Restrictions\",\"required\":false,\"placeholder\":\"Allergies or dietary requirements\"},{\"key\":\"song_request\",\"type\":\"Text\",\"label\":\"Song Request\",\"required\":false,\"placeholder\":\"A song to get you on the dance floor\"},{\"key\":\"message\",\"type\":\"Textarea\",\"label\":\"Message\",\"required\":false,\"placeholder\":\"Your wishes or any notes...\",\"rows\":3}],\"settings\":{\"theme\":\"pure-grid-premium\",\"multiPage\":false,\"customContent\":{\"brand_letter\":\"C\",\"brand_title\":\"Celebration\",\"brand_subtitle\":\"RSVP\",\"section_01_label\":\"Personal Details\",\"section_02_label\":\"Attendance\",\"section_03_label\":\"Special Requests\",\"submit_btn_text\":\"Submit Response\",\"footer_message\":\"We kindly request your response by the date indicated on your invitation\"}}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-celebration-rsvp-simple",
+        "Kind": "template_guide",
+        "Title": "Celebration RSVP — Simple",
+        "Summary": "Pixel-perfect minimal RSVP form with 17 theme presets (Corporate / Modern / Minimal)",
+        "Body": "{\"guide_file\":\"celebration-rsvp-simple.guide.md\"}",
+        "Tags": "premium,template-guide,invitation",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/celebration-rsvp-simple.guide.md",
+      "sha256": "1812915c3e29a76298e12692e38480fa8e396f33d237df5034d55310f1053a3e",
+      "sizeBytes": 6889
+    },
+    {
+      "path": "kb/TemplateGuides/celebration-rsvp-simple.facts.json",
+      "sha256": "1be08d54dea8f40d7a0bf0102ba5843102b3c7f9ad30e2ef968a153f0453c246",
+      "sizeBytes": 6166
+    }
+  ]
+}
