@@ -1,0 +1,45 @@
+{
+  "kbVersion": 1,
+  "slug": "volunteer-profile",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-volunteer-profile",
+        "Kind": "form_template",
+        "Title": "Volunteer Profile",
+        "Summary": "Volunteer Profile premium wave form converted from mock route /forms/volunteer-profile. [Category: Premium · 7 fields · uses: Text, Email, Select, Textarea]",
+        "Body": "{\"title\":\"Volunteer Profile\",\"description\":\"Volunteer Profile premium wave form converted from mock route /forms/volunteer-profile.\",\"category\":\"Premium\",\"icon\":\"\",\"submitButtonText\":\"Continue\",\"successMessage\":\"Thank you for stepping forward. Our community team will match your profile with a suitable opportunity.\",\"settings\":{\"theme\":\"custom\"},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"area_of_interest\",\"type\":\"Select\",\"label\":\"Area of interest\",\"placeholder\":\"Choose area\",\"required\":false,\"options\":[{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":\"community\",\"label\":\"Community\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":1,\"label\":\"Environment\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":2,\"label\":\"Youth\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":3,\"label\":\"Events\"}]},{\"key\":\"preferred_day\",\"type\":\"Select\",\"label\":\"Preferred day\",\"placeholder\":\"Choose day\",\"required\":false,\"options\":[{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":\"weekdays\",\"label\":\"Weekdays\"},{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":1,\"label\":\"Weekends\"},{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":2,\"label\":\"Flexible\"}]},{\"key\":\"time_commitment\",\"type\":\"Select\",\"label\":\"Time commitment\",\"placeholder\":\"Choose commitment\",\"required\":false,\"options\":[{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":\"one_off\",\"label\":\"One-off\"},{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":1,\"label\":\"Monthly\"},{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":2,\"label\":\"Weekly\"}]},{\"key\":\"relevant_skill\",\"type\":\"Text\",\"label\":\"Relevant skill\",\"placeholder\":\"Skill or experience\",\"required\":false},{\"key\":\"motivation\",\"type\":\"Textarea\",\"label\":\"Why would you like to volunteer?\",\"placeholder\":\"A few words are plenty...\",\"required\":false}]}",
+        "Tags": "form_template,Premium,Premium,fields:7,type-text,type-email,type-select,type-textarea",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"area_of_interest\",\"type\":\"Select\",\"label\":\"Area of interest\",\"placeholder\":\"Choose area\",\"required\":false,\"options\":[{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":\"community\",\"label\":\"Community\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":1,\"label\":\"Environment\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":2,\"label\":\"Youth\"},{\"0\":\"Community\",\"1\":\"Environment\",\"2\":\"Youth\",\"3\":\"Events\",\"value\":3,\"label\":\"Events\"}]},{\"key\":\"preferred_day\",\"type\":\"Select\",\"label\":\"Preferred day\",\"placeholder\":\"Choose day\",\"required\":false,\"options\":[{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":\"weekdays\",\"label\":\"Weekdays\"},{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":1,\"label\":\"Weekends\"},{\"0\":\"Weekdays\",\"1\":\"Weekends\",\"2\":\"Flexible\",\"value\":2,\"label\":\"Flexible\"}]},{\"key\":\"time_commitment\",\"type\":\"Select\",\"label\":\"Time commitment\",\"placeholder\":\"Choose commitment\",\"required\":false,\"options\":[{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":\"one_off\",\"label\":\"One-off\"},{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":1,\"label\":\"Monthly\"},{\"0\":\"One-off\",\"1\":\"Monthly\",\"2\":\"Weekly\",\"value\":2,\"label\":\"Weekly\"}]},{\"key\":\"relevant_skill\",\"type\":\"Text\",\"label\":\"Relevant skill\",\"placeholder\":\"Skill or experience\",\"required\":false},{\"key\":\"motivation\",\"type\":\"Textarea\",\"label\":\"Why would you like to volunteer?\",\"placeholder\":\"A few words are plenty...\",\"required\":false}],\"settings\":{\"theme\":\"custom\"}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-volunteer-profile",
+        "Kind": "template_guide",
+        "Title": "Volunteer Profile",
+        "Summary": "Volunteer Profile premium wave form converted from mock route /forms/volunteer-profile.",
+        "Body": "{\"guide_file\":\"volunteer-profile.guide.md\"}",
+        "Tags": "premium,template-guide,Premium",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/volunteer-profile.guide.md",
+      "sha256": "b64f74e003b0bd0a58aafab6db4dddd7078c5757173eb41cfa2c5dc83f38cac2",
+      "sizeBytes": 3206
+    }
+  ]
+}

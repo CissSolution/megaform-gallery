@@ -1,6 +1,6 @@
 {
   "repoVersion": 1,
-  "generatedUtc": "2026-08-12T07:20:01.886Z",
+  "generatedUtc": "2026-08-13T13:31:46.927Z",
   "seed": null,
   "templates": [
     {
@@ -100,6 +100,12 @@
       "sizeBytes": 12276
     },
     {
+      "slug": "creative-workshop",
+      "path": "kb/templates/creative-workshop.json",
+      "sha256": "6b2c753b9d1f9cf33cd35cd1b9739d976e907043df136691e1b9b11e025c8d83",
+      "sizeBytes": 6082
+    },
+    {
       "slug": "cv-registration",
       "path": "kb/templates/cv-registration.json",
       "sha256": "a687d812c2fce6ca0ac74908e7431a5829e56f3307c9bc827355f2b0c8db8112",
@@ -124,10 +130,22 @@
       "sizeBytes": 16741
     },
     {
+      "slug": "elderly-care-donation",
+      "path": "kb/templates/elderly-care-donation.json",
+      "sha256": "7d9137153cdbf89383757edbbeedf4188633ca42b04ab54392d370f0167b054d",
+      "sizeBytes": 7318
+    },
+    {
       "slug": "euro-youth-application",
       "path": "kb/templates/euro-youth-application.json",
       "sha256": "04a63928e7e301f4d1c54214da3b58d379f1b39344b1719648caa72045ee2693",
       "sizeBytes": 23302
+    },
+    {
+      "slug": "event-registration-premium",
+      "path": "kb/templates/event-registration-premium.json",
+      "sha256": "13556c39f5642deb7f7e48d5f0a497fca9d5f1909d6441c7d5b8d0bd5c8981d7",
+      "sizeBytes": 8645
     },
     {
       "slug": "event-registration-rsvp",
@@ -178,6 +196,12 @@
       "sizeBytes": 9388
     },
     {
+      "slug": "healthcare-intake",
+      "path": "kb/templates/healthcare-intake.json",
+      "sha256": "baaeabc610e2dd3f65a66118def54bfe75022dd0867b38cb5cf0812e4d2e9006",
+      "sizeBytes": 5498
+    },
+    {
       "slug": "holiday-request-travel",
       "path": "kb/templates/holiday-request-travel.json",
       "sha256": "39c9467cbeb1c7bfce9673a4917bfd3913c07c02b0eed313d4b81540c20c9dfd",
@@ -188,6 +212,12 @@
       "path": "kb/templates/ielts-report-classic.json",
       "sha256": "05426ee4375249874a81eca5a4b25f1aa7d08fae45b930665afeb3e36564e34f",
       "sizeBytes": 12548
+    },
+    {
+      "slug": "insurance-enrollment",
+      "path": "kb/templates/insurance-enrollment.json",
+      "sha256": "8b9f1c9735afc084c56ab2cd9aef9ec9e5ce0c05e20129f77a062bcc4858e012",
+      "sizeBytes": 11297
     },
     {
       "slug": "invoice-blue-application",
@@ -292,6 +322,12 @@
       "sizeBytes": 12897
     },
     {
+      "slug": "professional-application",
+      "path": "kb/templates/professional-application.json",
+      "sha256": "7cefe35d34e44e048554b543a0e82b91172c10bf18f794ce76b83b483a609dd2",
+      "sizeBytes": 6197
+    },
+    {
       "slug": "project-intake-onboarding",
       "path": "kb/templates/project-intake-onboarding.json",
       "sha256": "7c535a8fb86f8b47ab56f2eaf23f0e3c4ec41a2d95d8be8b3bdc3c89d6efbd58",
@@ -358,6 +394,12 @@
       "sizeBytes": 5468
     },
     {
+      "slug": "travel-consultation",
+      "path": "kb/templates/travel-consultation.json",
+      "sha256": "42f9965d23ae4da360a36b23d73d34ce14708a09e1fe353d2eeab810b4b5222c",
+      "sizeBytes": 5758
+    },
+    {
       "slug": "usa-training-course-registration",
       "path": "kb/templates/usa-training-course-registration.json",
       "sha256": "92fa4ae22e47c93713582d4b55bcc93b69c7a8463bf129e5e6c798c9215a45b7",
@@ -392,6 +434,12 @@
       "path": "kb/templates/volunteer-application-euroyouth.json",
       "sha256": "958fd4fb241f40f3ce36879724d457159802bea6feeadf87a44414be4bb1cbd3",
       "sizeBytes": 23469
+    },
+    {
+      "slug": "volunteer-profile",
+      "path": "kb/templates/volunteer-profile.json",
+      "sha256": "e31908033817a6e1c4d1ed126e445f1fe09c537f54e111d7e10e386ef249553c",
+      "sizeBytes": 5957
     },
     {
       "slug": "wellness-patient-intake",
@@ -574,6 +622,11 @@
       "sizeBytes": 7618
     },
     {
+      "path": "kb/TemplateGuides/creative-workshop.guide.md",
+      "sha256": "56f742536f92a9682abb555d0233cf4ce39288869084d1c287f27a2aa272cc8d",
+      "sizeBytes": 3219
+    },
+    {
       "path": "kb/TemplateGuides/cv-registration.facts.json",
       "sha256": "a029744ae6cc4a36b37969899492fd84cb906bb60653faabbfe93b0070c3fafa",
       "sizeBytes": 10030
@@ -614,6 +667,11 @@
       "sizeBytes": 9576
     },
     {
+      "path": "kb/TemplateGuides/elderly-care-donation.guide.md",
+      "sha256": "c0d8daa5b462ce8679fb6cfb3eca8c98f0853ac62d3a100c3125d2105332d145",
+      "sizeBytes": 3258
+    },
+    {
       "path": "kb/TemplateGuides/euro-youth-application.facts.json",
       "sha256": "db4af6fc3f77af0797b5a727b4d474e1b969fde64683abebfc41f4392231eda4",
       "sizeBytes": 11121
@@ -622,6 +680,11 @@
       "path": "kb/TemplateGuides/euro-youth-application.guide.md",
       "sha256": "9195083bdb56c8112c40fe68ab6a18eddf35d522fca55777b2bddf3808e49c37",
       "sizeBytes": 9998
+    },
+    {
+      "path": "kb/TemplateGuides/event-registration-premium.guide.md",
+      "sha256": "b7b908c89de669e7559ac59ae54e4ed1ad1b973025548dbb1cb15a8bf89b63d7",
+      "sizeBytes": 3290
     },
     {
       "path": "kb/TemplateGuides/event-registration-rsvp.facts.json",
@@ -704,6 +767,11 @@
       "sizeBytes": 7928
     },
     {
+      "path": "kb/TemplateGuides/healthcare-intake.guide.md",
+      "sha256": "16f882edd6cb7173632f6c9bc942c16102fd7f4b76fc613186e50d38f46872c7",
+      "sizeBytes": 3204
+    },
+    {
       "path": "kb/TemplateGuides/holiday-request-travel.facts.json",
       "sha256": "3e6bbf2f5a44a2509c46a0f2d8a6d1b4fff0329cb269e6681aa8f5d32ea550d4",
       "sizeBytes": 7838
@@ -722,6 +790,11 @@
       "path": "kb/TemplateGuides/ielts-report-classic.guide.md",
       "sha256": "82122f24aac09d750a41512da06eba893dd341f84e801944f69826dcb6729297",
       "sizeBytes": 8048
+    },
+    {
+      "path": "kb/TemplateGuides/insurance-enrollment.guide.md",
+      "sha256": "6aeeffe251df8e26fe7d5b8220803a181ff5642d79b43696e72684d6f53bc1a0",
+      "sizeBytes": 3250
     },
     {
       "path": "kb/TemplateGuides/invoice-blue-application.facts.json",
@@ -894,6 +967,11 @@
       "sizeBytes": 7311
     },
     {
+      "path": "kb/TemplateGuides/professional-application.guide.md",
+      "sha256": "fb22a2ac1f0256c2705287d6727e0ca0d9f71042ef7fa9914181d1320df03755",
+      "sizeBytes": 3234
+    },
+    {
       "path": "kb/TemplateGuides/project-intake-onboarding.facts.json",
       "sha256": "67dbddabbe494452fa862e9b666c4797a4d43e0e2b2b3eb40e1e433400c63161",
       "sizeBytes": 10507
@@ -1004,6 +1082,11 @@
       "sizeBytes": 6973
     },
     {
+      "path": "kb/TemplateGuides/travel-consultation.guide.md",
+      "sha256": "7f2f3d9029ed03e7472ea884c0c0e956e0baf640d796ad510c0bc890fa128cfd",
+      "sizeBytes": 3214
+    },
+    {
       "path": "kb/TemplateGuides/usa-training-course-registration.facts.json",
       "sha256": "cea815dc28214b5e9394cd9b6d8e3b6338bb02af8ff1640f954087b5bc23ae0e",
       "sizeBytes": 12468
@@ -1062,6 +1145,11 @@
       "path": "kb/TemplateGuides/volunteer-application-euroyouth.guide.md",
       "sha256": "8f285dd0ff601b97dcc3df3b17dfcc59bd1d493088a21215a77af24f5d8cdb4d",
       "sizeBytes": 8188
+    },
+    {
+      "path": "kb/TemplateGuides/volunteer-profile.guide.md",
+      "sha256": "b64f74e003b0bd0a58aafab6db4dddd7078c5757173eb41cfa2c5dc83f38cac2",
+      "sizeBytes": 3206
     },
     {
       "path": "kb/TemplateGuides/wellness-patient-intake.facts.json",

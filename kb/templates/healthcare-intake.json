@@ -1,0 +1,45 @@
+{
+  "kbVersion": 1,
+  "slug": "healthcare-intake",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-healthcare-intake",
+        "Kind": "form_template",
+        "Title": "Wellness Intake",
+        "Summary": "Wellness Intake premium wave form converted from mock route /forms/healthcare-intake. [Category: Premium · 7 fields · uses: Text, Email, Date, Select, Textarea]",
+        "Body": "{\"title\":\"Wellness Intake\",\"description\":\"Wellness Intake premium wave form converted from mock route /forms/healthcare-intake.\",\"category\":\"Premium\",\"icon\":\"\",\"submitButtonText\":\"Continue\",\"successMessage\":\"Your intake has been received securely. A care coordinator will contact you with the next steps.\",\"settings\":{\"theme\":\"custom\"},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"date_of_birth\",\"type\":\"Date\",\"label\":\"Date of birth\",\"required\":false},{\"key\":\"preferred_appointment\",\"type\":\"Select\",\"label\":\"Preferred appointment\",\"placeholder\":\"Choose time\",\"required\":false,\"options\":[{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":\"morning\",\"label\":\"Morning\"},{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":1,\"label\":\"Afternoon\"},{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":2,\"label\":\"Evening\"}]},{\"key\":\"primary_focus\",\"type\":\"Select\",\"label\":\"Primary focus\",\"placeholder\":\"Choose focus\",\"required\":false,\"options\":[{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":\"stress_sleep\",\"label\":\"Stress & sleep\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":1,\"label\":\"Movement\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":2,\"label\":\"Nutrition\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":3,\"label\":\"General wellbeing\"}]},{\"key\":\"emergency_contact\",\"type\":\"Text\",\"label\":\"Emergency contact\",\"placeholder\":\"Name and phone\",\"required\":false},{\"key\":\"support_notes\",\"type\":\"Textarea\",\"label\":\"What would you like support with?\",\"placeholder\":\"Share only what feels useful...\",\"required\":false}]}",
+        "Tags": "form_template,Premium,Premium,fields:7,type-text,type-email,type-date,type-select,type-textarea",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"date_of_birth\",\"type\":\"Date\",\"label\":\"Date of birth\",\"required\":false},{\"key\":\"preferred_appointment\",\"type\":\"Select\",\"label\":\"Preferred appointment\",\"placeholder\":\"Choose time\",\"required\":false,\"options\":[{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":\"morning\",\"label\":\"Morning\"},{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":1,\"label\":\"Afternoon\"},{\"0\":\"Morning\",\"1\":\"Afternoon\",\"2\":\"Evening\",\"value\":2,\"label\":\"Evening\"}]},{\"key\":\"primary_focus\",\"type\":\"Select\",\"label\":\"Primary focus\",\"placeholder\":\"Choose focus\",\"required\":false,\"options\":[{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":\"stress_sleep\",\"label\":\"Stress & sleep\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":1,\"label\":\"Movement\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":2,\"label\":\"Nutrition\"},{\"0\":\"Stress & sleep\",\"1\":\"Movement\",\"2\":\"Nutrition\",\"3\":\"General wellbeing\",\"value\":3,\"label\":\"General wellbeing\"}]},{\"key\":\"emergency_contact\",\"type\":\"Text\",\"label\":\"Emergency contact\",\"placeholder\":\"Name and phone\",\"required\":false},{\"key\":\"support_notes\",\"type\":\"Textarea\",\"label\":\"What would you like support with?\",\"placeholder\":\"Share only what feels useful...\",\"required\":false}],\"settings\":{\"theme\":\"custom\"}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-healthcare-intake",
+        "Kind": "template_guide",
+        "Title": "Wellness Intake",
+        "Summary": "Wellness Intake premium wave form converted from mock route /forms/healthcare-intake.",
+        "Body": "{\"guide_file\":\"healthcare-intake.guide.md\"}",
+        "Tags": "premium,template-guide,Premium",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/healthcare-intake.guide.md",
+      "sha256": "16f882edd6cb7173632f6c9bc942c16102fd7f4b76fc613186e50d38f46872c7",
+      "sizeBytes": 3204
+    }
+  ]
+}

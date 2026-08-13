@@ -1,0 +1,45 @@
+{
+  "kbVersion": 1,
+  "slug": "professional-application",
+  "seed": {
+    "entries": [
+      {
+        "Slug": "gallery-professional-application",
+        "Kind": "form_template",
+        "Title": "Professional Application",
+        "Summary": "Professional Application premium wave form converted from mock route /forms/professional-application. [Category: Premium · 7 fields · uses: Text, Email, Select, Textarea]",
+        "Body": "{\"title\":\"Professional Application\",\"description\":\"Professional Application premium wave form converted from mock route /forms/professional-application.\",\"category\":\"Premium\",\"icon\":\"\",\"submitButtonText\":\"Continue\",\"successMessage\":\"Thank you for sharing your profile. Our team will review your application and follow up soon.\",\"settings\":{\"theme\":\"custom\"},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"role\",\"type\":\"Select\",\"label\":\"Role\",\"placeholder\":\"Choose a role\",\"required\":false,\"options\":[{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":\"designer\",\"label\":\"Designer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":1,\"label\":\"Engineer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":2,\"label\":\"Producer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":3,\"label\":\"Strategist\"}]},{\"key\":\"portfolio_url\",\"type\":\"Text\",\"label\":\"Portfolio URL\",\"placeholder\":\"https://\",\"required\":false},{\"key\":\"availability\",\"type\":\"Select\",\"label\":\"Availability\",\"placeholder\":\"Choose availability\",\"required\":false,\"options\":[{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":\"immediately\",\"label\":\"Immediately\"},{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":1,\"label\":\"Within 1 month\"},{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":2,\"label\":\"Within 3 months\"}]},{\"key\":\"experience_years\",\"type\":\"Select\",\"label\":\"Years of experience\",\"placeholder\":\"Choose range\",\"required\":false,\"options\":[{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":\"1_3_years\",\"label\":\"1-3 years\"},{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":1,\"label\":\"4-7 years\"},{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":2,\"label\":\"8+ years\"}]},{\"key\":\"work_note\",\"type\":\"Textarea\",\"label\":\"A note about your work\",\"placeholder\":\"What would you bring to the team?\",\"required\":false}]}",
+        "Tags": "form_template,Premium,Premium,fields:7,type-text,type-email,type-select,type-textarea",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"placeholder\":\"Your name\",\"required\":true},{\"key\":\"email_address\",\"type\":\"Email\",\"label\":\"Email address\",\"placeholder\":\"you@example.com\",\"required\":true},{\"key\":\"role\",\"type\":\"Select\",\"label\":\"Role\",\"placeholder\":\"Choose a role\",\"required\":false,\"options\":[{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":\"designer\",\"label\":\"Designer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":1,\"label\":\"Engineer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":2,\"label\":\"Producer\"},{\"0\":\"Designer\",\"1\":\"Engineer\",\"2\":\"Producer\",\"3\":\"Strategist\",\"value\":3,\"label\":\"Strategist\"}]},{\"key\":\"portfolio_url\",\"type\":\"Text\",\"label\":\"Portfolio URL\",\"placeholder\":\"https://\",\"required\":false},{\"key\":\"availability\",\"type\":\"Select\",\"label\":\"Availability\",\"placeholder\":\"Choose availability\",\"required\":false,\"options\":[{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":\"immediately\",\"label\":\"Immediately\"},{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":1,\"label\":\"Within 1 month\"},{\"0\":\"Immediately\",\"1\":\"Within 1 month\",\"2\":\"Within 3 months\",\"value\":2,\"label\":\"Within 3 months\"}]},{\"key\":\"experience_years\",\"type\":\"Select\",\"label\":\"Years of experience\",\"placeholder\":\"Choose range\",\"required\":false,\"options\":[{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":\"1_3_years\",\"label\":\"1-3 years\"},{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":1,\"label\":\"4-7 years\"},{\"0\":\"1-3 years\",\"1\":\"4-7 years\",\"2\":\"8+ years\",\"value\":2,\"label\":\"8+ years\"}]},{\"key\":\"work_note\",\"type\":\"Textarea\",\"label\":\"A note about your work\",\"placeholder\":\"What would you bring to the team?\",\"required\":false}],\"settings\":{\"theme\":\"custom\"}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-professional-application",
+        "Kind": "template_guide",
+        "Title": "Professional Application",
+        "Summary": "Professional Application premium wave form converted from mock route /forms/professional-application.",
+        "Body": "{\"guide_file\":\"professional-application.guide.md\"}",
+        "Tags": "premium,template-guide,Premium",
+        "Examples": "",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      }
+    ],
+    "templates": [],
+    "rules": []
+  },
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/professional-application.guide.md",
+      "sha256": "fb22a2ac1f0256c2705287d6727e0ca0d9f71042ef7fa9914181d1320df03755",
+      "sizeBytes": 3234
+    }
+  ]
+}
