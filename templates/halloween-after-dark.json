@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "slug": "halloween-after-dark",
+  "title": "Halloween After Dark",
+  "description": "A moonlit Halloween gathering RSVP with editable party size, costume plans, and accommodation notes.",
+  "category": "Events",
+  "premium": true,
+  "form": {
+    "title": "Halloween After Dark",
+    "description": "A moonlit Halloween gathering RSVP with editable party size, costume plans, and accommodation notes.",
+    "submitButtonText": "Send my RSVP"
+  },
+  "submitButtonText": "Send my RSVP",
+  "successMessage": "Thank you. Your RSVP has been received. Attendance is subject to confirmation by the organizer.",
+  "fields": [
+    {
+      "key": "full_name",
+      "type": "Text",
+      "label": "Full name",
+      "required": true,
+      "placeholder": "Your first and last name"
+    },
+    {
+      "key": "email",
+      "type": "Email",
+      "label": "Email address",
+      "required": true,
+      "placeholder": "you@example.com"
+    },
+    {
+      "key": "party_size",
+      "type": "Select",
+      "label": "Party size",
+      "required": true,
+      "options": [
+        {
+          "value": "1",
+          "label": "1 person"
+        },
+        {
+          "value": "2",
+          "label": "2 people"
+        },
+        {
+          "value": "3",
+          "label": "3 people"
+        },
+        {
+          "value": "4",
+          "label": "4 people"
+        },
+        {
+          "value": "5",
+          "label": "5 people"
+        },
+        {
+          "value": "6",
+          "label": "6 people"
+        }
+      ]
+    },
+    {
+      "key": "costume_plans",
+      "type": "Select",
+      "label": "Costume plans",
+      "required": true,
+      "options": [
+        {
+          "value": "classic",
+          "label": "A spooky classic"
+        },
+        {
+          "value": "unexpected",
+          "label": "Something unexpected"
+        },
+        {
+          "value": "mystery",
+          "label": "Still a mystery"
+        },
+        {
+          "value": "myself",
+          "label": "Coming as myself"
+        }
+      ]
+    },
+    {
+      "key": "note",
+      "type": "Textarea",
+      "label": "Anything we should know?",
+      "required": false,
+      "placeholder": "Dietary needs, accessibility requests, or a little hello…"
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "multiPage": false,
+    "customHtml": "<div class=\"mfp mfp-halloween-after-dark\"><header class=\"mf-brand\">☾ moonlit <span>Gatherings with a little magic</span></header><div class=\"mf-hero\"><img src=\"/Modules/MegaForm/img/holidays/halloween-after-dark/hero.webp\" alt=\"Glowing jack-o’-lanterns and candlelight beneath a full Halloween moon\" width=\"1400\" height=\"700\"><div class=\"mf-cover\"><p class=\"mf-kicker\">An invitation to the unexpected</p><h2>Halloween<br><em>after dark.</em></h2><p>A little mystery. A little magic.<br>Gather your favorite people for a night<br>that’s anything but ordinary.</p><p class=\"mf-date\">October 31 · Come as your alter ego</p></div></div><div class=\"mf-main\"><aside><p class=\"mf-kicker\">The more, the eerier</p><h3>A night worth<br>dressing up for.</h3><p>For the wonderfully strange, the wildly creative, and everyone in between. Bring your spirit. We’ll bring the atmosphere.</p><dl><dt>A little make-believe</dt><dd>Go all out or keep it understated. Every alter ego is welcome.</dd><dt>Good company, strange delights</dt><dd>The best kind of gathering starts with the people around you.</dd><dt>The details, in due time</dt><dd>Your organizer will confirm the time, place, and all the little particulars.</dd></dl><p class=\"mf-signoff\">Something wickedly wonderful awaits.</p></aside><section class=\"mf-fields\"><h3>Join the guest list</h3><div class=\"mf-field-grid\"><div class=\"mf-wide\">{{field:full_name}}</div><div class=\"mf-wide\">{{field:email}}</div><div>{{field:party_size}}</div><div>{{field:costume_plans}}</div><div class=\"mf-wide\">{{field:note}}</div></div><p class=\"mf-disclaimer\">Attendance is subject to confirmation by the organizer.</p><button type=\"submit\" class=\"mf-submit\">Send my RSVP <span aria-hidden=\"true\">→</span></button></section></div><footer>Made for a hauntingly good time. · Moonlit gatherings</footer></div>",
+    "customCss": ".mfp-halloween-after-dark{box-sizing:border-box;max-width:1280px;margin:0 auto;background:#181817;color:#f0eee7;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.7;border:1px solid #3b3b36;border-radius:6px;overflow:hidden}.mfp-halloween-after-dark *{box-sizing:border-box}.mfp-halloween-after-dark .mf-brand{padding:22px 6%;font-family:Georgia,serif;font-size:24px;border-bottom:1px solid #3b3b36}.mfp-halloween-after-dark .mf-brand span{font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#aaa99f;margin-left:12px}.mfp-halloween-after-dark .mf-hero{position:relative;min-height:470px;overflow:hidden;display:flex;align-items:center}.mfp-halloween-after-dark .mf-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.mfp-halloween-after-dark .mf-hero:after{content:\"\";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,15,14,.83),rgba(15,15,14,.08));pointer-events:none}.mfp-halloween-after-dark .mf-cover{position:relative;z-index:1;padding:48px 6%;max-width:650px}.mfp-halloween-after-dark .mf-kicker{color:#f99a46;font-size:11px;text-transform:uppercase;font-weight:700;margin:0 0 20px}.mfp-halloween-after-dark h2{font-family:Georgia,serif;font-size:72px;line-height:1.05;font-weight:400;margin:0 0 22px}.mfp-halloween-after-dark h2 em{color:#f99a46;font-weight:400}.mfp-halloween-after-dark .mf-cover p{font-size:13px}.mfp-halloween-after-dark .mf-date{margin-top:28px;color:#f0eee7}.mfp-halloween-after-dark .mf-main{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;padding:50px 8% 60px}.mfp-halloween-after-dark h3{font-family:Georgia,serif;font-size:36px;line-height:1.2;font-weight:400;margin:0 0 20px}.mfp-halloween-after-dark aside p{color:#aaa99f;font-size:13px}.mfp-halloween-after-dark dl{margin:30px 0}.mfp-halloween-after-dark dt{color:#f0eee7;font-size:13px;margin-top:22px}.mfp-halloween-after-dark dd{margin:6px 0 0;color:#aaa99f;font-size:12px}.mfp-halloween-after-dark .mf-signoff{font-family:Georgia,serif;font-style:italic;font-size:18px}.mfp-halloween-after-dark .mf-fields{min-width:0}.mfp-halloween-after-dark .mf-fields h3{font-size:27px;padding-bottom:20px;border-bottom:1px solid #3b3b36}.mfp-halloween-after-dark .mf-field-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px 16px}.mfp-halloween-after-dark .mf-field-grid div{min-width:0}.mfp-halloween-after-dark .mf-wide{grid-column:1 / -1}.mfp-halloween-after-dark label{display:block;font-size:12px;color:#f0eee7;margin-bottom:8px}.mfp-halloween-after-dark input{max-width:100%;width:100%;min-height:46px;border:1px solid #48483f;background:#222220;color:#f0eee7;border-radius:4px;padding:10px 12px;font:inherit}.mfp-halloween-after-dark select{max-width:100%;width:100%;min-height:46px;border:1px solid #48483f;background:#222220;color:#f0eee7;border-radius:4px;padding:10px 12px;font:inherit}.mfp-halloween-after-dark textarea{max-width:100%;width:100%;min-height:90px;border:1px solid #48483f;background:#222220;color:#f0eee7;border-radius:4px;padding:10px 12px;font:inherit;resize:vertical}.mfp-halloween-after-dark input:focus-visible{outline:3px solid #f99a46;outline-offset:2px}.mfp-halloween-after-dark select:focus-visible{outline:3px solid #f99a46;outline-offset:2px}.mfp-halloween-after-dark textarea:focus-visible{outline:3px solid #f99a46;outline-offset:2px}.mfp-halloween-after-dark .mf-submit:focus-visible{outline:3px solid #f0eee7;outline-offset:3px}.mfp-halloween-after-dark input::placeholder{color:#aaa99f}.mfp-halloween-after-dark textarea::placeholder{color:#aaa99f}.mfp-halloween-after-dark .mf-disclaimer{font-size:11px;color:#aaa99f;margin:22px 0}.mfp-halloween-after-dark .mf-submit{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:49px;background:#f99a46;color:#24190e;border:0;border-radius:4px;padding:12px 20px;font-size:13px;font-weight:700;cursor:pointer}.mfp-halloween-after-dark .mf-submit:hover{background:#ffb16d}.mfp-halloween-after-dark footer{padding:24px 6%;border-top:1px solid #3b3b36;color:#aaa99f;font-size:11px}@media(max-width:768px){.mfp-halloween-after-dark .mf-main{gap:30px;padding:36px 6%}.mfp-halloween-after-dark h2{font-size:60px}.mfp-halloween-after-dark h3{font-size:30px}}@media(max-width:600px){.mfp-halloween-after-dark .mf-brand span{display:none}.mfp-halloween-after-dark .mf-hero{min-height:430px}.mfp-halloween-after-dark .mf-hero img{object-position:65% center}.mfp-halloween-after-dark .mf-main{grid-template-columns:1fr}.mfp-halloween-after-dark h2{font-size:52px}.mfp-halloween-after-dark .mf-field-grid{grid-template-columns:1fr}.mfp-halloween-after-dark .mf-wide{grid-column:auto}.mfp-halloween-after-dark .mf-cover{padding:40px 6%}.mfp-halloween-after-dark dl{margin:20px 0}}"
+  }
+}

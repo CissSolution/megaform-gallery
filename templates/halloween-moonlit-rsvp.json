@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "slug": "halloween-moonlit-rsvp",
+  "title": "Halloween Moonlit RSVP",
+  "description": "A compact Halloween RSVP with pumpkin-and-paper-ghost artwork and editable guest details.",
+  "category": "Events",
+  "premium": true,
+  "form": {
+    "title": "Halloween Moonlit RSVP",
+    "description": "A compact Halloween RSVP with pumpkin-and-paper-ghost artwork and editable guest details.",
+    "submitButtonText": "Send my RSVP"
+  },
+  "submitButtonText": "Send my RSVP",
+  "successMessage": "Thank you. Your RSVP has been received. Attendance is not confirmed until the organizer contacts you.",
+  "fields": [
+    {
+      "key": "full_name",
+      "type": "Text",
+      "label": "Full name",
+      "required": true,
+      "placeholder": "First and last name"
+    },
+    {
+      "key": "email",
+      "type": "Email",
+      "label": "Email address",
+      "required": true,
+      "placeholder": "you@example.com"
+    },
+    {
+      "key": "party_size",
+      "type": "Select",
+      "label": "Party size, including you",
+      "required": true,
+      "options": [
+        {
+          "value": "1",
+          "label": "1 person"
+        },
+        {
+          "value": "2",
+          "label": "2 persons"
+        },
+        {
+          "value": "3",
+          "label": "3 persons"
+        },
+        {
+          "value": "4",
+          "label": "4 persons"
+        },
+        {
+          "value": "5",
+          "label": "5 persons"
+        },
+        {
+          "value": "6",
+          "label": "6 persons"
+        }
+      ]
+    },
+    {
+      "key": "costume_plan",
+      "type": "Select",
+      "label": "Costume plans",
+      "required": false,
+      "options": [
+        {
+          "value": "classic",
+          "label": "A Halloween classic"
+        },
+        {
+          "value": "surprise",
+          "label": "Something unexpected"
+        },
+        {
+          "value": "undecided",
+          "label": "Still deciding"
+        },
+        {
+          "value": "no_costume",
+          "label": "No costume this time"
+        }
+      ]
+    },
+    {
+      "key": "access_note",
+      "type": "Textarea",
+      "label": "Dietary or accessibility requests",
+      "required": false,
+      "placeholder": "Share any requests for the organizer.",
+      "helpText": "Optional. Share only what is needed for this event."
+    }
+  ],
+  "settings": {
+    "theme": "system",
+    "multiPage": false,
+    "customHtml": "<div class=\"mfp mfp-halloween-moonlit-rsvp\">\n<header class=\"form-header\"><img src=\"/Modules/MegaForm/img/holidays/halloween-moonlit-rsvp/hero.webp\" alt=\"Glowing pumpkins and folded paper ghosts under a crescent moon\" width=\"1400\" height=\"700\"><div class=\"form-heading\"><p class=\"form-kicker\">October 31 · Halloween</p><h2>Join the moonlit gathering</h2><p>A little mystery, a little magic. Share your RSVP below.</p></div></header>\n<div class=\"form-fields\"><div class=\"field-slot\">{{field:full_name}}</div><div class=\"field-slot\">{{field:email}}</div><div class=\"field-slot\">{{field:party_size}}</div><div class=\"field-slot\">{{field:costume_plan}}</div><div class=\"field-slot field-wide\">{{field:access_note}}</div></div>\n<div class=\"form-actions\"><button type=\"submit\">Send my RSVP <span aria-hidden=\"true\">→</span></button></div>\n<footer class=\"form-footer\">Your organizer will confirm attendance, time, and location.</footer>\n</div>",
+    "customCss": ".mfp-halloween-moonlit-rsvp{--mf-surface:#142922;--mf-ink:#f3f4ef;--mf-muted:#bbc8c0;--mf-line:#4a6155;--mf-control:#20382d;--mf-action:#ffc08b;--mf-action-ink:#25251f;--mf-focus:#d4c4f5;--mf-error:#ffb4b4;box-sizing:border-box;width:100%;max-width:760px;margin:0 auto;background:var(--mf-surface);color:var(--mf-ink);border:1px solid var(--mf-line);border-radius:8px;overflow:hidden;font-family:system-ui,-apple-system,\"Segoe UI\",sans-serif;font-size:16px;line-height:1.5;letter-spacing:0}\n.mfp-halloween-moonlit-rsvp *{box-sizing:border-box;min-width:0}\n.mfp-halloween-moonlit-rsvp .form-header img{display:block;width:100%;height:168px;object-fit:cover}\n.mfp-halloween-moonlit-rsvp .form-heading{padding:24px 32px 0}\n.mfp-halloween-moonlit-rsvp .form-kicker{margin:0 0 6px;color:var(--mf-action);font-size:12px;font-weight:700;text-transform:uppercase}\n.mfp-halloween-moonlit-rsvp h2{font-family:Georgia,\"Times New Roman\",serif;font-size:32px;font-weight:400;line-height:1.15;margin:0 0 10px;overflow-wrap:anywhere;letter-spacing:0}\n.mfp-halloween-moonlit-rsvp .form-heading p:last-child{margin:0;color:var(--mf-muted);font-size:14px}\n.mfp-halloween-moonlit-rsvp .form-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding:26px 32px 0}\n.mfp-halloween-moonlit-rsvp .field-wide{grid-column:1 / -1}\n.mfp-halloween-moonlit-rsvp .field-slot{overflow-wrap:anywhere}\n.mfp-halloween-moonlit-rsvp .field-slot label{display:block;margin-bottom:8px;font-size:14px;font-weight:600;color:var(--mf-ink)}\n.mfp-halloween-moonlit-rsvp .field-slot input{display:block;width:100%;min-height:46px;border:1px solid var(--mf-line);border-radius:4px;padding:10px 12px;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px}\n.mfp-halloween-moonlit-rsvp .field-slot select{display:block;width:100%;min-height:46px;border:1px solid var(--mf-line);border-radius:4px;padding:10px 12px;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px}\n.mfp-halloween-moonlit-rsvp .field-slot textarea{display:block;width:100%;min-height:88px;resize:vertical;border:1px solid var(--mf-line);border-radius:4px;padding:10px 12px;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px}\n.mfp-halloween-moonlit-rsvp .field-slot input::placeholder{color:var(--mf-muted);opacity:1}\n.mfp-halloween-moonlit-rsvp .field-slot textarea::placeholder{color:var(--mf-muted);opacity:1}\n.mfp-halloween-moonlit-rsvp .field-slot small{display:block;margin-top:6px;color:var(--mf-muted);font-size:12px}\n.mfp-halloween-moonlit-rsvp .field-slot [aria-invalid=\"true\"]{border-color:var(--mf-error)}\n.mfp-halloween-moonlit-rsvp .field-slot [role=\"alert\"]{color:var(--mf-error);font-size:13px;margin-top:6px}\n.mfp-halloween-moonlit-rsvp .field-slot input:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-halloween-moonlit-rsvp .field-slot select:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-halloween-moonlit-rsvp .field-slot textarea:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-halloween-moonlit-rsvp .form-actions{padding:24px 32px 0}\n.mfp-halloween-moonlit-rsvp .form-actions button{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;border:0;border-radius:4px;padding:12px 18px;background:var(--mf-action);color:var(--mf-action-ink);font:inherit;font-weight:700;cursor:pointer}\n.mfp-halloween-moonlit-rsvp .form-actions button:hover{filter:brightness(1.06)}\n.mfp-halloween-moonlit-rsvp .form-actions button:focus-visible{outline:3px solid var(--mf-focus);outline-offset:3px}\n.mfp-halloween-moonlit-rsvp .form-actions button:disabled{opacity:0.65;cursor:wait}\n.mfp-halloween-moonlit-rsvp .form-footer{padding:14px 32px 26px;color:var(--mf-muted);font-size:12px;text-align:center}\n.mfp-halloween-moonlit-rsvp .field-slot [role=\"status\"]{color:var(--mf-ink);overflow-wrap:anywhere}\n@media(max-width:600px){.mfp-halloween-moonlit-rsvp .form-header img{height:124px}.mfp-halloween-moonlit-rsvp .form-heading{padding:20px 20px 0}.mfp-halloween-moonlit-rsvp h2{font-size:28px}.mfp-halloween-moonlit-rsvp .form-fields{grid-template-columns:1fr;padding:22px 20px 0;gap:18px}.mfp-halloween-moonlit-rsvp .form-actions{padding:22px 20px 0}.mfp-halloween-moonlit-rsvp .form-footer{padding:14px 20px 22px}}"
+  }
+}

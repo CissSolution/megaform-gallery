@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "slug": "easter-werkhaus",
+  "title": "Easter Werkhaus",
+  "description": "A Bauhaus-inspired Easter registration with geometric primary-color artwork, ruled structure, and numbered questions.",
+  "category": "Events",
+  "premium": true,
+  "form": {
+    "title": "Easter Werkhaus",
+    "description": "A Bauhaus-inspired Easter registration with geometric primary-color artwork, ruled structure, and numbered questions.",
+    "submitButtonText": "Send registration"
+  },
+  "submitButtonText": "Send registration",
+  "successMessage": "Thank you. Your registration has been received. Your place is not confirmed until the organizer contacts you.",
+  "fields": [
+    {
+      "key": "guardian_name",
+      "type": "Text",
+      "label": "Guardian name",
+      "required": true,
+      "placeholder": "First and last name"
+    },
+    {
+      "key": "guardian_email",
+      "type": "Email",
+      "label": "Guardian email",
+      "required": true,
+      "placeholder": "you@example.com"
+    },
+    {
+      "key": "number_of_children",
+      "type": "Select",
+      "label": "Number of children",
+      "required": true,
+      "options": [
+        {
+          "value": "1",
+          "label": "1 child"
+        },
+        {
+          "value": "2",
+          "label": "2 children"
+        },
+        {
+          "value": "3",
+          "label": "3 children"
+        },
+        {
+          "value": "4",
+          "label": "4 children"
+        },
+        {
+          "value": "5",
+          "label": "5 children"
+        },
+        {
+          "value": "6",
+          "label": "6 children"
+        }
+      ]
+    },
+    {
+      "key": "child_age_group",
+      "type": "Select",
+      "label": "Child age group",
+      "required": true,
+      "options": [
+        {
+          "value": "under_4",
+          "label": "Under 4 years"
+        },
+        {
+          "value": "4_to_6",
+          "label": "4–6 years"
+        },
+        {
+          "value": "7_to_9",
+          "label": "7–9 years"
+        },
+        {
+          "value": "10_plus",
+          "label": "10 years and older"
+        },
+        {
+          "value": "mixed",
+          "label": "More than one age group"
+        }
+      ]
+    },
+    {
+      "key": "accommodation_note",
+      "type": "Textarea",
+      "label": "Allergies or accommodation requests",
+      "required": false,
+      "placeholder": "Share any requests that will help your family take part.",
+      "helpText": "Optional. Please do not include children’s names or dates of birth."
+    }
+  ],
+  "settings": {
+    "theme": "system",
+    "multiPage": false,
+    "customHtml": "<div class=\"mfp mfp-easter-werkhaus\"><header class=\"form-art\"><img src=\"/Modules/MegaForm/img/holidays/easter-werkhaus/hero.webp\" alt=\"Geometric Bauhaus still life with abstract Easter eggs, tulips, and arcs in red, yellow, blue, and warm black on cream paper\" width=\"1400\" height=\"700\"></header><div class=\"form-content\"><div class=\"form-heading\"><p class=\"form-kicker\"><span class=\"kicker-mark\" aria-hidden=\"true\"></span>Easter egg hunt</p><h2>Form follows festivity</h2><p>Register your family to take part.</p></div><div class=\"form-fields\"><div class=\"field-group field-wide\"><span class=\"q-no\" aria-hidden=\"true\">01</span><div class=\"field-slot\">{{field:guardian_name}}</div></div><div class=\"field-group field-wide\"><span class=\"q-no\" aria-hidden=\"true\">02</span><div class=\"field-slot\">{{field:guardian_email}}</div></div><div class=\"field-group\"><span class=\"q-no\" aria-hidden=\"true\">03</span><div class=\"field-slot\">{{field:number_of_children}}</div></div><div class=\"field-group\"><span class=\"q-no\" aria-hidden=\"true\">04</span><div class=\"field-slot\">{{field:child_age_group}}</div></div><div class=\"field-group field-wide\"><span class=\"q-no\" aria-hidden=\"true\">05</span><div class=\"field-slot\">{{field:accommodation_note}}</div></div></div><div class=\"form-actions\"><button type=\"submit\">Send registration<span class=\"btn-mark\" aria-hidden=\"true\">→</span></button></div><footer class=\"form-footer\">Your organizer will confirm your place and event details.</footer></div></div>",
+    "customCss": ".mfp-easter-werkhaus{--mf-surface:#f4f1e8;--mf-ink:#1c1b16;--mf-muted:#5f5a4c;--mf-line:#b8b09c;--mf-control:#fdfcf7;--mf-action:#c22f1e;--mf-action-ink:#ffffff;--mf-focus:#1f4fa3;--mf-error:#8f1d1d;--mf-accent:#e9b32a;--mf-art:#efe7d3;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,0.75fr) minmax(0,1.6fr);gap:0;padding:0;width:100%;max-width:940px;margin:0 auto;border:2px solid var(--mf-ink);border-radius:0;background:var(--mf-surface);box-shadow:12px 12px 0 var(--mf-accent);color:var(--mf-ink);font-family:\"Helvetica Neue\",Helvetica,Arial,system-ui,sans-serif;font-size:16px;line-height:1.5;letter-spacing:0}\n.mfp-easter-werkhaus *{box-sizing:border-box;min-width:0}\n.mfp-easter-werkhaus .form-art{margin:0;position:relative;overflow:hidden;background:var(--mf-art);border-right:2px solid var(--mf-ink)}\n.mfp-easter-werkhaus .form-art img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:38% center}\n.mfp-easter-werkhaus .form-content{padding:30px 32px 28px}\n.mfp-easter-werkhaus .form-kicker{display:flex;align-items:center;gap:9px;margin:0 0 12px;color:var(--mf-action);font-size:12px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase}\n.mfp-easter-werkhaus .kicker-mark{display:inline-block;width:12px;height:12px;background:var(--mf-action)}\n.mfp-easter-werkhaus h2{margin:0 0 8px;font-family:inherit;font-size:34px;font-weight:700;line-height:1.08;letter-spacing:-0.01em;overflow-wrap:anywhere}\n.mfp-easter-werkhaus .form-heading p:last-child{margin:0;color:var(--mf-muted);font-size:14px}\n.mfp-easter-werkhaus .form-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 22px;margin-top:26px;padding-top:24px;border-top:3px solid var(--mf-ink)}\n.mfp-easter-werkhaus .field-wide{grid-column:1 / -1}\n.mfp-easter-werkhaus .field-group{overflow-wrap:anywhere}\n.mfp-easter-werkhaus .q-no{display:block;margin-bottom:8px;color:var(--mf-action);font-size:12px;font-weight:700;letter-spacing:0.1em}\n.mfp-easter-werkhaus .field-slot label{display:block;margin-bottom:8px;font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--mf-ink)}\n.mfp-easter-werkhaus .field-slot small{display:block;margin-top:7px;font-size:12px;color:var(--mf-muted)}\n.mfp-easter-werkhaus .field-slot input{display:block;width:100%;min-height:46px;padding:10px 12px;border:1.5px solid var(--mf-ink);border-radius:0;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px}\n.mfp-easter-werkhaus .field-slot input:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-easter-werkhaus .field-slot input::placeholder{color:var(--mf-muted);opacity:1}\n.mfp-easter-werkhaus .field-slot select{display:block;width:100%;min-height:46px;padding:10px 12px;border:1.5px solid var(--mf-ink);border-radius:0;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px}\n.mfp-easter-werkhaus .field-slot select:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-easter-werkhaus .field-slot textarea{display:block;width:100%;min-height:82px;padding:10px 12px;border:1.5px solid var(--mf-ink);border-radius:0;background:var(--mf-control);color:var(--mf-ink);font:inherit;font-size:16px;resize:vertical}\n.mfp-easter-werkhaus .field-slot textarea:focus-visible{outline:3px solid var(--mf-focus);outline-offset:2px}\n.mfp-easter-werkhaus .field-slot textarea::placeholder{color:var(--mf-muted);opacity:1}\n.mfp-easter-werkhaus .form-actions{margin-top:26px}\n.mfp-easter-werkhaus .form-actions button{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:52px;padding:12px 18px;border:2px solid var(--mf-ink);border-radius:0;background:var(--mf-action);color:var(--mf-action-ink);font:inherit;font-size:13px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;cursor:pointer}\n.mfp-easter-werkhaus .form-actions button .btn-mark{font-size:18px;letter-spacing:0}\n.mfp-easter-werkhaus .form-actions button:hover{filter:brightness(0.92)}\n.mfp-easter-werkhaus .form-actions button:focus-visible{outline:3px solid var(--mf-focus);outline-offset:3px}\n.mfp-easter-werkhaus .form-actions button:disabled{opacity:.65;cursor:wait}\n.mfp-easter-werkhaus .form-footer{margin-top:16px;padding-top:12px;border-top:1px solid var(--mf-line);color:var(--mf-muted);font-size:12px}\n.mfp-easter-werkhaus .field-slot [aria-invalid=\"true\"]{border-color:var(--mf-error)}\n.mfp-easter-werkhaus .field-slot [role=\"alert\"]{color:var(--mf-error);font-size:12px;margin:6px 0 0}\n.mfp-easter-werkhaus [role=\"status\"]{color:var(--mf-ink);overflow-wrap:anywhere}\n@media(max-width:680px){.mfp-easter-werkhaus{grid-template-columns:1fr;box-shadow:8px 8px 0 var(--mf-accent)}.mfp-easter-werkhaus .form-art{height:160px;border-right:0;border-bottom:2px solid var(--mf-ink)}.mfp-easter-werkhaus .form-art img{object-position:center 55%}.mfp-easter-werkhaus .form-content{padding:22px 20px 24px}.mfp-easter-werkhaus h2{font-size:28px}.mfp-easter-werkhaus .form-fields{grid-template-columns:1fr;margin-top:22px;padding-top:20px;gap:18px}}"
+  }
+}

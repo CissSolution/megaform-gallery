@@ -1,6 +1,6 @@
 {
   "repoVersion": 1,
-  "generatedUtc": "2026-08-13T13:31:46.927Z",
+  "generatedUtc": "2026-10-10T02:19:17.931Z",
   "seed": null,
   "templates": [
     {
@@ -130,6 +130,30 @@
       "sizeBytes": 16741
     },
     {
+      "slug": "easter-blossom-atelier",
+      "path": "kb/templates/easter-blossom-atelier.json",
+      "sha256": "5221145226333ae387f9e4955e68b6540b551398738c662233518b877fa7f395",
+      "sizeBytes": 3988
+    },
+    {
+      "slug": "easter-egg-hunt-registration",
+      "path": "kb/templates/easter-egg-hunt-registration.json",
+      "sha256": "068bf9161cdccf49ac42ba6e1477be3d57047c1f605ac801345cb17d6a35c0a3",
+      "sizeBytes": 3950
+    },
+    {
+      "slug": "easter-painted-garden",
+      "path": "kb/templates/easter-painted-garden.json",
+      "sha256": "5d40081c7ef8cf71428f9dc4d9519ebe61c475c25ac7014ce1128495c3dcc68b",
+      "sizeBytes": 3970
+    },
+    {
+      "slug": "easter-werkhaus",
+      "path": "kb/templates/easter-werkhaus.json",
+      "sha256": "3bd4094aefd9c4e625ff57a986223949d70c09254ccaac3d0910df4063e5329e",
+      "sizeBytes": 3960
+    },
+    {
       "slug": "elderly-care-donation",
       "path": "kb/templates/elderly-care-donation.json",
       "sha256": "7d9137153cdbf89383757edbbeedf4188633ca42b04ab54392d370f0167b054d",
@@ -188,6 +212,18 @@
       "path": "kb/templates/golden-pro-agent-registration.json",
       "sha256": "822cef34bf3a8a6d561cd1c2d59a29ebb857c6607f7b45d3ecb9ee8c49ae8e74",
       "sizeBytes": 23078
+    },
+    {
+      "slug": "halloween-after-dark",
+      "path": "kb/templates/halloween-after-dark.json",
+      "sha256": "e1908dfaa581820c56dcc04ce1cf116c0f7bec48ced59919b45f2d304c75aadb",
+      "sizeBytes": 3537
+    },
+    {
+      "slug": "halloween-moonlit-rsvp",
+      "path": "kb/templates/halloween-moonlit-rsvp.json",
+      "sha256": "c7eae75a8954f6325e7882e599820fb7a13aa7123fcb3067a58f93a7f762944d",
+      "sizeBytes": 3709
     },
     {
       "slug": "halloween-party-registration",
