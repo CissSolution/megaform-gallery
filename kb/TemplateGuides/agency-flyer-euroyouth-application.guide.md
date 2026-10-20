@@ -95,13 +95,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "1d76f87585ac11979ddd17b728da14e41443ae831eefcc38dd9958f488bda9e4",
-  "shellSha256": "b8207e6992b6f4a21822fbe765f129d7640f5694e35d9a9bff6f6f4cb4f0979a"
+  "customCssSha256": "d5a1de85885d599e6c24d46c870c70ee94618b07de253c7b8b4c0990e9b8a01e",
+  "shellSha256": "2f0d3de066ad5ad2b75484f84fa8facb49e2109132bf80ac5e37c8c24ceb881f"
 }
 ---
 # AI Edit Guide — EuroYouth Exchange — Agency Flyer Application
 
 Theme `custom` · root `.mfp.mfp-agf.mfp-native-generated` · 15 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-agency-flyer-euroyouth-application` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -183,9 +186,9 @@ _(none)_
   - `--agf-deco`: #29B6F6
   - `--agf-page`: #F8F9FE
   - `--agf-fill`: #F8F9FE
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `1d76f87585ac…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `d5a1de85885d…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `1d76f87585ac1197…` · customHtml shell sha256 stays `b8207e6992b6f4a2…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `d5a1de85885d599e…` · customHtml shell sha256 stays `2f0d3de066ad5ad2…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

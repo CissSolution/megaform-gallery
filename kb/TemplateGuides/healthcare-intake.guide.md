@@ -1,40 +1,126 @@
-# Wellness Intake - MegaForm AI Design Contract
+---
+{
+  "templateGuideSlug": "tpl-healthcare-intake",
+  "slug": "healthcare-intake",
+  "theme": "custom",
+  "rootSelector": ".mfp-mock11.mfp-premium-wave",
+  "tokenStyle": "double",
+  "stepMechanism": "single",
+  "stepAnchor": null,
+  "stepCount": 1,
+  "stepFieldKeys": [],
+  "chipFields": [],
+  "cardFields": [],
+  "contentTokens": [],
+  "colorVars": {},
+  "lockedKeys": [
+    "full_name",
+    "email_address",
+    "date_of_birth",
+    "preferred_appointment",
+    "primary_focus",
+    "emergency_contact",
+    "support_notes"
+  ],
+  "missingFieldPlaceholders": [],
+  "shellTexts": [
+    "AURA HEALTH",
+    "Private care",
+    "Wellness intake",
+    "A calm first step toward a more considered care plan, prepared around your needs.",
+    "01 / of 01",
+    "Your wellbeing",
+    "Full name *",
+    "Email address *",
+    "Date of birth",
+    "Preferred appointment",
+    "Primary focus",
+    "Emergency contact",
+    "What would you like support with?",
+    "Required fields are marked with an asterisk.",
+    "Your information stays private.",
+    "Continue"
+  ],
+  "allowedOps": [
+    "set_form_meta",
+    "set_field_property",
+    "set_html_text",
+    "add_field",
+    "remove_field"
+  ],
+  "forbiddenOps": [
+    "replace_form_schema",
+    "set customHtml/customCss/theme"
+  ],
+  "immutable": [
+    "customHtml structure (tag tree + classes)",
+    "customCss (byte-invariant)",
+    "settings.theme",
+    "field keys"
+  ],
+  "customCssSha256": "ab931ae832040cb56482545c3d87d9a7283db9ce31e691772d68f00ad2dbb7cb",
+  "shellSha256": "ac7561edc56ff39bf0646e9ba7c75789ced37feb399a52968f8d500ea910c052"
+}
+---
+# AI Edit Guide — Wellness Intake
 
-Source mock route: /forms/healthcare-intake
-Template slug: healthcare-intake
-Root selector: `.mfp-premium-wave`
+Theme `custom` · root `.mfp-mock11.mfp-premium-wave` · 7 fields · 1 steps (single).
 
-## Non-negotiable design rail
+Embedding: retain the unique `mf-template-healthcare-intake` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
 
-- Preserve `settings.customHtml` structure and `settings.customCss` scope selectors.
-- Do not replace `.mfp-premium-wave`, wrapper class names, CSS variable names, hero image URLs, section containers, decorative/static table markup, dashed dividers, wave shape, or submit button class.
-- Do not invent CSS, SVG, emoji icons, external image URLs, gradients, placeholder artwork, or FontAwesome names.
-- CSS and icons are not creative output. They are locked assets copied from the mock and MegaForm catalog. AI may only reuse existing selectors, variables, image URLs, and icon names listed here.
-- Row/table-like user inputs must stay native MegaForm widgets such as `DataGrid`; never replace editable rows with fake HTML tables or `aria-hidden` markup.
-- Keep the full-bleed root rail: `.mfp-mock11.mfp-mock11` must remain `width:100vw` with negative 50vw margins so DNN/Oqtane host panes cannot compress the mock layout.
-- Any AI edit must leave `settings.templateGuideSlug` pointing to `tpl-healthcare-intake`.
-- Rich choice controls must use MegaForm native `Cards` / `Chips` or `optionDisplay:"cards|chips"`.
-- Option icons must come from MegaForm's mock rich-choice catalog only: ticket, shield, calendar-days, map-pin, clock, user, users, mail, phone, briefcase, file-text, wallet, home, compass, waves, mountain, heart-handshake, heart, flower2, party-popper, cake, utensils, wine, salad, pizza, ice-cream, palette, code, megaphone, music, camera, dumbbell, plane, crown, zap, star, sparkles, send, clipboard-list.
-- AI may write labels, placeholders, option labels, descriptions, badges, validation, rules, and success copy. AI must not author new styling.
 
-## Locked areas
+## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
+This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
+- `set_form_meta` — title, description, submitButtonText, successMessage, `customContent.<token>`, or `themeCssOverrides` (color only).
+- `set_field_property` — label / placeholder / required / options (on an EXISTING key).
+- `add_field` — append a new field (the dispatcher injects its `{{field:KEY}}` into the right panel).
+- `remove_field` — delete a field + its token.
+NEVER emit `customHtml`, `customCss`, `theme`, or `replace_form_schema` for this form. NEVER rename a key in `lockedKeys`. Emit `designDecision:"preserve"` on every op.
 
-- customHtml shell, wrapper classes and semantic section blocks
-- editable row/table controls represented by native MegaForm fields such as DataGrid
-- customCss selectors, dimensions, colors, borders, shadows and responsive breakpoints
-- hero/image URLs and FontAwesome/mock-catalog icon names
+## Field map
+| key | type | display | step | options |
+|-----|------|---------|------|---------|
+| full_name | Text | input | - |  |
+| email_address | Email | input | - |  |
+| date_of_birth | Date | input | - |  |
+| preferred_appointment | Select | choice | - | 3 |
+| primary_focus | Select | choice | - | 4 |
+| emergency_contact | Text | input | - |  |
+| support_notes | Textarea | input | - |  |
 
-## Editable areas
+## Content tokens ({{content:*}} — editable text shown in the shell)
+_(none — this template has no {{content:*}} tokens)_
 
-- field labels, placeholders, required flags and validation rules
-- choice option labels, values, descriptions, meta and badges
-- success message, submit button text and business copy
+## Editable shell text (hardcoded headings/labels — change via set_html_text, NOT customHtml)
+Some visible text (hero heading, step labels, section/field captions) is baked into customHtml as plain text, NOT a field.label or token. To rebrand it, emit set_html_text with the EXACT current string (from this list) — it does a text-only swap that keeps the tag tree + CSS byte-identical:
+- "AURA HEALTH"
+- "Private care"
+- "Wellness intake"
+- "A calm first step toward a more considered care plan, prepared around your needs."
+- "01 / of 01"
+- "Your wellbeing"
+- "Full name *"
+- "Email address *"
+- "Date of birth"
+- "Preferred appointment"
+- "Primary focus"
+- "Emergency contact"
+- "What would you like support with?"
+- "Required fields are marked with an asterisk."
+- "Your information stays private."
+- "Continue"
 
-## Safe edit recipe
+## Formulas (fill the slots — never change the op shape)
+- **C1 Change content/title**: form title `{op:"set_form_meta", title:"New title", designDecision:"preserve"}`; a field's editable label `{op:"set_field_property", key:"<key>", path:"label", value:"New label", designDecision:"preserve"}`; a {{content:*}} token `{op:"set_form_meta", customContent:{"<token>":"New text"}, designDecision:"preserve"}`; **a hardcoded shell heading/caption** `{op:"set_html_text", find:"<exact current text from the list above>", replace:"New text", designDecision:"preserve"}` (text-only swap; never include HTML tags in find/replace).
+- **C6 Edit CHIP options** (fields: none): `{op:"set_field_property", key:"<chipFieldKey>", path:"options", value:[{"value":"v1","label":"Label 1"},…], designDecision:"preserve"}`. Keep the field's `optionDisplay:"chips"` — set ONLY options. The chip look (`.mf-option-group--chips`) is in customCss and stays.
+- **C7 Edit CARD options** (fields: none): `{op:"set_field_property", key:"<cardFieldKey>", path:"options", value:[{"value":"v1","label":"Title","meta":"Subtitle","description":"…"},…], designDecision:"preserve"}`. Keep `optionDisplay:"cards"`. Card chrome (`.mf-option-group--cards`) stays. ⚠ ICONS — do NOT invent, change, or remove icons: MegaForm's rich-choice catalog/theme owns icon assignment. If an option ALREADY has an `icon`, keep it byte-for-byte; if it has none, OMIT the `icon` field (never emit a plain descriptive word like "city"/"beach" — it renders as literal text). Edit ONLY `label`/`meta`/`description`/`value`.
+- **C2 Add field**: `{op:"add_field", type:"Text", key:"new_key", label:"…", step:0, designDecision:"preserve"}` — the dispatcher inserts `{{field:new_key}}` into the matching `panel` block. Pick a snake_case key not already used.
+- **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
+- **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
+  - _(none detected — fall back to --primary/--accent)_
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `ab931ae83204…`).
+- **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
-1. Inspect the form first and confirm it is custom-shell mode with `.mfp-premium-wave`.
-2. For copy or business changes, update `fields[].label`, `fields[].placeholder`, `fields[].options[].label`, `fields[].options[].description`, `settings.successMessage`, and validation/rules only.
-3. For choices with 6 or fewer options, keep single choice as `Cards`; keep multi-select tags/interests/preferences as `Chips`.
-4. If a color must change, append CSS variables or token overrides inside `.mfp-premium-wave` only; never replace the full CSS.
-5. If an image must change, choose an existing asset from `/DesktopModules/MegaForm/Assets/img/mock/` or a registered MegaForm media asset; do not use random remote URLs.
-6. After edits, run visual QA at desktop and mobile and compare against the mock route above.
+## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
+- customCss sha256 stays `ab931ae832040cb5…` · customHtml shell sha256 stays `ac7561edc56ff39b…` (unless C2/C4 legitimately add a node).
+- `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

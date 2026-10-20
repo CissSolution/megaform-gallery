@@ -279,23 +279,23 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp.mfp-floral-youth .mf-option-group--chips",
-    ".mfp.mfp-floral-youth .mf-option-item--chips",
-    ".mfp.mfp-floral-youth .mf-option-item--chips .mf-option-ui",
-    ".mfp.mfp-floral-youth .mf-option-item--chips .mf-option-icon",
-    ".mfp.mfp-floral-youth .mf-option-item--chips .mf-option-desc",
-    ".mfp.mfp-floral-youth .mf-option-item--chips .mf-option-badge",
-    ".mfp.mfp-floral-youth .mf-option-item--chips .mf-option-label"
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-group--chips",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips .mf-option-ui",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips .mf-option-icon",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips .mf-option-desc",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips .mf-option-badge",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp-floral-youth .ey-card",
-    ".mfp.mfp-floral-youth .mf-option-group--cards",
-    ".mfp.mfp-floral-youth .mf-option-item--cards",
-    ".mfp.mfp-floral-youth .mf-option-item--cards .mf-option-ui",
+    ".mf-template-floral-youth-application .mfp-floral-youth .ey-card",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-group--cards",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--cards",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-item--cards .mf-option-ui",
     ".mf-option-item--cards .mf-option-ui",
     ".mf-option-group--cards",
-    ".mfp.mfp-floral-youth .mf-option-group--cards .mf-option-item",
-    ".mfp.mfp-floral-youth .mf-option-group--cards .mf-option-ui"
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-group--cards .mf-option-item",
+    ".mf-template-floral-youth-application .mfp.mfp-floral-youth .mf-option-group--cards .mf-option-ui"
   ],
   "colorVars": {
     "--fy-lav-ink": "#7a5a8c",
@@ -376,8 +376,9 @@
     "Continue &rarr;",
     "Submit application &check;"
   ],
-  "cssClassCount": 66,
+  "cssClassCount": 92,
   "cssClasses": [
+    "mf-template-floral-youth-application",
     "mfp",
     "mfp-floral-youth",
     "ey-shell",
@@ -443,14 +444,39 @@
     "ey-next",
     "ey-submit",
     "ey-footer",
-    "mf-form-actions"
+    "mf-form-actions",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "a48565760614def3ff8a44228292e9b15e39939275c794b7a75bd4a01cbf8a80",
-    "customHtmlSha256": "512e89df9c375d506644736a26dcfc8857a102a027aafc56bd76d49860d1f467",
-    "shellSha256": "77af058b3ac6f3bf7a52edd48de9bab85d925c9e271a1503afabe2b19294a611"
+    "customCssSha256": "f9ea2c10e80c7c7b972fbc82b8b4583bcbfb73f6be47eaeee1039e61e6660a8c",
+    "customHtmlSha256": "4d2345309ee0079e4bbae47f7030d822c30ba162802bc9f6cbfc35fdcaa62a68",
+    "shellSha256": "b072357365229cb87f66114e954e7657463bc924086cf39b760391bfb016903f"
   },
   "counts": {
     "fields": 20,

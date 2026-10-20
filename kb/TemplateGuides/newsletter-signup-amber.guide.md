@@ -50,13 +50,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "8a16bedccc4ded2a683fc9f5e8b3a918c12b45fcc85c4d0a02cf140eae96d132",
-  "shellSha256": "b310e12978d564c1f4cc81dcfa0105133acbdbeca07ff2593280ea053a8a57e3"
+  "customCssSha256": "d56929f43b7285e1174e42a91f143f6766ad0d06a10a72703b462e8b2f1f857c",
+  "shellSha256": "bdac170c4cfbe0d6e08c7e102220e77cf8ba070df27661ed354ec31ca3b00998"
 }
 ---
 # AI Edit Guide — Newsletter Signup
 
 Theme `custom` · root `.mfp.mfp-nlt.mfp-native-generated` · 3 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-newsletter-signup-amber` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -97,9 +100,9 @@ _(none)_
   - `--nlt-deco`: #F97316
   - `--nlt-page`: #FFFBEB
   - `--nlt-fill`: #FFFBEB
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `8a16bedccc4d…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `d56929f43b72…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `8a16bedccc4ded2a…` · customHtml shell sha256 stays `b310e12978d564c1…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `d56929f43b7285e1…` · customHtml shell sha256 stays `bdac170c4cfbe0d6…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -271,14 +271,14 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mf-form-wrapper .mf-option-group--chips",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-item",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-ui",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper.mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper .mfp.mfp-coachella .mf-option-group--chips"
+    ".mf-option-group--chips",
+    ".mf-option-group--chips .mf-option-item",
+    ".mf-option-group--chips .mf-option-ui",
+    ".mf-option-group--chips .mf-option-label",
+    ".mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
+    ".mf-template-glass-course-mentor-application .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
+    ".mf-template-glass-course-mentor-application .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
+    ".mfp.mfp-coachella .mf-option-group--chips"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -315,8 +315,9 @@
   "shellTexts": [
     "Submit Application"
   ],
-  "cssClassCount": 128,
+  "cssClassCount": 158,
   "cssClasses": [
+    "mf-template-glass-course-mentor-application",
     "mfp",
     "rose-festival",
     "rose-petals",
@@ -435,15 +436,14 @@
     "aur-section",
     "aur-collection-section",
     "aur-newsletter",
-    "aur-actions",
-    "aur-footer-note"
+    "aur-actions"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "76e0d025ed35e012c466de9121709921c50f7d1e7ba19f6959c550b056cf481d",
-    "customHtmlSha256": "256e276b07d2ad648ec15db37d5e4a7afffdee1b00e22e836543386f47bd631b",
-    "shellSha256": "814dbe2ac74f3ef364c5432bd45abfe99ca904d7ee2f910891961433b2f756f1"
+    "customCssSha256": "21c36cf553346b181f49fd18f008b0f2c323c1ea3c95d6b0fdd1c2b6c55730ec",
+    "customHtmlSha256": "8b60007173bc6641a2a90e9e9a894754ca663381baad0ab076a8b63c14d6d305",
+    "shellSha256": "26b79c7970bbc89281dfda289fc8af7e79f53e0c37d6c2815a7c309002b45bd4"
   },
   "counts": {
     "fields": 22,

@@ -138,15 +138,18 @@
     "section_contact",
     "footer_note"
   ],
-  "scriptTokens": [],
+  "scriptTokens": [
+    "auto_carousel_slider"
+  ],
   "formTokens": [
     "title",
     "description",
     "submit"
   ],
   "shellTexts": [],
-  "cssClassCount": 72,
+  "cssClassCount": 102,
   "cssClasses": [
+    "mf-template-american-auto-dealership-2026",
     "mfp",
     "auto-dealership",
     "auto-ambient",
@@ -218,14 +221,43 @@
     "mf-option-item",
     "mf-option-control",
     "mfp-halloween",
-    "mf-option-label"
+    "mf-option-label",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "66214d1fb4cf404fef091c6b3a6578f0808679330d9a991fd3b73e709d7d94ff",
-    "customHtmlSha256": "c189afb1efb3f92b4c0bee7a46fb7c930f789d5156eacfdd299da6990801f5a5",
-    "shellSha256": "f3add39aa406fcb045d524618109dd5dfdf3e041e9e973bfd9f7b8d7c994c3ae"
+    "customCssSha256": "334bed09cb0f9fba1adc580205990c1b228d2f90c44bf16bee2a9afd792bf259",
+    "customHtmlSha256": "4c8ecb71208efaf2777820727d9ea3a05dd50b91812ee4273c7a788687a4dfa4",
+    "shellSha256": "2dff66fb993c6c7ff41de618b7477f85d373c6ab7a06f553ed7e5e6c281c473d"
   },
   "counts": {
     "fields": 6,

@@ -76,13 +76,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "8f1b61d129d0a69b8d061bbce56a2dc06bb144eb971e78bcd60c27d6d6e8442a",
-  "shellSha256": "de7ce17cff2b576212f5882c19e8ffb3b25d53de60829298b4350dddca937907"
+  "customCssSha256": "0a122b0f772bc6010a7a9d3f14cd7f2a76b16949b7ca36b25fa636a34bc83478",
+  "shellSha256": "e562dcb2b42ef939868ec72ef7fe98093d89bd2b5fe3702492f462c64b741ef9"
 }
 ---
 # AI Edit Guide — Kawaii Diary Application
 
 Theme `system` · root `.mfp.mfp-kawaii-diary.mfp-native-generated` · 18 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-kawaii-diary` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -147,9 +150,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--kw-input`: #fff
   - `--kw-soft`: #eaf8fd
   - `--kw-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `8f1b61d129d0…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `0a122b0f772b…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `8f1b61d129d0a69b…` · customHtml shell sha256 stays `de7ce17cff2b5762…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `0a122b0f772bc601…` · customHtml shell sha256 stays `e562dcb2b42ef939…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

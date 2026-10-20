@@ -10,7 +10,21 @@
         "Summary": "An artistic, borderless Easter registration with curved watercolor artwork and a fresh coral-and-aqua palette. [Category: Events · 5 fields · uses: Text, Email, Select, Textarea]",
         "Body": "{\"title\":\"Easter Painted Garden\",\"description\":\"An artistic, borderless Easter registration with curved watercolor artwork and a fresh coral-and-aqua palette.\",\"category\":\"Events\",\"icon\":\"\",\"submitButtonText\":\"Send registration\",\"successMessage\":\"Thank you. Your registration has been received. Your place is not confirmed until the organizer contacts you.\",\"settings\":{\"theme\":\"system\",\"multiPage\":false},\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}]}",
         "Tags": "form_template,Events,Events,fields:5,type-text,type-email,type-select,type-textarea",
-        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0.1\",\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-easter-painted-garden",
+        "Kind": "template_guide",
+        "Title": "Easter Painted Garden",
+        "Summary": "An artistic, borderless Easter registration with curved watercolor artwork and a fresh coral-and-aqua palette.",
+        "Body": "{\"guide_file\":\"easter-painted-garden.guide.md\"}",
+        "Tags": "premium,template-guide,Events",
+        "Examples": "",
         "PortalId": null,
         "Source": "megaform-builtin",
         "WidgetType": "",
@@ -21,5 +35,16 @@
     "templates": [],
     "rules": []
   },
-  "resources": []
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/easter-painted-garden.guide.md",
+      "sha256": "d85dee87f1ae567f029d6ea0ae822eb9cc122426b9872b55ccb07c57874667e9",
+      "sizeBytes": 7277
+    },
+    {
+      "path": "kb/TemplateGuides/easter-painted-garden.facts.json",
+      "sha256": "92b24280c8180f5a1e22971f9343d61f1ac0e82b313f9b25f3d43a0f5fca5a70",
+      "sizeBytes": 4192
+    }
+  ]
 }

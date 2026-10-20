@@ -184,21 +184,21 @@
     "programme"
   ],
   "chipSelectors": [
-    ".mfp.mfp-xnl.mfp-native-generated .xnl-chips",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-check",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-label"
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .xnl-chips",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-check",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp.mfp-xnl.mfp-native-generated .xnl-card",
-    ".mfp.mfp-xnl.mfp-native-generated .xnl-programme",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-item",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-check",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-ui",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-copy",
-    ".mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-icon"
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .xnl-card",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .xnl-programme",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-item",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-check",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-ui",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-copy",
+    ".mf-template-xmas-newsletter-euroyouth-application .mfp.mfp-xnl.mfp-native-generated .mf-option-group--cards .mf-option-icon"
   ],
   "colorVars": {
     "--xnl-primary": "#C41E3A",
@@ -252,8 +252,9 @@
     "🗣️",
     "🌿"
   ],
-  "cssClassCount": 93,
+  "cssClassCount": 125,
   "cssClasses": [
+    "mf-template-xmas-newsletter-euroyouth-application",
     "mfp",
     "mfp-xnl",
     "mfp-native-generated",
@@ -346,14 +347,40 @@
     "xnl-grid",
     "xnl-main",
     "xnl-hero-in",
-    "mf-has-date-popover"
+    "mf-has-date-popover",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "afe3ca2b71110ae3784bff39e267cba39b3f898301bc28cc3bf7bc93dacda943",
-    "customHtmlSha256": "03498af7ec5d2c8872b2fad6acec131a2c03e22916607d8f58be07ca279d8798",
-    "shellSha256": "9d158670588e86e3a27db669979d2c7eb99f1adf73d8f878623853d992d33608"
+    "customCssSha256": "a7ec9ffb0d343c62a0545dfea7a7453cfefb453215025eebabbb523a81e837e2",
+    "customHtmlSha256": "9095c57dbf1e72e535af3d102ee7e449c282d701eb5a81ec2b5769ad6d8bd821",
+    "shellSha256": "dfd8b258df173149b40e04c675573c6c9f4fb5002b0867ab2176a6a9fa366939"
   },
   "counts": {
     "fields": 15,

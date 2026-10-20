@@ -67,13 +67,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "4f3ee355220d7746a8d0445a68c8de5fa5e884ba73cba97f7fd7eeff8fa279bf",
-  "shellSha256": "33dde875e60abe4a745ed6c8ce289c775650058b2d9b091e1668319dce94589b"
+  "customCssSha256": "1815e87dc65a68cc2cd31311fb9b50e3f011c4a1610e231c9040240ef0bf2a14",
+  "shellSha256": "0a4ea36d9790d63be0b72f1140710fa5f018d129ebf940a482f1f629c9af79e6"
 }
 ---
 # AI Edit Guide — Sticky Spark Creative Brief
 
 Theme `playful` · root `.mfp.mfp-sticky-spark` · 15 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-sticky-spark-creative-brief` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -129,9 +132,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--paper`: #fffdf6
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4f3ee355220d…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `1815e87dc65a…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `4f3ee355220d7746…` · customHtml shell sha256 stays `33dde875e60abe4a…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `1815e87dc65a68cc…` · customHtml shell sha256 stays `0a4ea36d9790d63b…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `playful`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

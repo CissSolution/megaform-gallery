@@ -86,13 +86,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "69ac013ff90c51ab1c938bd3128bc6f10899050466ada62fbf5be565aaf5d878",
-  "shellSha256": "d5be6ff21053812cdae5998d7918e4d13b8b2a6a4dba57d2dac5d07f6f2687c4"
+  "customCssSha256": "9c5193ab6fc05ebb09b113919930e7b62f65f3aeb99ee0159673c7756a352d2c",
+  "shellSha256": "e2518c0c303a8a790f3cd0112a968ee2ed70a13200170e904ccd731cc9c376bc"
 }
 ---
 # AI Edit Guide — Volunteer Application Form
 
 Theme `volunteer-application-premium` · root `.mfp.mfp-vol.mfp-native-generated` · 17 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-volunteer-application-euroyouth` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -165,9 +168,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `69ac013ff90c…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `9c5193ab6fc0…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `69ac013ff90c51ab…` · customHtml shell sha256 stays `d5be6ff21053812c…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `9c5193ab6fc05ebb…` · customHtml shell sha256 stays `e2518c0c303a8a79…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `volunteer-application-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

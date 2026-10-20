@@ -71,13 +71,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "bede8c388e39ffc3dfe172bcc83b46db68bc7de4016272ed86872ec8f57320f9",
-  "shellSha256": "4837db51137c4e6601207a8ad8ef50a702d29d7275fd377d61f135928502abb7"
+  "customCssSha256": "d12b60db1f330d5d6eb24e3bc72275bb83a80ca5bd04cc27b8135dac221b3a9c",
+  "shellSha256": "e1eea0d09211fc1a715d85c7475c80d9d41ba990c6e7f85128af5d10fcb2f821"
 }
 ---
 # AI Edit Guide — Vous Etes Invite
 
 Theme `french-elegant` · root `.mfp.fr-inv` · 10 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-french-invitation-2026` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -139,9 +142,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--fr-champagne`: #e8e2d9
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `bede8c388e39…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `d12b60db1f33…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `bede8c388e39ffc3…` · customHtml shell sha256 stays `4837db51137c4e66…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `d12b60db1f330d5d…` · customHtml shell sha256 stays `e1eea0d09211fc1a…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `french-elegant`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

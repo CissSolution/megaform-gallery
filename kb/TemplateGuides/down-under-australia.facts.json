@@ -280,19 +280,19 @@
     "budget"
   ],
   "chipSelectors": [
-    ".mfp-australia .mf-option-group--chips",
-    ".mfp-australia .mf-option-group--chips .mf-option-item",
-    ".mfp-australia .mf-option-group--chips .mf-option-ui",
-    ".mfp-australia .au-pill-field .mf-option-group--chips .mf-option-ui"
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--chips",
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--chips .mf-option-item",
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--chips .mf-option-ui",
+    ".mf-template-down-under-australia .mfp-australia .au-pill-field .mf-option-group--chips .mf-option-ui"
   ],
   "cardSelectors": [
-    ".mfp-australia .mf-option-group--cards",
-    ".mfp-australia .au-purpose-field .mf-option-group--cards",
-    ".mfp-australia .au-budget-field .mf-option-group--cards",
-    ".mfp-australia .mf-option-group--cards .mf-option-control",
-    ".mfp-australia .mf-option-group--cards .mf-option-item",
-    ".mfp-australia .mf-option-group--cards .mf-option-ui",
-    ".mf-form-wrapper .mfp-australia .mf-option-group--cards .mf-option-check.mf-option-check"
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--cards",
+    ".mf-template-down-under-australia .mfp-australia .au-purpose-field .mf-option-group--cards",
+    ".mf-template-down-under-australia .mfp-australia .au-budget-field .mf-option-group--cards",
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--cards .mf-option-control",
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--cards .mf-option-item",
+    ".mf-template-down-under-australia .mfp-australia .mf-option-group--cards .mf-option-ui",
+    ".mfp-australia .mf-option-group--cards .mf-option-check.mf-option-check"
   ],
   "colorVars": {},
   "contentTokens": [],
@@ -360,8 +360,9 @@
     "Name",
     "&mdash;"
   ],
-  "cssClassCount": 92,
+  "cssClassCount": 124,
   "cssClasses": [
+    "mf-template-down-under-australia",
     "mfp",
     "mfp-australia",
     "mf-form-wrapper",
@@ -453,14 +454,41 @@
     "mf-postsubmit-actions",
     "mf-review-actions",
     "au-success-shell",
-    "mf-postsubmit-pane"
+    "mf-postsubmit-pane",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "e0b4a33a8148b4978d6d1acdf83e67132826e1fdf456d27de6bc600f534df808",
-    "customHtmlSha256": "42f3cb983e623144820cce71bc92fc01394aae47f7acdb7f05de6496fcfe2a98",
-    "shellSha256": "16573c4b1a88814f695305de806c5c2d903b21b690021f362a2a32357ef951dc"
+    "customCssSha256": "07a18b654136135f3b53fe42c46d071d574e3cc055e4f0998d4bc93ef676b876",
+    "customHtmlSha256": "fc076974bbba6d7ba96e506eac7ebd33c22df0db4eb52b0a0c6848e5847eeea1",
+    "shellSha256": "f122336e33b8dc72cc8455c50ad2f6411609a83303d6ad92c6e2431f11ed25ad"
   },
   "counts": {
     "fields": 20,

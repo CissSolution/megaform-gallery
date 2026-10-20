@@ -45,13 +45,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "0552c1a4ceca5d031ac0f92689911d7924d755f75a2d18fa5c4977254054ca59",
-  "shellSha256": "41ebcdb7994a66f6bd19014504a1d523cf7be747315208df5c8a3579085d9d1d"
+  "customCssSha256": "1b28fa43a8b7db030f023e58f4d129b34eacba217202cecf6cfd42160bc61ef1",
+  "shellSha256": "a74a7bc4d59a5b52c9dbd886ff5b4bb08e9ff692bb0b07d70359536f96ce111b"
 }
 ---
 # AI Edit Guide — Member Login
 
 Theme `custom` · root `.mfp.mfp-member-login.mfp-native-generated` · 0 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-member-login` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -91,9 +94,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `0552c1a4ceca…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `1b28fa43a8b7…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `auth_wire`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `0552c1a4ceca5d03…` · customHtml shell sha256 stays `41ebcdb7994a66f6…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `1b28fa43a8b7db03…` · customHtml shell sha256 stays `a74a7bc4d59a5b52…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

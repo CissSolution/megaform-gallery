@@ -130,13 +130,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "6fbfc36edb41e06c59268bce2ade4a690781d3f18773a484b54dbda270c7c376",
-  "shellSha256": "819d0be8b2a0838a53e707021d57128a8b0f43261b4ec220e98f6d448490959d"
+  "customCssSha256": "e73488963ba075643aef36f3e3cab685be690f096df4b4bd54374fdbe6585c43",
+  "shellSha256": "e6fd8a9989755bb50f1c0347ed2c63536a80d4c8df99bf59f98db6a73673e0a3"
 }
 ---
 # AI Edit Guide — Event Registration & RSVP
 
 Theme `system` · root `.mfp.mfp-event-registration-rsvp.mfp-native-generated` · 24 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-event-registration-rsvp` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -216,9 +219,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--mf-primary-light`: #fef3e0
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `6fbfc36edb41…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `e73488963ba0…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `6fbfc36edb41e06c…` · customHtml shell sha256 stays `819d0be8b2a0838a…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `e73488963ba07564…` · customHtml shell sha256 stays `e6fd8a9989755bb5…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -128,13 +128,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "1af0575be697251a7558b9a4d38a637554f5b3f2d64438deb540fcb9d02537dd",
-  "shellSha256": "89686ae1654010c1b6432e77734268e17cd3c6661c2f92fd627d9e6b2d157faa"
+  "customCssSha256": "4e189aaf12d6c4b46ce854b6ad078764dfb6f168bb97ea02396ea009e582d9cc",
+  "shellSha256": "dd14a8348f619316286556a15fdc9267049964545afd2e8563b141546e6628e6"
 }
 ---
 # AI Edit Guide — Style Consultation
 
 Theme `aurora-fashion` · root `.mfp.aur-form` · 13 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-aurora-style-consultation-2026` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -253,9 +256,9 @@ _(none)_
   - `--aur-gold-dk`: #9a7838
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `1af0575be697…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4e189aaf12d6…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `1af0575be697251a…` · customHtml shell sha256 stays `89686ae1654010c1…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `4e189aaf12d6c4b4…` · customHtml shell sha256 stays `dd14a8348f619316…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `aurora-fashion`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -220,15 +220,15 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp-dcp .mf-option-group--chips .mf-option-check",
-    ".mfp-dcp .mf-option-group--chips",
-    ".mfp-dcp .mf-option-group--chips .mf-option-ui"
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--chips .mf-option-check",
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--chips",
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--chips .mf-option-ui"
   ],
   "cardSelectors": [
-    ".mfp-dcp .dcp-card",
-    ".mfp-dcp .mf-option-group--cards",
-    ".mfp-dcp .mf-option-group--cards .mf-option-item",
-    ".mfp-dcp .mf-option-group--cards .mf-option-ui"
+    ".mf-template-dance-competition-registration .mfp-dcp .dcp-card",
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--cards",
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--cards .mf-option-item",
+    ".mf-template-dance-competition-registration .mfp-dcp .mf-option-group--cards .mf-option-ui"
   ],
   "colorVars": {},
   "contentTokens": [],
@@ -263,8 +263,9 @@
     "Terms",
     "Submit Registration"
   ],
-  "cssClassCount": 39,
+  "cssClassCount": 71,
   "cssClasses": [
+    "mf-template-dance-competition-registration",
     "mfp",
     "mfp-dcp",
     "dcp-card",
@@ -303,14 +304,45 @@
     "mf-option-group",
     "mf-form-title",
     "mf-form-description",
-    "mf-btn-submit"
+    "mf-btn-submit",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "8a9fe735ab67f3f8dee5c829a7f848b46698a3661502f76a97a073b1210e3e5b",
-    "customHtmlSha256": "8e87466ba9a33c5af3c8a36ebd7c882c01a88d0a599d6bf64acad3b9af342ee1",
-    "shellSha256": "e71ad1aa87450cd2af7f66cb4f6fe92602cb2d67d67332baadbb0fd6097d8b18"
+    "customCssSha256": "57e92ed14fdd1f654baa3e1346986e3f8c855d4da1c1179aeaa40eead1c1ed10",
+    "customHtmlSha256": "73c5e5143902bec5448728ec982dcc6ece003e2bb25c41a277ac0c65ac4747d6",
+    "shellSha256": "aeeeb0f2cbad5448510eb4ff6b0498177ff60552746fad74e2c42e41b07da66d"
   },
   "counts": {
     "fields": 18,

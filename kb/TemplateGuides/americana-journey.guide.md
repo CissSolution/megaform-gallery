@@ -1,6 +1,6 @@
 ---
 {
-  "templateGuideSlug": "americana-journey",
+  "templateGuideSlug": "tpl-americana-journey",
   "slug": "americana-journey",
   "theme": "americana-journey-premium",
   "rootSelector": ".mfp.mfp-americana.mfp-native-generated",
@@ -45,16 +45,9 @@
     "route",
     "style"
   ],
-  "contentTokens": [
-    "hero_image"
-  ],
+  "contentTokens": [],
   "colorVars": {
-    "--am-ink": "#16223d",
-    "--am-accent": "#b23a3a",
-    "--am-accent-soft": "#f6e9e9",
     "--am-sub": "#6b7689",
-    "--am-ring": "#e7e9ef",
-    "--am-surface": "#ffffff",
     "--am-field": "#f8f9fb"
   },
   "lockedKeys": [
@@ -115,13 +108,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "2dfe5666f1e2da59ccbb2df2318f284a522b7850ed3b8767a779696fbacb6d0d",
-  "shellSha256": "3f657247c9897aac50c0a1b4cd808391d6c2abfeea824ea72403ba9126acd769"
+  "customCssSha256": "0e08f51e4b37d84d33cdaa53a98d5bf57028b3d92903db9aec3437fa12c54bfa",
+  "shellSha256": "3d87b548547cd6c33a2e6c33645e342e5c5d1eaa91122773d2d1368dd7a253e3"
 }
 ---
 # AI Edit Guide — The Great American Journey
 
 Theme `americana-journey-premium` · root `.mfp.mfp-americana.mfp-native-generated` · 13 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-americana-journey` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -185,16 +181,11 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C2 Add field**: `{op:"add_field", type:"Text", key:"new_key", label:"…", step:3, designDecision:"preserve"}` — the dispatcher inserts `{{field:new_key}}` into the matching `data-step` block. Pick a snake_case key not already used.
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
-  - `--am-ink`: #16223d
-  - `--am-accent`: #b23a3a
-  - `--am-accent-soft`: #f6e9e9
   - `--am-sub`: #6b7689
-  - `--am-ring`: #e7e9ef
-  - `--am-surface`: #ffffff
   - `--am-field`: #f8f9fb
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `2dfe5666f1e2…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `0e08f51e4b37…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `2dfe5666f1e2da59…` · customHtml shell sha256 stays `3f657247c9897aac…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `0e08f51e4b37d84d…` · customHtml shell sha256 stays `3d87b548547cd6c3…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `americana-journey-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

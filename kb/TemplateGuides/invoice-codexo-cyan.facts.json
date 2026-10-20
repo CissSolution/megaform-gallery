@@ -362,10 +362,10 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp.mfp-icx.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips",
-    ".mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips .mf-option-label"
+    ".mf-template-invoice-codexo-cyan .mfp.mfp-icx.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-invoice-codexo-cyan .mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips",
+    ".mf-template-invoice-codexo-cyan .mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips .mf-option-ui",
+    ".mf-template-invoice-codexo-cyan .mfp.mfp-icx.mfp-native-generated .icx-pays .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -439,8 +439,9 @@
   ],
   "formTokens": [],
   "shellTexts": [],
-  "cssClassCount": 134,
+  "cssClassCount": 166,
   "cssClasses": [
+    "mf-template-invoice-codexo-cyan",
     "mfp",
     "mfp-icx",
     "mfp-native-generated",
@@ -559,15 +560,14 @@
     "is-total",
     "icx-terms",
     "icx-terms-h",
-    "icx-consent",
-    "mf-option-control"
+    "icx-consent"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "37592ae5a72671501375f30e17056b3aa0825cdebe1df3f3b5375f2fecb325aa",
-    "customHtmlSha256": "ac6343397c400573b4ca151f9c5ca6118899c2a5f2f0e4c795bb5c599895b71d",
-    "shellSha256": "5e586ab709a22f7e392db58f6b4d9bc8d26119e695d9b9d1d31eb13a32fbd0ea"
+    "customCssSha256": "9bd0ff476c6369bd6e56105a685516103326f985c8dc504e34a9f4e795beced3",
+    "customHtmlSha256": "6bf44ebd1e18c54103e4891fe12ff968e75fef3de6fb82a88b18a765609c30ae",
+    "shellSha256": "d5520e6cce8e6003d35a7bafab5803c59512ee8d16f638e05e71e4df4f8d5db5"
   },
   "counts": {
     "fields": 27,

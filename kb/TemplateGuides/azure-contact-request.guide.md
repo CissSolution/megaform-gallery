@@ -62,13 +62,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "4eb039296bea6569df973eb9c181cb6d0f6ca53c9960abca29f2944bdd1499bd",
-  "shellSha256": "8692c6c5222bc1d2c499e6137a7d0c43c81ec5c5af6f83fdf9b9827655586c34"
+  "customCssSha256": "146ab245f4d9417e575f60de4fe8c31e4789cf3d8fba8a0d378a14efdd5eeec5",
+  "shellSha256": "6e0518147e33e16144eefb153ccd050e2cd110ff7fa239969826db75a675a970"
 }
 ---
 # AI Edit Guide — Azure Contact Request
 
 Theme `system` · root `.mfp.mfp-azure-contact-request.mfp-native-generated` · 7 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-azure-contact-request` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -119,9 +122,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--az-bg`: #0a1628
   - `--az-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4eb039296bea…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `146ab245f4d9…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `4eb039296bea6569…` · customHtml shell sha256 stays `8692c6c5222bc1d2…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `146ab245f4d9417e…` · customHtml shell sha256 stays `6e0518147e33e161…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

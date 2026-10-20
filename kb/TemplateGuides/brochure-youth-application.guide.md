@@ -167,13 +167,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "75c0d94cec9ad1220844033a5872f450328086ac4e9a1e8d22bb36038cdf488d",
-  "shellSha256": "8f18b826b75daa80c3f5d942dd0e6f86751991eebaf3841f05a7dcb263b73d11"
+  "customCssSha256": "973d2532e523374c59f9c995a202560c19e19248aed0340fb34d8e793c72033e",
+  "shellSha256": "a45197bc6facfb4f4525f685b795040f275610d9f614412e6e8580fc3f5d0b4f"
 }
 ---
 # AI Edit Guide — EuroYouth Brochure Application
 
 Theme `euro-youth-premium` · root `.mfp.mfp-brochure-youth.mfp-native-generated` · 20 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-brochure-youth-application` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -255,9 +258,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--by-mut`: #a8a29e
   - `--by-wash`: #f0f0f0
   - `--by-card`: #ffffff
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `75c0d94cec9a…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `973d2532e523…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `75c0d94cec9ad122…` · customHtml shell sha256 stays `8f18b826b75daa80…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `973d2532e523374c…` · customHtml shell sha256 stays `a45197bc6facfb4f…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `euro-youth-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

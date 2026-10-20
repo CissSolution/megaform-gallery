@@ -279,20 +279,20 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp.mfp-brochure-youth .mf-option-group--chips",
-    ".mfp.mfp-brochure-youth .mf-option-item--chips",
-    ".mfp.mfp-brochure-youth .mf-option-item--chips .mf-option-ui",
-    ".mfp.mfp-brochure-youth .mf-option-item--chips .mf-option-label"
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-group--chips",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-item--chips",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-item--chips .mf-option-ui",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-item--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp-brochure-youth .ey-card",
-    ".mfp.mfp-brochure-youth .mf-option-group--cards",
-    ".mfp.mfp-brochure-youth .mf-option-item--cards",
-    ".mfp.mfp-brochure-youth .mf-option-item--cards .mf-option-ui",
+    ".mf-template-brochure-youth-application .mfp-brochure-youth .ey-card",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-group--cards",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-item--cards",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-item--cards .mf-option-ui",
     ".mf-option-item--cards .mf-option-ui",
     ".mf-option-group--cards",
-    ".mfp.mfp-brochure-youth .mf-option-group--cards .mf-option-item",
-    ".mfp.mfp-brochure-youth .mf-option-group--cards .mf-option-ui"
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-group--cards .mf-option-item",
+    ".mf-template-brochure-youth-application .mfp.mfp-brochure-youth .mf-option-group--cards .mf-option-ui"
   ],
   "colorVars": {
     "--by-ink": "#141414",
@@ -368,8 +368,9 @@
     "&larr; Cancel",
     "Step"
   ],
-  "cssClassCount": 65,
+  "cssClassCount": 91,
   "cssClasses": [
+    "mf-template-brochure-youth-application",
     "mfp",
     "mfp-brochure-youth",
     "ey-shell",
@@ -434,14 +435,39 @@
     "ey-count",
     "ey-next",
     "ey-submit",
-    "mf-form-actions"
+    "mf-form-actions",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "75c0d94cec9ad1220844033a5872f450328086ac4e9a1e8d22bb36038cdf488d",
-    "customHtmlSha256": "690326338f18be3d582c277715cc08606bac6f6fc55981aca48b5ec233fb989a",
-    "shellSha256": "8f18b826b75daa80c3f5d942dd0e6f86751991eebaf3841f05a7dcb263b73d11"
+    "customCssSha256": "973d2532e523374c59f9c995a202560c19e19248aed0340fb34d8e793c72033e",
+    "customHtmlSha256": "dc1ad4893d531eafde922b4ea6d993f053a5353d79e7eff655ad63965193d598",
+    "shellSha256": "a45197bc6facfb4f4525f685b795040f275610d9f614412e6e8580fc3f5d0b4f"
   },
   "counts": {
     "fields": 20,

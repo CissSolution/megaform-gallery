@@ -171,13 +171,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "e584402d20a3a4d0dc4745dc66f548ff5a54026727821d764ddbc2ea54d05dfd",
-  "shellSha256": "fa9e0bb20e99f0080a2c8ad9d7740bc61b01d6d0123002ba9f9fe8211b3cfe6c"
+  "customCssSha256": "c6e3ef966df5d362204ea8a44c638ca08a0dcab57dbc2c17175575d836b50a5c",
+  "shellSha256": "e459e3c2e94d9744336fc43c64baa6a484183bd9f51a65381094135c543c9f3e"
 }
 ---
 # AI Edit Guide — Spinera Invoice — Blue
 
 Theme `custom` · root `.mfp.mfp-spn.mfp-native-generated` · 26 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-invoice-spinera-blue` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -292,9 +295,9 @@ _(none)_
   - `--spn-deco`: #E02020
   - `--spn-page`: #F0F3FA
   - `--spn-fill`: #F0F3FA
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `e584402d20a3…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `c6e3ef966df5…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `e584402d20a3a4d0…` · customHtml shell sha256 stays `fa9e0bb20e99f008…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `c6e3ef966df5d362…` · customHtml shell sha256 stays `e459e3c2e94d9744…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

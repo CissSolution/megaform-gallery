@@ -131,13 +131,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "725cbefa6078efab73225f75eadb5df2e514265e949d7787593756d1b31cb517",
-  "shellSha256": "94bab3ceda54e1c3de9219457754aaef9164cea23b31f350db44636a426f0c1a"
+  "customCssSha256": "07c68591aa6647030b2b400368ee62e59dbd2190ccc879425c4ccbf963d308ce",
+  "shellSha256": "dbde1df29475268f631e281804185dfa0d15035020d1498a4fa1d7588cb41300"
 }
 ---
 # AI Edit Guide — Tabbed Account Setup
 
 Theme `tabbed-account-setup` · root `.mfp.mfp-tabbed-account-setup.mfp-native-generated` · 19 fields · 6 steps (premium-native).
+
+Embedding: retain the unique `mf-template-tabbed-account-setup` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -208,9 +211,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--tab-ok`: #059669
   - `--tab-ok-soft`: #ecfdf5
   - `--tab-danger`: #dc2626
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `725cbefa6078…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `07c68591aa66…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `725cbefa6078efab…` · customHtml shell sha256 stays `94bab3ceda54e1c3…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `07c68591aa664703…` · customHtml shell sha256 stays `dbde1df29475268f…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `tabbed-account-setup`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

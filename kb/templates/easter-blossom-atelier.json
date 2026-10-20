@@ -10,7 +10,21 @@
         "Summary": "A refined Easter egg-hunt registration with botanical still-life artwork, rose accents, and an editorial form layout. [Category: Events · 5 fields · uses: Text, Email, Select, Textarea]",
         "Body": "{\"title\":\"Easter Blossom Atelier\",\"description\":\"A refined Easter egg-hunt registration with botanical still-life artwork, rose accents, and an editorial form layout.\",\"category\":\"Events\",\"icon\":\"\",\"submitButtonText\":\"Send registration\",\"successMessage\":\"Thank you. Your registration has been received. Your place is not confirmed until the organizer contacts you.\",\"settings\":{\"theme\":\"system\",\"multiPage\":false},\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}]}",
         "Tags": "form_template,Events,Events,fields:5,type-text,type-email,type-select,type-textarea",
-        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0.1\",\"fields\":[{\"key\":\"guardian_name\",\"type\":\"Text\",\"label\":\"Guardian name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"guardian_email\",\"type\":\"Email\",\"label\":\"Guardian email\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"number_of_children\",\"type\":\"Select\",\"label\":\"Number of children\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 child\"},{\"value\":\"2\",\"label\":\"2 children\"},{\"value\":\"3\",\"label\":\"3 children\"},{\"value\":\"4\",\"label\":\"4 children\"},{\"value\":\"5\",\"label\":\"5 children\"},{\"value\":\"6\",\"label\":\"6 children\"}]},{\"key\":\"child_age_group\",\"type\":\"Select\",\"label\":\"Child age group\",\"required\":true,\"options\":[{\"value\":\"under_4\",\"label\":\"Under 4 years\"},{\"value\":\"4_to_6\",\"label\":\"4–6 years\"},{\"value\":\"7_to_9\",\"label\":\"7–9 years\"},{\"value\":\"10_plus\",\"label\":\"10 years and older\"},{\"value\":\"mixed\",\"label\":\"More than one age group\"}]},{\"key\":\"accommodation_note\",\"type\":\"Textarea\",\"label\":\"Allergies or accommodation requests\",\"required\":false,\"placeholder\":\"Share any requests that will help your family take part.\",\"helpText\":\"Optional. Please do not include children’s names or dates of birth.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-easter-blossom-atelier",
+        "Kind": "template_guide",
+        "Title": "Easter Blossom Atelier",
+        "Summary": "A refined Easter egg-hunt registration with botanical still-life artwork, rose accents, and an editorial form layout.",
+        "Body": "{\"guide_file\":\"easter-blossom-atelier.guide.md\"}",
+        "Tags": "premium,template-guide,Events",
+        "Examples": "",
         "PortalId": null,
         "Source": "megaform-builtin",
         "WidgetType": "",
@@ -21,5 +35,16 @@
     "templates": [],
     "rules": []
   },
-  "resources": []
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/easter-blossom-atelier.guide.md",
+      "sha256": "3ba4964612d5e269cecefd433776464a3ddab04052a2ddf9285916827af818ce",
+      "sizeBytes": 7445
+    },
+    {
+      "path": "kb/TemplateGuides/easter-blossom-atelier.facts.json",
+      "sha256": "62083fbafcd52b00b88a81ada0705a01dc8ce57b6dd691e0dd5f86c344125a0e",
+      "sizeBytes": 4290
+    }
+  ]
 }

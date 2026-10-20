@@ -65,13 +65,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "a588d87f7b9afd3d17dd47b9b5fddf69418226fe90a63411cc16a84267652dcd",
-  "shellSha256": "7138e409f55b949bc081d17b4ae50dc48e640839a1eda135528b585d91f88d14"
+  "customCssSha256": "90cb253c42ffb6fb0b1c9292aa06462b13a98c9202c17cb6815c9b349ea5c1b1",
+  "shellSha256": "b33f61e4750fe892d2354b9366f8704ab1738d7e4c8b78254843397b7ff559ce"
 }
 ---
 # AI Edit Guide — Share Your Experience
 
 Theme `modern-blue` · root `.mfp.mfp-aurora-product-feedback` · 9 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-aurora-product-feedback` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -123,9 +126,9 @@ _(none)_
   - `--aur-error`: #b85450
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `a588d87f7b9a…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `90cb253c42ff…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `a588d87f7b9afd3d…` · customHtml shell sha256 stays `7138e409f55b949b…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `90cb253c42ffb6fb…` · customHtml shell sha256 stays `b33f61e4750fe892…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `modern-blue`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

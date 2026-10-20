@@ -101,13 +101,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "b2473852c055a3ef210916320866a06f327970f75ae63cab0cdd30834c71d1b5",
-  "shellSha256": "48c05f3601b71461681dcd4573b34a72a4943408be537a55f09c16b3207145b2"
+  "customCssSha256": "043d62ecbf1b89644cf04317c1bdd93cb82c0ed74cdd4956ff1cc17de6e03371",
+  "shellSha256": "770de22e646d18fb8e4b29efd77200d663fe45e7db3faf50afa600296504cfa7"
 }
 ---
 # AI Edit Guide — Verdant Member Registration
 
 Theme `system` · root `.mfp.mfp-verdant-member-registration.mfp-native-generated` · 14 fields · 3 steps (premium-native).
+
+Embedding: retain the unique `mf-template-verdant-member-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -170,9 +173,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--vd-bg`: #0d1a12
   - `--vd-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `b2473852c055…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `043d62ecbf1b…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `b2473852c055a3ef…` · customHtml shell sha256 stays `48c05f3601b71461…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `043d62ecbf1b8964…` · customHtml shell sha256 stays `770de22e646d18fb…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

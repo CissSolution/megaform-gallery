@@ -96,13 +96,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "aad7feca42fbb23a66b1784c1d13c91ec303b0fd24eb14c896f7c028a1fe1fc7",
-  "shellSha256": "943af5f05883d98f2b185eb3f90b1d9e32f0e18d9e7f02d04bcbf29aa124b5ed"
+  "customCssSha256": "b8c8a9863a92277c66ff3a7f0ca07f5e053c5269574947f1c56ad6cfda3ba139",
+  "shellSha256": "5cc337b6df6af994920615f298d6fc64ac3f09afd9e22ac4c3d33449fbd004bd"
 }
 ---
 # AI Edit Guide — EuroYouth Estate Registration
 
 Theme `system` · root `.mfp.mfp-realestate-registration.mfp-native-generated` · 19 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-realestate-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -185,9 +188,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--rey-input`: #fff
   - `--rey-soft`: #fff3e0
   - `--rey-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `aad7feca42fb…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `b8c8a9863a92…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `aad7feca42fbb23a…` · customHtml shell sha256 stays `943af5f05883d98f…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `b8c8a9863a92277c…` · customHtml shell sha256 stays `5cc337b6df6af994…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

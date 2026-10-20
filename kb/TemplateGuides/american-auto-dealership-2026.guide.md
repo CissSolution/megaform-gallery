@@ -94,13 +94,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "66214d1fb4cf404fef091c6b3a6578f0808679330d9a991fd3b73e709d7d94ff",
-  "shellSha256": "f3add39aa406fcb045d524618109dd5dfdf3e041e9e973bfd9f7b8d7c994c3ae"
+  "customCssSha256": "334bed09cb0f9fba1adc580205990c1b228d2f90c44bf16bee2a9afd792bf259",
+  "shellSha256": "2dff66fb993c6c7ff41de618b7477f85d373c6ab7a06f553ed7e5e6c281c473d"
 }
 ---
 # AI Edit Guide — Schedule Your Test Drive
 
 Theme `american-auto-premium` · root `.mfp.auto-dealership` · 6 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-american-auto-dealership-2026` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -133,7 +136,7 @@ NEVER emit `customHtml`, `customCss`, `theme`, or `replace_form_schema` for this
 - `vehicle_1_desc`: "5.0L V8 | 450 HP | 0-60 in 4.2s"
 - `vehicle_1_price`: "From $42,900"
 - `vehicle_1_alt`: "Ford Mustang GT"
-- `vehicle_1_image`: "https://images.unsplash.com/photo-1584345604476-8ec5f82d718d"
+- `vehicle_1_image`: "https://images.unsplash.com/photo-1555160329-6a0ccf5c91f2?au"
 - `vehicle_2_badge`: "New Arrival"
 - `vehicle_2_name`: "Corvette Stingray"
 - `vehicle_2_desc`: "6.2L V8 | 490 HP | Mid-Engine"
@@ -184,9 +187,9 @@ _(none)_
   - `--auto-text`: #f5f5f5
   - `--auto-text-muted`: #999999
   - `--auto-border`: #333333
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `66214d1fb4cf…`).
-- **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `334bed09cb0f…`).
+- **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `auto_carousel_slider`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `66214d1fb4cf404f…` · customHtml shell sha256 stays `f3add39aa406fcb0…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `334bed09cb0f9fba…` · customHtml shell sha256 stays `2dff66fb993c6c7f…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `american-auto-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

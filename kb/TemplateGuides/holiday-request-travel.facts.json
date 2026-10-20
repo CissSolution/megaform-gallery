@@ -207,15 +207,15 @@
     "programme"
   ],
   "chipSelectors": [
-    ".mfp-hol .mf-option-group--chips .mf-option-check",
-    ".mfp-hol .mf-option-group--chips",
-    ".mfp-hol .mf-option-group--chips .mf-option-ui"
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--chips .mf-option-check",
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--chips",
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--chips .mf-option-ui"
   ],
   "cardSelectors": [
-    ".mfp-hol .hol-card",
-    ".mfp-hol .mf-option-group--cards",
-    ".mfp-hol .mf-option-group--cards .mf-option-item",
-    ".mfp-hol .mf-option-group--cards .mf-option-ui"
+    ".mf-template-holiday-request-travel .mfp-hol .hol-card",
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--cards",
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--cards .mf-option-item",
+    ".mf-template-holiday-request-travel .mfp-hol .mf-option-group--cards .mf-option-ui"
   ],
   "colorVars": {},
   "contentTokens": [],
@@ -250,8 +250,9 @@
     "Terms",
     "Submit Holiday Request"
   ],
-  "cssClassCount": 42,
+  "cssClassCount": 74,
   "cssClasses": [
+    "mf-template-holiday-request-travel",
     "mfp",
     "mfp-hol",
     "hol-card",
@@ -293,14 +294,45 @@
     "hol-consent-item",
     "mf-option-group",
     "mf-form-title",
-    "mf-form-description"
+    "mf-form-description",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "9b55f8f7cb922770c5f30b25b791169121f5ab48530f3aefb22b57b56b188fa2",
-    "customHtmlSha256": "43e3b7b58a1f413c8a33d691718a6c9cb847c89d8294fc90a1235282e2e64f63",
-    "shellSha256": "f09e19fe1d04ad067814162cecdb155e2da912dfd6cc8907c1779f7bc6f45d17"
+    "customCssSha256": "366bf00d7a1b1ee143914119da3c264c10307c8e832f10726cf422965ca81062",
+    "customHtmlSha256": "9bc8cf186d55cd1eee2d80659e4bb13b395738589d568401b76d078701950c8e",
+    "shellSha256": "e1f0c4e6832da9bd1e01b6b1a2d5cf99201d35b9b7010d55ae0c86a67f3ace43"
   },
   "counts": {
     "fields": 17,

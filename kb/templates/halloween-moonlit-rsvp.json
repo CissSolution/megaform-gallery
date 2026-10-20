@@ -10,7 +10,21 @@
         "Summary": "A compact Halloween RSVP with pumpkin-and-paper-ghost artwork and editable guest details. [Category: Events · 5 fields · uses: Text, Email, Select, Textarea]",
         "Body": "{\"title\":\"Halloween Moonlit RSVP\",\"description\":\"A compact Halloween RSVP with pumpkin-and-paper-ghost artwork and editable guest details.\",\"category\":\"Events\",\"icon\":\"\",\"submitButtonText\":\"Send my RSVP\",\"successMessage\":\"Thank you. Your RSVP has been received. Attendance is not confirmed until the organizer contacts you.\",\"settings\":{\"theme\":\"system\",\"multiPage\":false},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size, including you\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 persons\"},{\"value\":\"3\",\"label\":\"3 persons\"},{\"value\":\"4\",\"label\":\"4 persons\"},{\"value\":\"5\",\"label\":\"5 persons\"},{\"value\":\"6\",\"label\":\"6 persons\"}]},{\"key\":\"costume_plan\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":false,\"options\":[{\"value\":\"classic\",\"label\":\"A Halloween classic\"},{\"value\":\"surprise\",\"label\":\"Something unexpected\"},{\"value\":\"undecided\",\"label\":\"Still deciding\"},{\"value\":\"no_costume\",\"label\":\"No costume this time\"}]},{\"key\":\"access_note\",\"type\":\"Textarea\",\"label\":\"Dietary or accessibility requests\",\"required\":false,\"placeholder\":\"Share any requests for the organizer.\",\"helpText\":\"Optional. Share only what is needed for this event.\"}]}",
         "Tags": "form_template,Events,Events,fields:5,type-text,type-email,type-select,type-textarea",
-        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size, including you\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 persons\"},{\"value\":\"3\",\"label\":\"3 persons\"},{\"value\":\"4\",\"label\":\"4 persons\"},{\"value\":\"5\",\"label\":\"5 persons\"},{\"value\":\"6\",\"label\":\"6 persons\"}]},{\"key\":\"costume_plan\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":false,\"options\":[{\"value\":\"classic\",\"label\":\"A Halloween classic\"},{\"value\":\"surprise\",\"label\":\"Something unexpected\"},{\"value\":\"undecided\",\"label\":\"Still deciding\"},{\"value\":\"no_costume\",\"label\":\"No costume this time\"}]},{\"key\":\"access_note\",\"type\":\"Textarea\",\"label\":\"Dietary or accessibility requests\",\"required\":false,\"placeholder\":\"Share any requests for the organizer.\",\"helpText\":\"Optional. Share only what is needed for this event.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0.1\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"First and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size, including you\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 persons\"},{\"value\":\"3\",\"label\":\"3 persons\"},{\"value\":\"4\",\"label\":\"4 persons\"},{\"value\":\"5\",\"label\":\"5 persons\"},{\"value\":\"6\",\"label\":\"6 persons\"}]},{\"key\":\"costume_plan\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":false,\"options\":[{\"value\":\"classic\",\"label\":\"A Halloween classic\"},{\"value\":\"surprise\",\"label\":\"Something unexpected\"},{\"value\":\"undecided\",\"label\":\"Still deciding\"},{\"value\":\"no_costume\",\"label\":\"No costume this time\"}]},{\"key\":\"access_note\",\"type\":\"Textarea\",\"label\":\"Dietary or accessibility requests\",\"required\":false,\"placeholder\":\"Share any requests for the organizer.\",\"helpText\":\"Optional. Share only what is needed for this event.\"}],\"settings\":{\"theme\":\"system\",\"multiPage\":false}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-halloween-moonlit-rsvp",
+        "Kind": "template_guide",
+        "Title": "Halloween Moonlit RSVP",
+        "Summary": "A compact Halloween RSVP with pumpkin-and-paper-ghost artwork and editable guest details.",
+        "Body": "{\"guide_file\":\"halloween-moonlit-rsvp.guide.md\"}",
+        "Tags": "premium,template-guide,Events",
+        "Examples": "",
         "PortalId": null,
         "Source": "megaform-builtin",
         "WidgetType": "",
@@ -21,5 +35,16 @@
     "templates": [],
     "rules": []
   },
-  "resources": []
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/halloween-moonlit-rsvp.guide.md",
+      "sha256": "81dd18f61425ef87ee4d9072c2ecb134c0c43fce8352e0d6ec015ae2804fbee3",
+      "sizeBytes": 7234
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-moonlit-rsvp.facts.json",
+      "sha256": "0226c05416badb3d8ee3d22a68efebd36337357018438a62481cd1a89dd357c3",
+      "sizeBytes": 4124
+    }
+  ]
 }

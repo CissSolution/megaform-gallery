@@ -157,13 +157,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "e0b4a33a8148b4978d6d1acdf83e67132826e1fdf456d27de6bc600f534df808",
-  "shellSha256": "16573c4b1a88814f695305de806c5c2d903b21b690021f362a2a32357ef951dc"
+  "customCssSha256": "07a18b654136135f3b53fe42c46d071d574e3cc055e4f0998d4bc93ef676b876",
+  "shellSha256": "f122336e33b8dc72cc8455c50ad2f6411609a83303d6ad92c6e2431f11ed25ad"
 }
 ---
 # AI Edit Guide — Down Under Australia Experience
 
 Theme `down-under-reef-premium` · root `.mfp.mfp-australia.mfp-native-generated` · 19 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-down-under-australia` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -238,9 +241,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `e0b4a33a8148…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `07a18b654136…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `e0b4a33a8148b497…` · customHtml shell sha256 stays `16573c4b1a88814f…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `07a18b654136135f…` · customHtml shell sha256 stays `f122336e33b8dc72…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `down-under-reef-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

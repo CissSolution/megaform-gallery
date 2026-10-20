@@ -336,8 +336,9 @@
     "Next &#8594;",
     "Submit Sign-Up &#127876;"
   ],
-  "cssClassCount": 106,
+  "cssClassCount": 137,
   "cssClasses": [
+    "mf-template-christmas-americana-signup",
     "mfp",
     "mfp-christmas-americana-signup",
     "mfp-hero",
@@ -443,14 +444,27 @@
     "mf-ms-chevron",
     "mf-ms-panel",
     "mf-ms-options",
-    "mf-ms-option"
+    "mf-ms-option",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "f70615ede5adcaed9bd8c0a0bb4025c79f6e041b330b7187ccaf3951cf0bec54",
-    "customHtmlSha256": "6a9ded872e40514ab07e54be4abf5a5db982557ac62b4e6737d64876dd097f2c",
-    "shellSha256": "65a6685a670acff5ce72b32262ef73dbcbd7feafd1eb065591d30efe25bd159c"
+    "customCssSha256": "240f307389309796c331093611ab8b85005fce8febb70a7848a93e121123fdce",
+    "customHtmlSha256": "5d325eaa4d8950e41cc2d22e5d73c82e514e340a7a563c77568f7cca53beca17",
+    "shellSha256": "278f8d703daa6a289572713600669202416d40e9cbcd2dd6bd89767e84155595"
   },
   "counts": {
     "fields": 23,

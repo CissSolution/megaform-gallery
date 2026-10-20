@@ -78,13 +78,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "e018369f77d20a8e3ed80314eea8a75e43c55fa5aa4d1a71f5c866058eeff6c7",
-  "shellSha256": "671c94892912b4edc74d9a116145603a5d0c57cd945ce563cf8b65869fb3c2f1"
+  "customCssSha256": "4420dbbc268c15959fc3bb36eb23406bd1e972f2ed290e28d70841c822003408",
+  "shellSha256": "3f57489d71003e99869f207ed29e51951e33c5c3cd476e02ff973b65291cfef4"
 }
 ---
 # AI Edit Guide — Spooky Night Party
 
 Theme `halloween-floating-ghosts` · root `.mfp.mfp-halloween` · 10 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-halloween-party-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -147,9 +150,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--hw-border`: rgba(255,255,255,0.1)
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `e018369f77d2…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4420dbbc268c…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `e018369f77d20a8e…` · customHtml shell sha256 stays `671c94892912b4ed…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `4420dbbc268c1595…` · customHtml shell sha256 stays `3f57489d71003e99…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `halloween-floating-ghosts`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

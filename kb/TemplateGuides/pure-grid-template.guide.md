@@ -56,13 +56,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "981040d36abd79147926756c2e1f7e760bcaea8ad2617411006a33f272049a3a",
-  "shellSha256": "73349da3ae97895f08ea36ead52cbdc8cbc1c65bf9cbf46dee180cbc8c621f4d"
+  "customCssSha256": "74888b2ee5fa160746b0a4194e370b1308633563d4869f5efadfc061ae265faf",
+  "shellSha256": "9546d3638994ec1f4a8c3f6878164a20a7d024d247e22d7f3f71d547ffd173d9"
 }
 ---
 # AI Edit Guide — Get In Touch
 
 Theme `pure-grid-premium` · root `.mfp.mfp-pure-grid` · 15 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-pure-grid-template` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -110,9 +113,9 @@ _(none)_
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--mfp-gold`: #c9a227
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `981040d36abd…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `74888b2ee5fa…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `981040d36abd7914…` · customHtml shell sha256 stays `73349da3ae97895f…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `74888b2ee5fa1607…` · customHtml shell sha256 stays `9546d3638994ec1f…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `pure-grid-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

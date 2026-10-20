@@ -156,13 +156,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "a2a9298971970dc4af4a793998a8764870e464c09e0fd45b6150574eb8d70803",
-  "shellSha256": "496ef955025083119b16d2234d96e720dc7b39892b7eecb9103007a112334304"
+  "customCssSha256": "825c48eef375eca1d2102c533bc0304d1b4d572bf9787db13ed69d03f78a78ee",
+  "shellSha256": "e03a943a463c237e27ab24655eacfd9df760824d323a1832bf0aaac8120f9baf"
 }
 ---
 # AI Edit Guide — EuroYouth 2026 Application
 
 Theme `euro-youth-premium` · root `.mfp.mfp-euro-youth.mfp-native-generated` · 20 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-euro-youth-application` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -239,9 +242,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `a2a929897197…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `825c48eef375…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `a2a9298971970dc4…` · customHtml shell sha256 stays `496ef95502508311…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `825c48eef375eca1…` · customHtml shell sha256 stays `e03a943a463c237e…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `euro-youth-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

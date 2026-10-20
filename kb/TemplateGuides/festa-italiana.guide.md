@@ -138,13 +138,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "ef7e3e4152cdbb1347063dfa0852d2926a8d5e23df4ffb117481ac3a6c2ee797",
-  "shellSha256": "d8b8579d4be1bc954010a58e16cd89217d44443a0b6ade873c78d8d72e5af157"
+  "customCssSha256": "2a8eba17ffca1ec79b761e0d741b4361310c5b6c436b4cab8a3d7b7268e6c506",
+  "shellSha256": "1afda7810705c52101916df6e51868abd627970591af116adcb7f9fb4e60de3c"
 }
 ---
 # AI Edit Guide — Festa Italiana — Iscrizione
 
 Theme `custom` · root `.mfp.mfp-fes.mfp-native-generated` · 16 fields · 3 steps (premium-native).
+
+Embedding: retain the unique `mf-template-festa-italiana` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -237,9 +240,9 @@ _(none)_
   - `--fes-deco`: #d4af6a
   - `--fes-page`: #f6f1e7
   - `--fes-fill`: #f6f1e7
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `ef7e3e4152cd…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `2a8eba17ffca…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `ef7e3e4152cdbb13…` · customHtml shell sha256 stays `d8b8579d4be1bc95…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `2a8eba17ffca1ec7…` · customHtml shell sha256 stays `1afda7810705c521…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

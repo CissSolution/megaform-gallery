@@ -10,7 +10,7 @@
         "Summary": "Login prompt with GitHub and Facebook social sign-in plus local email/password sign-in. Hands off to the host (Oqtane/DNN/Umbraco/Web) login and external-login flow via the platform-agnostic auth URLs. [Category: Authentication · 0 fields]",
         "Body": "{\"title\":\"Member Login\",\"description\":\"Login prompt with GitHub and Facebook social sign-in plus local email/password sign-in. Hands off to the host (Oqtane/DNN/Umbraco/Web) login and external-login flow via the platform-agnostic auth URLs.\",\"category\":\"Authentication\",\"icon\":\"\",\"submitButtonText\":\"\",\"successMessage\":\"\",\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{}},\"fields\":[]}",
         "Tags": "form_template,Authentication,Authentication,fields:0",
-        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[],\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{}}}}]",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0.1\",\"fields\":[],\"settings\":{\"theme\":\"custom\",\"multiPage\":false,\"customContent\":{}}}}]",
         "PortalId": null,
         "Source": "megaform-builtin",
         "WidgetType": "",
@@ -38,13 +38,13 @@
   "resources": [
     {
       "path": "kb/TemplateGuides/member-login.guide.md",
-      "sha256": "50939add311dec0d1f5f04880c82361c9bdbb120f313eeed92aa4bd243b772ef",
-      "sizeBytes": 6294
+      "sha256": "6f2211fb35b3a64fa6062ea22e4f9192c0e9c0780267cb7a6d9e2c89c26fb9d3",
+      "sizeBytes": 6580
     },
     {
       "path": "kb/TemplateGuides/member-login.facts.json",
-      "sha256": "d330f074801eb01c8803f65d6c9537f8d21c3642b2fa1183b6310db87afd6a1b",
-      "sizeBytes": 2166
+      "sha256": "7f84b566a78f21281f0e300425e178e56fdf0a57099c0981af4c631909039d9d",
+      "sizeBytes": 2757
     }
   ]
 }

@@ -105,11 +105,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-terracotta-product-feedback .mfp-chip-field .mf-option-group",
-    ".mfp-terracotta-product-feedback .mfp-chip-field .mf-option-item",
-    ".mfp-terracotta-product-feedback .mfp-chip-field .mf-option-control",
-    ".mfp-terracotta-product-feedback .mfp-chip-field .mf-option-ui",
-    ".mfp-terracotta-product-feedback .mfp-chip-field .mf-option-label"
+    ".mf-template-terracotta-product-feedback .mfp-terracotta-product-feedback .mfp-chip-field .mf-option-group",
+    ".mf-template-terracotta-product-feedback .mfp-terracotta-product-feedback .mfp-chip-field .mf-option-item",
+    ".mf-template-terracotta-product-feedback .mfp-terracotta-product-feedback .mfp-chip-field .mf-option-control",
+    ".mf-template-terracotta-product-feedback .mfp-terracotta-product-feedback .mfp-chip-field .mf-option-ui",
+    ".mf-template-terracotta-product-feedback .mfp-terracotta-product-feedback .mfp-chip-field .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -131,8 +131,9 @@
     "Send feedback",
     "&#8594;"
   ],
-  "cssClassCount": 61,
+  "cssClassCount": 91,
   "cssClasses": [
+    "mf-template-terracotta-product-feedback",
     "mfp",
     "mfp-terracotta-product-feedback",
     "mfp-stage",
@@ -193,14 +194,43 @@
     "is-active",
     "mf-rating-on",
     "mf-rating-value",
-    "mfp-char-hint"
+    "mfp-char-hint",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "50903a00ff40320a05868b9e1a7a60401611b0a7d3af225d5108d5fbb53d9ec6",
-    "customHtmlSha256": "a04023ab20f822714e92881e4797f775bd08ecae0cbd88f575f8686143b1bbec",
-    "shellSha256": "00a598a80103caa1c264cb28116ba747ba76d0f86976446fc1d05694436e0768"
+    "customCssSha256": "357601042265cafc360e6df6b5def6ffd73fd9e415afc739b5c4ac413bf28539",
+    "customHtmlSha256": "20f3cf388ce877d5234db4170138979a60b18a40a1c342382ae1289994b8d7b6",
+    "shellSha256": "3f1595cb258bc8d9c9d1d8f00ff1c584ca12959314b8c5ca27ffe68f59d8c11f"
   },
   "counts": {
     "fields": 8,

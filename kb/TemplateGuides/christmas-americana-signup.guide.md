@@ -119,13 +119,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "f70615ede5adcaed9bd8c0a0bb4025c79f6e041b330b7187ccaf3951cf0bec54",
-  "shellSha256": "65a6685a670acff5ce72b32262ef73dbcbd7feafd1eb065591d30efe25bd159c"
+  "customCssSha256": "240f307389309796c331093611ab8b85005fce8febb70a7848a93e121123fdce",
+  "shellSha256": "278f8d703daa6a289572713600669202416d40e9cbcd2dd6bd89767e84155595"
 }
 ---
 # AI Edit Guide — Christmas Community Celebration — Sign-Up
 
 Theme `system` · root `.mfp.mfp-christmas-americana-signup.mfp-native-generated` · 23 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-christmas-americana-signup` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -197,9 +200,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `f70615ede5ad…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `240f30738930…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `f70615ede5adcaed…` · customHtml shell sha256 stays `65a6685a670acff5…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `240f307389309796…` · customHtml shell sha256 stays `278f8d703daa6a28…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

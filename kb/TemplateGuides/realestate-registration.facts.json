@@ -227,11 +227,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-realestate-registration .mfp-chip .mf-option-group",
-    ".mfp-realestate-registration .mfp-chip .mf-option-item",
-    ".mfp-realestate-registration .mfp-chip .mf-option-control",
-    ".mfp-realestate-registration .mfp-chip .mf-option-ui",
-    ".mfp-realestate-registration .mfp-chip .mf-option-label"
+    ".mf-template-realestate-registration .mfp-realestate-registration .mfp-chip .mf-option-group",
+    ".mf-template-realestate-registration .mfp-realestate-registration .mfp-chip .mf-option-item",
+    ".mf-template-realestate-registration .mfp-realestate-registration .mfp-chip .mf-option-control",
+    ".mf-template-realestate-registration .mfp-realestate-registration .mfp-chip .mf-option-ui",
+    ".mf-template-realestate-registration .mfp-realestate-registration .mfp-chip .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -279,8 +279,9 @@
     "EuroYouth Exchange &copy; 2026",
     "Form REG-2026-001"
   ],
-  "cssClassCount": 64,
+  "cssClassCount": 94,
   "cssClasses": [
+    "mf-template-realestate-registration",
     "mfp",
     "mfp-realestate-registration",
     "mf-form-wrapper",
@@ -344,14 +345,43 @@
     "mf-sig-undo",
     "mfp-real-actions",
     "mfp-back",
-    "mfp-foot"
+    "mfp-foot",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "aad7feca42fbb23a66b1784c1d13c91ec303b0fd24eb14c896f7c028a1fe1fc7",
-    "customHtmlSha256": "3fa1a46898ff41893e068a384b5876865ed8a1d19028a557c1c8917ef339fd76",
-    "shellSha256": "943af5f05883d98f2b185eb3f90b1d9e32f0e18d9e7f02d04bcbf29aa124b5ed"
+    "customCssSha256": "b8c8a9863a92277c66ff3a7f0ca07f5e053c5269574947f1c56ad6cfda3ba139",
+    "customHtmlSha256": "b9d9c0a85be0db463b242ba96c77b5bead8b54e67f7b2c6c294726b83e16a366",
+    "shellSha256": "5cc337b6df6af994920615f298d6fc64ac3f09afd9e22ac4c3d33449fbd004bd"
   },
   "counts": {
     "fields": 19,

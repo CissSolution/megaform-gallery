@@ -1,91 +1,33 @@
-# MegaForm Template Gallery
+# MegaForm Online Gallery
 
-Static template repository for **MegaForm** (DNN + Oqtane), served through the
-**jsDelivr CDN** straight from this repo:
+Shared portable templates for **DNN, Oqtane and Umbraco**.
 
-> **https://cdn.jsdelivr.net/gh/CissSolution/megaform-gallery@main/manifest.json**
+The canonical feed is [manifest.json](https://CissSolution.github.io/megaform-gallery/manifest.json).
+The [browse page](https://CissSolution.github.io/megaform-gallery/) lists the same catalog.
+The 2026-10-20 portable-template release preserves all 82 slugs.
 
-> **Why jsDelivr and not GitHub Pages?** jsDelivr serves any *public* GitHub repo with a
-> correct `application/json` content-type, global caching and no per-repo Pages setup —
-> and GitHub Pages was not serving for this organisation. `raw.githubusercontent.com`
-> also works and is always fresh, but it is rate-limited and not meant as a distribution
-> CDN.
->
-> ⚠️ **After pushing new templates, purge the CDN** or the update can lag by hours:
-> `https://purge.jsdelivr.net/gh/CissSolution/megaform-gallery@main/manifest.json`
-> (plus the changed `templates/...` files).
+Each template JSON contains its own uniquely scoped pane, CSS and inline styles,
+pane-width container queries and namespaced animations. Separate outer page canvases
+are transparent; the actual cards retain their authored colors. Templates contain no
+demo-site form IDs. Platform adapters map the full relative image path to their own
+asset root, avoiding collisions between files such as `hero.webp`.
 
-Licensed MegaForm installs read `manifest.json` from here and download templates on
-demand (**Form Wizard → Template Gallery → Browse online**), so premium templates and
-their artwork no longer have to ship inside the module package.
+Every manifest entry pins the exact SHA-256 and size of the JSON, optional artwork ZIP,
+and AI knowledge bundle. Guides/facts are regenerated from the same source and carry
+the updated shell hashes. Downloads and hash checks happen on the module server.
+Keep manifest, templates, assets and KB files from the same generated release.
 
-## What's in here
+Authoring source: `Samples/FormTemplates/Premium/GALLERY-PUBLISHED/` in the main solution.
+Run the portable-template normalizer and tests, regenerate template facts/guides, then
+publish using `tools/gallery/Publish-Gallery.ps1`. Do not edit generated payloads here.
+Publishing refuses missing artwork, invalid hashes, unnormalized templates and unintended
+removed slugs. The demo catalog retains its locked order across releases.
 
-| Path | Purpose |
-|---|---|
-| `manifest.json` | The machine-readable feed the module reads. One entry per template. |
-| `templates/<slug>.json` | The template itself. |
-| `templates/<slug>-assets.zip` | That template's artwork (hero images), if it has any. |
-| `index.html` | Human-friendly browse page. |
+GitHub Pages serves this repository. There is no jsDelivr purge step. Consumers cache
+the manifest for up to 15 minutes; use the module's gallery refresh to fetch it sooner.
+Refreshing the catalog does not overwrite existing forms or their submissions.
 
-Every entry pins a **sha256** for both the template JSON and its assets zip. The module
-**refuses** any download whose hash doesn't match the manifest, so the manifest and the
-files must always be regenerated together — never hand-edit `manifest.json`.
-
-## What ships in the package vs. what lives here
-
-A fresh MegaForm install opens its Template Gallery with a **bundled shelf** — no network
-needed, nothing locked on a trial:
-
-- **31 quick-start starters** (`Samples/FormTemplates/QuickStart/`) — free, flagged
-  `premium:false`, contact / booking / application / education / nonprofit / floating-label.
-- **4 premium starters on display** — the only cards a trial install shows locked, as the
-  upsell. They are chosen for having *no artwork*, so the package stays light.
-
-Everything else — every remaining premium design **and all hero imagery** — is served from
-this repo and downloaded on demand by licensed installs. That is what keeps ~14.6 MB of
-artwork and ~2.4 MB of template JSON out of the shipped module.
-
-## Adding or updating a template
-
-1. Drop / edit the template `.json` in the **source** folder of the main solution:
-   `Samples/FormTemplates/Premium/DONEE/`
-2. Regenerate this repository:
-   ```bash
-   node tools/gallery/build-gallery.mjs --out <path-to-this-repo>
-   ```
-3. Commit + push, then **purge the jsDelivr cache** for `manifest.json` and every changed
-   `templates/...` file (see the note at the top) — otherwise installs keep serving the
-   previous version until the CDN expires it on its own.
-
-The publisher will:
-
-- validate every template (must have a valid `slug` and a `fields` array),
-- **skip duplicate slugs** loudly rather than silently overwriting a previous template,
-- **skip a template whose artwork is missing** from `Assets/img` — publishing it would ship
-  a design with a dead hero image,
-- bundle each template's referenced artwork into `<slug>-assets.zip`,
-- recompute all hashes and **fail the build** if anything doesn't verify.
-
-### Artwork
-
-Templates reference images by absolute, platform-specific URLs:
-
-- DNN — `/DesktopModules/MegaForm/Assets/img/<rel>`
-- Oqtane — `/Modules/MegaForm/img/<rel>`
-
-Both normalise to the same repo-relative key, so a single bundle serves both platforms
-and the URLs baked into the template keep resolving after install. Put new images under
-`Assets/img/` in the main solution and reference them with either URL form.
-
-The zips are written with a fixed timestamp (STORE method), so rebuilding without
-changing content produces **byte-identical** files — installs aren't forced to
-re-download after every publish.
-
-## Notes
-
-- Downloads are performed **server-side** by the module (the browser never calls this
-  repo), and the configured URL is SSRF-guarded.
-- The gallery is a **licensed** feature: trial installs get an upgrade prompt instead.
-- Repo URL is configurable per install — DNN host setting `MegaForm_GalleryRepoUrl`,
-  Oqtane configuration key `MegaForm:GalleryRepoUrl`.
+The module also includes 32 free quick-start templates and four premium starters for
+offline discovery. Licensed installations download the remaining premium designs and
+their artwork from this feed. Licensing is handled by the module; this repository
+contains no production license file or credentials.

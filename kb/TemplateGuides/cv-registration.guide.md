@@ -90,13 +90,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "325fdeb30280ed100bbe9e00b2b4efeb019323e6369a2886502e0ae7ab42d411",
-  "shellSha256": "3bdce11a53c47cb69046724a074b96b66042dc5bc56499c18ba1bbbd18eb7702"
+  "customCssSha256": "3dede637be3020e56fb2718bd790cc5fc857bd4c57aa261111ecd9299423c3d5",
+  "shellSha256": "ef2660c07f89907b226dbf61b959a13f93168a0fc2bace42c6b30909ccf74fcc"
 }
 ---
 # AI Edit Guide — EuroYouth CV Registration
 
 Theme `system` · root `.mfp.mfp-cv-registration.mfp-native-generated` · 27 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-cv-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -177,9 +180,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--cvx-input`: #fff
   - `--cvx-soft`: #e8e8e8
   - `--cvx-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `325fdeb30280…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `3dede637be30…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `325fdeb30280ed10…` · customHtml shell sha256 stays `3bdce11a53c47cb6…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `3dede637be3020e5…` · customHtml shell sha256 stays `ef2660c07f89907b…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

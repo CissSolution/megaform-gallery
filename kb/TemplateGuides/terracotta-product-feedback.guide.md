@@ -58,13 +58,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "50903a00ff40320a05868b9e1a7a60401611b0a7d3af225d5108d5fbb53d9ec6",
-  "shellSha256": "00a598a80103caa1c264cb28116ba747ba76d0f86976446fc1d05694436e0768"
+  "customCssSha256": "357601042265cafc360e6df6b5def6ffd73fd9e415afc739b5c4ac413bf28539",
+  "shellSha256": "3f1595cb258bc8d9c9d1d8f00ff1c584ca12959314b8c5ca27ffe68f59d8c11f"
 }
 ---
 # AI Edit Guide — Terracotta Product Feedback
 
 Theme `system` · root `.mfp.mfp-terracotta-product-feedback.mfp-native-generated` · 8 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-terracotta-product-feedback` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -111,9 +114,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--tc-bg`: #1e110a
   - `--tc-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `50903a00ff40…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `357601042265…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `50903a00ff40320a…` · customHtml shell sha256 stays `00a598a80103caa1…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `357601042265cafc…` · customHtml shell sha256 stays `3f1595cb258bc8d9…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

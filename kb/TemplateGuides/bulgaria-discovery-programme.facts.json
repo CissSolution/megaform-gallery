@@ -364,20 +364,20 @@
     "region"
   ],
   "chipSelectors": [
-    ".mfp-bulgaria .mf-option-group--chips",
-    ".mfp-bulgaria .mf-option-group--chips .mf-option-item",
-    ".mfp-bulgaria .mf-option-group--chips .mf-option-ui",
-    ".mfp-bulgaria .mf-option-group--chips .mf-option-label"
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .mf-option-group--chips",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .mf-option-group--chips .mf-option-item",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .mf-option-group--chips .mf-option-ui",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp-bulgaria .bg-card",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-control",
-    ".mfp-bulgaria .mf-option-group--cards",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-item",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-ui",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-icon",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-copy",
-    ".mfp-bulgaria .mf-option-group--cards .mf-option-label"
+    ".mf-template-bulgaria-discovery-programme .mfp.mfp-bulgaria",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-card",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-border",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-hero",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-hero>img",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-hero-shade",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-hero-copy",
+    ".mf-template-bulgaria-discovery-programme .mfp-bulgaria .bg-hero-copy p"
   ],
   "colorVars": {
     "--bg-parch": "#f5f0e8",
@@ -391,7 +391,10 @@
     "--bg-gold-soft": "#fdf4ec",
     "--bg-muted": "#7c6e62",
     "--bg-border": "#e6ddd2",
-    "--bg-line": "#ded3c7"
+    "--bg-line": "#ded3c7",
+    "--mf-btn-bg": "#2d5a3d",
+    "--mf-btn-color": "#ffffff",
+    "--mf-btn-hover-bg": "#234730"
   },
   "contentTokens": [],
   "scriptTokens": [],
@@ -450,8 +453,9 @@
     "Continue",
     "Submit Application"
   ],
-  "cssClassCount": 76,
+  "cssClassCount": 112,
   "cssClasses": [
+    "mf-template-bulgaria-discovery-programme",
     "mfp",
     "mfp-bulgaria",
     "bg-card",
@@ -527,14 +531,49 @@
     "mf-form-description",
     "mf-form-actions",
     "bg-eyebrow",
-    "mf-row-column"
+    "bg-hero-img",
+    "png",
+    "bg-thumb-img",
+    "DnnModule",
+    "mf-row-column",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "8dbaa7fbb01dce4da846741ac34a17cd5d060577e1aedb017f2a2a8ac8029bfa",
-    "customHtmlSha256": "84e3418071a3819ce9ed619f32c5594585f11fb1fa6999075ba4eaa133573ff6",
-    "shellSha256": "9ae4d83e9fd6ded20b2add340ef33eca74cfddcb68292e94a73834b60822c58f"
+    "customCssSha256": "3ea2079f2956e55c6ab0032540bc9b4348a7514534c7d757479db9b916a0a9f9",
+    "customHtmlSha256": "f03b70fa1cdd67aa9928c1b9fa6b0efa7b25599584f528d1a9ca2691d0bff244",
+    "shellSha256": "ea5c0c9a607bf3c3e56a577890a0094fa24050a3cb93fef00ece1e76634db779"
   },
   "counts": {
     "fields": 27,
@@ -556,5 +595,5 @@
     "title",
     "description"
   ],
-  "generatedFrom": "bulgaria-discovery-programme.json"
+  "generatedFrom": "Discovery-programme.json"
 }

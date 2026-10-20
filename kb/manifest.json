@@ -1,1221 +1,1321 @@
 {
   "repoVersion": 1,
-  "generatedUtc": "2026-10-10T02:19:17.931Z",
+  "generatedUtc": "2026-10-20T08:47:23.390Z",
   "seed": null,
   "templates": [
     {
       "slug": "agency-flyer-euroyouth-application",
       "path": "kb/templates/agency-flyer-euroyouth-application.json",
-      "sha256": "8cd6e6491cb915f8444864b35b30eb39c4496fdd10af96fbe08ad6c8fd7159d6",
-      "sizeBytes": 24910
+      "sha256": "76ceed8ebb80c2a45da430206fe1ef5983bb108801196535e21a799ce5ab8285",
+      "sizeBytes": 24912
     },
     {
       "slug": "american-auto-dealership-2026",
       "path": "kb/templates/american-auto-dealership-2026.json",
-      "sha256": "24bd840949515d3043bfda6beae2ff1eba07f5eeec072731d6b4442080476f08",
-      "sizeBytes": 7969
+      "sha256": "aab68cef6dd2fcd5440509631f6b43ea6983c67bb980cfc6cdca3a11a1acaf6f",
+      "sizeBytes": 7999
     },
     {
       "slug": "americana-journey",
       "path": "kb/templates/americana-journey.json",
-      "sha256": "cf1eb4fbb03c448757d65bc6fb0af76d3666f3ba6854c499e1e2105133e92bd7",
-      "sizeBytes": 11202
+      "sha256": "af61638b3a736e56824400b8c0d35b37d833bb5043c022a3282ff84ccb64d080",
+      "sizeBytes": 11204
     },
     {
       "slug": "aurora-product-feedback",
       "path": "kb/templates/aurora-product-feedback.json",
-      "sha256": "7866e9564256538e0680e5dc5de831d0bcc5bc8f667a4d9517014478fe56a642",
-      "sizeBytes": 8720
+      "sha256": "ebadcf14ad660c8772fbabcafe38888ef6638ddbc8963af31668d4d5b80503bc",
+      "sizeBytes": 8722
     },
     {
       "slug": "aurora-style-consultation-2026",
       "path": "kb/templates/aurora-style-consultation-2026.json",
-      "sha256": "8c2d5630751107f2934c7e9a8a15550627088254ad1dc2bcd71ebaa312c0bff4",
-      "sizeBytes": 14788
+      "sha256": "cf8ca1a98569aee0476947a6ca2d602ff06cb6c5bd9a5aa4ce7754ca70d4dbd7",
+      "sizeBytes": 14791
     },
     {
       "slug": "azure-contact-request",
       "path": "kb/templates/azure-contact-request.json",
-      "sha256": "0d6144d4d23c9f29319fbf214aa1b8b6e954b07e26639c06d5cde0b2ef38ec57",
-      "sizeBytes": 4686
+      "sha256": "8554168ebe4608f857b5b7a00d02ec648b6ba9d66cced5334bc85b7d2484c0c9",
+      "sizeBytes": 4688
     },
     {
       "slug": "botanical-thankyou",
       "path": "kb/templates/botanical-thankyou.json",
-      "sha256": "58a34b6f5387b71729e80776dffec6417d43814ce806e30085dbd257b09714a2",
-      "sizeBytes": 12466
+      "sha256": "1d13eefd3fce43be66cd160e2cbb7645d70d34ead391a1f4dae9800c8ab71668",
+      "sizeBytes": 12468
     },
     {
       "slug": "brochure-youth-application",
       "path": "kb/templates/brochure-youth-application.json",
-      "sha256": "3534934d55b4800ceac5a53dbc5739cf3a60ca9af44ba9c4e2c62718fab4ea93",
-      "sizeBytes": 23603
+      "sha256": "4d19063367bf6974d2857580e4dbae66c34f901d75317ca5a89da60d3faab6d8",
+      "sizeBytes": 23605
     },
     {
       "slug": "bulgaria-discovery-programme",
       "path": "kb/templates/bulgaria-discovery-programme.json",
-      "sha256": "ac83f3f24e8c07ecaacc2a06d994f396c7f6ab72ba2e259ba1f7b9903426f9f1",
-      "sizeBytes": 33517
+      "sha256": "af69f40645dd4f0c0fa6d03b03d56bff0db620564c757e50df159c21a3f52b59",
+      "sizeBytes": 33519
     },
     {
       "slug": "celebration-rsvp-simple",
       "path": "kb/templates/celebration-rsvp-simple.json",
-      "sha256": "588fc46bfe9b8aefd690eac173416f681052c83ccadd0fbf46d358b19817c8c7",
-      "sizeBytes": 6785
+      "sha256": "23df8bab7c81c991a919483928d9f7e765b4456e1521a95a6f66b84ba0ace9b3",
+      "sizeBytes": 6787
     },
     {
       "slug": "cherry-blossom-festival-registration",
       "path": "kb/templates/cherry-blossom-festival-registration.json",
-      "sha256": "12f52317b3e9b8b03f6d435cd19d0dfeaf4ba7f1b6297362b6859f04b18a0744",
-      "sizeBytes": 13904
+      "sha256": "65ec400131d3672a152bead189c96085acb7d67141bceb3da321a9f816d26e21",
+      "sizeBytes": 13907
     },
     {
       "slug": "christmas-americana-signup",
       "path": "kb/templates/christmas-americana-signup.json",
-      "sha256": "2e163f04a4b5fb49ab13b0bf499f62a9e81a8b25268fc153f39148f8a6e0da59",
-      "sizeBytes": 14973
+      "sha256": "57bc91916055b9142754b07f8083692ff70985b224ba514ebe24eb9cb7d770fe",
+      "sizeBytes": 14975
     },
     {
       "slug": "classic-americana-registration",
       "path": "kb/templates/classic-americana-registration.json",
-      "sha256": "51daf2bc0307de803f3b0e0c51beb565a40b4ce9594ba4092e7329212d6c8cc9",
-      "sizeBytes": 14911
+      "sha256": "64fa7ea2ab7f1255f3f646d4338a6715d350a93b0e5c636e7f1ff605a47b44de",
+      "sizeBytes": 14914
     },
     {
       "slug": "classic-australiana-booking",
       "path": "kb/templates/classic-australiana-booking.json",
-      "sha256": "450ee8b8ae8e7fa90b36ec6824d95f47ab89ac4e2677c69fcaa5815cd7f47d8d",
-      "sizeBytes": 13526
+      "sha256": "02ae980b136f0e7a955fd3072a1b5021a58bbfad335b6e5bb5d45a134859afbc",
+      "sizeBytes": 13528
     },
     {
       "slug": "coachella-festival-registration",
       "path": "kb/templates/coachella-festival-registration.json",
-      "sha256": "0cfef45585b0ebd428d141d2cf19d968712d913e167f37d42efbc063dca671a9",
-      "sizeBytes": 15101
+      "sha256": "9864320a3a3aa55f343f22609005ca4a4df668b4d6ff1dac610ae81a52c687d9",
+      "sizeBytes": 15103
     },
     {
       "slug": "corporate-registration-blue",
       "path": "kb/templates/corporate-registration-blue.json",
-      "sha256": "a1ec266df6b53fd7a2a4dc3f691cd05306db3b1434122a3c0a6e34098f70c88f",
-      "sizeBytes": 12276
+      "sha256": "fa0ae1d06a0d599ed928f56408ccfda1c47ad86372c8c75c1b652f55181fa9df",
+      "sizeBytes": 12278
     },
     {
       "slug": "creative-workshop",
       "path": "kb/templates/creative-workshop.json",
-      "sha256": "6b2c753b9d1f9cf33cd35cd1b9739d976e907043df136691e1b9b11e025c8d83",
-      "sizeBytes": 6082
+      "sha256": "b434f1c4642cb7997d00fa22701de0033d9e99a5ad98b1e186f31ae5ae46cbe2",
+      "sizeBytes": 6269
     },
     {
       "slug": "cv-registration",
       "path": "kb/templates/cv-registration.json",
-      "sha256": "a687d812c2fce6ca0ac74908e7431a5829e56f3307c9bc827355f2b0c8db8112",
-      "sizeBytes": 13115
+      "sha256": "1d57a0796e772972c448e1c319a39db45e8ed15a6396aa8efc4efe68e2fc3d58",
+      "sizeBytes": 13117
     },
     {
       "slug": "dance-competition-registration",
       "path": "kb/templates/dance-competition-registration.json",
-      "sha256": "1be81fe780c11a7046dd506d76dfc323a37a99a807138ef9ff69155d7a8ca132",
-      "sizeBytes": 24381
+      "sha256": "be768aeac497bd478bf00ca5ca8f9af3b62ab0710c42429fc25c0e20418eb818",
+      "sizeBytes": 24383
     },
     {
       "slug": "document-registration-a4",
       "path": "kb/templates/document-registration-a4.json",
-      "sha256": "9f0fd8f514824dc2b6c76bb27a5b51c9a86b25004d1bf83c69d8ecf5e8823ec6",
-      "sizeBytes": 41321
+      "sha256": "9a93f78dc17b59066696b961383dda2b5527f059b94e728d68cb1cf317b3d051",
+      "sizeBytes": 41323
     },
     {
       "slug": "down-under-australia",
       "path": "kb/templates/down-under-australia.json",
-      "sha256": "0203ff3af7408e5f7372fa498dc491703aa6baf7109624536f5537b6391b1987",
-      "sizeBytes": 16741
+      "sha256": "db4f9936343ca5211ac99c49b12e55b76364e92e27deacef38a1cebee7d913a3",
+      "sizeBytes": 16743
     },
     {
       "slug": "easter-blossom-atelier",
       "path": "kb/templates/easter-blossom-atelier.json",
-      "sha256": "5221145226333ae387f9e4955e68b6540b551398738c662233518b877fa7f395",
-      "sizeBytes": 3988
+      "sha256": "fdfb57e89a836c6d07b7f042c715e2ee39838e6854125f145a36c840fb539bb4",
+      "sizeBytes": 4929
     },
     {
       "slug": "easter-egg-hunt-registration",
       "path": "kb/templates/easter-egg-hunt-registration.json",
-      "sha256": "068bf9161cdccf49ac42ba6e1477be3d57047c1f605ac801345cb17d6a35c0a3",
-      "sizeBytes": 3950
+      "sha256": "2d739ae5f83aad2680bc0448ebd2cea1879750f035a31cd924be1c565da78dec",
+      "sizeBytes": 4890
     },
     {
       "slug": "easter-painted-garden",
       "path": "kb/templates/easter-painted-garden.json",
-      "sha256": "5d40081c7ef8cf71428f9dc4d9519ebe61c475c25ac7014ce1128495c3dcc68b",
-      "sizeBytes": 3970
+      "sha256": "54d9d7d95d3b29103fe1e4c68b9cade307ca9296880d8dfa973de0078c36dcee",
+      "sizeBytes": 4899
     },
     {
       "slug": "easter-werkhaus",
       "path": "kb/templates/easter-werkhaus.json",
-      "sha256": "3bd4094aefd9c4e625ff57a986223949d70c09254ccaac3d0910df4063e5329e",
-      "sizeBytes": 3960
+      "sha256": "0e2efe6c73b78ac1c8e94d25e45f69ca7cd5a52d09dac3ac874a5d6df255b831",
+      "sizeBytes": 4866
     },
     {
       "slug": "elderly-care-donation",
       "path": "kb/templates/elderly-care-donation.json",
-      "sha256": "7d9137153cdbf89383757edbbeedf4188633ca42b04ab54392d370f0167b054d",
-      "sizeBytes": 7318
+      "sha256": "0abab27f5d8f4e56e93808147be7014a2ed34e4355112c67f0d0e838761fa79f",
+      "sizeBytes": 7509
     },
     {
       "slug": "euro-youth-application",
       "path": "kb/templates/euro-youth-application.json",
-      "sha256": "04a63928e7e301f4d1c54214da3b58d379f1b39344b1719648caa72045ee2693",
-      "sizeBytes": 23302
+      "sha256": "9d64bb8cdd53fe08fcc93d31c45395b9cd419b595cb198468edf50426e8fac1e",
+      "sizeBytes": 23305
     },
     {
       "slug": "event-registration-premium",
       "path": "kb/templates/event-registration-premium.json",
-      "sha256": "13556c39f5642deb7f7e48d5f0a497fca9d5f1909d6441c7d5b8d0bd5c8981d7",
-      "sizeBytes": 8645
+      "sha256": "e399e859cd680c4b6bf11eb330e41b5e2975a0024beb26ccc5ec4833fbb0da37",
+      "sizeBytes": 8841
     },
     {
       "slug": "event-registration-rsvp",
       "path": "kb/templates/event-registration-rsvp.json",
-      "sha256": "dfb3b3df9a8dab769ad2febe1072b26fab5247d3e44cc009f36f04c11abd6b5f",
-      "sizeBytes": 14886
+      "sha256": "4ad5e1e22b9fc008507d951df95f2dae3ed1b1e928e29362db535079ce23bb7b",
+      "sizeBytes": 14889
     },
     {
       "slug": "festa-italiana",
       "path": "kb/templates/festa-italiana.json",
-      "sha256": "7074f3748d571d48776fb2bd677e8f0dab084051588a120e0b430a8af3251e9f",
-      "sizeBytes": 23002
+      "sha256": "2b323ee7ee142e5f50bcc9f89df8d2f9bb5ac6931da50be18dbaf1815b7d3515",
+      "sizeBytes": 23005
     },
     {
       "slug": "floral-youth-application",
       "path": "kb/templates/floral-youth-application.json",
-      "sha256": "a3e1fc6d81c8c7865fd0f0bb318bac894be222c36d47f78a79dfe6853bfc8982",
-      "sizeBytes": 23683
+      "sha256": "55a77b69e0b08500e705275d0ca6388248d9694b5fe8cdce0b64fb270e81d96f",
+      "sizeBytes": 23685
     },
     {
       "slug": "french-invitation-2026",
       "path": "kb/templates/french-invitation-2026.json",
-      "sha256": "d8d6a4f107b328ad43bc572fa99a179c14ab95852d560bf13684609529c74d60",
-      "sizeBytes": 7235
+      "sha256": "91747869a97ef800fef791552300a540f6250a589709af3ee6de1d084083889c",
+      "sizeBytes": 7237
     },
     {
       "slug": "glass-course-mentor-application",
       "path": "kb/templates/glass-course-mentor-application.json",
-      "sha256": "550f4e5a715680bb7e90e5fd28d142fec897e646a285c8a851b561d0c96e9869",
-      "sizeBytes": 9806
+      "sha256": "e1fbee787b945315fac34d3c83ca462f28ff7c2ce829053d61b7db7e4a62f771",
+      "sizeBytes": 9808
     },
     {
       "slug": "gold-suite-membership-application",
       "path": "kb/templates/gold-suite-membership-application.json",
-      "sha256": "7284360e4cd6838234c913e8f0dfcdb54b7b9eb93046bdbfc2725d6a25a3a6ae",
-      "sizeBytes": 29376
+      "sha256": "651af38e1ed077dd84bc8cad722c11f9deca9fae1e2132c51c74434a63cd8c29",
+      "sizeBytes": 29379
     },
     {
       "slug": "golden-pro-agent-registration",
       "path": "kb/templates/golden-pro-agent-registration.json",
-      "sha256": "822cef34bf3a8a6d561cd1c2d59a29ebb857c6607f7b45d3ecb9ee8c49ae8e74",
-      "sizeBytes": 23078
+      "sha256": "ea681b8a194103b4ea690767f1910682d1b8189dc98b48be977e51c9a0bf8b9c",
+      "sizeBytes": 23081
     },
     {
       "slug": "halloween-after-dark",
       "path": "kb/templates/halloween-after-dark.json",
-      "sha256": "e1908dfaa581820c56dcc04ce1cf116c0f7bec48ced59919b45f2d304c75aadb",
-      "sizeBytes": 3537
+      "sha256": "74009dfe69ba4143d7a0ee73cf7ff9c3c93fbcce934f580ced77709a20bf05d8",
+      "sizeBytes": 4451
     },
     {
       "slug": "halloween-moonlit-rsvp",
       "path": "kb/templates/halloween-moonlit-rsvp.json",
-      "sha256": "c7eae75a8954f6325e7882e599820fb7a13aa7123fcb3067a58f93a7f762944d",
-      "sizeBytes": 3709
+      "sha256": "a257260b75948d1321f01dd4481eeb39f194b11d3b609ffb90ad7cbc6bfd3f18",
+      "sizeBytes": 4622
     },
     {
       "slug": "halloween-party-registration",
       "path": "kb/templates/halloween-party-registration.json",
-      "sha256": "3a738622b7ed52ac5e45ee33ca8f797dcf2327da3a9ee0b87fae21d24e064656",
-      "sizeBytes": 9388
+      "sha256": "8d9c6cd2917653184620da9f115abe19c5bb8344f323e1fcdf2f3d27ca4e481d",
+      "sizeBytes": 9390
     },
     {
       "slug": "healthcare-intake",
       "path": "kb/templates/healthcare-intake.json",
-      "sha256": "baaeabc610e2dd3f65a66118def54bfe75022dd0867b38cb5cf0812e4d2e9006",
-      "sizeBytes": 5498
+      "sha256": "1904e2e96eef79d3e427756df025afcf0e27a82e6ccf708dd3b6a8606f2464cb",
+      "sizeBytes": 5685
     },
     {
       "slug": "holiday-request-travel",
       "path": "kb/templates/holiday-request-travel.json",
-      "sha256": "39c9467cbeb1c7bfce9673a4917bfd3913c07c02b0eed313d4b81540c20c9dfd",
-      "sizeBytes": 23717
+      "sha256": "8b40a079a530cbba2cb4b11e6434de9c0826b27d77935c217991db12a08d4a58",
+      "sizeBytes": 23719
     },
     {
       "slug": "ielts-report-classic",
       "path": "kb/templates/ielts-report-classic.json",
-      "sha256": "05426ee4375249874a81eca5a4b25f1aa7d08fae45b930665afeb3e36564e34f",
-      "sizeBytes": 12548
+      "sha256": "17f5a41f1ab47f07774199957a0dd796c5cacaafe98cdd269223a49b8ee90e10",
+      "sizeBytes": 12550
     },
     {
       "slug": "insurance-enrollment",
       "path": "kb/templates/insurance-enrollment.json",
-      "sha256": "8b9f1c9735afc084c56ab2cd9aef9ec9e5ce0c05e20129f77a062bcc4858e012",
-      "sizeBytes": 11297
+      "sha256": "1d54f0b0228e992d490958e74080954c852ddab24a195fa6cfefa7a9fc0b7861",
+      "sizeBytes": 11487
     },
     {
       "slug": "invoice-blue-application",
       "path": "kb/templates/invoice-blue-application.json",
-      "sha256": "c59454a385e7905b36e6285879f61aac81f948261c1592997b6eb95418775571",
-      "sizeBytes": 13765
+      "sha256": "22c53c5b1d0dd33aa2b9f3acc727e7f2349d8d348e873feb8478b20151c8d5d8",
+      "sizeBytes": 13767
     },
     {
       "slug": "invoice-codexo-cyan",
       "path": "kb/templates/invoice-codexo-cyan.json",
-      "sha256": "7c7d7682aa7c57deadb32a4b120029d59174f6a4f2b54bc94f1312f3e4d2aecc",
-      "sizeBytes": 30031
+      "sha256": "27cac252d35b1efe60e32468aca22cab1ee335bc0dc0bd167e9fbc983d88c052",
+      "sizeBytes": 30033
     },
     {
       "slug": "invoice-dark-application",
       "path": "kb/templates/invoice-dark-application.json",
-      "sha256": "2406e682fc3a5d90a7a97491f2ba6aa715dc401f80ded606512d7c61a8095e4f",
-      "sizeBytes": 13797
+      "sha256": "50fa9cdea0070189358835e73ebcc91aa21b16378031bde5273ca94328158bf3",
+      "sizeBytes": 13799
     },
     {
       "slug": "invoice-minimal-application",
       "path": "kb/templates/invoice-minimal-application.json",
-      "sha256": "78f87792fe8a1e40b3516308c7ce3fd1a4709688dc6cb4e8acdf5dc7bf7d739f",
-      "sizeBytes": 13804
+      "sha256": "dc9cce332938b73664b2c0a9b93a1d7ced92e23cfab91f9bdb696dc591b9e92a",
+      "sizeBytes": 13806
     },
     {
       "slug": "invoice-orange-application",
       "path": "kb/templates/invoice-orange-application.json",
-      "sha256": "3c1026d9a8ea445b341240fa7295856b83d6b2e014d548326c4107ae91c2ce33",
-      "sizeBytes": 13765
+      "sha256": "c03c2bbfef1a6ad947a1017aac4bf7851ea45d1605cb3ce469cf36cfde7fe10b",
+      "sizeBytes": 13767
     },
     {
       "slug": "invoice-request-navy-orange",
       "path": "kb/templates/invoice-request-navy-orange.json",
-      "sha256": "25ac1097c546230dd3698ea62029458bfb743cf542f3dc9da372df98826ce34e",
-      "sizeBytes": 27970
+      "sha256": "9b1a8bbfd83333fdd7d1d2f90e91b89b57bde64f2f18fc4c5e722d5d46222d6a",
+      "sizeBytes": 27972
     },
     {
       "slug": "invoice-spinera-blue",
       "path": "kb/templates/invoice-spinera-blue.json",
-      "sha256": "9d085bad02ee362aa3457e1ed41d20d0999b1e36d339bfb05c1d6db94a79a600",
-      "sizeBytes": 26048
+      "sha256": "cb10e2ebf6d3bee434367794f1a33457f73740c9a47bae7063efdc40878e5107",
+      "sizeBytes": 26050
     },
     {
       "slug": "job-application-northwind",
       "path": "kb/templates/job-application-northwind.json",
-      "sha256": "ccbd86bd48fabf3d620297b60e58bdca42c5062ad390c51746800884fb5c6afa",
-      "sizeBytes": 11282
+      "sha256": "cdb9aab5764d33ce413dc0abcd9f88d6f669674adb99b15bd387e2b71957d562",
+      "sizeBytes": 11284
     },
     {
       "slug": "kawaii-diary",
       "path": "kb/templates/kawaii-diary.json",
-      "sha256": "d109656d087d9397c99834d569a60da200dfe816fdba3638e4b264d3cdadbd6f",
-      "sizeBytes": 11728
+      "sha256": "f715158e17f49b3d36233c4f4cf8eb31ba6275e4a4c1362bfe848031bb0533c7",
+      "sizeBytes": 11730
     },
     {
       "slug": "kids-first-book-registration",
       "path": "kb/templates/kids-first-book-registration.json",
-      "sha256": "c728fe4e42dec0930401c87bf99321f4024e4f4cf851b3c29969aa88888d2ed9",
-      "sizeBytes": 22226
+      "sha256": "9bc75dfad62a10d4efbdd07af0bb2f04f3abc2dd7cbfa7aa3341f36d0acb14e1",
+      "sizeBytes": 22228
     },
     {
       "slug": "lagoon-reserve-booking",
       "path": "kb/templates/lagoon-reserve-booking.json",
-      "sha256": "b3e7c4c5780f947b1eab27ac2a8a0ec8390eddc2160bd84cf5ab5be6f24f348a",
-      "sizeBytes": 30658
+      "sha256": "536aa7b5fb63aa754db2e5ec18e45e3e8f8f1f7816a51c6ca52501272a272851",
+      "sizeBytes": 30661
     },
     {
       "slug": "massage-bodychart-terracotta",
       "path": "kb/templates/massage-bodychart-terracotta.json",
-      "sha256": "9d1ccb03266f6d3ce84007f1067580ddfb57b81f6ffca50d3ee90a912ac341f2",
-      "sizeBytes": 12548
+      "sha256": "5272cea33020e5d99e74be4262ca2bd6e648bd5494db00cac1bd6b08616cc8a7",
+      "sizeBytes": 12550
     },
     {
       "slug": "massage-intake-sage",
       "path": "kb/templates/massage-intake-sage.json",
-      "sha256": "d40ca74ec050d359451024c55a44873046e2f1396ae514325a9db45251942762",
-      "sizeBytes": 12966
+      "sha256": "16f3182d81f0b813f8f7cabb27a6de2e668a4739029694a90f22fc6f44a4e20d",
+      "sizeBytes": 12968
     },
     {
       "slug": "member-login",
       "path": "kb/templates/member-login.json",
-      "sha256": "b62eb6be1199a25a3061043f529a212573880657bd01a8ffabd687978ba95274",
-      "sizeBytes": 2355
+      "sha256": "bfe67ef255a3356d35e5ec8ad5a936abcf72a83dce5b5a3427d4a19f30207c4d",
+      "sizeBytes": 2357
     },
     {
       "slug": "newsletter-signup-amber",
       "path": "kb/templates/newsletter-signup-amber.json",
-      "sha256": "e4b9a923042ac6331754b9e0586e46b4183b87b93759588c2aa1ee1a7e40e190",
-      "sizeBytes": 6758
+      "sha256": "21c45f8d4e2eb9e7869c742b61bc684b3f956a020b5d5ca44de0787a0a53cdd1",
+      "sizeBytes": 6760
     },
     {
       "slug": "product-consultation-form",
       "path": "kb/templates/product-consultation-form.json",
-      "sha256": "bd9f9ddf7551f85303b9b623e76d90ae87a8d12c9a8db18384c5f7bb32059a07",
-      "sizeBytes": 13062
+      "sha256": "8508d7c019a74f0e50dffd06e69599cd7f4976230fd8ad89609894e497ce964a",
+      "sizeBytes": 13064
     },
     {
       "slug": "product-order-live-total",
       "path": "kb/templates/product-order-live-total.json",
-      "sha256": "efcab248e757ef063eff7cfe337cbbe919c9d1a4cd31a20739132f5055351516",
-      "sizeBytes": 12897
+      "sha256": "cbc8eb7bdb7218fe58373c618304d2d91c099b103f0f4d59e86a7571864df398",
+      "sizeBytes": 12899
     },
     {
       "slug": "professional-application",
       "path": "kb/templates/professional-application.json",
-      "sha256": "7cefe35d34e44e048554b543a0e82b91172c10bf18f794ce76b83b483a609dd2",
-      "sizeBytes": 6197
+      "sha256": "272d0393afee12f22db93fdfa0fc9c87a357f04ff9b7bc5434342a41d5e65570",
+      "sizeBytes": 6391
     },
     {
       "slug": "project-intake-onboarding",
       "path": "kb/templates/project-intake-onboarding.json",
-      "sha256": "7c535a8fb86f8b47ab56f2eaf23f0e3c4ec41a2d95d8be8b3bdc3c89d6efbd58",
-      "sizeBytes": 15241
+      "sha256": "bc40af898cd0a41ab2759b60b42ac34fd5cf1000f59c667eafd3905931082328",
+      "sizeBytes": 15243
     },
     {
       "slug": "pure-grid-template",
       "path": "kb/templates/pure-grid-template.json",
-      "sha256": "0d000ef8dc96cafd590af6ac6668313d6ce8dff3c8729d5f553dc9d9201db3fb",
-      "sizeBytes": 8949
+      "sha256": "d7ce621610cd2de4c857e1d4690655720eec2c4290f5876c0e5bd28dcc97c88d",
+      "sizeBytes": 8951
     },
     {
       "slug": "realestate-registration",
       "path": "kb/templates/realestate-registration.json",
-      "sha256": "f01958cef5c59f31ff83c8f13d43311400f8d78c6bf8c8981f801b88730de30d",
-      "sizeBytes": 13264
+      "sha256": "0ac083a6942621f2ea92b42266731d9f05eac7f8a421dc4727e212969a9a1bf0",
+      "sizeBytes": 13266
     },
     {
       "slug": "romantic-congratulations-event-form",
       "path": "kb/templates/romantic-congratulations-event-form.json",
-      "sha256": "d38fb98acc21d7046bea24f9d46a2a0dc0e6cc16b669277ba65cd5708e232579",
-      "sizeBytes": 9485
+      "sha256": "540828f7389c35d551d5b572b302c056a885a3580b66ad86dd73abf6eea46603",
+      "sizeBytes": 9487
     },
     {
       "slug": "rose-wellness-registration",
       "path": "kb/templates/rose-wellness-registration.json",
-      "sha256": "184723877bcbbfbafd60fd02cc72eb46059c16a85e1f0bcfb6f6e4a6a5f0fb0c",
-      "sizeBytes": 13462
+      "sha256": "76cc4c00810fe20b796ed73950d3996eab08d5a4c17023af8f3237cdcd8484da",
+      "sizeBytes": 13464
     },
     {
       "slug": "sticky-spark-creative-brief",
       "path": "kb/templates/sticky-spark-creative-brief.json",
-      "sha256": "f35849f51cdc343d7fa77646bd6a0ad46e03c4c69911ea69a8088f52f6701599",
-      "sizeBytes": 7734
+      "sha256": "950940d2314acedb1a9a2bb503a0b22ea877b1cd6a2fe8572d54fb7fbe09b67d",
+      "sizeBytes": 7736
     },
     {
       "slug": "tabbed-account-setup",
       "path": "kb/templates/tabbed-account-setup.json",
-      "sha256": "131a84e4fdd2ba43e4c2fb5886c9d85b6b15840359a78b23510cc008582a6755",
-      "sizeBytes": 12546
+      "sha256": "a09f4a91dc8d031a6a15995a6fb2c951c2fd529e1cc762075a137b318dcc4efd",
+      "sizeBytes": 12548
     },
     {
       "slug": "tabstrip-account-setup",
       "path": "kb/templates/tabstrip-account-setup.json",
-      "sha256": "fce06a238381ffd08891505a958050f99529b7c4ee1448f32b15760c9ca22595",
-      "sizeBytes": 12651
+      "sha256": "7c460347391ead2b4bccc13f115f53233e7b6d3163bedec7e20057ae34e89999",
+      "sizeBytes": 12653
     },
     {
       "slug": "tabstrip-vertical-account-setup",
       "path": "kb/templates/tabstrip-vertical-account-setup.json",
-      "sha256": "1b6e2d0daa315c407b43f182c624fbe902d58d9604390505027fb451ccb76c9a",
-      "sizeBytes": 12817
+      "sha256": "09a127577c14ee03d522c7de8d627f1c69f1aecb7f0cef3ef90020eb2f99f221",
+      "sizeBytes": 12819
     },
     {
       "slug": "teal-brochure-application",
       "path": "kb/templates/teal-brochure-application.json",
-      "sha256": "18de2e54cca52ca4c3fa78083f4e9ccd943b9218b1c53431bdfd7bf2855b8bde",
-      "sizeBytes": 23803
+      "sha256": "2fc995c54025819a923f6f107fa7f9bf16cd5d8297018894f4ca61f65f1ff2ba",
+      "sizeBytes": 23805
     },
     {
       "slug": "terracotta-product-feedback",
       "path": "kb/templates/terracotta-product-feedback.json",
-      "sha256": "9b16d570f1958870cc74b60bc49a081943bcbee856d725c2360d9c4e482984d1",
-      "sizeBytes": 5468
+      "sha256": "df22e265d881fbb6d937044ebaae3da25e083b76e4b6df2ba816e913f2223ae4",
+      "sizeBytes": 5470
     },
     {
       "slug": "travel-consultation",
       "path": "kb/templates/travel-consultation.json",
-      "sha256": "42f9965d23ae4da360a36b23d73d34ce14708a09e1fe353d2eeab810b4b5222c",
-      "sizeBytes": 5758
+      "sha256": "2ef0eda0158a69f5f7622e921a879a000c1c4d33d4c169b46c272d8fe7d15b71",
+      "sizeBytes": 5947
     },
     {
       "slug": "usa-training-course-registration",
       "path": "kb/templates/usa-training-course-registration.json",
-      "sha256": "92fa4ae22e47c93713582d4b55bcc93b69c7a8463bf129e5e6c798c9215a45b7",
-      "sizeBytes": 22037
+      "sha256": "890c179a5ecb846b85ebdb6eaf1310c6e507cfc8c84f3dda37319d5b711e6e85",
+      "sizeBytes": 22039
     },
     {
       "slug": "v0-contact-map-left-corporate",
       "path": "kb/templates/v0-contact-map-left-corporate.json",
-      "sha256": "e38b0d37fbdb795059915ac61d4aee5f95431261b0d393be89964bdeeefca4ed",
-      "sizeBytes": 6882
+      "sha256": "338a1312b789b21b15dfd1aa048967a0bae30e1cd7b73b1f4f50bf3508c8dd33",
+      "sizeBytes": 6884
     },
     {
       "slug": "v0-contact-map-left-minimal",
       "path": "kb/templates/v0-contact-map-left-minimal.json",
-      "sha256": "cf2e3c6693147c6969a8c074bba30b543171a1e160a7381c3b1760576a1fa90e",
-      "sizeBytes": 6858
+      "sha256": "1a2e60cac8ac3c3d93fa237dd81a2fd0544052d1468a5e48c1b5444caa1c10ba",
+      "sizeBytes": 6860
     },
     {
       "slug": "v0-contact-map-right-modern",
       "path": "kb/templates/v0-contact-map-right-modern.json",
-      "sha256": "6bb4760a85afb31968631787767eed33fb4d8ed0fcce81031d5cd4ae4aac16e1",
-      "sizeBytes": 6857
+      "sha256": "568b6584671612e70323e40913dae51b9c9281ed1abc744c9b6918712dbd01d9",
+      "sizeBytes": 6859
     },
     {
       "slug": "verdant-member-registration",
       "path": "kb/templates/verdant-member-registration.json",
-      "sha256": "aa09e226b26b90519153162f536ae85c0e14a3feb343710de5188820de1706ce",
-      "sizeBytes": 8195
+      "sha256": "5fb1320300f71cd1e028fe05b57d9d146ae4530175ba94513351c70816393b6c",
+      "sizeBytes": 8197
     },
     {
       "slug": "volunteer-application-euroyouth",
       "path": "kb/templates/volunteer-application-euroyouth.json",
-      "sha256": "958fd4fb241f40f3ce36879724d457159802bea6feeadf87a44414be4bb1cbd3",
-      "sizeBytes": 23469
+      "sha256": "1f01cdb34753d24c129c61235b750d6e2f233ed0e9b7ede53304e31717a6e934",
+      "sizeBytes": 23471
     },
     {
       "slug": "volunteer-profile",
       "path": "kb/templates/volunteer-profile.json",
-      "sha256": "e31908033817a6e1c4d1ed126e445f1fe09c537f54e111d7e10e386ef249553c",
-      "sizeBytes": 5957
+      "sha256": "5d7a9251dc455aa46a32ddb543d9a418faafd5defe7968ec61448db2f93e13fe",
+      "sizeBytes": 6144
     },
     {
       "slug": "wellness-patient-intake",
       "path": "kb/templates/wellness-patient-intake.json",
-      "sha256": "d3cbf52444772ae01e668ee2cacc5f3aacc2e101ea3493313ddaa9170e3d787b",
-      "sizeBytes": 17042
+      "sha256": "835627887d2fd36e937907f5672263251160844d91f00409bcb1231b2d824b55",
+      "sizeBytes": 17044
     },
     {
       "slug": "xmas-newsletter-euroyouth-application",
       "path": "kb/templates/xmas-newsletter-euroyouth-application.json",
-      "sha256": "522316122612fa269e9df89c3350200c1cbf90924a0d45234ec2088e32c8daf3",
-      "sizeBytes": 25227
+      "sha256": "efa42045f23881f513a884cfbfea214bfc62b5eb595f7fbf4a85488d906594d9",
+      "sizeBytes": 25230
     },
     {
       "slug": "xmas-sale-euroyouth-application",
       "path": "kb/templates/xmas-sale-euroyouth-application.json",
-      "sha256": "9726a533c1dd2353cd65baf04e4ee4f960ff905a22038fdf56f64992b62c1ea4",
-      "sizeBytes": 23796
+      "sha256": "67871014015869b1ce5621084b7b53ee278c106c811ca03ad9a05b51a731031d",
+      "sizeBytes": 23798
     }
   ],
   "files": [
     {
       "path": "kb/TemplateGuides/agency-flyer-euroyouth-application.facts.json",
-      "sha256": "9b8f02d236e032217fc96a4b0b9f76e2f2ec9f2130764163c77b0988c6ea5308",
-      "sizeBytes": 8769
+      "sha256": "987015a293871d843c83e6b68ce23996be5f3a884a2a6af4e4378298e21db817",
+      "sizeBytes": 9959
     },
     {
       "path": "kb/TemplateGuides/agency-flyer-euroyouth-application.guide.md",
-      "sha256": "20645e125f6893322be1b15508252b0f1e1c656a35fe196fd5a7e9863b10c041",
-      "sizeBytes": 8868
+      "sha256": "071af93a9fccc71e539a1653ad20b79b54338822ca96c5f4027df64e649f97ad",
+      "sizeBytes": 9176
     },
     {
       "path": "kb/TemplateGuides/american-auto-dealership-2026.facts.json",
-      "sha256": "436cd00cd04922f5d69175cc317c62f9eaeac6a5490dcc9905e9d8bbbcf88fa3",
-      "sizeBytes": 5932
+      "sha256": "d022974106ed09974b10a8426e4ace7d4fccc5ce88f8cd67689762d4f0680c4c",
+      "sizeBytes": 6534
     },
     {
       "path": "kb/TemplateGuides/american-auto-dealership-2026.guide.md",
-      "sha256": "b80b1e9b0a5ba48f0e1741321f1376f2c17e1ba696fb7ea585b8da54dd1f508a",
-      "sizeBytes": 9484
+      "sha256": "804e51e0b26b5e4b57464d0e9cebca15aae16372eef1f63a41c71a8ee4034f47",
+      "sizeBytes": 9790
     },
     {
       "path": "kb/TemplateGuides/americana-journey.facts.json",
-      "sha256": "07dd42fbdbc398944038e89c4194768065c42156d2e2a2c7266aff3b40dce537",
-      "sizeBytes": 9071
+      "sha256": "94c8726f8ad3ef2ecf8bcc817c7dc128b6b5f59a1308b7d8a7bc7e36395de42b",
+      "sizeBytes": 9929
     },
     {
       "path": "kb/TemplateGuides/americana-journey.guide.md",
-      "sha256": "ab0b627ff474debecced2167b3ce9ee491a9b710ca9348f1c178d96c81bbb18c",
-      "sizeBytes": 8861
+      "sha256": "b872248cab3a8dcc9b89e6a373069d3efd5a4e8c0be47841178e5eab7130b18f",
+      "sizeBytes": 8849
     },
     {
       "path": "kb/TemplateGuides/aurora-product-feedback.facts.json",
-      "sha256": "86726dbfea1a18ea2a909c704c2180f985d925e8f950633de37fc98614e7442a",
-      "sizeBytes": 6822
+      "sha256": "66efccd828c1b3870fe40502f13f808835770a9042ee8c63b335c51f445a3d66",
+      "sizeBytes": 7357
     },
     {
       "path": "kb/TemplateGuides/aurora-product-feedback.guide.md",
-      "sha256": "adc1cdc5aad9cb2d04e17f420364e5a3b9ad9da9125d096a51a8f85d01dbac6a",
-      "sizeBytes": 7435
+      "sha256": "1414a574793ea4382c93f4a103e9590f20822431e4cc48363f6515f6a78bcfcf",
+      "sizeBytes": 7732
     },
     {
       "path": "kb/TemplateGuides/aurora-style-consultation-2026.facts.json",
-      "sha256": "badf58b156b3711e5450e77605828ea33809019bc96f96d1497eeb6dd47d393d",
-      "sizeBytes": 9768
+      "sha256": "b114fe9d4595db4df3685e48ade1f87e225e284b00b945bbbfdda824e47f29d4",
+      "sizeBytes": 10349
     },
     {
       "path": "kb/TemplateGuides/aurora-style-consultation-2026.guide.md",
-      "sha256": "822ae08f95413b2adaf45396e8aef5e6c64c06a269ee9662f13189833603d5df",
-      "sizeBytes": 10701
+      "sha256": "ecb1ffe0667b1f95d7bae274417ceadf413f8910d59fdabccbe4b38350e2a9fc",
+      "sizeBytes": 11005
     },
     {
       "path": "kb/TemplateGuides/azure-contact-request.facts.json",
-      "sha256": "6ce7254890d95743044056b299e34b00afbec24e304ec1153c6eeb0931dc15c6",
-      "sizeBytes": 5308
+      "sha256": "6b9f8706670939a79162a84a9fb623023b3e01879788354d048a07d3526e6ce3",
+      "sizeBytes": 6047
     },
     {
       "path": "kb/TemplateGuides/azure-contact-request.guide.md",
-      "sha256": "d267c6b018497d7754bfc01bc5566794bf77dbe952ff28ca80fd00dc7cc3ff3d",
-      "sizeBytes": 7009
+      "sha256": "6796d694a0befd6b8f77599c276c9e3e56305d1f7daa8675a0cc5b072001d31d",
+      "sizeBytes": 7304
     },
     {
       "path": "kb/TemplateGuides/botanical-thankyou.facts.json",
-      "sha256": "a6f9771b8754d958ed0c977c7d9e1b9eab30b430490966e174694773eb54430e",
-      "sizeBytes": 8481
+      "sha256": "6047e0699c8a238dc2f29446ade5e3d4aa7b5434bdf0cd8951976721901477ef",
+      "sizeBytes": 9202
     },
     {
       "path": "kb/TemplateGuides/botanical-thankyou.guide.md",
-      "sha256": "44de5464ed2b2b3edc8f4312f1616e70e491f79a70eac0ce561a1cb861722a18",
-      "sizeBytes": 7893
+      "sha256": "851737f5cc303734686fa3cc7b4119cd268beb5f8c6ce8a5ca9f2a360ec1d3a2",
+      "sizeBytes": 8185
     },
     {
       "path": "kb/TemplateGuides/brochure-youth-application.facts.json",
-      "sha256": "3cb1799c6fa4ab975207d8a16bebfa0096b18b25e9793d0ef38019ed58ee7347",
-      "sizeBytes": 10920
+      "sha256": "2932b04b824d9062daf3c5187a2a945122a65f6661ece39ce167f71179b45cc1",
+      "sizeBytes": 11823
     },
     {
       "path": "kb/TemplateGuides/brochure-youth-application.guide.md",
-      "sha256": "3209baf233530fdc56521de7ec100768f5669ae04d90799a322c7ebade0bae6b",
-      "sizeBytes": 10195
+      "sha256": "2ca49638f63f27840605a51f306f2b3ba267039b959d8eac316e561ce939b7e4",
+      "sizeBytes": 10495
     },
     {
       "path": "kb/TemplateGuides/bulgaria-discovery-programme.facts.json",
-      "sha256": "b5ce9f7adb98ca986f6db06d229b3793e513c1fa3465487633c4b70eec86f226",
-      "sizeBytes": 13438
+      "sha256": "544d10917d93ccfbad4742e4f26dc350a1bb7df3d970faeb6503fc171da0fa0e",
+      "sizeBytes": 14523
     },
     {
       "path": "kb/TemplateGuides/bulgaria-discovery-programme.guide.md",
-      "sha256": "7aa9ebde9aa7ff8749043f55ebfd218be2d2809be78e66aa004b0890fabcbe65",
-      "sizeBytes": 11077
+      "sha256": "6bd346662fecd72b82d415adc050d699398df77b77202b025d2c42242cd3eb0d",
+      "sizeBytes": 11535
     },
     {
       "path": "kb/TemplateGuides/celebration-rsvp-simple.facts.json",
-      "sha256": "1be08d54dea8f40d7a0bf0102ba5843102b3c7f9ad30e2ef968a153f0453c246",
-      "sizeBytes": 6166
+      "sha256": "a5d2ba5519f49326c0addddcfc2007099d5109e35a30cd64e8a3c67053c1cbe5",
+      "sizeBytes": 6680
     },
     {
       "path": "kb/TemplateGuides/celebration-rsvp-simple.guide.md",
-      "sha256": "1812915c3e29a76298e12692e38480fa8e396f33d237df5034d55310f1053a3e",
-      "sizeBytes": 6889
+      "sha256": "be14b57f15d59b8d84f663f293f3bbd7fe8242a61c32a485205819eafd57de16",
+      "sizeBytes": 7186
     },
     {
       "path": "kb/TemplateGuides/cherry-blossom-festival-registration.facts.json",
-      "sha256": "6449860bfb53561a92bc25f17990399dbe0d9647bb95b714a4ab79d0bd8e97b1",
-      "sizeBytes": 9980
+      "sha256": "cf9d67897563152410e1d167735fc18a6ce549c0dc745932633969f5288e2bd9",
+      "sizeBytes": 10538
     },
     {
       "path": "kb/TemplateGuides/cherry-blossom-festival-registration.guide.md",
-      "sha256": "7dd54be8e3d58fb6d5c5f08a4612162191bdf87ccc57c375fd90c10d5643ef43",
-      "sizeBytes": 8676
+      "sha256": "4a62a9ba975324950fa0cae3a8316bfdc82166dd0781eaed15ba9bc060ab4d52",
+      "sizeBytes": 8986
     },
     {
       "path": "kb/TemplateGuides/christmas-americana-signup.facts.json",
-      "sha256": "d4cacd63f3491aa079ae2e3f5a372c02f7ae795ddfe5cded4aed592e2a876f9b",
-      "sizeBytes": 11181
+      "sha256": "aa235b39d8fbc446ec7a4c999aa9250caba92a9ef2de1a4f454ed5d01a68664a",
+      "sizeBytes": 11456
     },
     {
       "path": "kb/TemplateGuides/christmas-americana-signup.guide.md",
-      "sha256": "7a61fabe58304e8082e49b8cd8488e3165090dfdc7ff9fba98ca3840fd2722c0",
-      "sizeBytes": 9476
+      "sha256": "ae46da8d65248f724e04236dcb755a5b42eb4f85884304f2245b3578033dc194",
+      "sizeBytes": 9776
     },
     {
       "path": "kb/TemplateGuides/classic-americana-registration.facts.json",
-      "sha256": "073eb54a0ed99b369adb6d24bbf9e94a53ada3cc4c68426e4d5214dafb5177a5",
-      "sizeBytes": 11492
+      "sha256": "7e8a41a28af5b7cdcd00ac18813957dd439b308343f4a7ecf6561ff8075f19b7",
+      "sizeBytes": 12029
     },
     {
       "path": "kb/TemplateGuides/classic-americana-registration.guide.md",
-      "sha256": "a63536a6c28e626ea81ac6ece7e51ca4a63c5198cb3bbbfe24a460011d9bf0d3",
-      "sizeBytes": 9779
+      "sha256": "eeb1691a53dec98414335c0a4e4b487cf59c21a00b7c9f61c92d183920157eb5",
+      "sizeBytes": 10083
     },
     {
       "path": "kb/TemplateGuides/classic-australiana-booking.facts.json",
-      "sha256": "3c5e3bc0effd82682733dac5edeebe7659f247ecdc1161e6b6ab4426b2d99017",
-      "sizeBytes": 11108
+      "sha256": "04fa370f90a1ec104f9f709e629471c22e187a2794f0b8eca0adcb1be27dcd6a",
+      "sizeBytes": 11696
     },
     {
       "path": "kb/TemplateGuides/classic-australiana-booking.guide.md",
-      "sha256": "feff121fc81f7e8fdf5d10f115b13b0e1c758abc8c6becbb58fc8253fe26bf2e",
-      "sizeBytes": 9662
+      "sha256": "ce295ec1049f742b54a833cb1ca05da4d3f0b6854ad0ad7d62edc33465d7f5c6",
+      "sizeBytes": 9963
     },
     {
       "path": "kb/TemplateGuides/coachella-festival-registration.facts.json",
-      "sha256": "746460fa03b843e9e896a7b578055ac481394a121b61b6312d402129b6d146fd",
-      "sizeBytes": 10462
+      "sha256": "f635e83d24b7cb119c26be264172503465afe36bbad1bd43fa17684143e6026b",
+      "sizeBytes": 11002
     },
     {
       "path": "kb/TemplateGuides/coachella-festival-registration.guide.md",
-      "sha256": "f84a659f38bf3a50f6a889e87b0d34339c040111818b0a4408d6cd01e3d6ed2a",
-      "sizeBytes": 8862
+      "sha256": "e95b3acbfbbd2b66bbbd5f5e5f3aca00fe3a84962eb0aeb5671de8b9752f33cf",
+      "sizeBytes": 9167
     },
     {
       "path": "kb/TemplateGuides/corporate-registration-blue.facts.json",
-      "sha256": "cd830dbc1d608294f7c3c73cac6185bb542963bc3202503104c15e70dc0b0ce2",
-      "sizeBytes": 5744
+      "sha256": "5fc1f16246b66e6974db49290af114f0d3cd3b688fb2328427d0194c8b72a4d1",
+      "sizeBytes": 6474
     },
     {
       "path": "kb/TemplateGuides/corporate-registration-blue.guide.md",
-      "sha256": "341b0b90913c01fab1fa4a743f1539ab20370c2e079c2cc003f195428f87d3e4",
-      "sizeBytes": 7618
+      "sha256": "428aefb7e8bf0f3f40262ef4db3a73363c28daed3fad9929cf3e6c10f384e48b",
+      "sizeBytes": 7919
+    },
+    {
+      "path": "kb/TemplateGuides/creative-workshop.facts.json",
+      "sha256": "ec61cc0e91a18ef2375d3acf6f5eea457eec1a7d4cda1e357d975c1d8e0b5eea",
+      "sizeBytes": 4855
     },
     {
       "path": "kb/TemplateGuides/creative-workshop.guide.md",
-      "sha256": "56f742536f92a9682abb555d0233cf4ce39288869084d1c287f27a2aa272cc8d",
-      "sizeBytes": 3219
+      "sha256": "0d9210ca3300d3932bd95e7fbac4d49cd1ad3396b6695fd6f11eff6902684171",
+      "sizeBytes": 7425
     },
     {
       "path": "kb/TemplateGuides/cv-registration.facts.json",
-      "sha256": "a029744ae6cc4a36b37969899492fd84cb906bb60653faabbfe93b0070c3fafa",
-      "sizeBytes": 10030
+      "sha256": "9afc2cbde7c3fb4c948669c9c10b41b7ae2b6146e4eae7e74a7d04be06c600bd",
+      "sizeBytes": 10588
     },
     {
       "path": "kb/TemplateGuides/cv-registration.guide.md",
-      "sha256": "bd4d009434d5bf4a5b464e0fe9d57dd82db7ccd91eeb1be068dc09c49d974c89",
-      "sizeBytes": 8339
+      "sha256": "84a9f3699fdaa9c89a158ec52c03a1e0988a72fb4fad4608b90f6d80cbe268b6",
+      "sizeBytes": 8628
     },
     {
       "path": "kb/TemplateGuides/dance-competition-registration.facts.json",
-      "sha256": "71fe67d4fabd670dbc125f8dc8ccd559576cbabd85b9b407e437416b9f3ce5ec",
-      "sizeBytes": 8089
+      "sha256": "ab5b59ae32ee90d01ad27c9204ff127c916ec787e6e96380f195490341cac3a7",
+      "sizeBytes": 9006
     },
     {
       "path": "kb/TemplateGuides/dance-competition-registration.guide.md",
-      "sha256": "873084872465a3753dd25590bf7b7f75f29415e9b08bffc1bd869d82ba1c01e1",
-      "sizeBytes": 8140
+      "sha256": "1fa3740e7e94dcf2b5f04ef16bb154a2a10d8dceb82ab4d938b1c4a08ec06c5d",
+      "sizeBytes": 8444
     },
     {
       "path": "kb/TemplateGuides/document-registration-a4.facts.json",
-      "sha256": "dd9640fea79a26eb20944355c7cb8549a251b7d26766dc7195c92668edc52e5c",
-      "sizeBytes": 13048
+      "sha256": "08f7ef302867168d2953ad899c4d96653fa1e07d868351ef6cb21c36d72a8205",
+      "sizeBytes": 13652
     },
     {
       "path": "kb/TemplateGuides/document-registration-a4.guide.md",
-      "sha256": "bcec3362ecdff65d04f811998490fb8baca3d8b6a2522bd4c40dd636dc51e2e0",
-      "sizeBytes": 10577
+      "sha256": "10cc8feba6415615a2d595e6afe87055998c0c20cb478790fb93e8126f163cb4",
+      "sizeBytes": 10875
     },
     {
       "path": "kb/TemplateGuides/down-under-australia.facts.json",
-      "sha256": "1a11aade436727d1297c97d8694b3aca196792343ec198455bf1b4c27b181bbc",
-      "sizeBytes": 11103
+      "sha256": "f383f7b287988eb7f839943d060029eb702b000388d375db91372a89cdc33bbb",
+      "sizeBytes": 11953
     },
     {
       "path": "kb/TemplateGuides/down-under-australia.guide.md",
-      "sha256": "cd6a10355e9787c3ed311c1d07bb81f8b11b506f445dd3e9297b48927c928ea9",
-      "sizeBytes": 9576
+      "sha256": "b8d30d217f6e96d47e8a8d7c7edc357531fd47c1a83af2c55f9cf6ae4644b79f",
+      "sizeBytes": 9870
+    },
+    {
+      "path": "kb/TemplateGuides/easter-blossom-atelier.facts.json",
+      "sha256": "62083fbafcd52b00b88a81ada0705a01dc8ce57b6dd691e0dd5f86c344125a0e",
+      "sizeBytes": 4290
+    },
+    {
+      "path": "kb/TemplateGuides/easter-blossom-atelier.guide.md",
+      "sha256": "3ba4964612d5e269cecefd433776464a3ddab04052a2ddf9285916827af818ce",
+      "sizeBytes": 7445
+    },
+    {
+      "path": "kb/TemplateGuides/easter-egg-hunt-registration.facts.json",
+      "sha256": "5162283974e873ada06891cacb26bb320111e7c9c7bc7327e0c19d6fbcf846c2",
+      "sizeBytes": 4244
+    },
+    {
+      "path": "kb/TemplateGuides/easter-egg-hunt-registration.guide.md",
+      "sha256": "26635f22590214ae627f75a6c7882e9420b6f7231b1077d35208a353f3140209",
+      "sizeBytes": 7362
+    },
+    {
+      "path": "kb/TemplateGuides/easter-painted-garden.facts.json",
+      "sha256": "92b24280c8180f5a1e22971f9343d61f1ac0e82b313f9b25f3d43a0f5fca5a70",
+      "sizeBytes": 4192
+    },
+    {
+      "path": "kb/TemplateGuides/easter-painted-garden.guide.md",
+      "sha256": "d85dee87f1ae567f029d6ea0ae822eb9cc122426b9872b55ccb07c57874667e9",
+      "sizeBytes": 7277
+    },
+    {
+      "path": "kb/TemplateGuides/easter-werkhaus.facts.json",
+      "sha256": "49e70b8a608901b8794d9aef387a468c0372ff7f6e22b365bf733905ebbf6353",
+      "sizeBytes": 4247
+    },
+    {
+      "path": "kb/TemplateGuides/easter-werkhaus.guide.md",
+      "sha256": "f6658479f83242c271e280375a87e78bca55266f7c23fdcd1ba85dd8eca7e914",
+      "sizeBytes": 7300
+    },
+    {
+      "path": "kb/TemplateGuides/elderly-care-donation.facts.json",
+      "sha256": "49b26216dde6cc0402c06703d1260c6cd7438f4b9147d074804ecb027d32a5ca",
+      "sizeBytes": 5138
     },
     {
       "path": "kb/TemplateGuides/elderly-care-donation.guide.md",
-      "sha256": "c0d8daa5b462ce8679fb6cfb3eca8c98f0853ac62d3a100c3125d2105332d145",
-      "sizeBytes": 3258
+      "sha256": "b6ebfc8bbdd39f7084ab1045e49d7977bb23f8482490c2bc0135a0f6fbde382b",
+      "sizeBytes": 7528
     },
     {
       "path": "kb/TemplateGuides/euro-youth-application.facts.json",
-      "sha256": "db4af6fc3f77af0797b5a727b4d474e1b969fde64683abebfc41f4392231eda4",
-      "sizeBytes": 11121
+      "sha256": "2bd3885df3cacfc54de77b7653b1518b5ea60fef6eead6332acd2adf9194d35f",
+      "sizeBytes": 11949
     },
     {
       "path": "kb/TemplateGuides/euro-youth-application.guide.md",
-      "sha256": "9195083bdb56c8112c40fe68ab6a18eddf35d522fca55777b2bddf3808e49c37",
-      "sizeBytes": 9998
+      "sha256": "2e76b7ff34a7c68812d1a35600cc3f22db6fcea1297ee50eacbbed2c5b13a3e6",
+      "sizeBytes": 10294
+    },
+    {
+      "path": "kb/TemplateGuides/event-registration-premium.facts.json",
+      "sha256": "ade3aea7086d59eb2fc218a2d7f26ba0c67c08308bb7b9a3c8fdd3f3eb3ab185",
+      "sizeBytes": 6459
     },
     {
       "path": "kb/TemplateGuides/event-registration-premium.guide.md",
-      "sha256": "b7b908c89de669e7559ac59ae54e4ed1ad1b973025548dbb1cb15a8bf89b63d7",
-      "sizeBytes": 3290
+      "sha256": "802084e0a41432b6dd4ee30b3a19ffdadee355ebcaa61ca3edaa0fa3cf5e87ce",
+      "sizeBytes": 8155
     },
     {
       "path": "kb/TemplateGuides/event-registration-rsvp.facts.json",
-      "sha256": "65069822a9b9aae23cc2f9881a05c818a4d2ad0b131010846186be0d65db6032",
-      "sizeBytes": 12187
+      "sha256": "71b065e493f29202031d9fc51349adc89babf9de47c039f55e8a7fcfa679084d",
+      "sizeBytes": 12230
     },
     {
       "path": "kb/TemplateGuides/event-registration-rsvp.guide.md",
-      "sha256": "bee426db6f0ebd3c9bca76270ec0b31ff8228fb796ab6a1fa5ca4f32c87e2d15",
-      "sizeBytes": 9874
+      "sha256": "8c5242980a35ca7832d071a25ba3a4a2181b94ae717a0103c88c9c8ac563c3b2",
+      "sizeBytes": 10171
     },
     {
       "path": "kb/TemplateGuides/festa-italiana.facts.json",
-      "sha256": "a674228afb34b8a399d09e8b84a4e059699db0df79f1a78f1fdc118581ab88be",
-      "sizeBytes": 9936
+      "sha256": "91036fc2c5bfe118cd0c41cc894255103b8d27d6c6fcd97de85e329fd54ce37e",
+      "sizeBytes": 10644
     },
     {
       "path": "kb/TemplateGuides/festa-italiana.guide.md",
-      "sha256": "b27d9c8fb53543225006031d36ba6e6cfe3010c968822473ded6aadf1fcbd97f",
-      "sizeBytes": 10043
+      "sha256": "aa8d91ddcb2d5d56a7064de64983c2443dbddeca697c5ae29473a4e5b6f9b925",
+      "sizeBytes": 10331
     },
     {
       "path": "kb/TemplateGuides/floral-youth-application.facts.json",
-      "sha256": "783a894a52499c3fb3a12b980ee636a2d0f9a24705d40ee99f0eceeae8fb6c5f",
-      "sizeBytes": 11234
+      "sha256": "0d560a84fe4ed2f7e7e27647b142bd2865501afd15fe8f169558880e8e1bdffd",
+      "sizeBytes": 12229
     },
     {
       "path": "kb/TemplateGuides/floral-youth-application.guide.md",
-      "sha256": "0d642d70e7abafe659cf7b6b0562f7108033bdb1cb0907710b9a28ecdcc93a70",
-      "sizeBytes": 10461
+      "sha256": "4c51a19cb74ecdcf4ae2172d395d74602f862d6c26c360474feb305336f880a3",
+      "sizeBytes": 10759
     },
     {
       "path": "kb/TemplateGuides/french-invitation-2026.facts.json",
-      "sha256": "07cc365e8fc1782d7599dfb40e16b703d6b4140f348530dcd259d7555fd28f4b",
-      "sizeBytes": 7700
+      "sha256": "bd03ad565f61e6bc85d2c49058d454df687d26ac536e1fc26ff910c4ca3fd1ba",
+      "sizeBytes": 8258
     },
     {
       "path": "kb/TemplateGuides/french-invitation-2026.guide.md",
-      "sha256": "066a93212d6e23c70d0fb918e12900a883489d09a0a8a4e22e2a576b483297db",
-      "sizeBytes": 7549
+      "sha256": "336650398a326a1fc38921b9e01e2a987667ebed5f29ee7e5a98c4158bd69bd0",
+      "sizeBytes": 7845
     },
     {
       "path": "kb/TemplateGuides/glass-course-mentor-application.facts.json",
-      "sha256": "e2320850db6478aca97117c62e6cb5abce3b3781384b84f3ab9c97ffb562180d",
-      "sizeBytes": 11313
+      "sha256": "2ae798131f5dcecab5dd33770a220df0a63a665559c20fe53536392ba61f148a",
+      "sizeBytes": 11330
     },
     {
       "path": "kb/TemplateGuides/glass-course-mentor-application.guide.md",
-      "sha256": "6371fbab361f617acbe686b4a31dfc617efbcce92edd93b9a9464edcff8280f9",
-      "sizeBytes": 7746
+      "sha256": "ef1f488f8f4458f28be767142b6eee684be979c35f4da0cd2ca19b4387db275e",
+      "sizeBytes": 8051
     },
     {
       "path": "kb/TemplateGuides/gold-suite-membership-application.facts.json",
-      "sha256": "964f67c01103fa6d24b5b8009df82654d746c78fbef5c540bc17f5f6dff88bdb",
-      "sizeBytes": 9009
+      "sha256": "99f89fcc818abd729bc012a7bc16023707ae358ba7944145c9d57b2d8cdd0f3d",
+      "sizeBytes": 10186
     },
     {
       "path": "kb/TemplateGuides/gold-suite-membership-application.guide.md",
-      "sha256": "550e71a2a553b87e4cb8252d41f39781c008d6717503e369016c5cc04bc33ed5",
-      "sizeBytes": 8845
+      "sha256": "4d8f53d0891aa2976588b1ba448747d5debcc22e05312c1b1b92b87b6254b533",
+      "sizeBytes": 9152
     },
     {
       "path": "kb/TemplateGuides/golden-pro-agent-registration.facts.json",
-      "sha256": "715f6cec0c0d3441dba866d8d6b769cb0c3fdd56dc70feb3c7333d7f1c81b94e",
-      "sizeBytes": 9645
+      "sha256": "df0984d6e8ba3f7adedf81915f76573feb95d4c7a53f8598bda9b7b8b3d94718",
+      "sizeBytes": 10426
     },
     {
       "path": "kb/TemplateGuides/golden-pro-agent-registration.guide.md",
-      "sha256": "37916d5491a6d44674e1ec5983a24fa5e9e27626d8bc4dabd2a12ffa78aa028a",
-      "sizeBytes": 10330
+      "sha256": "5a4da68f247cc166f7b1c2efca051f0ba7accea20e4c70e6e16218376bfcde7f",
+      "sizeBytes": 10633
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-after-dark.facts.json",
+      "sha256": "442ba76062cfa1ea376ee5d8b4b887975287f44ff12e8afa73f571f4ab0991e1",
+      "sizeBytes": 4550
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-after-dark.guide.md",
+      "sha256": "e568166124efe5a951ec231056ca2afeaff88f0aa9a2ff9cae2ea1d8617c5f49",
+      "sizeBytes": 8093
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-moonlit-rsvp.facts.json",
+      "sha256": "0226c05416badb3d8ee3d22a68efebd36337357018438a62481cd1a89dd357c3",
+      "sizeBytes": 4124
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-moonlit-rsvp.guide.md",
+      "sha256": "81dd18f61425ef87ee4d9072c2ecb134c0c43fce8352e0d6ec015ae2804fbee3",
+      "sizeBytes": 7234
     },
     {
       "path": "kb/TemplateGuides/halloween-party-registration.facts.json",
-      "sha256": "dd1511f368e19a20bda20ceecf034d3b516f6678873dd32a05e38e29120a9f1a",
-      "sizeBytes": 7991
+      "sha256": "5f658aef8526dc5bca22bf7f69e2918cfca124603c70ba3584cec5a5dfe021c7",
+      "sizeBytes": 8542
     },
     {
       "path": "kb/TemplateGuides/halloween-party-registration.guide.md",
-      "sha256": "6d55ba81c42dc51cdb2252a56d1a63342a3d17ad9d7ef181c0405003d3d82d36",
-      "sizeBytes": 7928
+      "sha256": "c27b89561de0cc11f5b8691282b861cd08b8cc09ee81510631822ee5415836e8",
+      "sizeBytes": 8230
+    },
+    {
+      "path": "kb/TemplateGuides/healthcare-intake.facts.json",
+      "sha256": "9d76a877929f4b045336bf6e44d9d6956f11cc76e5c218048f2df3201cf29767",
+      "sizeBytes": 4867
     },
     {
       "path": "kb/TemplateGuides/healthcare-intake.guide.md",
-      "sha256": "16f882edd6cb7173632f6c9bc942c16102fd7f4b76fc613186e50d38f46872c7",
-      "sizeBytes": 3204
+      "sha256": "c2095befe0de3daa47ea8443b526b623a7449c4ed08e96bb645e4aabe441ee12",
+      "sizeBytes": 7416
     },
     {
       "path": "kb/TemplateGuides/holiday-request-travel.facts.json",
-      "sha256": "3e6bbf2f5a44a2509c46a0f2d8a6d1b4fff0329cb269e6681aa8f5d32ea550d4",
-      "sizeBytes": 7838
+      "sha256": "feda10f69363dce7ec649784670231d3be3e29cc67cd208b7913152b2df9aa79",
+      "sizeBytes": 8691
     },
     {
       "path": "kb/TemplateGuides/holiday-request-travel.guide.md",
-      "sha256": "81a90e9c42c6b3668f7973ce4784b3b40b0419babf7441e219aec69cd99c11df",
-      "sizeBytes": 8096
+      "sha256": "df07694426213f4abe5eaf3c319d2a5f4970d6a3b7e80cbeded75ff9f490a119",
+      "sizeBytes": 8392
     },
     {
       "path": "kb/TemplateGuides/ielts-report-classic.facts.json",
-      "sha256": "a1e8827fc6b8370414a6387f291b4e4d33c5ada30d035cf75eafc0af158970aa",
-      "sizeBytes": 5567
+      "sha256": "bc94230af3633fc4817ed12720d7d4476a3a2c5008911dfa42d74ff2d562b42c",
+      "sizeBytes": 6167
     },
     {
       "path": "kb/TemplateGuides/ielts-report-classic.guide.md",
-      "sha256": "82122f24aac09d750a41512da06eba893dd341f84e801944f69826dcb6729297",
-      "sizeBytes": 8048
+      "sha256": "f1c337b0c271ddfe8c6cf8dbd5b96b9b72937efa50adfbdc723c45363aae3645",
+      "sizeBytes": 8342
+    },
+    {
+      "path": "kb/TemplateGuides/insurance-enrollment.facts.json",
+      "sha256": "7e83345f2589ffc6e069bf4d4b5f9ecf46281b68e7f9b1b7ba1165c460c4abc6",
+      "sizeBytes": 8231
     },
     {
       "path": "kb/TemplateGuides/insurance-enrollment.guide.md",
-      "sha256": "6aeeffe251df8e26fe7d5b8220803a181ff5642d79b43696e72684d6f53bc1a0",
-      "sizeBytes": 3250
+      "sha256": "e2ec7857d33e1cca0dc8a490627e82d4a35a49985822d6b86d94e01b3552ce49",
+      "sizeBytes": 8092
     },
     {
       "path": "kb/TemplateGuides/invoice-blue-application.facts.json",
-      "sha256": "b1fa89dd50de73d283fb0e26332289d2002b1075d023778b0601c20d006bc52a",
-      "sizeBytes": 7975
+      "sha256": "156978cd433a753b911e6493902557f2bc2689e5c8a31415e4708ab36a3b11b7",
+      "sizeBytes": 8602
     },
     {
       "path": "kb/TemplateGuides/invoice-blue-application.guide.md",
-      "sha256": "91c2300b2aa9a280914cb989a1576e9eb62cc1008b6771169e1f34339814da46",
-      "sizeBytes": 8248
+      "sha256": "1b29f87617a50a2282dae216e4d3f9a17a0ed3ab86f8a12728b72f96c00fa381",
+      "sizeBytes": 8546
     },
     {
       "path": "kb/TemplateGuides/invoice-codexo-cyan.facts.json",
-      "sha256": "a3a3195a687f289f17aa8108a4436b3dda9ff3063ec6af1afe4939c77fc5f5f3",
-      "sizeBytes": 13061
+      "sha256": "0695af79e0d2562707a64d3ccfbd9d9d0ae3f87d43c8364b29c5b8017a00fe94",
+      "sizeBytes": 13207
     },
     {
       "path": "kb/TemplateGuides/invoice-codexo-cyan.guide.md",
-      "sha256": "1668e1451eefeeb5c38c16c8c65ee7af88c05922c98e624a05e6ac22e7ce7c8b",
-      "sizeBytes": 11338
+      "sha256": "97825c16eb79fcb45c76cc59974bd901c2b8c1246e8ebb99246284f198088953",
+      "sizeBytes": 11631
     },
     {
       "path": "kb/TemplateGuides/invoice-dark-application.facts.json",
-      "sha256": "1696996713de30126e70c01fa896e89e5eb80a0729c836ee82078b4852ee8bc1",
-      "sizeBytes": 7884
+      "sha256": "92d45ed8ee733f39f93a2ccb82963dfdc8fa8c9ecf474092675fa5d154c4cff3",
+      "sizeBytes": 8511
     },
     {
       "path": "kb/TemplateGuides/invoice-dark-application.guide.md",
-      "sha256": "643b2595281c9fe1453b206f578a1346aac4b762e603f75063c93bd28f12015b",
-      "sizeBytes": 8228
+      "sha256": "8f38e44f5d37e75d123f0bbc4e69913a68ee68a0801f8db3053a6205e3d8d7d8",
+      "sizeBytes": 8526
     },
     {
       "path": "kb/TemplateGuides/invoice-minimal-application.facts.json",
-      "sha256": "301164227213b75fc0a5e42db6c3b8ac11299905252b49561cdfbcf02fc2f5f6",
-      "sizeBytes": 7891
+      "sha256": "b4829f11417d94a86ec790eea20a617b7b75c17ca06663a214d2b2f9457632c8",
+      "sizeBytes": 8524
     },
     {
       "path": "kb/TemplateGuides/invoice-minimal-application.guide.md",
-      "sha256": "663c9f0c4351e05ec00ffc4aad3412ef9f8e34a61d65ec1603c7543fe8078b43",
-      "sizeBytes": 8205
+      "sha256": "2e1e31ea24fda871ed36917ce3124046fb825e75ddf9792babaf0154d1066e48",
+      "sizeBytes": 8506
     },
     {
       "path": "kb/TemplateGuides/invoice-orange-application.facts.json",
-      "sha256": "daa017ea1ceffcd1c5ecde7d8439f78572056ec2b1746dd8924cc10117ccfbe8",
-      "sizeBytes": 7882
+      "sha256": "207aebb7647eae2d7f7d01f48b1f35b5564c1b0293c0d27544068bd5bb4eb97c",
+      "sizeBytes": 8513
     },
     {
       "path": "kb/TemplateGuides/invoice-orange-application.guide.md",
-      "sha256": "1dbcd21c2cbaa6a8b95f69c235b0a382aad312c3e999bd77fd3b293bf0bf2aa2",
-      "sizeBytes": 8198
+      "sha256": "27169da2930a4a3b8e561b318618a5e7f361b2da240df636732eba0a94c7e527",
+      "sizeBytes": 8498
     },
     {
       "path": "kb/TemplateGuides/invoice-request-navy-orange.facts.json",
-      "sha256": "368baf4c33d91f6521718b96f71a6c16f6c9cd4187a6b9f6de4b9408c2cdf1b5",
-      "sizeBytes": 12276
+      "sha256": "7f226a0145f440224e546998611b7fcba64e24205440f4f6186e43511d2374fa",
+      "sizeBytes": 13006
     },
     {
       "path": "kb/TemplateGuides/invoice-request-navy-orange.guide.md",
-      "sha256": "5f6cc6ad0724ff2b153698e56b3294ee7871b11861c7022a1e40ae5bbdea98d7",
-      "sizeBytes": 10609
+      "sha256": "ca3e62bb407faf345ad8c3dbc63231e527ce1d88428b3b9f1bb1d974bb584a1a",
+      "sizeBytes": 10910
     },
     {
       "path": "kb/TemplateGuides/invoice-spinera-blue.facts.json",
-      "sha256": "e41d52a15b874c2fc0dbe29cebbd18d28698e0c07c2557f15a21d0f82bb6c2c6",
-      "sizeBytes": 11489
+      "sha256": "882b95016b694a43ad21085a408e2fb6ff953c4d7beac2cf1bbc1a3cd1ed191c",
+      "sizeBytes": 12089
     },
     {
       "path": "kb/TemplateGuides/invoice-spinera-blue.guide.md",
-      "sha256": "104acd710738bf6eb80936f64738638c79d99bc6893513030abc4967ccd0cf1c",
-      "sizeBytes": 10740
+      "sha256": "85841bb3594c3923420a479e6191db5704e919578b19d800dce7608ac7ed5cfd",
+      "sizeBytes": 11034
     },
     {
       "path": "kb/TemplateGuides/job-application-northwind.facts.json",
-      "sha256": "e0afca0babc5894fb486131f9d4dda726d89dc2e7a56115681dad5df3616bafd",
-      "sizeBytes": 5328
+      "sha256": "0c96aece6afe1316263751bd3080363ccfb8e38d79540f3fd1c56fb713f59b07",
+      "sizeBytes": 5932
     },
     {
       "path": "kb/TemplateGuides/job-application-northwind.guide.md",
-      "sha256": "e89c9988a51d1bb00c1cff649d32d941e10708539a25a4b9397c0c71755a14ff",
-      "sizeBytes": 7631
+      "sha256": "49d0c559886258e78740a4419f8fd67d3ea6b42d60bda299eba4dba3faac8ef9",
+      "sizeBytes": 7930
     },
     {
       "path": "kb/TemplateGuides/kawaii-diary.facts.json",
-      "sha256": "1643b79b11f239c3a22232d44f6c2480dfdd15023c5988481bba821ea8dcbd66",
-      "sizeBytes": 8078
+      "sha256": "9b88f10ff050b98cc683e00f65ae60630acdb2ddc01539e169f32a806b392b58",
+      "sizeBytes": 8763
     },
     {
       "path": "kb/TemplateGuides/kawaii-diary.guide.md",
-      "sha256": "de7c37821c739befccc1316b91e1d38651506f5be88076398d58cb3aad770a3f",
-      "sizeBytes": 7860
+      "sha256": "9c1573185723c02c6ab450ce12057ad571bb2f3d2192b3a3258f630cbb7b74c0",
+      "sizeBytes": 8146
     },
     {
       "path": "kb/TemplateGuides/kids-first-book-registration.facts.json",
-      "sha256": "4a6d6e1604fddb7e16e0e21348227ac16aaa5550ad3c527b03aaee06f330b4cd",
-      "sizeBytes": 7641
+      "sha256": "5c582e32aef990d45137c8c52f9da3b910210969beb8b34b968372755235ede8",
+      "sizeBytes": 8416
     },
     {
       "path": "kb/TemplateGuides/kids-first-book-registration.guide.md",
-      "sha256": "50668c5441efe3a2e248569d39af2b8551ad069a801377ed7689dd9313405a00",
-      "sizeBytes": 7898
+      "sha256": "b1d6b8ee5b72572d5bde48001c6509512541642da6f57abc23e1a73b6fca52c2",
+      "sizeBytes": 8200
     },
     {
       "path": "kb/TemplateGuides/lagoon-reserve-booking.facts.json",
-      "sha256": "4a5e244dd8ae4870da6295dd74bd5f1172beb5be54896c9394f2a11a33243bb8",
-      "sizeBytes": 9997
+      "sha256": "6083f39088beed9a9c793e63b0f5c3ea4a4c63e26ef000dab4ac286e50891555",
+      "sizeBytes": 10859
     },
     {
       "path": "kb/TemplateGuides/lagoon-reserve-booking.guide.md",
-      "sha256": "243dab8e5aab1e5878941fb2858dc4b584ccb4f186184f7bfd97f03f4c6c5b2a",
-      "sizeBytes": 9421
+      "sha256": "80296d261a66d2aa4a27e3a65c44b964feb561e84944b34f4b82f05ade320b48",
+      "sizeBytes": 9717
     },
     {
       "path": "kb/TemplateGuides/massage-bodychart-terracotta.facts.json",
-      "sha256": "baf63d6f3ccdb792335df49278670d86804ee27ba9899e5403a02dcfc75c4b3d",
-      "sizeBytes": 6044
+      "sha256": "d2a7fbe22618ba80162e2212c5cba51bf9ac588bac47b8d702e636d37360e06a",
+      "sizeBytes": 6820
     },
     {
       "path": "kb/TemplateGuides/massage-bodychart-terracotta.guide.md",
-      "sha256": "56376e91c73ed1d6d6806ae64f33626233b8e0668e65a3e321b8d6e9fc39dfcc",
-      "sizeBytes": 7946
+      "sha256": "d9a2bcec9f02f80d583aeec54a611c0851631b2a3612617279a4b127aad2f9d2",
+      "sizeBytes": 8248
     },
     {
       "path": "kb/TemplateGuides/massage-intake-sage.facts.json",
-      "sha256": "b73d7c7761a07452f6c3bc63d28e51bc792e45c5835528150556075c76ac73b9",
-      "sizeBytes": 5507
+      "sha256": "498b0bbd05a58c488d6aa24a88aaeb8d23553e80770e88b4c6fbcf7c6032290c",
+      "sizeBytes": 6237
     },
     {
       "path": "kb/TemplateGuides/massage-intake-sage.guide.md",
-      "sha256": "90699def012b9c2352c7f67e3af5ce4560605b32859872b9b40993ec72f5494f",
-      "sizeBytes": 7459
+      "sha256": "afbe23820872121d15f849d4fcc2013f64de9048b17ee19c14fa46bd43f4ffd6",
+      "sizeBytes": 7752
     },
     {
       "path": "kb/TemplateGuides/member-login.facts.json",
-      "sha256": "d330f074801eb01c8803f65d6c9537f8d21c3642b2fa1183b6310db87afd6a1b",
-      "sizeBytes": 2166
+      "sha256": "7f84b566a78f21281f0e300425e178e56fdf0a57099c0981af4c631909039d9d",
+      "sizeBytes": 2757
     },
     {
       "path": "kb/TemplateGuides/member-login.guide.md",
-      "sha256": "50939add311dec0d1f5f04880c82361c9bdbb120f313eeed92aa4bd243b772ef",
-      "sizeBytes": 6294
+      "sha256": "6f2211fb35b3a64fa6062ea22e4f9192c0e9c0780267cb7a6d9e2c89c26fb9d3",
+      "sizeBytes": 6580
     },
     {
       "path": "kb/TemplateGuides/newsletter-signup-amber.facts.json",
-      "sha256": "248f4818a226e0f870d435d8489441510072f414d2a7d68f23997c81b7a1d0c2",
-      "sizeBytes": 3495
+      "sha256": "2d417f1b3bc4f498a2ca19bdeee5078438be7d1d715885193fe4b0efab154250",
+      "sizeBytes": 4097
     },
     {
       "path": "kb/TemplateGuides/newsletter-signup-amber.guide.md",
-      "sha256": "247b05d27510edfd162b90db9aad937b261d7a375d9ce8852536b970d6967026",
-      "sizeBytes": 6599
+      "sha256": "e5b0d53c943188902458e23636739795b3cae4537d007133241600375af6199f",
+      "sizeBytes": 6896
     },
     {
       "path": "kb/TemplateGuides/product-consultation-form.facts.json",
-      "sha256": "46f7a53d24b60188af3910252eb49dbcd5e73605021dc8b0463b01fcb920b802",
-      "sizeBytes": 10062
+      "sha256": "b3ae602619d00267f70c965647a2c818ddb382c0dada6698e611590138f00bc4",
+      "sizeBytes": 10604
     },
     {
       "path": "kb/TemplateGuides/product-consultation-form.guide.md",
-      "sha256": "0f27c72974c75e13c89db0daafe6109a51eadd2aa98f40494703c8efd7993609",
-      "sizeBytes": 8927
+      "sha256": "036748cbcbc3b5318a1b96a1cf0853d4fc34d43315404a4eeb74d3442b79d195",
+      "sizeBytes": 9226
     },
     {
       "path": "kb/TemplateGuides/product-order-live-total.facts.json",
-      "sha256": "f2f6cda9b813b95f27bd3c438f72f655ff2586d734f4f2b99df3a1b9969865c7",
-      "sizeBytes": 6131
+      "sha256": "65a6796c4987880110979f639890a2454f62180cd8555e33d671be0447f576db",
+      "sizeBytes": 6734
     },
     {
       "path": "kb/TemplateGuides/product-order-live-total.guide.md",
-      "sha256": "ecbd6dd34ac51e11d9c43945d0bbde3f14e99c88740d75c3a4f525c5ff6ddde8",
-      "sizeBytes": 7311
+      "sha256": "1a3b56e8cdb33588960b79b88e1d9c55bcc00ecbc7a11de00450c073372918ef",
+      "sizeBytes": 7609
+    },
+    {
+      "path": "kb/TemplateGuides/professional-application.facts.json",
+      "sha256": "15420ea9949a7f3cdfbf2609e3fc381f4b4ad2b2dbb14e2f7559ee39fa4bb12f",
+      "sizeBytes": 4730
     },
     {
       "path": "kb/TemplateGuides/professional-application.guide.md",
-      "sha256": "fb22a2ac1f0256c2705287d6727e0ca0d9f71042ef7fa9914181d1320df03755",
-      "sizeBytes": 3234
+      "sha256": "a47898ba9788f05c863d259a4f1c12f4f4d3f0ec0a55414190725161145b719a",
+      "sizeBytes": 7199
     },
     {
       "path": "kb/TemplateGuides/project-intake-onboarding.facts.json",
-      "sha256": "67dbddabbe494452fa862e9b666c4797a4d43e0e2b2b3eb40e1e433400c63161",
-      "sizeBytes": 10507
+      "sha256": "fe6fba2da447ee8e5c507dd61edb4b399cc0744c567a11b85979b7852abe9304",
+      "sizeBytes": 11057
     },
     {
       "path": "kb/TemplateGuides/project-intake-onboarding.guide.md",
-      "sha256": "fc7fa7f4ca6da09805bacf8f71984aaceb800e06b65aabe2d2d90f1b41253216",
-      "sizeBytes": 9694
+      "sha256": "7cb6c5e8c5c60a71b70c5ca80d704cf96654efba3b4aa868d2993f268f98ba28",
+      "sizeBytes": 9993
     },
     {
       "path": "kb/TemplateGuides/pure-grid-template.facts.json",
-      "sha256": "cf6bb1b00faa010f784fd5e417e2a2c2b34506d798af03bad2ee31fa596ed3c1",
-      "sizeBytes": 9156
+      "sha256": "67f084bbafd95a794bf20881b2acc588d7e924950340d22b09d6f8d5cbf5909c",
+      "sizeBytes": 9724
     },
     {
       "path": "kb/TemplateGuides/pure-grid-template.guide.md",
-      "sha256": "5d09d0ea4a1ab77d04698f6c5355a9ad60d7c8356ac9b5287fa3509810a9b6ee",
-      "sizeBytes": 6844
+      "sha256": "7bca328e0adc6ad4b1b0e597c755d7cd235908741c68fb058e408a31e9f9e6b7",
+      "sizeBytes": 7136
     },
     {
       "path": "kb/TemplateGuides/realestate-registration.facts.json",
-      "sha256": "fd3bd50e03ec9964be9ad454a6178aedb19038d441116bed4c90e26b149e4e15",
-      "sizeBytes": 9185
+      "sha256": "b1e7f9e1ce02a3f98f4746f7679b04626c0b4ea616875d0ff2328b5b47adc703",
+      "sizeBytes": 9936
     },
     {
       "path": "kb/TemplateGuides/realestate-registration.guide.md",
-      "sha256": "4087a672d1f1b2be57f030322f80c7ea2568104101b01cd50c890ae9ec70a215",
-      "sizeBytes": 8680
+      "sha256": "e435145052955bd6d6202cfff6cc1381c378a1076ab9ad36016ee912ddc91790",
+      "sizeBytes": 8977
     },
     {
       "path": "kb/TemplateGuides/romantic-congratulations-event-form.facts.json",
-      "sha256": "328b7dde2052ca2f974f17739e1fa8d72a0996ca16750b2a3e224d88c53ca4c4",
-      "sizeBytes": 9822
+      "sha256": "2e06a45c0bbd6cc4b8d7ab15a551d7d308480babc68a9e3563de94849086f3c5",
+      "sizeBytes": 9840
     },
     {
       "path": "kb/TemplateGuides/romantic-congratulations-event-form.guide.md",
-      "sha256": "b74a3f5eb834e16f8d4353191b446e79e8c19891fa7d310c65f687a7b4343105",
-      "sizeBytes": 8902
+      "sha256": "5fd5f236314f02ee853494f78822aa91d4cd2a1ddcb31b889a321c06e64d6752",
+      "sizeBytes": 9211
     },
     {
       "path": "kb/TemplateGuides/rose-wellness-registration.facts.json",
-      "sha256": "55a9a535db6d78676587fddbb8e1a8dbce7f6855a32e981b2fe1e9f02f35f343",
-      "sizeBytes": 6156
+      "sha256": "252970e453b3a9e278ea8cb4831da145d2ba2ffdc9c5b3321c2bc45de5c89980",
+      "sizeBytes": 6922
     },
     {
       "path": "kb/TemplateGuides/rose-wellness-registration.guide.md",
-      "sha256": "b4e87e867b5ecd0f3cc72bc826395ca9a7004307a910b9a741d7f3529e8e78d0",
-      "sizeBytes": 8570
+      "sha256": "b1a6c74630a1daae8ac62194d845edf01318268539c2088e6204976bbeb9221d",
+      "sizeBytes": 8870
     },
     {
       "path": "kb/TemplateGuides/sticky-spark-creative-brief.facts.json",
-      "sha256": "cf10633657974ab1eded2ba8d5c452a1f4e6bb379684059e6c42d5d97865b3f8",
-      "sizeBytes": 8020
+      "sha256": "b32c1e61acf741c0595b0b37490a40de41539a5b09a8067f02f90e5761bc7f01",
+      "sizeBytes": 8535
     },
     {
       "path": "kb/TemplateGuides/sticky-spark-creative-brief.guide.md",
-      "sha256": "b5c639528656d6c14a79e75bf88f7a970c31256761d1fbc5c8999f336ea749f6",
-      "sizeBytes": 7382
+      "sha256": "c99c862d54d81b0ea2cc78c16f030a38cd0fa6f9ca68abd8735f309a70a11f34",
+      "sizeBytes": 7683
     },
     {
       "path": "kb/TemplateGuides/tabbed-account-setup.facts.json",
-      "sha256": "8fcc5fd08dfcdd8b45143beb80bf592b07312d8baa423f758e4a40f2fc2a25b8",
-      "sizeBytes": 10853
+      "sha256": "f2594e2aacc18f1fd8cdbcb6c0ace0d3fd7200f1a26e8b2b5d002ee09b0669fa",
+      "sizeBytes": 11961
     },
     {
       "path": "kb/TemplateGuides/tabbed-account-setup.guide.md",
-      "sha256": "a61a32843f52a017dfdaa75e7819b01005ad7b47f34b5c8963c4cd6d1d230a1b",
-      "sizeBytes": 9388
+      "sha256": "59ddc6eeff45aa90256650ffe01d8c24cdc42e38a2e59eaabd9a87030c67c1d2",
+      "sizeBytes": 9682
     },
     {
       "path": "kb/TemplateGuides/tabstrip-account-setup.facts.json",
-      "sha256": "e67512ec9c49c0d1ea6658d2ae48021e0d35bfd5bb8d4243b0b999565ec595d8",
-      "sizeBytes": 10937
+      "sha256": "401fcce11b01be2c81806c15e835d0cb940d1b50d8daeb145124d5f69dd7a50e",
+      "sizeBytes": 12079
     },
     {
       "path": "kb/TemplateGuides/tabstrip-account-setup.guide.md",
-      "sha256": "d918dddb7d70ada4a215fc99c49962953df44de46c056e32c3cfbd124990f01e",
-      "sizeBytes": 9426
+      "sha256": "d8014d2cc0ffa8df2f1f409764acb1d768ba919e953b088fbe93ef6d03733c53",
+      "sizeBytes": 9722
     },
     {
       "path": "kb/TemplateGuides/tabstrip-vertical-account-setup.facts.json",
-      "sha256": "b54d8bc72d1c4d2d4f46ad691e42f400fc98197df0245782d6085fef9e347434",
-      "sizeBytes": 11155
+      "sha256": "b46ee198d236b4838352d96188e447ebf72b72c8965f511965ea9b9ecc3248b4",
+      "sizeBytes": 12450
     },
     {
       "path": "kb/TemplateGuides/tabstrip-vertical-account-setup.guide.md",
-      "sha256": "7a0c2a54fed7703397f99763b95d304b6a74b444c0f44dae4df4e4332a25d0b5",
-      "sizeBytes": 9502
+      "sha256": "d8bc7fe291346390201b2699b8278fa35350f508184a30067bd87545d50b0063",
+      "sizeBytes": 9807
     },
     {
       "path": "kb/TemplateGuides/teal-brochure-application.facts.json",
-      "sha256": "073e72a5fb9c23b61b488ced2b7226b02177867fc63fd54d643d0cbcc9e0399a",
-      "sizeBytes": 11303
+      "sha256": "ae7c64f5878a4300d72d325cbe54522eef95c5483bea10073164f1c675bed638",
+      "sizeBytes": 12312
     },
     {
       "path": "kb/TemplateGuides/teal-brochure-application.guide.md",
-      "sha256": "ff1860a965aad68a6557c4d4fcc2f876d2a40187faa77abe096528e37b1a04ab",
-      "sizeBytes": 10465
+      "sha256": "c9527ec7b32c8e5533ff11faeedfc5cc85681cf04f853d07e31d9e89695a963e",
+      "sizeBytes": 10764
     },
     {
       "path": "kb/TemplateGuides/terracotta-product-feedback.facts.json",
-      "sha256": "6caf21d0cfa4f2241225382ea395462179de4b77b01a427c0ff2d2c154752e24",
-      "sizeBytes": 5657
+      "sha256": "ad13ffc8b4b62e53f89133d143b51a5ea4b39b1125179ce2a8cb75993c54ac0b",
+      "sizeBytes": 6432
     },
     {
       "path": "kb/TemplateGuides/terracotta-product-feedback.guide.md",
-      "sha256": "c87517b9092faf85b69cdc23549a5cbfa5b0100276164e51c9efa4a0474ae144",
-      "sizeBytes": 6973
+      "sha256": "9b7af7552401dc3f985e5554ab1712cd5580af397bf7f8d1205093673ee36ffe",
+      "sizeBytes": 7274
+    },
+    {
+      "path": "kb/TemplateGuides/travel-consultation.facts.json",
+      "sha256": "d677eec980c2290e970eba659ba28433aa45cb8ef31ed67ca678ba39563f5c35",
+      "sizeBytes": 4830
     },
     {
       "path": "kb/TemplateGuides/travel-consultation.guide.md",
-      "sha256": "7f2f3d9029ed03e7472ea884c0c0e956e0baf640d796ad510c0bc890fa128cfd",
-      "sizeBytes": 3214
+      "sha256": "13d1aece3f74c8651ae7bb692ece891d7de684dccc62ab5c4641776ba5222efa",
+      "sizeBytes": 7388
     },
     {
       "path": "kb/TemplateGuides/usa-training-course-registration.facts.json",
-      "sha256": "cea815dc28214b5e9394cd9b6d8e3b6338bb02af8ff1640f954087b5bc23ae0e",
-      "sizeBytes": 12468
+      "sha256": "ead0ee5ba11ba89b0cf21fe2b3914eec944bb7b9189e75b7fc359d68add458f6",
+      "sizeBytes": 12793
     },
     {
       "path": "kb/TemplateGuides/usa-training-course-registration.guide.md",
-      "sha256": "9d306f580f12526eaf5c10dcb48930d468c0e3eb62db960e62f15d2c7b64bedf",
-      "sizeBytes": 8702
+      "sha256": "685397eeb36179b3d39849ca9c4903012e566756fee3c3a6e000bca7ae0016e0",
+      "sizeBytes": 9008
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-left-corporate.facts.json",
-      "sha256": "9f262475c7c2eae11b3501ba0db596417c8239c971f053d8726e22f7d6dd3cb6",
-      "sizeBytes": 4609
+      "sha256": "0e375300b14d2d023f37fba20571d3fb8c3f7f927b57c98b7b150afb6dd7dd57",
+      "sizeBytes": 5173
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-left-corporate.guide.md",
-      "sha256": "a38e86cba3fda9be284770b5e873f620aaaea2b438688a4d95292cdfe24232ae",
-      "sizeBytes": 6952
+      "sha256": "02d64464466c19a6a1e035cc4c27f234f80115a6b65e6261cf2c7f1b5dab198c",
+      "sizeBytes": 7255
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-left-minimal.facts.json",
-      "sha256": "76dbba5a6bc88ba3630850ef0c2ed105c360df1b750cbe4e351baed1948f47e8",
-      "sizeBytes": 4772
+      "sha256": "40bff80179eb49fbe4aeba4a0fa8f0de6d6678bbe09df19fdab7d6aba9894b7f",
+      "sizeBytes": 5268
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-left-minimal.guide.md",
-      "sha256": "ce5def3ec3980b23c445bc57fb7fc707586331fa4ce0f258fd0034e690a3cffc",
-      "sizeBytes": 6946
+      "sha256": "21324b9bf775dd6e3e0b1f78457b35917d48002e4d03e7dfdbeb6e0379238d5a",
+      "sizeBytes": 7247
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-right-modern.facts.json",
-      "sha256": "5636abc857ec92fcb99a4b52fbe6de6744c8af15b6373da4f351b72b0d6ad1d0",
-      "sizeBytes": 4772
+      "sha256": "4ef2a963ec6b455daddc6ce99d8e638ed70e3f901f83633c1526a6e3399319df",
+      "sizeBytes": 5268
     },
     {
       "path": "kb/TemplateGuides/v0-contact-map-right-modern.guide.md",
-      "sha256": "93ae29a7f012744e0cc368ef13ece67cbadaac3565588c52c60f66ab43472aaa",
-      "sizeBytes": 6947
+      "sha256": "71f8132f34a651e75f2cc57618a09ca8e49f6e0f8e63d81fd6e63aea08d6410d",
+      "sizeBytes": 7248
     },
     {
       "path": "kb/TemplateGuides/verdant-member-registration.facts.json",
-      "sha256": "f3504cffb57fd2ddfd9f1312d8879437364d468e1f10fdc7f4b07d0fc3415c89",
-      "sizeBytes": 8044
+      "sha256": "f465f559cc691200fa9e9d857bfd3dc262320e9f5c36aa55515c388b00525647",
+      "sizeBytes": 8819
     },
     {
       "path": "kb/TemplateGuides/verdant-member-registration.guide.md",
-      "sha256": "489846bfe126c4dd8ea81ec14cfc3dc796d4cf2043f2b578567f64b172d69cdd",
-      "sizeBytes": 8792
+      "sha256": "bc82829bdcca71ed7948d29338a04859f8821f13df8dd3ed899573f412d50557",
+      "sizeBytes": 9093
     },
     {
       "path": "kb/TemplateGuides/volunteer-application-euroyouth.facts.json",
-      "sha256": "746f9c839d1e94a0961b76c155687eb94342ccab557ec50586f82e30b8cf5794",
-      "sizeBytes": 8150
+      "sha256": "43e8b1a8742f849f883ee06167b0f017b558e4152c448de3042b1fc9cc32e34a",
+      "sizeBytes": 9075
     },
     {
       "path": "kb/TemplateGuides/volunteer-application-euroyouth.guide.md",
-      "sha256": "8f285dd0ff601b97dcc3df3b17dfcc59bd1d493088a21215a77af24f5d8cdb4d",
-      "sizeBytes": 8188
+      "sha256": "15649b672bd3595226320f1df45b1ef9143eef4eb683b76c660c8b9eeac92ad6",
+      "sizeBytes": 8493
+    },
+    {
+      "path": "kb/TemplateGuides/volunteer-profile.facts.json",
+      "sha256": "22f3032018cf8a2f66104cee938254cea428835447018c82fe6dda4c0865ce4b",
+      "sizeBytes": 4867
     },
     {
       "path": "kb/TemplateGuides/volunteer-profile.guide.md",
-      "sha256": "b64f74e003b0bd0a58aafab6db4dddd7078c5757173eb41cfa2c5dc83f38cac2",
-      "sizeBytes": 3206
+      "sha256": "cfc20267056ea2f5ff27ae604bd25b3b71d2e1f0cbdd59fd88e86a77dd98bf17",
+      "sizeBytes": 7444
     },
     {
       "path": "kb/TemplateGuides/wellness-patient-intake.facts.json",
-      "sha256": "007998ad815ba5d4b5544bc42b5571cdbc725dbea2b399acb9e9ca7789bec856",
-      "sizeBytes": 12783
+      "sha256": "ff1f7a49261a7fec8107559ca0f47270d037d0096d07b534c91c97dc26d3c7cc",
+      "sizeBytes": 13023
     },
     {
       "path": "kb/TemplateGuides/wellness-patient-intake.guide.md",
-      "sha256": "5636bc9a57e2aa5fd1e3ae9a3660554edb7bff9402c5ccb2d5ecf7aa7fb8173d",
-      "sizeBytes": 10254
+      "sha256": "0aab20b45c39aadf36844d87c7f2a509a4ba4d42e4158eb3aebfcecad7124080",
+      "sizeBytes": 10551
     },
     {
       "path": "kb/TemplateGuides/xmas-newsletter-euroyouth-application.facts.json",
-      "sha256": "08219499903f332808769ee7c98e13af7aa9d7a6adef6dbc8e32430b4860033e",
-      "sizeBytes": 9325
+      "sha256": "6571e0f43c23889876ca9780503c67b28b420d7c02c58d5193fc4bbb2b172de3",
+      "sizeBytes": 10512
     },
     {
       "path": "kb/TemplateGuides/xmas-newsletter-euroyouth-application.guide.md",
-      "sha256": "d5dfc59ab3eb30b4e5bd68153d44bb6de03f27ad0e8c48452107f413f5af8dac",
-      "sizeBytes": 9544
+      "sha256": "b5ba459271069fc68fc45e484b3785ce7559ec2cd9151fe03c93e2d4c83ce8e9",
+      "sizeBytes": 9855
     },
     {
       "path": "kb/TemplateGuides/xmas-sale-euroyouth-application.facts.json",
-      "sha256": "1c5afdf3c238a2b045bda83a2b7a597fa17cf51a3b1afba08d54f026fd4a369b",
-      "sizeBytes": 8222
+      "sha256": "e53d200a82bd56f3bc44bbacfb9508b8446494c745a0cb98efd5d37039e640d6",
+      "sizeBytes": 9328
     },
     {
       "path": "kb/TemplateGuides/xmas-sale-euroyouth-application.guide.md",
-      "sha256": "cf573f5b13fab3f5d9efba6111ae06ccf7f13e1451943dd59f8df0b244b35dc7",
-      "sizeBytes": 8231
+      "sha256": "831f74c481ef73dc77d8699874550519b26621b8c04cac3c14221b1fbd34e451",
+      "sizeBytes": 8536
     }
   ]
 }

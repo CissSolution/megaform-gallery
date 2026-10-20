@@ -97,13 +97,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "feeaab5f9e606b3d189fb5fb50281b841ac88f341c3b6c2a82428f43deaada9e",
-  "shellSha256": "db8a1333a5021c4af525f8ccd766b15cd23a3f773ccc302822ff0beafec73f3a"
+  "customCssSha256": "47290505c0b6b866b842fe5feecf15bcbac7f770ae2255840bf202b561516baf",
+  "shellSha256": "3ebd3c489a8a6564ed63f8fe42244c94bfa7a206801a3bd9e58cbbf07beec184"
 }
 ---
 # AI Edit Guide — Celebrate With Us
 
 Theme `romantic-rose` · root `.mfp.romantic-celebration` · 11 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-romantic-congratulations-event-form` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -182,9 +185,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--rc-text`: #3d2c29
   - `--rc-text-muted`: #6b5a56
   - `--rc-white`: #ffffff
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `feeaab5f9e60…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `47290505c0b6…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `feeaab5f9e606b3d…` · customHtml shell sha256 stays `db8a1333a5021c4a…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `47290505c0b6b866…` · customHtml shell sha256 stays `3ebd3c489a8a6564…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `romantic-rose`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

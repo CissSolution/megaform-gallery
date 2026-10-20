@@ -70,13 +70,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "96ed2ce6fca28593ffd4dd3927c6231c8d3dc82e63d1a021ff342f05345b4321",
-  "shellSha256": "574c206632deaabadf9a056a307af0a0a5adb4b9cfc2beeec68a49accf11deb0"
+  "customCssSha256": "ae88d0375e8a3708807d0ab9d5703d6c50976ea2ba4052a77816371ab391a81e",
+  "shellSha256": "d12db1e0d5ee65c0ed700419f6ac689e9b6d49f6c050f2c6ca82bd8d7f5da5b2"
 }
 ---
 # AI Edit Guide — Apply for Position
 
 Theme `custom` · root `.mfp.mfp-jba.mfp-native-generated` · 8 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-job-application-northwind` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -135,9 +138,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--jba-deco`: #4F39F6
   - `--jba-page`: #F8FAFC
   - `--jba-fill`: #F8FAFC
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `96ed2ce6fca2…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `ae88d0375e8a…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `cover_count`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `96ed2ce6fca28593…` · customHtml shell sha256 stays `574c206632deaaba…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `ae88d0375e8a3708…` · customHtml shell sha256 stays `d12db1e0d5ee65c0…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

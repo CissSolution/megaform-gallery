@@ -179,14 +179,14 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mf-form-wrapper .mf-option-group--chips",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-item",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-ui",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper.mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper .mfp.mfp-coachella .mf-option-group--chips"
+    ".mf-option-group--chips",
+    ".mf-option-group--chips .mf-option-item",
+    ".mf-option-group--chips .mf-option-ui",
+    ".mf-option-group--chips .mf-option-label",
+    ".mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
+    ".mf-template-romantic-congratulations-event-form .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
+    ".mf-template-romantic-congratulations-event-form .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
+    ".mfp.mfp-coachella .mf-option-group--chips"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -249,8 +249,9 @@
     "Grand Finale",
     "Lighting up the night sky"
   ],
-  "cssClassCount": 131,
+  "cssClassCount": 162,
   "cssClasses": [
+    "mf-template-romantic-congratulations-event-form",
     "mfp",
     "romantic-celebration",
     "rc-ambient",
@@ -369,15 +370,14 @@
     "mf-option-desc",
     "section-icon",
     "gift-icon",
-    "mf-option-check",
-    "mf-theme-pure-grid-premium"
+    "mf-option-check"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "feeaab5f9e606b3d189fb5fb50281b841ac88f341c3b6c2a82428f43deaada9e",
-    "customHtmlSha256": "604cbd799b75d6ff5729534279932689fac41750e0d1cafd3beb2e1d9943e1d3",
-    "shellSha256": "db8a1333a5021c4af525f8ccd766b15cd23a3f773ccc302822ff0beafec73f3a"
+    "customCssSha256": "47290505c0b6b866b842fe5feecf15bcbac7f770ae2255840bf202b561516baf",
+    "customHtmlSha256": "f8a2faa8d08dc0046ef885ce3c9e4fc1e9020e49d58d1aaa8d20cfbd9d620d96",
+    "shellSha256": "3ebd3c489a8a6564ed63f8fe42244c94bfa7a206801a3bd9e58cbbf07beec184"
   },
   "counts": {
     "fields": 14,

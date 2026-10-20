@@ -140,13 +140,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "887eb41fad07eb9da8538fa55494227c57b229cd7693362b59b7f6e9f030eca9",
-  "shellSha256": "8d5cba882d07344908a34c0c746fa080f3cf7e6ec89e8eeb0f621ab19752403e"
+  "customCssSha256": "4a9dffadb2583ef7e1bb87f7221829dfed0960150d6b671153f900d6d288a06e",
+  "shellSha256": "0de622394d9628fb00b493ff0d0a42a4895a0b68ce0adbc1970d010f7b90744f"
 }
 ---
 # AI Edit Guide — Golden Pro — Real Estate Agent Registration
 
 Theme `custom` · root `.mfp.mfp-gpr.mfp-native-generated` · 18 fields · 3 steps (premium-native).
+
+Embedding: retain the unique `mf-template-golden-pro-agent-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -241,9 +244,9 @@ _(none)_
   - `--gpr-deco`: #C9A84C
   - `--gpr-page`: #F9F6EE
   - `--gpr-fill`: #F9F6EE
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `887eb41fad07…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4a9dffadb258…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `887eb41fad07eb9d…` · customHtml shell sha256 stays `8d5cba882d073449…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `4a9dffadb2583ef7…` · customHtml shell sha256 stays `0de622394d9628fb…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

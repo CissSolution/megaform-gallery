@@ -74,7 +74,10 @@
     "--bg-gold-soft": "#fdf4ec",
     "--bg-muted": "#7c6e62",
     "--bg-border": "#e6ddd2",
-    "--bg-line": "#ded3c7"
+    "--bg-line": "#ded3c7",
+    "--mf-btn-bg": "#2d5a3d",
+    "--mf-btn-color": "#ffffff",
+    "--mf-btn-hover-bg": "#234730"
   },
   "lockedKeys": [
     "premium_step_1",
@@ -176,13 +179,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "8dbaa7fbb01dce4da846741ac34a17cd5d060577e1aedb017f2a2a8ac8029bfa",
-  "shellSha256": "9ae4d83e9fd6ded20b2add340ef33eca74cfddcb68292e94a73834b60822c58f"
+  "customCssSha256": "3ea2079f2956e55c6ab0032540bc9b4348a7514534c7d757479db9b916a0a9f9",
+  "shellSha256": "ea5c0c9a607bf3c3e56a577890a0094fa24050a3cb93fef00ece1e76634db779"
 }
 ---
 # AI Edit Guide — Bulgaria Discovery Programme
 
 Theme `bulgaria-discovery-premium` · root `.mfp.mfp-bulgaria.mfp-native-generated` · 26 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-bulgaria-discovery-programme` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -275,9 +281,11 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--bg-muted`: #7c6e62
   - `--bg-border`: #e6ddd2
   - `--bg-line`: #ded3c7
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `8dbaa7fbb01d…`).
+  - `--mf-btn-bg`: #2d5a3d
+  - `--mf-btn-color`: #ffffff
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `3ea2079f2956…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `8dbaa7fbb01dce4d…` · customHtml shell sha256 stays `9ae4d83e9fd6ded2…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `3ea2079f2956e55c…` · customHtml shell sha256 stays `ea5c0c9a607bf3c3…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `bulgaria-discovery-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

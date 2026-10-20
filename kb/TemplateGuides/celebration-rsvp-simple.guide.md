@@ -57,13 +57,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "4b50828e716379e8bd0e8c8ec06bec45e2dfa2483f8c0ac8f581354bb7abff97",
-  "shellSha256": "e460d30d70861f8f17ad0c69dc4a0e99c69a82f378278704e31afdba032214ba"
+  "customCssSha256": "7183061804cd715d13f89af1d830749e5e7e0e59d84db11374abaf526585b1cd",
+  "shellSha256": "ad15627c27813e25099d20043b824b6edb6ebd20266fa62479672417ff3a247b"
 }
 ---
 # AI Edit Guide — Celebration RSVP — Simple
 
 Theme `pure-grid-premium` · root `.mfp` · 9 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-celebration-rsvp-simple` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -109,9 +112,9 @@ _(none)_
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4b50828e7163…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `7183061804cd…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `4b50828e716379e8…` · customHtml shell sha256 stays `e460d30d70861f8f…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `7183061804cd715d…` · customHtml shell sha256 stays `ad15627c27813e25…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `pure-grid-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

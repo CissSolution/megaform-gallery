@@ -56,13 +56,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "c0278f52da25ba3a1a22fc1fb6bcc82754526d66f25521df388e494484f0f314",
-  "shellSha256": "efd54bc82be0cda06b01a441e122b41f151c441692f8ba173b49a9582bf966fb"
+  "customCssSha256": "01d31159e0e1d023cc4f9bd602298d696a9b5328d2b22cd0c6e7e2b469cbf366",
+  "shellSha256": "ee90e594c2b411af0dfe719d5d836552c8a62bfdb459589ab302f9e858b34194"
 }
 ---
 # AI Edit Guide — Contact Us - Map Left, Corporate
 
 Theme `pure-grid-premium` · root `.mfp` · 8 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-v0-contact-map-left-corporate` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -110,9 +113,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `c0278f52da25…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `01d31159e0e1…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `c0278f52da25ba3a…` · customHtml shell sha256 stays `efd54bc82be0cda0…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `01d31159e0e1d023…` · customHtml shell sha256 stays `ee90e594c2b411af…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `pure-grid-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -207,15 +207,15 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp-vol .mf-option-group--chips .mf-option-check",
-    ".mfp-vol .mf-option-group--chips",
-    ".mfp-vol .mf-option-group--chips .mf-option-ui"
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--chips .mf-option-check",
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--chips",
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--chips .mf-option-ui"
   ],
   "cardSelectors": [
-    ".mfp-vol .vol-card",
-    ".mfp-vol .mf-option-group--cards",
-    ".mfp-vol .mf-option-group--cards .mf-option-item",
-    ".mfp-vol .mf-option-group--cards .mf-option-ui"
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .vol-card",
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--cards",
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--cards .mf-option-item",
+    ".mf-template-volunteer-application-euroyouth .mfp-vol .mf-option-group--cards .mf-option-ui"
   ],
   "colorVars": {},
   "contentTokens": [],
@@ -252,8 +252,9 @@
     "Submit Application",
     "* Required fields. Your data is protected under GDPR."
   ],
-  "cssClassCount": 40,
+  "cssClassCount": 72,
   "cssClasses": [
+    "mf-template-volunteer-application-euroyouth",
     "mfp",
     "mfp-vol",
     "vol-banner",
@@ -293,14 +294,45 @@
     "vol-consent-item",
     "mf-option-group",
     "mf-form-title",
-    "mf-form-description"
+    "mf-form-description",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "69ac013ff90c51ab1c938bd3128bc6f10899050466ada62fbf5be565aaf5d878",
-    "customHtmlSha256": "254c5b50baef4cc59caffcaabec96e2dd533c7bc80c7358a80840b835aaeca33",
-    "shellSha256": "d5be6ff21053812cdae5998d7918e4d13b8b2a6a4dba57d2dac5d07f6f2687c4"
+    "customCssSha256": "9c5193ab6fc05ebb09b113919930e7b62f65f3aeb99ee0159673c7756a352d2c",
+    "customHtmlSha256": "787d72be4c470f0a0dfaf56a1f9fec84ada6d772709d959dd43cf578d6ff9e9e",
+    "shellSha256": "e2518c0c303a8a790f3cd0112a968ee2ed70a13200170e904ccd731cc9c376bc"
   },
   "counts": {
     "fields": 17,

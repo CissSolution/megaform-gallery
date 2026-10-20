@@ -197,7 +197,7 @@
   ],
   "chipSelectors": [],
   "cardSelectors": [
-    ".mfp.mfp-invoice-orange.mfp-invoice-orange .io-card"
+    ".mf-template-invoice-orange-application .mfp.mfp-invoice-orange.mfp-invoice-orange .io-card"
   ],
   "colorVars": {
     "--io-accent": "#E8750A",
@@ -244,8 +244,9 @@
     "Accommodation Preference",
     "Motivation Statement"
   ],
-  "cssClassCount": 72,
+  "cssClassCount": 103,
   "cssClasses": [
+    "mf-template-invoice-orange-application",
     "mfp",
     "mfp-invoice-orange",
     "mf-form-wrapper",
@@ -317,14 +318,44 @@
     "io-submit",
     "mf-form-actions",
     "mf-postsubmit-actions",
-    "mf-review-actions"
+    "mf-review-actions",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "5f13c778e15ca42ac3ea13e9510afebc481fbf3d0df6709b84a9cbe3faed6be1",
-    "customHtmlSha256": "3cb95ca30a8a2c64be0b62392849675a9f98c5375a78a9f290a1ef454bd3ea4a",
-    "shellSha256": "30c023175f3ead2a7b5602ad8767e6be9ae3dc938d3bc93cd4238056eb0b8c37"
+    "customCssSha256": "014225fc1187b5c80fb41416637df3243d114af4aeef80e46c98100aaec34bef",
+    "customHtmlSha256": "f88a807bd40e0afb28bc4e3491d7a37e513770dbb344316199e63b872b2a98c4",
+    "shellSha256": "c9aaa70f34b1d90c587c5025025c89d03473668900e01ffc47434f4def7a9726"
   },
   "counts": {
     "fields": 16,

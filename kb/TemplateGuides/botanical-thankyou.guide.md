@@ -79,13 +79,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "b1c65de822dc28f2b64f2c3cd01715991f1cd96c4c323241761227cca9db8e0c",
-  "shellSha256": "ec1993f84ea73801ea5595e5fd4de562ddc2dbf880220a9f7f6d9540857e8a32"
+  "customCssSha256": "3085f198998c0044b8d3d323d8d8a1526422c6a799dc743694ef9927f6aa0ee2",
+  "shellSha256": "e2139f65e71ec83e4660a02824e4c3bff325c4c245c2a31f76116cfcf27e9f73"
 }
 ---
 # AI Edit Guide — Botanical Thank You Application
 
 Theme `system` · root `.mfp.mfp-botanical-thankyou.mfp-native-generated` · 19 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-botanical-thankyou` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -153,9 +156,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--bot-input`: #fdf8ee
   - `--bot-soft`: #edf1df
   - `--bot-error`: #c0392b
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `b1c65de822dc…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `3085f198998c…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `b1c65de822dc28f2…` · customHtml shell sha256 stays `ec1993f84ea73801…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `3085f198998c0044…` · customHtml shell sha256 stays `e2139f65e71ec83e…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `system`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

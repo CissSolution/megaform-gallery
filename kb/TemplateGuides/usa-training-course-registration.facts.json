@@ -308,14 +308,14 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mf-form-wrapper .mf-option-group--chips",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-item",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-ui",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper.mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
-    ".mf-form-wrapper .mfp.mfp-coachella .mf-option-group--chips"
+    ".mf-option-group--chips",
+    ".mf-option-group--chips .mf-option-item",
+    ".mf-option-group--chips .mf-option-ui",
+    ".mf-option-group--chips .mf-option-label",
+    ".mf-theme-pure-grid-premium .mf-option-group--chips .mf-option-ui",
+    ".mf-template-usa-training-course-registration .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-ui",
+    ".mf-template-usa-training-course-registration .mfp.mfp-nola-glass .mf-option-group--chips .mf-option-label",
+    ".mfp.mfp-coachella .mf-option-group--chips"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -358,8 +358,9 @@
     "or call",
     "1-800-ACADEMY"
   ],
-  "cssClassCount": 103,
+  "cssClassCount": 134,
   "cssClasses": [
+    "mf-template-usa-training-course-registration",
     "mfp",
     "mfp-usa-training",
     "usa-form-container",
@@ -462,14 +463,30 @@
     "aur-collection-section",
     "aur-newsletter",
     "aur-actions",
-    "aur-footer-note"
+    "aur-footer-note",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "ey-shell",
+    "auto-ambient"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "30acce781a3adae65d5ba19a07e1b2ef6824b7f9dc73ecd35cb835883368f41e",
-    "customHtmlSha256": "c27fe3085c688641ddfd638d19fc20dfa955ec4b79147f75665edc7bb30cb139",
-    "shellSha256": "d77f47fbfc43c8c23db56ba8e8e6687e12020e7539c797cea517cc48ac833dde"
+    "customCssSha256": "2450caa3532bcb93fe0d259a6d7951ff029004cbf889ff6ff62b7b7b5ec2c7c5",
+    "customHtmlSha256": "9668c928fa00213aae874f20f689d33eaa55591d028a45e4924ebfc1da0a9034",
+    "shellSha256": "36e986b5ef06addf8866065850bf8cd0e50642a6b555260b25ce084647d7ca9f"
   },
   "counts": {
     "fields": 25,

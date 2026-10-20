@@ -105,9 +105,9 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp.mfp-crg.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-crg.mfp-native-generated .mf-option-group--chips",
-    ".mfp.mfp-crg.mfp-native-generated .mf-option-group--chips .mf-option-label"
+    ".mf-template-corporate-registration-blue .mfp.mfp-crg.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-corporate-registration-blue .mfp.mfp-crg.mfp-native-generated .mf-option-group--chips",
+    ".mf-template-corporate-registration-blue .mfp.mfp-crg.mfp-native-generated .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -140,8 +140,9 @@
   "scriptTokens": [],
   "formTokens": [],
   "shellTexts": [],
-  "cssClassCount": 73,
+  "cssClassCount": 105,
   "cssClasses": [
+    "mf-template-corporate-registration-blue",
     "mfp",
     "mfp-crg",
     "mfp-native-generated",
@@ -214,14 +215,45 @@
     "crg-wrap",
     "crg-grid",
     "crg-main",
-    "crg-hero-in"
+    "crg-hero-in",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "327f56675b1eb3ebcfbebf1c0a83450012956f2ca0f644fd5ae39ab965036bae",
-    "customHtmlSha256": "4525e4efd8b085328d50b4f9d205595b44c50e414d1280d5191bf38c4c03e7d9",
-    "shellSha256": "03b98092785925c6bb65dac0f79334cefde67c3d3851aca6fd9c40622feb2c8d"
+    "customCssSha256": "c976030e670204471f3973aff14acb4634091b77e43877bfdc688c846270584f",
+    "customHtmlSha256": "63a3fbbd02eaedf157ba9452315fbde8e2006e1369d78b7922ed4af7a512fc74",
+    "shellSha256": "166dcf4d34f897f688de176551f14df09c1b6c1819cf4684ea2c107c0062ea64"
   },
   "counts": {
     "fields": 8,

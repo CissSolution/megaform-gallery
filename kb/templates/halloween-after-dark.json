@@ -10,7 +10,21 @@
         "Summary": "A moonlit Halloween gathering RSVP with editable party size, costume plans, and accommodation notes. [Category: Events · 5 fields · uses: Text, Email, Select, Textarea]",
         "Body": "{\"title\":\"Halloween After Dark\",\"description\":\"A moonlit Halloween gathering RSVP with editable party size, costume plans, and accommodation notes.\",\"category\":\"Events\",\"icon\":\"\",\"submitButtonText\":\"Send my RSVP\",\"successMessage\":\"Thank you. Your RSVP has been received. Attendance is subject to confirmation by the organizer.\",\"settings\":{\"theme\":\"dark\",\"multiPage\":false},\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"Your first and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 people\"},{\"value\":\"3\",\"label\":\"3 people\"},{\"value\":\"4\",\"label\":\"4 people\"},{\"value\":\"5\",\"label\":\"5 people\"},{\"value\":\"6\",\"label\":\"6 people\"}]},{\"key\":\"costume_plans\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":true,\"options\":[{\"value\":\"classic\",\"label\":\"A spooky classic\"},{\"value\":\"unexpected\",\"label\":\"Something unexpected\"},{\"value\":\"mystery\",\"label\":\"Still a mystery\"},{\"value\":\"myself\",\"label\":\"Coming as myself\"}]},{\"key\":\"note\",\"type\":\"Textarea\",\"label\":\"Anything we should know?\",\"required\":false,\"placeholder\":\"Dietary needs, accessibility requests, or a little hello…\"}]}",
         "Tags": "form_template,Events,Events,fields:5,type-text,type-email,type-select,type-textarea",
-        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"Your first and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 people\"},{\"value\":\"3\",\"label\":\"3 people\"},{\"value\":\"4\",\"label\":\"4 people\"},{\"value\":\"5\",\"label\":\"5 people\"},{\"value\":\"6\",\"label\":\"6 people\"}]},{\"key\":\"costume_plans\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":true,\"options\":[{\"value\":\"classic\",\"label\":\"A spooky classic\"},{\"value\":\"unexpected\",\"label\":\"Something unexpected\"},{\"value\":\"mystery\",\"label\":\"Still a mystery\"},{\"value\":\"myself\",\"label\":\"Coming as myself\"}]},{\"key\":\"note\",\"type\":\"Textarea\",\"label\":\"Anything we should know?\",\"required\":false,\"placeholder\":\"Dietary needs, accessibility requests, or a little hello…\"}],\"settings\":{\"theme\":\"dark\",\"multiPage\":false}}}]",
+        "Examples": "[{\"op\":\"replace_form_schema\",\"schema\":{\"version\":\"1.0.1\",\"fields\":[{\"key\":\"full_name\",\"type\":\"Text\",\"label\":\"Full name\",\"required\":true,\"placeholder\":\"Your first and last name\"},{\"key\":\"email\",\"type\":\"Email\",\"label\":\"Email address\",\"required\":true,\"placeholder\":\"you@example.com\"},{\"key\":\"party_size\",\"type\":\"Select\",\"label\":\"Party size\",\"required\":true,\"options\":[{\"value\":\"1\",\"label\":\"1 person\"},{\"value\":\"2\",\"label\":\"2 people\"},{\"value\":\"3\",\"label\":\"3 people\"},{\"value\":\"4\",\"label\":\"4 people\"},{\"value\":\"5\",\"label\":\"5 people\"},{\"value\":\"6\",\"label\":\"6 people\"}]},{\"key\":\"costume_plans\",\"type\":\"Select\",\"label\":\"Costume plans\",\"required\":true,\"options\":[{\"value\":\"classic\",\"label\":\"A spooky classic\"},{\"value\":\"unexpected\",\"label\":\"Something unexpected\"},{\"value\":\"mystery\",\"label\":\"Still a mystery\"},{\"value\":\"myself\",\"label\":\"Coming as myself\"}]},{\"key\":\"note\",\"type\":\"Textarea\",\"label\":\"Anything we should know?\",\"required\":false,\"placeholder\":\"Dietary needs, accessibility requests, or a little hello…\"}],\"settings\":{\"theme\":\"dark\",\"multiPage\":false}}}]",
+        "PortalId": null,
+        "Source": "megaform-builtin",
+        "WidgetType": "",
+        "Surface": "",
+        "Version": 1
+      },
+      {
+        "Slug": "tpl-halloween-after-dark",
+        "Kind": "template_guide",
+        "Title": "Halloween After Dark",
+        "Summary": "A moonlit Halloween gathering RSVP with editable party size, costume plans, and accommodation notes.",
+        "Body": "{\"guide_file\":\"halloween-after-dark.guide.md\"}",
+        "Tags": "premium,template-guide,Events",
+        "Examples": "",
         "PortalId": null,
         "Source": "megaform-builtin",
         "WidgetType": "",
@@ -21,5 +35,16 @@
     "templates": [],
     "rules": []
   },
-  "resources": []
+  "resources": [
+    {
+      "path": "kb/TemplateGuides/halloween-after-dark.guide.md",
+      "sha256": "e568166124efe5a951ec231056ca2afeaff88f0aa9a2ff9cae2ea1d8617c5f49",
+      "sizeBytes": 8093
+    },
+    {
+      "path": "kb/TemplateGuides/halloween-after-dark.facts.json",
+      "sha256": "442ba76062cfa1ea376ee5d8b4b887975287f44ff12e8afa73f571f4ab0991e1",
+      "sizeBytes": 4550
+    }
+  ]
 }

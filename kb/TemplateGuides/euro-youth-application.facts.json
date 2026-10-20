@@ -279,24 +279,24 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp-euro-youth .ey-chips input",
-    ".mfp-euro-youth .ey-chips",
-    ".mfp-euro-youth .ey-chips label",
-    ".mfp-euro-youth .ey-chips span",
-    ".mf-form-wrapper .mf-option-group--chips",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-item",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-ui",
-    ".mf-form-wrapper .mf-option-group--chips .mf-option-label"
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-chips input",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-chips",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-chips label",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-chips span",
+    ".mf-option-group--chips",
+    ".mf-option-group--chips .mf-option-item",
+    ".mf-option-group--chips .mf-option-ui",
+    ".mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp-euro-youth .ey-card",
-    ".mfp-euro-youth .ey-programmes",
-    ".mfp-euro-youth .ey-programme",
-    ".mfp-euro-youth .ey-programme-icon",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-card",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programmes",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programme",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programme-icon",
     ".ey-programme-icon",
-    ".mfp-euro-youth .ey-programme-icon svg",
-    ".mfp-euro-youth .ey-programme-copy",
-    ".mfp-euro-youth .ey-programme-copy strong"
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programme-icon svg",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programme-copy",
+    ".mf-template-euro-youth-application .mfp-euro-youth .ey-programme-copy strong"
   ],
   "colorVars": {
     "--mf-choice-border": "rgba(255,255,255,0.28)",
@@ -361,8 +361,9 @@
     "Co-funded by the European Youth Mobility Initiative &middot; Step",
     "of 4"
   ],
-  "cssClassCount": 82,
+  "cssClassCount": 108,
   "cssClasses": [
+    "mf-template-euro-youth-application",
     "mfp",
     "mfp-euro-youth",
     "ey-shell",
@@ -444,14 +445,39 @@
     "aur-footer-note",
     "mf-row",
     "mf-premium-native-mode",
-    "DnnModule"
+    "DnnModule",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "a2a9298971970dc4af4a793998a8764870e464c09e0fd45b6150574eb8d70803",
-    "customHtmlSha256": "04a687d79644a79941e42f2103eaef65780052a46cb6ec3346ae20554db9f591",
-    "shellSha256": "496ef955025083119b16d2234d96e720dc7b39892b7eecb9103007a112334304"
+    "customCssSha256": "825c48eef375eca1d2102c533bc0304d1b4d572bf9787db13ed69d03f78a78ee",
+    "customHtmlSha256": "82727600c290044df972e2d7aad26f58444f7052e35404ac67a78b41c9d266da",
+    "shellSha256": "e03a943a463c237e27ab24655eacfd9df760824d323a1832bf0aaac8120f9baf"
   },
   "counts": {
     "fields": 20,

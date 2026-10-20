@@ -215,11 +215,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-kawaii-diary .mfp-chip .mf-option-group",
-    ".mfp-kawaii-diary .mfp-chip .mf-option-item",
-    ".mfp-kawaii-diary .mfp-chip .mf-option-control",
-    ".mfp-kawaii-diary .mfp-chip .mf-option-ui",
-    ".mfp-kawaii-diary .mfp-chip .mf-option-label"
+    ".mf-template-kawaii-diary .mfp-kawaii-diary .mfp-chip .mf-option-group",
+    ".mf-template-kawaii-diary .mfp-kawaii-diary .mfp-chip .mf-option-item",
+    ".mf-template-kawaii-diary .mfp-kawaii-diary .mfp-chip .mf-option-control",
+    ".mf-template-kawaii-diary .mfp-kawaii-diary .mfp-chip .mf-option-ui",
+    ".mf-template-kawaii-diary .mfp-kawaii-diary .mfp-chip .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -249,8 +249,9 @@
     "Submit! &#128640; &#8594;",
     "Dream big &middot; travel far &middot; stay curious"
   ],
-  "cssClassCount": 50,
+  "cssClassCount": 80,
   "cssClasses": [
+    "mf-template-kawaii-diary",
     "mfp",
     "mfp-kawaii-diary",
     "mf-form-wrapper",
@@ -300,14 +301,43 @@
     "mfp-kawaii-pink",
     "mfp-radio",
     "mfp-kawaii-bottom",
-    "mfp-foot"
+    "mfp-foot",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "8f1b61d129d0a69b8d061bbce56a2dc06bb144eb971e78bcd60c27d6d6e8442a",
-    "customHtmlSha256": "e68588c72aa61356756959c4be97ea2a2aaed0676d2c73ffe056c6ed35297f62",
-    "shellSha256": "de7ce17cff2b576212f5882c19e8ffb3b25d53de60829298b4350dddca937907"
+    "customCssSha256": "0a122b0f772bc6010a7a9d3f14cd7f2a76b16949b7ca36b25fa636a34bc83478",
+    "customHtmlSha256": "17e61325d86b5f1602f00f687b04f414ad1596ef101548fc1cb32ab5ab8871a9",
+    "shellSha256": "e562dcb2b42ef939868ec72ef7fe98093d89bd2b5fe3702492f462c64b741ef9"
   },
   "counts": {
     "fields": 18,

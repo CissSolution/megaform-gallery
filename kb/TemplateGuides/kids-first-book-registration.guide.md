@@ -79,13 +79,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "44f8acd918b081b2e8c33bdb6842a1f19a66fd1690497b64f2ebd6b170872f8f",
-  "shellSha256": "7f39047fb6722ec756aed9058d0b60ca99c2a455d74efe66a4808a8bdbb2e710"
+  "customCssSha256": "ae76753d30921369800aaff692eb861072b688cc0733dc4c03d42e6b451b8564",
+  "shellSha256": "7be4a765af9b40d0abbcaf194f4a58315054a22a13287472a03fbbf5cb24b3b4"
 }
 ---
 # AI Edit Guide — Baby's First Book — Registration
 
 Theme `custom` · root `.mfp.mfp-kfb.mfp-native-generated` · 16 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-kids-first-book-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -153,9 +156,9 @@ _(none)_
   - `--kfb-deco`: #FDEEA0
   - `--kfb-page`: #FDF0F4
   - `--kfb-fill`: #FDF0F4
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `44f8acd918b0…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `ae76753d3092…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `44f8acd918b081b2…` · customHtml shell sha256 stays `7f39047fb6722ec7…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `ae76753d30921369…` · customHtml shell sha256 stays `7be4a765af9b40d0…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -198,11 +198,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-verdant-member-registration .mfp-chip-field .mf-option-group",
-    ".mfp-verdant-member-registration .mfp-chip-field .mf-option-item",
-    ".mfp-verdant-member-registration .mfp-chip-field .mf-option-control",
-    ".mfp-verdant-member-registration .mfp-chip-field .mf-option-ui",
-    ".mfp-verdant-member-registration .mfp-chip-field .mf-option-label"
+    ".mf-template-verdant-member-registration .mfp-verdant-member-registration .mfp-chip-field .mf-option-group",
+    ".mf-template-verdant-member-registration .mfp-verdant-member-registration .mfp-chip-field .mf-option-item",
+    ".mf-template-verdant-member-registration .mfp-verdant-member-registration .mfp-chip-field .mf-option-control",
+    ".mf-template-verdant-member-registration .mfp-verdant-member-registration .mfp-chip-field .mf-option-ui",
+    ".mf-template-verdant-member-registration .mfp-verdant-member-registration .mfp-chip-field .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -234,8 +234,9 @@
     "Create profile",
     "Already a member? Sign in through your site's secure login."
   ],
-  "cssClassCount": 60,
+  "cssClassCount": 90,
   "cssClasses": [
+    "mf-template-verdant-member-registration",
     "mfp",
     "mfp-verdant-member-registration",
     "mfp-stage",
@@ -295,14 +296,43 @@
     "is-done",
     "mfp-page",
     "mfp-page-head",
-    "mfp-review-card"
+    "mfp-review-card",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "b2473852c055a3ef210916320866a06f327970f75ae63cab0cdd30834c71d1b5",
-    "customHtmlSha256": "6d56449c6217ba5ce17b385126e167aae6bf5e43e71bf04c721bb6ad7e1cc475",
-    "shellSha256": "48c05f3601b71461681dcd4573b34a72a4943408be537a55f09c16b3207145b2"
+    "customCssSha256": "043d62ecbf1b89644cf04317c1bdd93cb82c0ed74cdd4956ff1cc17de6e03371",
+    "customHtmlSha256": "a2db65d91bff60c94cf02a1bfdd9ded070b316d841d4417fc7fddf10980e7b24",
+    "shellSha256": "770de22e646d18fb8e4b29efd77200d663fe45e7db3faf50afa600296504cfa7"
   },
   "counts": {
     "fields": 14,

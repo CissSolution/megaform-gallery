@@ -94,13 +94,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "cbab7444748d75a31cef13c9922c2b83059d0685a8cde74b219906b3dd8a8083",
-  "shellSha256": "a1b736610fb8d2157a387e53e1b1a997b84565addfb67fcc09c0c025348ec366"
+  "customCssSha256": "19b0f1ff2eeea15eed8b0c00c2427777d43d30d3498e03d0c7cfcc579eae9d9a",
+  "shellSha256": "c72827391e82cccb9199e250d1ddcf2211685d1892e615ef013dbaba6f82c12f"
 }
 ---
 # AI Edit Guide — Invoice Blue — Programme Application
 
 Theme `invoice-blue-premium` · root `.mfp.mfp-invoice-blue` · 16 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-invoice-blue-application` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -178,9 +181,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--io-line`: #D4DCE8
   - `--io-row`: #F6F8FC
   - `--io-card`: #FFFFFF
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `cbab7444748d…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `19b0f1ff2eee…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `invoice_totals`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `cbab7444748d75a3…` · customHtml shell sha256 stays `a1b736610fb8d215…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `19b0f1ff2eeea15e…` · customHtml shell sha256 stays `c72827391e82cccb…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `invoice-blue-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

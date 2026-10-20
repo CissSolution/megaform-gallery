@@ -82,13 +82,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "b8c8e08b3cdd27e157967fbe7fa6f3bc1c9dff5b7348603e08249726f08c47c1",
-  "shellSha256": "3d4db5d552490ae0750d02d269ca48f97c59eb32fa54bfef321b6281875488b5"
+  "customCssSha256": "534785487953a799f2f84ad6f782f2adc4c5bc4aebcb4af4f977fe82d2168707",
+  "shellSha256": "e9fe1fa2b07293f62296924f88b723163ee6c36d2bf09a8300187ea8cb434ab5"
 }
 ---
 # AI Edit Guide — National Cherry Blossom Festival
 
 Theme `sakura-premium` · root `.mfp.mfp-sakura` · 15 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-cherry-blossom-festival-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -157,9 +160,9 @@ _(none)_
   - `--card-bg`: rgba(255,255,255,0.92)
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `b8c8e08b3cdd…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `534785487953…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `b8c8e08b3cdd27e1…` · customHtml shell sha256 stays `3d4db5d552490ae0…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `534785487953a799…` · customHtml shell sha256 stays `e9fe1fa2b07293f6…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `sakura-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

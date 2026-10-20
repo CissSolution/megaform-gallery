@@ -87,13 +87,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "8a9fe735ab67f3f8dee5c829a7f848b46698a3661502f76a97a073b1210e3e5b",
-  "shellSha256": "e71ad1aa87450cd2af7f66cb4f6fe92602cb2d67d67332baadbb0fd6097d8b18"
+  "customCssSha256": "57e92ed14fdd1f654baa3e1346986e3f8c855d4da1c1179aeaa40eead1c1ed10",
+  "shellSha256": "aeeeb0f2cbad5448510eb4ff6b0498177ff60552746fad74e2c42e41b07da66d"
 }
 ---
 # AI Edit Guide — Dance Competition Registration
 
 Theme `dance-competition-premium` · root `.mfp.mfp-dcp.mfp-native-generated` · 18 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-dance-competition-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -166,9 +169,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
 - **C3 Remove field**: `{op:"remove_field", key:"<key>", designDecision:"preserve"}` — removes the field and its token; leaves zero orphan placeholders.
 - **C8 Change COLOUR (only if the user explicitly asks)**: `{op:"set_form_meta", themeCssOverrides:{"<scoped-var>":"#hex",…}, designDecision:"preserve"}`. ⚠ This template scopes its palette under TEMPLATE-SPECIFIC vars — target THOSE exact names (the generic `--primary`/`--accent` are INERT here). Available colour vars (current value):
   - _(none detected — fall back to --primary/--accent)_
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `8a9fe735ab67…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `57e92ed14fdd…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `8a9fe735ab67f3f8…` · customHtml shell sha256 stays `e71ad1aa87450cd2…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `57e92ed14fdd1f65…` · customHtml shell sha256 stays `aeeeb0f2cbad5448…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `dance-competition-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

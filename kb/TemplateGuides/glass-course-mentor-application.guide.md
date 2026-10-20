@@ -73,13 +73,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "76e0d025ed35e012c466de9121709921c50f7d1e7ba19f6959c550b056cf481d",
-  "shellSha256": "814dbe2ac74f3ef364c5432bd45abfe99ca904d7ee2f910891961433b2f756f1"
+  "customCssSha256": "21c36cf553346b181f49fd18f008b0f2c323c1ea3c95d6b0fdd1c2b6c55730ec",
+  "shellSha256": "26b79c7970bbc89281dfda289fc8af7e79f53e0c37d6c2815a7c309002b45bd4"
 }
 ---
 # AI Edit Guide — Rose Festival 2026
 
 Theme `modern-blue` · root `.mfp-submit` · 13 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-glass-course-mentor-application` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -139,9 +142,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--rose-border`: #e8d5c4
   - `--rose-white`: #ffffff
   - `--mf-choice-border`: rgba(255,255,255,0.28)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `76e0d025ed35…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `21c36cf55334…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `76e0d025ed35e012…` · customHtml shell sha256 stays `814dbe2ac74f3ef3…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `21c36cf553346b18…` · customHtml shell sha256 stays `26b79c7970bbc892…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `modern-blue`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

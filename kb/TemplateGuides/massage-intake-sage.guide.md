@@ -63,13 +63,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "3c94a2a6e92d19fc1ad6d21fac59068bf2256526422fae890598519184776b15",
-  "shellSha256": "00f2f6485dae3692d8321aee094cc612e78d8034ccec2e0addba92feb26d924e"
+  "customCssSha256": "d6c6c1033eed113906e3f4dcaeccb9e999051e6644d505537da8cb1da660c88c",
+  "shellSha256": "77da9038a2dce71eb04647a951f6989371badbe0bae7acfc4cce246b40a42d0f"
 }
 ---
 # AI Edit Guide — Massage Therapy — Client Intake
 
 Theme `custom` · root `.mfp.mfp-msi.mfp-native-generated` · 7 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-massage-intake-sage` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -120,9 +123,9 @@ _(none)_
   - `--msi-deco`: #C9A24B
   - `--msi-page`: #F7F1E6
   - `--msi-fill`: #F7F1E6
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `3c94a2a6e92d…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `d6c6c1033eed…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `the wizard script`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `3c94a2a6e92d19fc…` · customHtml shell sha256 stays `00f2f6485dae3692…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `d6c6c1033eed1139…` · customHtml shell sha256 stays `77da9038a2dce71e…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

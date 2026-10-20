@@ -106,13 +106,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "39096a8d1c2a76d8e4df48a808a8fe032b7701388118510a07f52fee75e46ed0",
-  "shellSha256": "dedb28c60dc419373abfb7f3410667133657ddb42a0b169eb2799c58b417eed9"
+  "customCssSha256": "27702ddf8803a66c7d33f7647a485206ff3f30dd65f006fa58d3722de667f10f",
+  "shellSha256": "2aa59133f84da01ea4db2124ca565a970101ed05bd56f6f2345268bc5ae43daa"
 }
 ---
 # AI Edit Guide — Reserve Your Perfect Stay
 
 Theme `custom` · root `.mfp.mfp-lgn.mfp-native-generated` · 18 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-lagoon-reserve-booking` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -205,9 +208,9 @@ _(none)_
   - `--lgn-deco`: #F0D898
   - `--lgn-page`: #FDF8F0
   - `--lgn-fill`: #FDF8F0
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `39096a8d1c2a…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `27702ddf8803…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `booking_summary`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `39096a8d1c2a76d8…` · customHtml shell sha256 stays `dedb28c60dc41937…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `27702ddf8803a66c…` · customHtml shell sha256 stays `2aa59133f84da01e…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

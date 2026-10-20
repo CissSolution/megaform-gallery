@@ -217,20 +217,20 @@
     "room_type"
   ],
   "chipSelectors": [
-    ".mfp.mfp-lgn.mfp-native-generated .lgn-chips",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips .mf-option-label"
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .lgn-chips",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-check",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-copy",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-ui",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-icon",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-label",
-    ".mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-desc",
-    ".mfp.mfp-lgn.mfp-native-generated .lgn-card"
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-check",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-copy",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-ui",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-icon",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-label",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .mf-option-group--cards .mf-option-desc",
+    ".mf-template-lagoon-reserve-booking .mfp.mfp-lgn.mfp-native-generated .lgn-card"
   ],
   "colorVars": {
     "--lgn-primary": "#C8962C",
@@ -289,8 +289,9 @@
   ],
   "formTokens": [],
   "shellTexts": [],
-  "cssClassCount": 98,
+  "cssClassCount": 130,
   "cssClasses": [
+    "mf-template-lagoon-reserve-booking",
     "mfp",
     "mfp-lgn",
     "mfp-native-generated",
@@ -388,14 +389,35 @@
     "lgn-hero-in",
     "lgn-card",
     "mf-form-wrapper",
-    "mf-has-date-popover"
+    "mf-has-date-popover",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "39096a8d1c2a76d8e4df48a808a8fe032b7701388118510a07f52fee75e46ed0",
-    "customHtmlSha256": "5bf06f32e349826555a8d2a657e328a22cdf1d50b8ce3f197dfc573d7ccab627",
-    "shellSha256": "dedb28c60dc419373abfb7f3410667133657ddb42a0b169eb2799c58b417eed9"
+    "customCssSha256": "27702ddf8803a66c7d33f7647a485206ff3f30dd65f006fa58d3722de667f10f",
+    "customHtmlSha256": "14dc09493feeab031495e6ebad2968632512446cd641e3348ef04c4fb7f169b3",
+    "shellSha256": "2aa59133f84da01ea4db2124ca565a970101ed05bd56f6f2345268bc5ae43daa"
   },
   "counts": {
     "fields": 18,

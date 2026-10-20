@@ -227,19 +227,19 @@
     "pass"
   ],
   "chipSelectors": [
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--chips",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--chips .mf-option-label"
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--chips",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-check",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-copy",
-    ".mfp.mfp-fes.mfp-native-generated .fes-card",
-    ".mfp.mfp-fes.mfp-native-generated .fes-passes .mf-option-group--cards",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-ui",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-label",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-desc",
-    ".mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-badge"
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-check",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-copy",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .fes-card",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .fes-passes .mf-option-group--cards",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-ui",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-label",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-desc",
+    ".mf-template-festa-italiana .mfp.mfp-fes.mfp-native-generated .mf-option-group--cards .mf-option-badge"
   ],
   "colorVars": {
     "--fes-primary": "#b5322e",
@@ -301,8 +301,9 @@
   ],
   "formTokens": [],
   "shellTexts": [],
-  "cssClassCount": 99,
+  "cssClassCount": 131,
   "cssClasses": [
+    "mf-template-festa-italiana",
     "mfp",
     "mfp-fes",
     "mfp-native-generated",
@@ -401,14 +402,34 @@
     "fes-grid",
     "fes-main",
     "fes-hero-in",
-    "mf-has-date-popover"
+    "mf-has-date-popover",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "ef7e3e4152cdbb1347063dfa0852d2926a8d5e23df4ffb117481ac3a6c2ee797",
-    "customHtmlSha256": "7a9cdcff02c00434bec37ed20b4fa5237865b6c6ed0e96e9592d06c931c6d0de",
-    "shellSha256": "d8b8579d4be1bc954010a58e16cd89217d44443a0b6ade873c78d8d72e5af157"
+    "customCssSha256": "2a8eba17ffca1ec79b761e0d741b4361310c5b6c436b4cab8a3d7b7268e6c506",
+    "customHtmlSha256": "5930c7205411bb33ccee8b03b2fa38ddf689818138ead7259419b4e1714033ac",
+    "shellSha256": "1afda7810705c52101916df6e51868abd627970591af116adcb7f9fb4e60de3c"
   },
   "counts": {
     "fields": 16,

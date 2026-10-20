@@ -279,21 +279,21 @@
     "accommodation"
   ],
   "chipSelectors": [
-    ".mfp.mfp-teal-brochure .mf-option-group--chips",
-    ".mfp.mfp-teal-brochure .mf-option-item--chips",
-    ".mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-ui",
-    ".mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-icon",
-    ".mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-label"
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-group--chips",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--chips",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-ui",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-icon",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp-teal-brochure .ey-card",
-    ".mfp.mfp-teal-brochure .mf-option-group--cards",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-ui",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-icon",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-copy",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-label",
-    ".mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-desc"
+    ".mf-template-teal-brochure-application .mfp-teal-brochure .ey-card",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-group--cards",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-ui",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-icon",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-copy",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-label",
+    ".mf-template-teal-brochure-application .mfp.mfp-teal-brochure .mf-option-item--cards .mf-option-desc"
   ],
   "colorVars": {
     "--tb-ink": "#1e2a2a",
@@ -373,8 +373,9 @@
     "Email",
     "Country"
   ],
-  "cssClassCount": 69,
+  "cssClassCount": 95,
   "cssClasses": [
+    "mf-template-teal-brochure-application",
     "mfp",
     "mfp-teal-brochure",
     "ey-shell",
@@ -443,14 +444,39 @@
     "ey-next",
     "ey-submit",
     "ey-footer",
-    "mf-form-actions"
+    "mf-form-actions",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "0bad6d9a4cfeff0c3cbb14d710340fe64619b93a51b8483f7139f5b3c09650c5",
-    "customHtmlSha256": "8470320ac6880d7cf2932d7e4f147cec1fde4d9d2b06004b17854576310fbeaa",
-    "shellSha256": "e610e0023a645dea2db8c929b232bd41bdf380cce3e0cce446448c8ad5259bab"
+    "customCssSha256": "c2fe00ab8fe24db989ee39700c1ab36b44b13307dd4afd9d73fa64d058a003f9",
+    "customHtmlSha256": "901f6f92fec776aac802bb973b9b9e8ccf76778535c825bebf284bb970a1ab9d",
+    "shellSha256": "d65d04ca88062835fa82ff0237238066cad44ed7dd3e7d6d5b6cbac4f7029f5f"
   },
   "counts": {
     "fields": 20,

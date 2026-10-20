@@ -80,13 +80,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "68d53837940d4e96a22fc8826e5c37581f1847166a959725a1c6445ddf95b604",
-  "shellSha256": "d9d59afef5d8d3c9ef2ce36284da678e7f00093979555d507d42ac39ba525982"
+  "customCssSha256": "77fa8fdd9b81f14dab3f522869da4ec8eabf209ed785fe5ed056d13d2be5daa2",
+  "shellSha256": "f09a2eda13a7a7e38ba0de829d7f36e8564447620e42e759fcbf5416130b1aa5"
 }
 ---
 # AI Edit Guide — IELTS Test Report Form
 
 Theme `custom` · root `.mfp.mfp-iel.mfp-native-generated` · 7 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-ielts-report-classic` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -155,9 +158,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--iel-deco`: #F4F5F7
   - `--iel-page`: #EEF0F3
   - `--iel-fill`: #EEF0F3
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `68d53837940d…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `77fa8fdd9b81…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `iel_meta`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `68d53837940d4e96…` · customHtml shell sha256 stays `d9d59afef5d8d3c9…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `77fa8fdd9b81f14d…` · customHtml shell sha256 stays `f09a2eda13a7a7e3…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

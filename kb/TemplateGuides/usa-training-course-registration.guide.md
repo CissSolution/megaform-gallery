@@ -88,13 +88,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "30acce781a3adae65d5ba19a07e1b2ef6824b7f9dc73ecd35cb835883368f41e",
-  "shellSha256": "d77f47fbfc43c8c23db56ba8e8e6687e12020e7539c797cea517cc48ac833dde"
+  "customCssSha256": "2450caa3532bcb93fe0d259a6d7951ff029004cbf889ff6ff62b7b7b5ec2c7c5",
+  "shellSha256": "36e986b5ef06addf8866065850bf8cd0e50642a6b555260b25ce084647d7ca9f"
 }
 ---
 # AI Edit Guide — Training Course Registration
 
 Theme `usa-training-premium` · root `.mfp.mfp-usa-training` · 19 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-usa-training-course-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -165,9 +168,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--usa-gray-500`: #64748b
   - `--usa-gray-600`: #475569
   - `--usa-gray-700`: #334155
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `30acce781a3a…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `2450caa3532b…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `usa_training_slider`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `30acce781a3adae6…` · customHtml shell sha256 stays `d77f47fbfc43c8c2…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `2450caa3532bcb93…` · customHtml shell sha256 stays `36e986b5ef06addf…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `usa-training-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

@@ -226,11 +226,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-botanical-thankyou .mfp-chip .mf-option-group",
-    ".mfp-botanical-thankyou .mfp-chip .mf-option-item",
-    ".mfp-botanical-thankyou .mfp-chip .mf-option-control",
-    ".mfp-botanical-thankyou .mfp-chip .mf-option-ui",
-    ".mfp-botanical-thankyou .mfp-chip .mf-option-label"
+    ".mf-template-botanical-thankyou .mfp-botanical-thankyou .mfp-chip .mf-option-group",
+    ".mf-template-botanical-thankyou .mfp-botanical-thankyou .mfp-chip .mf-option-item",
+    ".mf-template-botanical-thankyou .mfp-botanical-thankyou .mfp-chip .mf-option-control",
+    ".mf-template-botanical-thankyou .mfp-botanical-thankyou .mfp-chip .mf-option-ui",
+    ".mf-template-botanical-thankyou .mfp-botanical-thankyou .mfp-chip .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -262,8 +262,9 @@
     "&#8592; Back",
     "Send Application &#8594;"
   ],
-  "cssClassCount": 53,
+  "cssClassCount": 83,
   "cssClasses": [
+    "mf-template-botanical-thankyou",
     "mfp",
     "mfp-botanical-thankyou",
     "mf-form-wrapper",
@@ -316,14 +317,43 @@
     "mf-signature-placeholder",
     "mf-signature-actions",
     "mf-sig-clear",
-    "mf-sig-undo"
+    "mf-sig-undo",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "b1c65de822dc28f2b64f2c3cd01715991f1cd96c4c323241761227cca9db8e0c",
-    "customHtmlSha256": "250133c02d1e87ed0af1dc027f495e6b2d9f42ec515a0eda615615ab16793ec1",
-    "shellSha256": "ec1993f84ea73801ea5595e5fd4de562ddc2dbf880220a9f7f6d9540857e8a32"
+    "customCssSha256": "3085f198998c0044b8d3d323d8d8a1526422c6a799dc743694ef9927f6aa0ee2",
+    "customHtmlSha256": "36b1a555d09b4e3953d352537fcfb9f154cf4e9cd67a9fb629dd771397f7a794",
+    "shellSha256": "e2139f65e71ec83e4660a02824e4c3bff325c4c245c2a31f76116cfcf27e9f73"
   },
   "counts": {
     "fields": 19,

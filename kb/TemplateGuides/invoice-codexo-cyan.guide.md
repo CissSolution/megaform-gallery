@@ -173,13 +173,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "37592ae5a72671501375f30e17056b3aa0825cdebe1df3f3b5375f2fecb325aa",
-  "shellSha256": "5e586ab709a22f7e392db58f6b4d9bc8d26119e695d9b9d1d31eb13a32fbd0ea"
+  "customCssSha256": "9bd0ff476c6369bd6e56105a685516103326f985c8dc504e34a9f4e795beced3",
+  "shellSha256": "d5520e6cce8e6003d35a7bafab5803c59512ee8d16f638e05e71e4df4f8d5db5"
 }
 ---
 # AI Edit Guide — Invoice — Codexo Design Studio
 
 Theme `custom` · root `.mfp.mfp-icx.mfp-native-generated` · 27 fields · 4 steps (premium-native).
+
+Embedding: retain the unique `mf-template-invoice-codexo-cyan` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -293,9 +296,9 @@ _(none)_
   - `--icx-deco`: #00B4D8
   - `--icx-page`: #F0F5FB
   - `--icx-fill`: #F7FAFD
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `37592ae5a726…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `9bd0ff476c63…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `37592ae5a7267150…` · customHtml shell sha256 stays `5e586ab709a22f7e…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `9bd0ff476c6369bd…` · customHtml shell sha256 stays `d5520e6cce8e6003…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `custom`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

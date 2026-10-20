@@ -385,8 +385,9 @@
     "Continue",
     "Submit intake"
   ],
-  "cssClassCount": 108,
+  "cssClassCount": 139,
   "cssClasses": [
+    "mf-template-wellness-patient-intake",
     "mfp",
     "mfp-wellness-patient-intake",
     "mfp-header",
@@ -494,14 +495,25 @@
     "mf-ms-chevron",
     "mf-ms-panel",
     "mf-ms-options",
-    "mf-ms-option"
+    "mf-ms-option",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "2051703c23d41c60b8d5254f35445cf7636a264534a538e72e27c086f4308f9d",
-    "customHtmlSha256": "7cc4aa77d1013984fbf9e1a9d2ca20ac8ed0c30f34c87054ff7455ecbdf002a8",
-    "shellSha256": "a37a7fbf082b013e1a560cecc6963d01dc00844358f949f6aea78a7ad768dbb4"
+    "customCssSha256": "6690432db785922b912c40dade6c9d21a781ac346cb233e0ec9e84641994c2ca",
+    "customHtmlSha256": "5958e471cc69f4846beaf2fecb0406e10fba7c87f44f210d7c17392490ba96d6",
+    "shellSha256": "31bb5b5ef4a156f09f4d11f158b2275572b53fe69b9336cd92ae8f7424cfc20a"
   },
   "counts": {
     "fields": 27,

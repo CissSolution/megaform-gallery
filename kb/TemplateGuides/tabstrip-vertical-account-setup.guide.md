@@ -132,13 +132,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "fcc102628c76463bd0002025f9a09a1fee68796ea7445f9bc6e6491dd2d40830",
-  "shellSha256": "7e2f97b6eb92509510d20521ead521401fcde6e62666ac7699f7a9849af43bd3"
+  "customCssSha256": "e81d3be82fd1418b92092080e15545eef71c5f66f8f4da023ce64bee07f01046",
+  "shellSha256": "0e45fdbf5d5291d5932daa4871575f3e65d38e12a149fccacdb5882cd723aa7b"
 }
 ---
 # AI Edit Guide — Vertical Tab Strip Account Setup
 
 Theme `tabstrip-vertical-account-setup` · root `.mfp.mfp-tabstrip-vertical-account-setup.mfp-native-generated` · 19 fields · 6 steps (premium-native).
+
+Embedding: retain the unique `mf-template-tabstrip-vertical-account-setup` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -210,9 +213,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--tab-ok`: #059669
   - `--tab-ok-soft`: #ecfdf5
   - `--tab-danger`: #dc2626
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `fcc102628c76…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `e81d3be82fd1…`).
 - **C4/C5 Add/Remove step** (ADVANCED — premium-native): steps are NATIVE — driven by `Section` fields with `properties.pageBreak:true` (one marker per step) alongside the `data-step` panels in customHtml. There is NO wizard script. To ADD a step: append a new `data-step` panel block via `customHtmlAppend` (NEVER touch customCss), add a `Section` field with `properties.pageBreak:true`, and place the new fields/placeholders inside that panel. To REMOVE: delete the panel + its `Section` marker + its fields. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `fcc102628c76463b…` · customHtml shell sha256 stays `7e2f97b6eb925095…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `e81d3be82fd1418b…` · customHtml shell sha256 stays `0e45fdbf5d5291d5…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `tabstrip-vertical-account-setup`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

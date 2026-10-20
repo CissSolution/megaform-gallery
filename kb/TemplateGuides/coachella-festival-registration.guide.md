@@ -93,13 +93,16 @@
     "settings.theme",
     "field keys"
   ],
-  "customCssSha256": "4533fb73a013bcf8d5241da2c5708f608218d5499879184701e41d9aa84f9725",
-  "shellSha256": "b7cb7b656f19cf4d991f0388b91141c9c8ec41a79f5423b3fad80c09c31fe652"
+  "customCssSha256": "9352e4a6a48ad543b312e1326df8fd283b1e4ce44513e9ec64e9c67419796817",
+  "shellSha256": "bdfbafc4d3b80be146f5281cf49dc4b4c4f39ccf4d771a5c4d63aec3242518b5"
 }
 ---
 # AI Edit Guide — Coachella Valley Music Festival
 
 Theme `coachella-desert-premium` · root `.mfp.mfp-coachella` · 16 fields · 1 steps (single).
+
+Embedding: retain the unique `mf-template-coachella-festival-registration` pane, its scoped selectors, named container queries and animation names. Never resize body/theme containers or add viewport-width/negative-margin escapes. Keep actual card colors; do not restore the redundant outer page canvas.
+
 
 ## DETERMINISTIC EDIT PROTOCOL (follow exactly — do NOT improvise structure/CSS)
 This is a PREMIUM form. Its look lives in `settings.customHtml` + `settings.customCss` + `settings.theme`, which are **IMMUTABLE**. You may ONLY emit these ops, and ONLY against keys/tokens listed in the frontmatter map:
@@ -175,9 +178,9 @@ Some visible text (hero heading, step labels, section/field captions) is baked i
   - `--coachella-text`: #2d2d44
   - `--mf-choice-border`: rgba(255,255,255,0.28)
   - `--mf-choice-card`: rgba(255,255,255,0.10)
-  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `4533fb73a013…`).
+  NEVER edit customCss for colour — customCss must stay byte-identical (sha256 `9352e4a6a48a…`).
 - **C4/C5 Add/Remove step** (ADVANCED — single): steps are `panel` blocks in customHtml driven by `theme_selector`. Clone an existing `panel` block via `customHtmlAppend` (NEVER touch customCss), renumber the stepper, and add the new fields with placeholders. Only attempt if the user explicitly asks. If unsure, ask the user instead of guessing.
 
 ## Hard invariants (a change that breaks any of these is a FAILURE — refuse the op)
-- customCss sha256 stays `4533fb73a013bcf8…` · customHtml shell sha256 stays `b7cb7b656f19cf4d…` (unless C2/C4 legitimately add a node).
+- customCss sha256 stays `9352e4a6a48ad543…` · customHtml shell sha256 stays `bdfbafc4d3b80be1…` (unless C2/C4 legitimately add a node).
 - `settings.theme` stays `coachella-desert-premium`. Every field keeps a `{{field:key}}` (own or via Row). Zero orphan/zero floating-outside-card fields.

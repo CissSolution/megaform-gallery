@@ -184,19 +184,19 @@
     "programme"
   ],
   "chipSelectors": [
-    ".mfp.mfp-xms.mfp-native-generated .xms-chips",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--chips .mf-option-ui",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--chips",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--chips .mf-option-label"
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .xms-chips",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--chips .mf-option-ui",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--chips",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--chips .mf-option-label"
   ],
   "cardSelectors": [
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-check",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-copy",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-ui",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-label",
-    ".mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-desc",
-    ".mfp.mfp-xms.mfp-native-generated .xms-card"
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-check",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-copy",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-ui",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-label",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .mf-option-group--cards .mf-option-desc",
+    ".mf-template-xmas-sale-euroyouth-application .mfp.mfp-xms.mfp-native-generated .xms-card"
   ],
   "colorVars": {
     "--xms-primary": "#1B8C6E",
@@ -234,8 +234,9 @@
   "scriptTokens": [],
   "formTokens": [],
   "shellTexts": [],
-  "cssClassCount": 68,
+  "cssClassCount": 100,
   "cssClasses": [
+    "mf-template-xmas-sale-euroyouth-application",
     "mfp",
     "mfp-xms",
     "mfp-native-generated",
@@ -303,14 +304,45 @@
     "xms-main",
     "xms-card",
     "mf-form-wrapper",
-    "mf-has-date-popover"
+    "mf-has-date-popover",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "mfp-stage",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "4d518b35e2955aa3ab3429519ef92e93db3d83b8e1d9cefa87600f3b5e4405ad",
-    "customHtmlSha256": "8d0b12bce37874f54345e8813044752db9dec9f5a58e4f272067435171c90b28",
-    "shellSha256": "d2773048d4f8ce1223d2b8ed62736b5fed0d4a5f6c4d266935e75054cd73590c"
+    "customCssSha256": "c82cf7b87d458bc306c01dfc6f232b05d7b9835d3ebefdef6c01989aa3e8cf6a",
+    "customHtmlSha256": "b2a466101af72ea8713c38b88f13484dc4a40fb67a2256e8e507a7ff5bf1db79",
+    "shellSha256": "e3e92f0fd1cb00e921626b15fb0903122bb25358e6836478026355101dfb8d61"
   },
   "counts": {
     "fields": 15,

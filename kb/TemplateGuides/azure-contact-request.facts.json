@@ -94,11 +94,11 @@
   ],
   "cardFields": [],
   "chipSelectors": [
-    ".mfp-azure-contact-request .mfp-chip-field .mf-option-group",
-    ".mfp-azure-contact-request .mfp-chip-field .mf-option-item",
-    ".mfp-azure-contact-request .mfp-chip-field .mf-option-control",
-    ".mfp-azure-contact-request .mfp-chip-field .mf-option-ui",
-    ".mfp-azure-contact-request .mfp-chip-field .mf-option-label"
+    ".mf-template-azure-contact-request .mfp-azure-contact-request .mfp-chip-field .mf-option-group",
+    ".mf-template-azure-contact-request .mfp-azure-contact-request .mfp-chip-field .mf-option-item",
+    ".mf-template-azure-contact-request .mfp-azure-contact-request .mfp-chip-field .mf-option-control",
+    ".mf-template-azure-contact-request .mfp-azure-contact-request .mfp-chip-field .mf-option-ui",
+    ".mf-template-azure-contact-request .mfp-azure-contact-request .mfp-chip-field .mf-option-label"
   ],
   "cardSelectors": [],
   "colorVars": {
@@ -125,8 +125,9 @@
     "Send message",
     "&#8594;"
   ],
-  "cssClassCount": 57,
+  "cssClassCount": 87,
   "cssClasses": [
+    "mf-template-azure-contact-request",
     "mfp",
     "mfp-azure-contact-request",
     "mfp-stage",
@@ -183,14 +184,43 @@
     "mfp-contact-list",
     "mfp-contact-item",
     "mfp-contact-icon",
-    "mfp-char-hint"
+    "mfp-char-hint",
+    "mfp-mock11",
+    "cel-rsvp-min",
+    "mf-contact-split",
+    "pw-main",
+    "mfp-container",
+    "auto-card",
+    "aur-card",
+    "fr-card",
+    "rose-frame",
+    "rc-frame",
+    "io-page",
+    "mfp-frame",
+    "mfp-shell",
+    "usa-form-container",
+    "ey-shell",
+    "auto-ambient",
+    "coachella-bg",
+    "sakura-bg",
+    "crm-bg-image",
+    "crm-bg-overlay",
+    "mf-bg",
+    "mf-overlay",
+    "ey-stepper",
+    "ey-step",
+    "ey-line",
+    "ey-step-text",
+    "ey-actions",
+    "mfp-sticky-spark",
+    "note"
   ],
   "missingFieldPlaceholders": [],
   "orphanFieldPlaceholders": [],
   "hashes": {
-    "customCssSha256": "4eb039296bea6569df973eb9c181cb6d0f6ca53c9960abca29f2944bdd1499bd",
-    "customHtmlSha256": "10f033d8e3dc4c4b845f66256fe2650aea2b1cd68834e2cd668dc3a16577a636",
-    "shellSha256": "8692c6c5222bc1d2c499e6137a7d0c43c81ec5c5af6f83fdf9b9827655586c34"
+    "customCssSha256": "146ab245f4d9417e575f60de4fe8c31e4789cf3d8fba8a0d378a14efdd5eeec5",
+    "customHtmlSha256": "308fd2d4ff852aad345e5322b637684ef549c7879d39aff40e852b1a95978661",
+    "shellSha256": "6e0518147e33e16144eefb153ccd050e2cd110ff7fa239969826db75a675a970"
   },
   "counts": {
     "fields": 7,
